@@ -289,30 +289,20 @@
             justify-content: center;
             position: relative;
             overflow: hidden;
+            background-size: cover;
+            background-position: center;
         }
 
         .card:nth-child(1) .card-thumb {
-            background: linear-gradient(135deg, #155DFC 0%, #0f3460 100%);
+            background-image: url('assets/images/comparison-thumbnail.png');
         }
 
         .card:nth-child(2) .card-thumb {
-            background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+            background-image: url('assets/images/tutorial-thumbnail.png');
         }
 
         .card:nth-child(3) .card-thumb {
-            background: linear-gradient(135deg, #2d2d4e 0%, #1a1a2e 100%);
-        }
-
-        .card-thumb-label {
-            color: #fff;
-            font-size: 14px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            padding: 6px 14px;
-            border-radius: 6px;
-            background: rgba(255, 255, 255, 0.12);
-            backdrop-filter: blur(4px);
+            background-image: url('assets/images/coming-soon-thumbnail.png');
         }
 
         .card-badge {
@@ -711,7 +701,6 @@
             <article class="card">
                 <div class="card-thumb">
                     <span class="card-badge">Comparison</span>
-                    <span class="card-thumb-label">VS</span>
                 </div>
                 <div class="card-body">
                     <h3><a href="posts/heygen-vs-synthesia-vs-pictory.html">HeyGen vs Synthesia vs Pictory: Which AI Video Tool Wins in 2026?</a></h3>
@@ -727,7 +716,6 @@
             <article class="card">
                 <div class="card-thumb">
                     <span class="card-badge tutorial">Tutorial</span>
-                    <span class="card-thumb-label">HOW-TO</span>
                 </div>
                 <div class="card-body">
                     <h3><a href="posts/how-to-create-ai-videos-heygen.html">How to Create Professional AI Videos with HeyGen (Step-by-Step)</a></h3>
@@ -743,8 +731,6 @@
             <article class="card coming-soon">
                 <div class="card-thumb">
                     <span class="card-badge soon">Coming Soon</span>
-                    <span class="coming-soon-overlay">Coming Soon</span>
-                    <span class="card-thumb-label">TOP 10</span>
                 </div>
                 <div class="card-body">
                     <h3><a href="posts/best-ai-video-tools-2026.html">The 10 Best AI Video Tools in 2026 (Ranked &amp; Rated)</a></h3>
