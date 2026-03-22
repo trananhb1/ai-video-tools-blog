@@ -31,7 +31,7 @@ I started this newsletter because I was tired of spending hours testing AI video
 
 If you're trying to figure out which AI video tool to use, I put together a detailed comparison of the three biggest players right now:
 
-**[Read: HeyGen vs Synthesia vs Pictory — Which AI Video Tool Is Right for You?](https://aivideopicks.com/heygen-vs-synthesia-vs-pictory)**
+**[Read: HeyGen vs Synthesia vs Pictory — Which AI Video Tool Is Right for You?](https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html)**
 
 It breaks down pricing, features, and — most importantly — which tool fits *your* specific use case.
 
@@ -44,7 +44,7 @@ P.S. Hit reply and tell me what you're hoping to create with AI video. I read ev
 ---
 
 **CTA Button:** Read the Comparison Guide
-**CTA Link:** https://aivideopicks.com/heygen-vs-synthesia-vs-pictory
+**CTA Link:** https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html
 **Send timing:** Immediately after signup
 
 ---
@@ -87,7 +87,7 @@ Notice how price isn't even on the list? That's intentional. The "cheapest" tool
 
 I built a quick quiz that asks you 5 questions and tells you exactly which tool to start with.
 
-**[Take the 2-Minute Quiz](https://aivideopicks.com/quiz)**
+**[Take the 2-Minute Quiz](https://aivideopicks.com/landing/recommend.html)**
 
 It's free, no email required (you already gave me yours), and you'll get a personalized recommendation at the end.
 
@@ -98,7 +98,7 @@ AI Video Picks
 ---
 
 **CTA Button:** Take the Quiz
-**CTA Link:** https://aivideopicks.com/quiz
+**CTA Link:** https://aivideopicks.com/landing/recommend.html
 **Send timing:** Day 2 (48 hours after signup)
 
 ---
@@ -136,7 +136,7 @@ If you haven't committed to a platform yet, I'd suggest starting with [HeyGen](h
 
 For the full step-by-step tutorial with screenshots and pro tips (like how to make the avatar sound more natural), check out the complete guide:
 
-**[Read: Create Your First AI Video in 10 Minutes (Full Tutorial)](https://aivideopicks.com/first-ai-video-tutorial)**
+**[Read: Create Your First AI Video in 10 Minutes (Full Tutorial)](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html)**
 
 ### One tip that makes a huge difference
 
@@ -154,7 +154,7 @@ AI Video Picks
 ---
 
 **CTA Button:** Read the Full Tutorial
-**CTA Link:** https://aivideopicks.com/first-ai-video-tutorial
+**CTA Link:** https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html
 **Send timing:** Day 4 (96 hours after signup)
 
 ---
