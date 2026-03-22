@@ -293,41 +293,15 @@
             background-position: center;
         }
 
-        .card:nth-child(1) .card-thumb {
-            background-image: url('assets/images/comparison-thumbnail.png');
-        }
-
-        .card:nth-child(2) .card-thumb {
-            background-image: url('assets/images/tutorial-thumbnail.png');
-        }
-
-        .card:nth-child(3) .card-thumb {
-            background-image: url('assets/images/top10-thumbnail.png');
-        }
-
-        .card:nth-child(4) .card-thumb {
-            background-image: url('assets/images/zebracat-review-thumbnail.png');
-        }
-
-        .card:nth-child(5) .card-thumb {
-            background-image: url('assets/images/ecommerce-thumbnail.png');
-        }
-
-        .card:nth-child(6) .card-thumb {
-            background-image: url('assets/images/descript-review-thumbnail.png');
-        }
-
-        .card:nth-child(7) .card-thumb {
-            background-image: url('assets/images/invideo-review-thumbnail.png');
-        }
-
-        .card:nth-child(8) .card-thumb {
-            background-image: url('assets/images/pictory-review-thumbnail.png');
-        }
-
-        .card:nth-child(9) .card-thumb {
-            background-image: url('assets/images/colossyan-review-thumbnail.png');
-        }
+        .card-thumb.thumb-zebracat { background-image: url('assets/images/zebracat-review-thumbnail.png'); }
+        .card-thumb.thumb-descript { background-image: url('assets/images/descript-review-thumbnail.png'); }
+        .card-thumb.thumb-invideo { background-image: url('assets/images/invideo-review-thumbnail.png'); }
+        .card-thumb.thumb-pictory { background-image: url('assets/images/pictory-review-thumbnail.png'); }
+        .card-thumb.thumb-colossyan { background-image: url('assets/images/colossyan-review-thumbnail.png'); }
+        .card-thumb.thumb-comparison { background-image: url('assets/images/comparison-thumbnail.png'); }
+        .card-thumb.thumb-top10 { background-image: url('assets/images/top10-thumbnail.png'); }
+        .card-thumb.thumb-tutorial { background-image: url('assets/images/tutorial-thumbnail.png'); }
+        .card-thumb.thumb-ecommerce { background-image: url('assets/images/ecommerce-thumbnail.png'); }
 
         .card-badge {
             position: absolute;
@@ -698,8 +672,8 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#reviews">Tutorials</a></li>
-                    <li><a href="#compare">Compare</a></li>
+                    <li><a href="#comparisons">Comparisons</a></li>
+                    <li><a href="#tutorials">Tutorials &amp; Guides</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
             </nav>
@@ -715,62 +689,16 @@
         </div>
     </section>
 
-    <!-- Featured Posts -->
+    <!-- Reviews Section -->
     <section class="section" id="reviews">
         <div class="section-header">
-            <h2>Latest Reviews &amp; Guides</h2>
-            <p>Deep-dive comparisons and practical tutorials to help you get the most from AI video tools.</p>
+            <h2>Tool Reviews</h2>
+            <p>Hands-on, honest reviews of every major AI video platform. We test features, pricing, and output quality so you can choose with confidence.</p>
         </div>
 
         <div class="cards-grid">
-            <!-- Card 1: Comparison -->
             <article class="card">
-                <div class="card-thumb">
-                    <span class="card-badge">Comparison</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/heygen-vs-synthesia-vs-pictory.html">HeyGen vs Synthesia vs Pictory: Which AI Video Tool Wins in 2026?</a></h3>
-                    <p class="excerpt">We tested all three platforms head-to-head on quality, pricing, ease of use, and avatar realism. Here is what we found after creating 50+ videos.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 12 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Card 2: Tutorial -->
-            <article class="card">
-                <div class="card-thumb">
-                    <span class="card-badge tutorial">Tutorial</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/how-to-create-ai-videos-heygen.html">How to Create Professional AI Videos with HeyGen (Step-by-Step)</a></h3>
-                    <p class="excerpt">From script to final export in under 15 minutes. A complete walkthrough for beginners covering avatars, templates, voices, and branding.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 8 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Card 3: Top 10 Listicle -->
-            <article class="card">
-                <div class="card-thumb">
-                    <span class="card-badge listicle">Top 10</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/best-ai-video-tools-2026.html">The 10 Best AI Video Tools in 2026 (Ranked &amp; Rated)</a></h3>
-                    <p class="excerpt">Our definitive ranking of every major AI video platform based on features, pricing, output quality, and real-world usability.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 15 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Card 4: Zebracat Review -->
-            <article class="card">
-                <div class="card-thumb">
+                <div class="card-thumb thumb-zebracat">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
@@ -783,24 +711,8 @@
                 </div>
             </article>
 
-            <!-- Card 5: E-commerce Guide -->
             <article class="card">
-                <div class="card-thumb">
-                    <span class="card-badge guide">Guide</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/ai-video-for-ecommerce.html">AI Video for E-Commerce: Boost Sales with Product Videos</a></h3>
-                    <p class="excerpt">How online stores are using AI video tools to create product demos, testimonials, and ad creatives at a fraction of traditional production costs.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Card 6: Descript Review -->
-            <article class="card">
-                <div class="card-thumb">
+                <div class="card-thumb thumb-descript">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
@@ -813,9 +725,8 @@
                 </div>
             </article>
 
-            <!-- Card 7: InVideo Review -->
             <article class="card">
-                <div class="card-thumb">
+                <div class="card-thumb thumb-invideo">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
@@ -828,9 +739,8 @@
                 </div>
             </article>
 
-            <!-- Card 8: Pictory Review -->
             <article class="card">
-                <div class="card-thumb">
+                <div class="card-thumb thumb-pictory">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
@@ -843,9 +753,8 @@
                 </div>
             </article>
 
-            <!-- Card 9: Colossyan Review -->
             <article class="card">
-                <div class="card-thumb">
+                <div class="card-thumb thumb-colossyan">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
@@ -860,9 +769,44 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section" id="compare">
-        <div class="cta-box">
+    <!-- Comparisons Section -->
+    <section class="section" id="comparisons">
+        <div class="section-header">
+            <h2>Comparisons</h2>
+            <p>Side-by-side comparisons and rankings to help you find the right tool for your specific needs.</p>
+        </div>
+
+        <div class="cards-grid">
+            <article class="card">
+                <div class="card-thumb thumb-comparison">
+                    <span class="card-badge">Comparison</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/heygen-vs-synthesia-vs-pictory.html">HeyGen vs Synthesia vs Pictory: Which AI Video Tool Wins in 2026?</a></h3>
+                    <p class="excerpt">We tested all three platforms head-to-head on quality, pricing, ease of use, and avatar realism. Here is what we found after creating 50+ videos.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 12 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-thumb thumb-top10">
+                    <span class="card-badge listicle">Top 10</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/best-ai-video-tools-2026.html">The 10 Best AI Video Tools in 2026 (Ranked &amp; Rated)</a></h3>
+                    <p class="excerpt">Our definitive ranking of every major AI video platform based on features, pricing, output quality, and real-world usability.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 15 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cta-box" style="margin-top: 36px;">
             <h2>Which AI Video Tool Is Right For You?</h2>
             <p>Answer a few quick questions about your needs and budget, and we will match you with the best platform for your use case.</p>
             <a href="landing/recommend.html" class="cta-btn">
@@ -872,8 +816,58 @@
         </div>
     </section>
 
+    <!-- Tutorials & Guides Section -->
+    <section class="section" id="tutorials">
+        <div class="section-header">
+            <h2>Tutorials &amp; Guides</h2>
+            <p>Step-by-step walkthroughs and practical guides to help you create better AI videos, faster.</p>
+        </div>
+
+        <div class="cards-grid">
+            <article class="card">
+                <div class="card-thumb thumb-tutorial">
+                    <span class="card-badge tutorial">Tutorial</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/how-to-create-ai-videos-heygen.html">How to Create Professional AI Videos with HeyGen (Step-by-Step)</a></h3>
+                    <p class="excerpt">From script to final export in under 15 minutes. A complete walkthrough for beginners covering avatars, templates, voices, and branding.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 8 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-thumb thumb-ecommerce">
+                    <span class="card-badge guide">Guide</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/ai-video-for-ecommerce.html">AI Video for E-Commerce: Boost Sales with Product Videos</a></h3>
+                    <p class="excerpt">How online stores are using AI video tools to create product demos, testimonials, and ad creatives at a fraction of traditional production costs.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-header">
+            <h2>About AI Video Picks</h2>
+        </div>
+        <div style="max-width: 720px; margin: 0 auto; text-align: center;">
+            <p style="font-size: 1.05rem; color: #555; line-height: 1.8; margin-bottom: 16px;">AI Video Picks is an independent review site run by Tom. We test every AI video tool ourselves and share honest, hands-on reviews, comparisons, and tutorials to help creators, marketers, and businesses find the right platform without the guesswork.</p>
+            <p style="font-size: 1.05rem; color: #555; line-height: 1.8; margin-bottom: 16px;">We believe in transparency: some links on this site are affiliate links, which means we may earn a commission if you sign up through them. This never influences our ratings or recommendations. If a tool isn't good, we'll say so.</p>
+            <p style="font-size: 0.95rem; color: #888;">Questions or feedback? Reach out at <a href="mailto:tom@aivideopicks.com" style="color: #155DFC;">tom@aivideopicks.com</a> or follow us on <a href="https://twitter.com/aivideopicks" target="_blank" style="color: #155DFC;">@aivideopicks</a>.</p>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="footer" id="about">
+    <footer class="footer">
         <div class="footer-inner">
             <div class="footer-top">
                 <div class="footer-brand">
@@ -887,8 +881,8 @@
                     <h4>Content</h4>
                     <ul>
                         <li><a href="#reviews">Reviews</a></li>
-                        <li><a href="#reviews">Tutorials</a></li>
-                        <li><a href="#compare">Compare Tools</a></li>
+                        <li><a href="#comparisons">Comparisons</a></li>
+                        <li><a href="#tutorials">Tutorials &amp; Guides</a></li>
                     </ul>
                 </div>
                 <div class="footer-links-group">
