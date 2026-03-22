@@ -59,7 +59,7 @@ E) Something else (tell me!)
 Seriously, just reply. I read every one.
 
 Talk next week,
-Tuan
+Tom
 AI Video Picks
 
 ---
@@ -136,7 +136,7 @@ If you want to go deeper on ad creation workflows, I wrote a full guide on the b
 [How to Create AI Video Ads That Convert](https://aivideopicks.com/posts/)
 
 Until next week,
-Tuan
+Tom
 AI Video Picks
 
 ---
@@ -214,7 +214,7 @@ Pick one trend that matches your workflow. Try one tool. See what happens.
 - For fast social/ad videos: [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9) (use code **6YAZM9V5** for a discount)
 
 See you next week,
-Tuan
+Tom
 AI Video Picks
 
 ---
@@ -311,7 +311,7 @@ Here's a preview of what I'm working on:
 That's a wrap for this month. Thanks for reading — and if you've been on the fence about trying an AI video tool, just pick one and make something this week. You'll be surprised how fast it comes together.
 
 See you next week,
-Tuan
+Tom
 AI Video Picks
 
 ---

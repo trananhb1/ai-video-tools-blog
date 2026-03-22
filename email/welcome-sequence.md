@@ -36,7 +36,7 @@ If you're trying to figure out which AI video tool to use, I put together a deta
 It breaks down pricing, features, and — most importantly — which tool fits *your* specific use case.
 
 Talk soon,
-Tuan
+Tom
 AI Video Picks
 
 P.S. Hit reply and tell me what you're hoping to create with AI video. I read every response, and it helps me send you the most relevant stuff.
@@ -89,7 +89,7 @@ I built a quick quiz that asks you 5 questions and tells you exactly which tool 
 It's free, no email required (you already gave me yours), and you'll get a personalized recommendation at the end.
 
 Talk soon,
-Tuan
+Tom
 AI Video Picks
 
 ---
@@ -145,7 +145,7 @@ Try: *"Today, we're going to talk about our new product launch."*
 Small change. Big difference.
 
 Talk soon,
-Tuan
+Tom
 AI Video Picks
 
 ---
@@ -207,7 +207,7 @@ That's a solid chunk of savings, especially if you're producing video content re
 **[Get 15% Off Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9)**
 
 Talk soon,
-Tuan
+Tom
 AI Video Picks
 
 P.S. This code works on any paid plan. If you're not sure which plan to pick, start with their mid-tier — it gives you enough credits to test properly without overcommitting.
@@ -271,7 +271,7 @@ I'd love to hear from you. Hit reply and tell me:
 Your answers directly shape what I write about next. And yes, I genuinely read every reply.
 
 Talk soon,
-Tuan
+Tom
 AI Video Picks
 
 P.S. If you're finding these emails useful, I'd appreciate a follow on Twitter/X at **[@aivideopicks](https://twitter.com/aivideopicks)** — I share quick tips and tool updates there between newsletters.
