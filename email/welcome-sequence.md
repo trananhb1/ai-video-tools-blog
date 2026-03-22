@@ -72,11 +72,14 @@ It's the most common mistake I see, and it's an expensive one.
 
 Here's how I recommend choosing your tool:
 
-| Your primary use case | Best tool | Why |
-|---|---|---|
-| **Marketing & sales videos** | [HeyGen](https://www.heygen.com/affiliate) [UPDATE WHEN APPROVED] | Best avatar quality, lip-sync in 40+ languages, great for personalized outreach |
-| **Training & L&D content** | [Synthesia](https://www.synthesia.io/?via=tuan-tran) | Built for enterprise training — templates, brand kits, SCORM export |
-| **Social media & short-form** | [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9) / [Pictory](https://pictory.ai/affiliate) [UPDATE WHEN APPROVED] | Fast text-to-video, auto-captions, built for TikTok/Reels/Shorts |
+**Marketing & sales videos →** HeyGen
+Best avatar quality, lip-sync in 40+ languages, great for personalized outreach
+
+**Training & L&D content →** [Synthesia](https://www.synthesia.io/?via=tuan-tran)
+Built for enterprise training — templates, brand kits, SCORM export
+
+**Social media & short-form →** [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9)
+Fast text-to-video, auto-captions, built for TikTok/Reels/Shorts
 
 Notice how price isn't even on the list? That's intentional. The "cheapest" tool that doesn't fit your workflow costs you more in wasted time than the right tool at a higher price.
 
