@@ -1,4 +1,20 @@
+# robots.txt for aivideopicks.com
+# Allow all crawlers full access
+
 User-agent: *
+Allow: /
+
+# Explicitly allow Googlebot (for AdSense and Search)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
 Allow: /
 
 Sitemap: https://aivideopicks.com/sitemap.xml
