@@ -42,7 +42,7 @@ If you haven't looked at [Synthesia](https://www.synthesia.io/?via=tuan-tran) re
 
 **Who it's best for:** L&D teams, HR, SaaS companies, anyone who makes training or explainer videos regularly. If you're spending $2k+ per video with freelancers, Synthesia pays for itself in the first month.
 
-I did a full breakdown of how it stacks up against HeyGen, Pictory, and others. Check it out here: [AI Video Tool Comparison](https://aivideopicks.com/posts/best-ai-video-generators-2026/)
+I did a full breakdown of how it stacks up against HeyGen, Pictory, and others. Check it out here: [AI Video Tool Comparison](https://aivideopicks.com/posts/best-ai-video-tools-2026.html)
 
 ### Quick Poll
 
