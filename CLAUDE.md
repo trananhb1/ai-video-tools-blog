@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Hub")
-- **Content:** 27+ articles — reviews, comparisons, tutorials, gear guides
+- **Content:** 29+ articles — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -69,9 +69,10 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (27 articles)
+## Content Inventory (29 articles)
 
-### Reviews (11)
+### Reviews (13)
+- **heygen-review-2026.html** (NEW Apr 4)
 - fliki-review-2026.html
 - synthesia-review-2026.html
 - descript-review-2026.html
