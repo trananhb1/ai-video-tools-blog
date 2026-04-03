@@ -69,9 +69,10 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (29 articles)
+## Content Inventory (31 articles)
 
-### Reviews (13)
+### Reviews (14)
+- **deepbrain-ai-review-2026.html** (NEW Apr 4)
 - **heygen-review-2026.html** (NEW Apr 4)
 - fliki-review-2026.html
 - synthesia-review-2026.html
@@ -86,7 +87,8 @@ When this project is opened, run through these items:
 - **vidnoz-review-2026.html** (NEW Apr 3)
 - **submagic-review-2026.html** (NEW Apr 3)
 
-### Comparisons (8)
+### Comparisons (9)
+- **heygen-vs-synthesia-2026.html** (NEW Apr 4)
 - best-ai-video-tools-2026.html (top 10 ranked)
 - heygen-vs-synthesia-vs-pictory.html
 - kling-vs-veo-vs-runway.html
