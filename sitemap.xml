@@ -1,165 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html</loc>
-    <lastmod>2026-03-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html</loc>
-    <lastmod>2026-03-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
+  <!-- Roundup / Comparison Posts (priority 0.9) -->
   <url>
     <loc>https://aivideopicks.com/posts/best-ai-video-tools-2026.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/veed-vs-kapwing-vs-descript.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/sora-alternatives-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Individual Reviews (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/zebracat-review-2026.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-for-ecommerce.html</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/descript-review-2026.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/invideo-review-2026.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/pictory-review-2026.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/colossyan-review-2026.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/landing/recommend.html</loc>
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/runway-review-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/fliki-review-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/sora-alternatives-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://aivideopicks.com/posts/opus-clip-review-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://aivideopicks.com/posts/synthesia-review-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/veed-vs-kapwing-vs-descript.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://aivideopicks.com/posts/murf-ai-review-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Tutorials (priority 0.8) -->
   <url>
-    <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-training-onboarding-videos.html</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/what-is-text-to-video-ai.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Use-Case Posts (priority 0.7) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-video-for-ecommerce.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-training-onboarding-videos.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Landing Pages -->
+  <url>
+    <loc>https://aivideopicks.com/landing/recommend.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Site Pages -->
   <url>
     <loc>https://aivideopicks.com/about.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/contact.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/legal/privacy.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/legal/disclosure.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.3</priority>
   </url>
 </urlset>
