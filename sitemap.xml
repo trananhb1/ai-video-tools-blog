@@ -120,6 +120,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Gear Guide (priority 0.8) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Tutorials (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html</loc>
