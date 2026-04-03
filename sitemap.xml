@@ -128,6 +128,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Submagic Review (priority 0.8) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/submagic-review-2026.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Gear Guide (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html</loc>

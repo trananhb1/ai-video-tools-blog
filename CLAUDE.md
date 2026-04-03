@@ -38,6 +38,7 @@ When this project is opened, run through these items:
 | Program | Link | Status | Where Used |
 |---------|------|--------|------------|
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | Review, 5 comparison articles |
+| Submagic | `https://submagic.co/?via=tom26` | Active | Review, 6 cross-linked articles (30% recurring) |
 | Fliki | `https://fliki.ai/?via=fbca94` | Active | Fliki review, pricing |
 | Synthesia | `https://www.synthesia.io/?via=tuan-tran` | Active | 15+ articles |
 | HeyGen | `https://www.heygen.com/?via=aivideopicks` | Applied | 10+ articles |
@@ -82,6 +83,7 @@ When this project is opened, run through these items:
 - murf-ai-review-2026.html
 - zebracat-review-2026.html
 - **vidnoz-review-2026.html** (NEW Apr 3)
+- **submagic-review-2026.html** (NEW Apr 3)
 
 ### Comparisons (8)
 - best-ai-video-tools-2026.html (top 10 ranked)
