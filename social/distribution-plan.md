@@ -994,3 +994,73 @@ Target content marketers and creator communities. Build ongoing presence.
 - A/B test subject lines with 20% of list, send winner to remaining 80%.
 - Keep emails scannable: bold headlines, short paragraphs, clear CTAs.
 - One email per major content batch. Don't over-email.
+
+---
+
+# ========================================================================
+# BATCH 2 DISTRIBUTION SCHEDULE — April 2026
+# Articles: Opus Clip Review, Synthesia Review, Murf AI Review, AI Video for Social Media Marketing
+# ========================================================================
+
+## Two-Week Posting Schedule (April 7 - April 17, 2026)
+
+> All posts staggered Tuesday-Thursday for peak engagement. One Reddit post per day maximum to avoid spam flags. Twitter threads can overlap with Reddit days. TikTok/Shorts scripts go out on separate days from each other.
+
+---
+
+### WEEK 1: April 7-10
+
+| Date | Day | Platform | Content | Article |
+|------|-----|----------|---------|---------|
+| Apr 7 | Tue | Reddit r/podcasting | Post 4: "I tested the AI tool that turns podcast episodes into TikToks" | Opus Clip Review |
+| Apr 7 | Tue | Twitter/X | Thread 3: "Opus Clip turned my podcast into a clip machine" | Opus Clip Review |
+| Apr 8 | Wed | Reddit r/artificial | Post 6: "Synthesia in 2026 — how close are AI avatars" | Synthesia Review |
+| Apr 8 | Wed | TikTok/Shorts | Script 3: "This AI tool turns one podcast into 15 TikToks" | Opus Clip Review |
+| Apr 9 | Thu | Reddit r/content_marketing | Post 7: "We compared the cost of AI voiceover vs freelance" | Murf AI Review |
+| Apr 9 | Thu | Twitter/X | Thread 4: "Synthesia vs HeyGen — the real difference" | Synthesia Review |
+| Apr 10 | Fri | TikTok/Shorts | Script 6: "Synthesia made this video. Not a human." | Synthesia Review |
+
+---
+
+### WEEK 2: April 14-17
+
+| Date | Day | Platform | Content | Article |
+|------|-----|----------|---------|---------|
+| Apr 14 | Tue | Reddit r/VideoEditing | Post 5: "Opus Clip vs manually clipping — 3 week test" | Opus Clip Review |
+| Apr 14 | Tue | Twitter/X | Thread 5: "AI voiceover has gotten scary good" | Murf AI Review |
+| Apr 15 | Wed | Reddit r/socialmedia | Post 8: "The AI video stack for daily content on 4 platforms" | AI Video Social Media |
+| Apr 15 | Wed | TikTok/Shorts | Script 4: "AI voiceover vs human — can you tell the difference?" | Murf AI Review |
+| Apr 16 | Thu | Reddit r/Entrepreneur | Post 9: "How AI voice tools eliminated our biggest bottleneck" | Murf AI Review |
+| Apr 16 | Thu | Twitter/X | Thread 6: "Your AI video strategy for social media is probably backwards" | AI Video Social Media |
+| Apr 17 | Fri | TikTok/Shorts | Script 5: "One video, four platforms — the AI social media hack" | AI Video Social Media |
+
+---
+
+### Posting Times (Batch 2)
+
+| Platform | Post Time (AEST) | Post Time (ET) | Notes |
+|----------|------------------|-----------------|-------|
+| Reddit | 10:00 PM - 12:00 AM | 8:00 AM - 10:00 AM | US morning peak; same as Batch 1 |
+| Twitter/X | 11:00 PM - 1:00 AM | 9:00 AM - 11:00 AM | Weekday mornings; post thread, then engage |
+| TikTok/Shorts | 7:00 PM AEST | varies | Local evening; test 7 AM as alternative |
+
+---
+
+### Engagement Checklist (Per Post)
+
+- [ ] Reddit: Reply to every comment within first 2 hours. If mods require disclosure, add self-promotion note.
+- [ ] Twitter/X: Quote-tweet your own thread with a single-tweet summary 4-6 hours after posting.
+- [ ] TikTok: Reply to first 10 comments. Pin a comment with the link.
+- [ ] Cross-platform: Wait 24-48 hours before reposting same article to a different subreddit.
+- [ ] Track: Note which posts get traction for future content planning.
+
+---
+
+### Article Coverage Summary (Batch 2)
+
+| Article | Reddit Posts | Twitter Threads | TikTok/Shorts Scripts |
+|---------|-------------|-----------------|----------------------|
+| Opus Clip Review | 2 (r/podcasting, r/VideoEditing) | 1 (Thread 3) | 1 (Script 3) |
+| Synthesia Review | 1 (r/artificial) | 1 (Thread 4) | 1 (Script 6) |
+| Murf AI Review | 2 (r/content_marketing, r/Entrepreneur) | 1 (Thread 5) | 1 (Script 4) |
+| AI Video Social Media | 1 (r/socialmedia) | 1 (Thread 6) | 1 (Script 5) |

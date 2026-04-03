@@ -78,7 +78,7 @@ def stars(draw, rating, y):
         color = (255, 215, 0) if i < full else (255, 215, 0, 80)
         draw.text((sx + i * 36, y), "\u2605", font=font, fill=color)
     rf = ImageFont.truetype(FONT_BOLD, 22)
-    center_text(draw, f"{rating} / 5.0", y + 38, rf, fill=(255, 215, 0))
+    center_text(draw, f"{rating} / 10", y + 38, rf, fill=(255, 215, 0))
 
 
 # ── REVIEW TEMPLATE ──────────────────────────────────────────────────
@@ -282,4 +282,22 @@ center_text(draw, "Diffusion \u2022 Transformers \u2022 Neural Networks", H - 70
 accent_bar(draw, (100, 70, 180))
 save(img, "text-to-video-explainer-thumbnail.png")
 
-print("\nAll 12 thumbnails generated!")
+# 13. Opus Clip Review
+make_review("OPUS CLIP", "opus-clip-review-thumbnail.png", 8.5,
+            (160, 30, 90), (40, 10, 25), (200, 50, 120), (200, 50, 120))
+
+# 14. Synthesia Review
+make_review("SYNTHESIA", "synthesia-review-thumbnail.png", 8.0,
+            (20, 60, 120), (10, 20, 40), (40, 100, 200), (40, 100, 200))
+
+# 15. Murf AI Review
+make_review("MURF AI", "murf-ai-review-thumbnail.png", 8.0,
+            (80, 30, 130), (25, 10, 45), (120, 60, 200), (120, 60, 200))
+
+# 16. AI Video for Social Media (Guide)
+make_guide("AI Video for", "How to Create Scroll-Stopping Social Content",
+           "ai-video-social-media-thumbnail.png",
+           (20, 80, 140), (10, 25, 50),
+           (30, 120, 200), "SOCIAL MEDIA GUIDE", (30, 120, 200))
+
+print("\nAll 16 thumbnails generated!")
