@@ -32,25 +32,38 @@
     <!-- Review Schema JSON-LD -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-            "@type": "SoftwareApplication",
-            "name": "Runway",
-            "applicationCategory": "AI Video Generation",
-            "operatingSystem": "Web"
-        },
-        "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "8.5",
-            "bestRating": "10",
-            "worstRating": "1"
-        },
-        "author": {
-            "@type": "Organization",
-            "name": "AI Video Picks"
-        },
-        "reviewBody": "Runway Gen-4.5 is the most capable AI video generation model available in 2026 for creative professionals. Exceptional visual quality and character consistency, but the credit system makes it expensive at scale."
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "SoftwareApplication",
+        "name": "Runway",
+        "applicationCategory": "AI Video Tool",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "0",
+          "highPrice": "76",
+          "priceCurrency": "USD",
+          "offerCount": "4"
+        }
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "AI Video Picks"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Video Picks",
+        "url": "https://aivideopicks.com"
+      },
+      "datePublished": "2026-03-26",
+      "dateModified": "2026-04-04"
     }
     </script>
 
@@ -124,6 +137,20 @@
     }
     </script>
 
+
+    <!-- Speakable Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Runway Gen-4.5 Review 2026: Pricing & Features",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".quick-verdict", ".verdict-box", "h1", ".faq-answer"]
+      },
+      "url": "https://aivideopicks.com/posts/runway-review-2026.html"
+    }
+    </script>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -632,6 +659,11 @@
         <div class="article-meta">
             By <strong>AI Video Picks</strong> &middot; Updated <time datetime="2026-03-26">March 26, 2026</time> &middot; 18 min read
         </div>
+    </div>
+
+    <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
+      <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">Runway Gen-4.5 is the most technically impressive AI video generator in 2026, scoring 8.5/10 in our testing. Free tier includes 125 credits, with paid plans up to $76/month for unlimited use. Its text-to-video and image-to-video output delivers cinematic quality with industry-leading character consistency and visual fidelity that no competitor currently matches.</p>
     </div>
 
     <!-- Quick Verdict Box -->

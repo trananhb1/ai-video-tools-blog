@@ -1,10 +1,10 @@
 # robots.txt for aivideopicks.com
-# Allow all crawlers full access
+# Allow all crawlers full access — we want AI citation
 
 User-agent: *
 Allow: /
 
-# Explicitly allow Googlebot (for AdSense and Search)
+# Google (Search + Ads + AI)
 User-agent: Googlebot
 Allow: /
 
@@ -15,6 +15,62 @@ User-agent: Mediapartners-Google
 Allow: /
 
 User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI (ChatGPT + GPT search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft (Bing + Copilot)
+User-agent: Bingbot
+Allow: /
+
+# Apple Intelligence / Siri
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Amazon / Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (feeds many LLM training sets)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# ByteDance AI
+User-agent: Bytespider
 Allow: /
 
 Sitemap: https://aivideopicks.com/sitemap.xml

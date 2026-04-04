@@ -1,0 +1,63 @@
+# AI Video Picks
+
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated monthly.
+
+## About
+
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video generation, editing, and avatar platforms. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. The site covers 30+ AI video tools with honest ratings and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, and businesses evaluating AI video tools.
+
+## Reviews (14)
+
+- [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html): AI avatar platform review — Avatar IV, video translation, voice cloning, interactive avatars. Rating: 8.5/10. From $24/month.
+- [Synthesia Review 2026](https://aivideopicks.com/posts/synthesia-review-2026.html): Enterprise AI avatar video platform — 230+ avatars, 140+ languages, SOC 2 compliant. From $22/month.
+- [DeepBrain AI Review 2026](https://aivideopicks.com/posts/deepbrain-ai-review-2026.html): AI Studios avatar platform — ChatGPT script assistant, custom avatars, document-to-video. Rating: 7.8/10. From $24/month.
+- [Runway Review 2026](https://aivideopicks.com/posts/runway-review-2026.html): AI video generator — Gen-3 Alpha text-to-video, image-to-video, motion brush. From $12/month.
+- [Fliki Review 2026](https://aivideopicks.com/posts/fliki-review-2026.html): Text-to-video platform — 75+ languages, AI voices, blog-to-video conversion. From $28/month.
+- [Descript Review 2026](https://aivideopicks.com/posts/descript-review-2026.html): AI video editor — text-based editing, filler word removal, Studio Sound, overdub. From $24/month.
+- [Pictory Review 2026](https://aivideopicks.com/posts/pictory-review-2026.html): AI video maker — script-to-video, blog-to-video, auto-captions. From $19/month.
+- [InVideo Review 2026](https://aivideopicks.com/posts/invideo-review-2026.html): Template-based AI video maker — 5,000+ templates, iStock footage, AI script generator. From $25/month.
+- [Colossyan Review 2026](https://aivideopicks.com/posts/colossyan-review-2026.html): Enterprise AI avatar platform for training and L&D — branching scenarios, SCORM export. From $21/month.
+- [Opus Clip Review 2026](https://aivideopicks.com/posts/opus-clip-review-2026.html): AI clip repurposing — turns long videos into viral shorts with AI scoring. From $19/month.
+- [Murf AI Review 2026](https://aivideopicks.com/posts/murf-ai-review-2026.html): AI voiceover platform — 200+ voices, voice cloning, video sync. From $23/month.
+- [Zebracat Review 2026](https://aivideopicks.com/posts/zebracat-review-2026.html): AI video ads — social media ad creation with AI scripts and stock footage. From $25/month.
+- [Vidnoz Review 2026](https://aivideopicks.com/posts/vidnoz-review-2026.html): Free AI avatar video maker — 1,000+ avatars, talking photos, video translation. Free tier available.
+- [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html): AI captions and short-form video tool — auto-captions, B-roll, eye contact correction. From $9/month.
+
+## Comparisons (9)
+
+- [Best AI Video Tools 2026](https://aivideopicks.com/posts/best-ai-video-tools-2026.html): Top 10 AI video tools ranked with pricing table, ratings, and use-case recommendations.
+- [HeyGen vs Synthesia 2026](https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html): Head-to-head comparison of the two leading AI avatar platforms across avatars, voices, pricing, and API.
+- [HeyGen vs Synthesia vs Pictory](https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html): Three-way comparison for avatar-based video creation.
+- [Kling vs Veo vs Runway](https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html): Best AI video generators compared on quality, motion, and pricing.
+- [VEED vs Kapwing vs Descript](https://aivideopicks.com/posts/veed-vs-kapwing-vs-descript.html): Online video editors compared for creators and teams.
+- [D-ID vs Elai vs HourOne](https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html): AI avatar platforms for training and presentations.
+- [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html): Top free-tier AI video tools with no credit card required.
+- [AI Video Pricing Compared 2026](https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html): Side-by-side pricing for 10 major AI video platforms.
+- [Sora Alternatives 2026](https://aivideopicks.com/posts/sora-alternatives-2026.html): 10 best alternatives after OpenAI Sora shuts down April 26, 2026.
+
+## Tutorials & Guides (6)
+
+- [How to Create AI Videos with HeyGen](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html): Step-by-step tutorial from account setup to final export.
+- [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html): How to repurpose long-form content into TikTok/Reels/Shorts.
+- [AI Tools for YouTube Creators 2026](https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html): Complete AI workflow for YouTube content creation.
+- [AI Training & Onboarding Videos](https://aivideopicks.com/posts/ai-training-onboarding-videos.html): How to create corporate training videos with AI avatars.
+- [What Is Text-to-Video AI?](https://aivideopicks.com/posts/what-is-text-to-video-ai.html): Beginner guide to AI video generation technology.
+- [Best Gear for AI Video Creators 2026](https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html): 13 recommended products (mics, webcams, lighting) for AI video creation.
+
+## Use Cases (2)
+
+- [AI Video for E-Commerce](https://aivideopicks.com/posts/ai-video-for-ecommerce.html): How online stores use AI video for product demos and ads.
+- [AI Video for Social Media Marketing](https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html): AI-powered social media video strategy and tools.
+
+## Topics Covered
+
+- AI avatar and talking head video generation
+- Text-to-video and image-to-video AI
+- AI video editing and enhancement
+- AI voice cloning and text-to-speech
+- AI caption and subtitle generation
+- Video translation and dubbing
+- Short-form video repurposing
+- Corporate training video creation
+- AI video pricing and plan comparison
+- Creator gear and recording setup recommendations
