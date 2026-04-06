@@ -498,7 +498,32 @@
             nav a { margin-left: 12px; font-size: 0.8rem; }
             .cta-button { padding: 12px 20px; font-size: 0.9rem; }
         }
-    </style>
+            .toc {
+            background: #fff;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 24px 28px;
+            margin: 32px 0;
+        }
+        .toc h3 {
+            font-size: 1.05rem;
+            color: #1a1a2e;
+            margin-bottom: 14px;
+        }
+        .toc ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .toc li {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+        .toc a {
+            color: #155DFC;
+            text-decoration: none;
+        }
+        .toc a:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
 
@@ -540,7 +565,7 @@
     </div>
 
     <div class="verdict-box">
-        <h2>Key Takeaways</h2>
+        <h2 id="key-takeaways">Key Takeaways</h2>
         <ul>
             <li><strong>Text-to-video AI generates video clips from written descriptions</strong> &mdash; you type a prompt and the AI creates a video that matches it, no filming or editing required.</li>
             <li><strong>Diffusion models are the core technology</strong> &mdash; they start with visual noise and gradually refine it into coherent video frames guided by your text.</li>
@@ -551,8 +576,28 @@
 
     <div class="content">
 
-        <!-- Section 1: What Is Text-to-Video AI -->
-        <h2>What Is Text-to-Video AI, Exactly?</h2>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#key-takeaways">Key Takeaways</a></li>
+            <li><a href="#what-is-text-to-video-ai-exactly">What Is Text-to-Video AI, Exactly?</a></li>
+            <li><a href="#how-text-to-video-ai-works-in-plain-language">How Text-to-Video AI Works (In Plain Language)</a></li>
+            <li><a href="#key-terms-every-beginner-should-know">Key Terms Every Beginner Should Know</a></li>
+            <li><a href="#the-current-state-of-the-art-what-ai-video-can-and-cannot-do-in-2026">The Current State of the Art: What AI Video Can and Cannot Do in 2026</a></li>
+            <li><a href="#leading-text-to-video-ai-tools-at-a-glance">Leading Text-to-Video AI Tools at a Glance</a></li>
+            <li><a href="#your-first-ai-video-in-5-minutes-a-free-tools-walkthrough">Your First AI Video in 5 Minutes: A Free Tools Walkthrough</a></li>
+            <li><a href="#a-brief-timeline-of-ai-video-milestones-2022-2026">A Brief Timeline of AI Video Milestones (2022-2026)</a></li>
+            <li><a href="#where-text-to-video-ai-is-heading-next">Where Text-to-Video AI Is Heading Next</a></li>
+            <li><a href="#who-is-using-text-to-video-ai-today">Who Is Using Text-to-Video AI Today?</a></li>
+            <li><a href="#ready-to-try-it-yourself">Ready to Try It Yourself?</a></li>
+            <li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+        </ol>
+    </div>
+
+            <!-- Section 1: What Is Text-to-Video AI -->
+        <h2 id="what-is-text-to-video-ai-exactly">What Is Text-to-Video AI, Exactly?</h2>
 
         <p>Text-to-video AI is a category of artificial intelligence that turns written descriptions into video clips. You provide a sentence or paragraph describing the scene you want &mdash; for example, "a golden retriever running through a field of wildflowers at sunset, slow motion, cinematic lighting" &mdash; and the AI produces a fully rendered video that matches your description.</p>
 
@@ -563,7 +608,7 @@
         <p>Before we dive into how it works, it is worth understanding what text-to-video AI is <strong>not</strong>. It is not simply stitching together stock footage clips. It is not an automated video editor. Every single frame is synthesized from scratch &mdash; the pixels are created by the model, not retrieved from a database. This is what makes the technology both powerful and fascinating.</p>
 
         <!-- Section 2: How It Works -->
-        <h2>How Text-to-Video AI Works (In Plain Language)</h2>
+        <h2 id="how-text-to-video-ai-works-in-plain-language">How Text-to-Video AI Works (In Plain Language)</h2>
 
         <p>Under the hood, most text-to-video AI systems rely on two major technologies: <strong>diffusion models</strong> and <strong>transformers</strong>. These terms get thrown around a lot in AI circles, but they are easier to understand than they sound. Let us walk through each one.</p>
 
@@ -599,7 +644,7 @@
         </div>
 
         <!-- Section 3: Key Terms Explained -->
-        <h2>Key Terms Every Beginner Should Know</h2>
+        <h2 id="key-terms-every-beginner-should-know">Key Terms Every Beginner Should Know</h2>
 
         <p>The AI video space comes with its own vocabulary. Here is a plain-language guide to the terms you will encounter most often.</p>
 
@@ -637,7 +682,7 @@
         </ul>
 
         <!-- Section 4: What AI Video Can and Cannot Do -->
-        <h2>The Current State of the Art: What AI Video Can and Cannot Do in 2026</h2>
+        <h2 id="the-current-state-of-the-art-what-ai-video-can-and-cannot-do-in-2026">The Current State of the Art: What AI Video Can and Cannot Do in 2026</h2>
 
         <p>Text-to-video AI has improved dramatically, but it is important to have realistic expectations. Here is an honest assessment of where the technology stands right now.</p>
 
@@ -668,7 +713,7 @@
         </div>
 
         <!-- Section 5: Comparison Table -->
-        <h2>Leading Text-to-Video AI Tools at a Glance</h2>
+        <h2 id="leading-text-to-video-ai-tools-at-a-glance">Leading Text-to-Video AI Tools at a Glance</h2>
 
         <p>The market has matured significantly. Here is a comparison of the most capable text-to-video tools available today, to help you understand the landscape before choosing where to start.</p>
 
@@ -740,7 +785,7 @@
         <p>For a deeper comparison of the top three creative tools, see our <a href="../posts/kling-vs-veo-vs-runway.html">Kling vs Veo vs Runway breakdown</a>. If you are looking for alternatives to OpenAI's Sora, we have a <a href="../posts/sora-alternatives-2026.html">dedicated guide to the best Sora alternatives</a>.</p>
 
         <!-- Section 6: Getting Started Walkthrough -->
-        <h2>Your First AI Video in 5 Minutes: A Free Tools Walkthrough</h2>
+        <h2 id="your-first-ai-video-in-5-minutes-a-free-tools-walkthrough">Your First AI Video in 5 Minutes: A Free Tools Walkthrough</h2>
 
         <p>You do not need a paid subscription or any technical knowledge to generate your first text-to-video clip. Here is a step-by-step walkthrough using tools with free tiers.</p>
 
@@ -779,7 +824,7 @@
         </div>
 
         <!-- Section 7: Timeline -->
-        <h2>A Brief Timeline of AI Video Milestones (2022-2026)</h2>
+        <h2 id="a-brief-timeline-of-ai-video-milestones-2022-2026">A Brief Timeline of AI Video Milestones (2022-2026)</h2>
 
         <p>To appreciate how far the technology has come, here are the key milestones that brought us from blurry demonstrations to today's photorealistic output.</p>
 
@@ -823,7 +868,7 @@
         </div>
 
         <!-- Section 8: Where the Technology Is Heading -->
-        <h2>Where Text-to-Video AI Is Heading Next</h2>
+        <h2 id="where-text-to-video-ai-is-heading-next">Where Text-to-Video AI Is Heading Next</h2>
 
         <p>The pace of improvement shows no signs of slowing. Here are the most significant developments expected in the near future, based on research papers, company announcements, and industry trends.</p>
 
@@ -852,7 +897,7 @@
         </div>
 
         <!-- Section 9: Who Is Using This -->
-        <h2>Who Is Using Text-to-Video AI Today?</h2>
+        <h2 id="who-is-using-text-to-video-ai-today">Who Is Using Text-to-Video AI Today?</h2>
 
         <p>Text-to-video AI is no longer just a toy for early adopters. Here are the main groups putting it to practical use in 2026:</p>
 
@@ -880,7 +925,7 @@
 
         <!-- Final CTA -->
         <div class="final-verdict">
-            <h2>Ready to Try It Yourself?</h2>
+            <h2 id="ready-to-try-it-yourself">Ready to Try It Yourself?</h2>
             <p>Text-to-video AI is no longer a futuristic concept &mdash; it is a practical tool you can use today, for free. Whether you want to create content for social media, produce marketing videos, or simply experiment with a remarkable technology, the barrier to entry has never been lower.</p>
             <p>Start with a free tool, write a descriptive prompt, and generate your first clip. You might be surprised by how good the results are.</p>
             <p style="margin-top: 20px;">
@@ -890,7 +935,7 @@
         </div>
 
         <!-- FAQ Section -->
-        <h2>Frequently Asked Questions</h2>
+        <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
         <div class="faq-item">
             <h3>What is text-to-video AI?</h3>

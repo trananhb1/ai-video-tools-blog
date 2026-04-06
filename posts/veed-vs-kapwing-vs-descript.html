@@ -503,7 +503,32 @@
             .cta-button { display: block; text-align: center; margin: 8px 0; }
             .final-verdict { padding: 24px 20px; }
         }
-    </style>
+            .toc {
+            background: #fff;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 24px 28px;
+            margin: 32px 0;
+        }
+        .toc h3 {
+            font-size: 1.05rem;
+            color: #1a1a2e;
+            margin-bottom: 14px;
+        }
+        .toc ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .toc li {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+        .toc a {
+            color: #155DFC;
+            text-decoration: none;
+        }
+        .toc a:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
 
@@ -546,7 +571,7 @@
 
     <!-- Quick Verdict Box -->
     <div class="verdict-box">
-        <h2>Quick Verdict</h2>
+        <h2 id="quick-verdict">Quick Verdict</h2>
         <ul>
             <li><strong>VEED.io</strong> &mdash; Best for fast, browser-based editing with industry-leading auto-captions (97% accuracy). Ideal for solo creators who need polished social videos in minutes.</li>
             <li><strong>Kapwing</strong> &mdash; Best for team collaboration and agency workflows. Real-time multiplayer editing, shared asset libraries, and the most generous free plan of the three.</li>
@@ -556,8 +581,28 @@
 
     <div class="content">
 
-        <!-- Intro -->
-        <h2>The Rise of AI-Powered Video Editing in 2026</h2>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#quick-verdict">Quick Verdict</a></li>
+            <li><a href="#the-rise-of-ai-powered-video-editing-in-2026">The Rise of AI-Powered Video Editing in 2026</a></li>
+            <li><a href="#feature-comparison-at-a-glance">Feature Comparison at a Glance</a></li>
+            <li><a href="#veedio-the-speed-first-video-editor">VEED.io: The Speed-First Video Editor</a></li>
+            <li><a href="#kapwing-the-team-first-editor">Kapwing: The Team-First Editor</a></li>
+            <li><a href="#descript-the-document-style-video-editor">Descript: The Document-Style Video Editor</a></li>
+            <li><a href="#head-to-head-ai-feature-comparison">Head-to-Head: AI Feature Comparison</a></li>
+            <li><a href="#full-pricing-comparison">Full Pricing Comparison</a></li>
+            <li><a href="#subtitle-accuracy-our-testing-methodology">Subtitle Accuracy: Our Testing Methodology</a></li>
+            <li><a href="#winner-by-use-case">Winner by Use Case</a></li>
+            <li><a href="#final-verdict">Final Verdict</a></li>
+            <li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+        </ol>
+    </div>
+
+            <!-- Intro -->
+        <h2 id="the-rise-of-ai-powered-video-editing-in-2026">The Rise of AI-Powered Video Editing in 2026</h2>
 
         <p>Traditional video editing is dying. Not the craft itself &mdash; skilled editors are busier than ever &mdash; but the idea that every creator needs to master a complex timeline editor to produce professional video content. In 2026, AI-powered video editors have matured to the point where a creator can upload raw footage, click a few buttons, and export a polished, captioned, noise-cleaned video in under ten minutes.</p>
 
@@ -566,7 +611,7 @@
         <p>We spent over 50 hours testing all three platforms across real-world creator workflows &mdash; editing YouTube videos, producing podcast clips, creating TikTok and Reels content, cleaning up interview footage, and collaborating across remote teams. This guide breaks down every feature, limitation, and pricing detail you need to choose the right tool for how you actually work.</p>
 
         <!-- Comparison Table -->
-        <h2>Feature Comparison at a Glance</h2>
+        <h2 id="feature-comparison-at-a-glance">Feature Comparison at a Glance</h2>
 
         <div class="table-wrapper">
             <table>
@@ -656,7 +701,7 @@
         </div>
 
         <!-- VEED Deep Dive -->
-        <h2>VEED.io: The Speed-First Video Editor</h2>
+        <h2 id="veedio-the-speed-first-video-editor">VEED.io: The Speed-First Video Editor</h2>
 
         <div class="tool-header">
             <span class="tool-badge veed">V</span>
@@ -713,7 +758,7 @@
         <p>VEED's <strong>free plan</strong> includes watermarked exports up to 10 minutes, basic subtitles, and limited AI features. The <strong>Basic plan at $18/month</strong> (billed annually) removes the watermark, adds 1080p exports, brand kits, and unlimited subtitle styling. The <strong>Pro plan at $30/month</strong> unlocks 4K exports, priority rendering, AI avatars, the full AI toolkit, and 2 hours of transcription per month. The <strong>Business plan at $59/month</strong> adds team features, advanced analytics, and API access. Enterprise pricing is custom.</p>
 
         <div class="cta-row">
-            <a href="https://www.veed.io/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try VEED.io Free &rarr;</a>
+            <a href="https://www.veed.io/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try VEED.io Free &rarr;</a>
         </div>
 
         <div class="tip-box">
@@ -721,7 +766,7 @@
         </div>
 
         <!-- Kapwing Deep Dive -->
-        <h2>Kapwing: The Team-First Editor</h2>
+        <h2 id="kapwing-the-team-first-editor">Kapwing: The Team-First Editor</h2>
 
         <div class="tool-header">
             <span class="tool-badge kapwing">K</span>
@@ -777,11 +822,11 @@
         <p>Kapwing's <strong>free plan</strong> is the most usable of the three &mdash; it allows exports up to 720p with a small watermark, 4 GB storage, and access to most editing tools. The <strong>Pro plan at $16/month</strong> (billed annually) removes the watermark, adds 1080p/4K exports, unlimited storage, brand kits, and priority export. The <strong>Business plan at $50/month per user</strong> unlocks advanced team features, custom templates, analytics, and dedicated support. Enterprise pricing is custom and includes SSO, SLA guarantees, and admin controls.</p>
 
         <div class="cta-row">
-            <a href="https://www.kapwing.com/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try Kapwing Free &rarr;</a>
+            <a href="https://www.kapwing.com/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try Kapwing Free &rarr;</a>
         </div>
 
         <!-- Descript Deep Dive -->
-        <h2>Descript: The Document-Style Video Editor</h2>
+        <h2 id="descript-the-document-style-video-editor">Descript: The Document-Style Video Editor</h2>
 
         <div class="tool-header">
             <span class="tool-badge descript">D</span>
@@ -839,11 +884,11 @@
         <p>Descript's <strong>free plan</strong> includes 1 hour of transcription, basic editing, and watermarked exports. The <strong>Hobbyist plan at $24/month</strong> provides 10 hours of transcription, filler word removal, Studio Sound, and 1080p exports. The <strong>Pro plan at $33/month</strong> adds 30 hours of transcription, Overdub AI voice cloning, 4K exports, and advanced collaboration features. The <strong>Enterprise plan is custom-priced</strong> and includes unlimited transcription, SSO, dedicated support, and admin controls. All paid plans are per-editor pricing.</p>
 
         <div class="cta-row">
-            <a href="https://www.descript.com/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try Descript Free &rarr;</a>
+            <a href="https://www.descript.com/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try Descript Free &rarr;</a>
         </div>
 
         <!-- Head-to-Head -->
-        <h2>Head-to-Head: AI Feature Comparison</h2>
+        <h2 id="head-to-head-ai-feature-comparison">Head-to-Head: AI Feature Comparison</h2>
 
         <h3>Auto-Caption Accuracy Testing</h3>
         <p>We tested all three platforms with the same set of 25 video clips: 10 studio-recorded talking heads, 5 outdoor vlogs with wind and traffic noise, 5 interview recordings with two speakers, and 5 clips featuring speakers with non-native English accents. VEED achieved 97% word-level accuracy across all clips, with particularly strong performance on accented speech. Descript scored 95-96%, with its strength in speaker identification &mdash; it correctly labeled who was speaking in multi-speaker recordings more often than the others. Kapwing scored 94%, performing well on clean audio but dropping more noticeably on noisy outdoor clips.</p>
@@ -863,7 +908,7 @@
         <p>Kapwing wins this category decisively. The multiplayer editing experience is genuinely impressive &mdash; multiple editors working on the same timeline in real time, seeing each other's cursors, with changes syncing instantly. The shared workspace with team folders, asset libraries, and permission controls is built for agencies managing multiple clients. Descript offers solid collaboration with shared compositions, commenting, and version history, but it feels more like shared access to a project than true real-time co-editing. VEED's collaboration is the weakest of the three, limited to sharing project links and basic commenting.</p>
 
         <!-- Pricing Breakdown -->
-        <h2>Full Pricing Comparison</h2>
+        <h2 id="full-pricing-comparison">Full Pricing Comparison</h2>
 
         <div class="table-wrapper">
             <table>
@@ -935,7 +980,7 @@
         </div>
 
         <!-- Subtitle Testing -->
-        <h2>Subtitle Accuracy: Our Testing Methodology</h2>
+        <h2 id="subtitle-accuracy-our-testing-methodology">Subtitle Accuracy: Our Testing Methodology</h2>
 
         <p>Subtitle accuracy is the single most important AI feature for social media creators &mdash; 85% of Facebook videos are watched on mute, and the number is similar across Instagram and TikTok. Getting captions wrong is not just an inconvenience; it can misrepresent your message and damage credibility.</p>
 
@@ -995,7 +1040,7 @@
         <p>A few observations worth noting: VEED's caption engine handled non-native accents and noisy environments noticeably better than the other two, which likely reflects focused training on diverse audio conditions. Descript's strength appeared in multi-speaker scenarios, where its speaker diarization (identifying who is speaking) was the most reliable. Kapwing's accuracy on clean audio was competitive, but it dropped more sharply in challenging conditions.</p>
 
         <!-- Winner by Use Case -->
-        <h2>Winner by Use Case</h2>
+        <h2 id="winner-by-use-case">Winner by Use Case</h2>
 
         <div class="info-box">
             <strong>Solo Creator (YouTube, TikTok, Instagram):</strong> Choose <strong>VEED.io</strong>. The fastest path from raw footage to captioned, polished social content. The 97% caption accuracy saves proofreading time, the one-click resize handles multi-platform publishing, and the browser-based workflow means you can edit from any device.
@@ -1025,7 +1070,7 @@
 
     <!-- Final Verdict -->
     <div class="final-verdict">
-        <h2>Final Verdict</h2>
+        <h2 id="final-verdict">Final Verdict</h2>
         <p>These three editors serve fundamentally different workflows, and choosing the wrong one will cost you hours every week. After extensive testing, here is how we see it:</p>
 
         <p><strong>Choose VEED.io</strong> if speed and captions are your priorities. No editor gets you from upload to finished social video faster, and the 97% caption accuracy is the best we have tested. The browser-based workflow means zero setup time, and the AI toolkit (noise removal, eye contact, magic cut) handles the tedious work. At $18/month for the Basic plan, it is excellent value for solo creators publishing to social media daily.</p>
@@ -1035,9 +1080,9 @@
         <p><strong>Choose Descript</strong> if your content is primarily speech-driven. The text-based editing paradigm is not a gimmick &mdash; it fundamentally changes how fast you can edit podcasts, interviews, lectures, and any content where the spoken word is the backbone. Filler word removal, Studio Sound, and Overdub are features that no competitor matches. At $24/month for Hobbyist, it costs more, but for podcasters and speech-heavy creators, the time savings pay for themselves within the first week.</p>
 
         <p style="margin-top: 28px;">
-            <a href="https://www.veed.io/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try VEED.io Free &rarr;</a>
-            <a href="https://www.kapwing.com/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try Kapwing Free &rarr;</a>
-            <a href="https://www.descript.com/?via=aivideopicks" rel="nofollow sponsored" class="cta-button">Try Descript Free &rarr;</a>
+            <a href="https://www.veed.io/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try VEED.io Free &rarr;</a>
+            <a href="https://www.kapwing.com/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try Kapwing Free &rarr;</a>
+            <a href="https://www.descript.com/?via=aivideopicks" target="_blank" rel="nofollow sponsored" class="cta-button">Try Descript Free &rarr;</a>
         </p>
     </div>
 
@@ -1060,7 +1105,7 @@
     <div class="content">
 
         <!-- FAQ -->
-        <h2>Frequently Asked Questions</h2>
+        <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
         <div class="faq-item">
             <h3>Is VEED better than Descript for adding subtitles?</h3>

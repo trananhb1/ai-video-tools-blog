@@ -1,226 +1,344 @@
 #!/usr/bin/env python3
-"""Generate 3 blog card thumbnails for ai-video-tools-blog."""
+"""Generate professional 600x340 thumbnails with service logos for AI Video Picks blog."""
 
+import requests
 from PIL import Image, ImageDraw, ImageFont
-import math
+from io import BytesIO
+import os
 
+OUT_DIR = "assets/images"
 W, H = 600, 340
-OUT = "/home/tom/ai-video-tools-blog/assets/images"
+FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
-FONT_BOLD = "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf"
-FONT_REG = "/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf"
-FONT_LIGHT = "/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf"
+PALETTES = {
+    "heygen":     ("#1a1a2e", "#0d47a1", "#4fc3f7"),
+    "synthesia":  ("#1a1a2e", "#1565c0", "#42a5f5"),
+    "zebracat":   ("#0d3b2e", "#1b5e20", "#66bb6a"),
+    "pictory":    ("#1a1a2e", "#4a148c", "#ce93d8"),
+    "descript":   ("#1a1a2e", "#263238", "#80cbc4"),
+    "invideo":    ("#1a1a2e", "#e65100", "#ffb74d"),
+    "colossyan":  ("#1a1a2e", "#1565c0", "#90caf9"),
+    "runway":     ("#1a1a2e", "#212121", "#e0e0e0"),
+    "fliki":      ("#3e2723", "#5d4037", "#ffab91"),
+    "opus-clip":  ("#1a1a2e", "#6a1b9a", "#ea80fc"),
+    "murf-ai":    ("#1a1a2e", "#0277bd", "#4fc3f7"),
+    "leonardo":   ("#1a1a2e", "#1b5e20", "#a5d6a7"),
+    "deepbrain":  ("#0d47a1", "#1565c0", "#64b5f6"),
+    "vidnoz":     ("#1a1a2e", "#00695c", "#4db6ac"),
+    "submagic":   ("#1a1a2e", "#ad1457", "#f48fb1"),
+    "kapwing":    ("#1a1a2e", "#1565c0", "#64b5f6"),
+}
+
+LOGO_DOMAINS = {
+    "heygen": "heygen.com",
+    "synthesia": "synthesia.io",
+    "zebracat": "zebracat.ai",
+    "pictory": "pictory.ai",
+    "descript": "descript.com",
+    "invideo": "invideo.io",
+    "colossyan": "colossyan.com",
+    "runway": "runwayml.com",
+    "fliki": "fliki.ai",
+    "opus-clip": "opus.pro",
+    "murf-ai": "murf.ai",
+    "leonardo": "leonardo.ai",
+    "deepbrain": "deepbrain.io",
+    "vidnoz": "vidnoz.com",
+    "submagic": "submagic.co",
+    "kapwing": "kapwing.com",
+}
+
+REVIEWS = [
+    ("heygen", "HeyGen", "9.2 / 10", "AI Avatar Video Platform"),
+    ("synthesia", "Synthesia", "8.0 / 10", "AI Avatar Platform Review"),
+    ("zebracat", "Zebracat", "4.2 / 5.0", "AI Video Generation Platform"),
+    ("pictory", "Pictory", "4.6 / 5", "Content Repurposing Tool"),
+    ("descript", "Descript", "4.5 / 5", "AI Video Editor"),
+    ("invideo", "InVideo", "4.4 / 5", "AI Video Maker"),
+    ("colossyan", "Colossyan", "4.3 / 5", "Multilingual AI Video"),
+    ("runway", "Runway", "4.2 / 5", "AI Video Generation"),
+    ("fliki", "Fliki", "7.8 / 10", "AI Text-to-Video Platform"),
+    ("opus-clip", "Opus Clip", "4.1 / 5", "AI Video Repurposing"),
+    ("murf-ai", "Murf AI", "4.1 / 5", "AI Voiceover Platform"),
+    ("deepbrain", "DeepBrain AI", "8.5 / 10", "AI Avatar Video Platform"),
+    ("vidnoz", "Vidnoz", "7.5 / 10", "Free AI Avatar Platform"),
+    ("submagic", "Submagic", "8.0 / 10", "AI Caption Generator"),
+]
+
+# Cache for fetched logos
+_logo_cache = {}
+
+def hex_to_rgb(h):
+    h = h.lstrip('#')
+    return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
 
 
-def gradient(draw, w, h, c1, c2):
-    """Draw a diagonal gradient from top-left c1 to bottom-right c2."""
+def make_gradient(w, h, top_color, bottom_color):
+    img = Image.new('RGB', (w, h))
+    r1, g1, b1 = hex_to_rgb(top_color)
+    r2, g2, b2 = hex_to_rgb(bottom_color)
     for y in range(h):
+        ratio = y / h
+        r = int(r1 + (r2 - r1) * ratio)
+        g = int(g1 + (g2 - g1) * ratio)
+        b = int(b1 + (b2 - b1) * ratio)
         for x in range(w):
-            t = (x / w * 0.4 + y / h * 0.6)
-            r = int(c1[0] + (c2[0] - c1[0]) * t)
-            g = int(c1[1] + (c2[1] - c1[1]) * t)
-            b = int(c1[2] + (c2[2] - c1[2]) * t)
-            draw.point((x, y), fill=(r, g, b))
+            img.putpixel((x, y), (r, g, b))
+    return img
 
 
-def draw_rounded_rect(draw, xy, fill, radius=12):
-    """Draw a rounded rectangle."""
-    x0, y0, x1, y1 = xy
-    draw.rounded_rectangle(xy, radius=radius, fill=fill)
+def fetch_logo(domain, target_size=80):
+    """Fetch highest quality logo available, with caching."""
+    if domain in _logo_cache:
+        logo = _logo_cache[domain]
+        if logo:
+            return logo.copy()
+        return None
 
-
-def draw_text_centered(draw, text, y, font, fill="white"):
-    bbox = draw.textbbox((0, 0), text, font=font)
-    tw = bbox[2] - bbox[0]
-    x = (W - tw) // 2
-    draw.text((x, y), text, font=font, fill=fill)
-    return tw
-
-
-def add_decorative_circles(draw, color, alpha=18):
-    """Add subtle decorative circles at edges for visual interest."""
-    positions = [
-        (-20, -15, 45), (W - 30, -20, 35), (W + 10, H // 2, 40),
-        (-15, H - 20, 30), (W - 60, H + 10, 35), (50, H + 15, 25),
+    # Try sources in order of quality
+    sources = [
+        f"https://icon.horse/icon/{domain}?size=large",
+        f"https://favicone.com/{domain}?s=128",
+        f"https://www.google.com/s2/favicons?domain={domain}&sz=128",
     ]
-    for cx, cy, r in positions:
-        draw.ellipse([cx - r, cy - r, cx + r, cy + r],
-                      fill=(*color, alpha))
+
+    best_logo = None
+    best_size = 0
+
+    for url in sources:
+        try:
+            r = requests.get(url, timeout=10, allow_redirects=True)
+            if r.status_code == 200 and len(r.content) > 200:
+                logo = Image.open(BytesIO(r.content)).convert("RGBA")
+                w, h = logo.size
+                if w > best_size:
+                    best_size = w
+                    best_logo = logo
+                if w >= 128:
+                    break  # Good enough
+        except Exception as e:
+            continue
+
+    _logo_cache[domain] = best_logo
+    if best_logo:
+        return best_logo.copy()
+    return None
 
 
-# ── 1. TOP 10 THUMBNAIL ─────────────────────────────────────────────
-def make_top10():
-    img = Image.new("RGBA", (W, H))
+def generate_review_thumbnail(key, name, rating, subtitle):
+    palette = PALETTES.get(key, PALETTES["heygen"])
+    bg_top, bg_bottom, accent = palette
+    img = make_gradient(W, H, bg_top, bg_bottom)
     draw = ImageDraw.Draw(img)
-
-    # Gradient background
-    for y in range(H):
-        t = y / H
-        r = int(0x1a + (0x15 - 0x1a) * t)
-        g = int(0x1a + (0x5D - 0x1a) * t)
-        b = int(0x2e + (0xFC - 0x2e) * t)
-        draw.line([(0, y), (W, y)], fill=(r, g, b, 255))
+    accent_rgb = hex_to_rgb(accent)
 
     # Decorative circles
-    add_decorative_circles(draw, (255, 255, 255))
+    draw.ellipse([W-90, -30, W+30, 90], outline=accent_rgb, width=2)
+    draw.ellipse([-30, H-90, 90, H+30], outline=accent_rgb, width=2)
+    draw.ellipse([W-50, H-50, W-20, H-20], outline=accent_rgb, width=2)
 
-    # "2026 RANKING" badge at top
-    badge_font = ImageFont.truetype(FONT_BOLD, 14)
-    badge_text = "2026 RANKING"
-    bb = draw.textbbox((0, 0), badge_text, font=badge_font)
-    bw = bb[2] - bb[0] + 24
-    bx = (W - bw) // 2
-    draw_rounded_rect(draw, (bx, 20, bx + bw, 48), fill=(255, 215, 0, 220), radius=8)
-    draw.text((bx + 12, 23), badge_text, font=badge_font, fill=(26, 26, 46))
+    # Fetch and place logo
+    domain = LOGO_DOMAINS.get(key)
+    logo = fetch_logo(domain) if domain else None
 
-    # "TOP" text
-    top_font = ImageFont.truetype(FONT_BOLD, 72)
-    bb = draw.textbbox((0, 0), "TOP", font=top_font)
-    top_w = bb[2] - bb[0]
-    # "10" text in gold
-    ten_font = ImageFont.truetype(FONT_BOLD, 90)
-    bb10 = draw.textbbox((0, 0), "10", font=ten_font)
-    ten_w = bb10[2] - bb10[0]
-    total = top_w + 15 + ten_w
-    sx = (W - total) // 2
-    draw.text((sx, 65), "TOP", font=top_font, fill="white")
-    draw.text((sx + top_w + 15, 52), "10", font=ten_font, fill=(255, 215, 0))
+    if logo:
+        logo_display = 80
+        logo = logo.resize((logo_display, logo_display), Image.LANCZOS)
+        circle_size = logo_display + 20
+        circle_bg = Image.new('RGBA', (circle_size, circle_size), (0, 0, 0, 0))
+        circle_draw = ImageDraw.Draw(circle_bg)
+        circle_draw.ellipse([0, 0, circle_size - 1, circle_size - 1], fill=(255, 255, 255, 255))
+        circle_bg.paste(logo, (10, 10), logo)
+        logo_x = (W - circle_size) // 2
+        logo_y = 25
+        img.paste(circle_bg, (logo_x, logo_y), circle_bg)
+        text_start_y = logo_y + circle_size + 10
+    else:
+        text_start_y = 50
 
-    # Subtitle
-    sub_font = ImageFont.truetype(FONT_REG, 28)
-    draw_text_centered(draw, "Best AI Video Tools", 170, sub_font, fill="white")
-
-    # Divider line
-    draw.line([(180, 215), (420, 215)], fill=(255, 255, 255, 120), width=2)
-
-    # Year
-    year_font = ImageFont.truetype(FONT_LIGHT, 22)
-    draw_text_centered(draw, "Complete Guide & Reviews", 230, year_font, fill=(200, 200, 255))
-
-    # Bottom accent bar
-    draw.rectangle([(0, H - 6), (W, H)], fill=(255, 215, 0))
-
-    img.convert("RGB").save(f"{OUT}/top10-thumbnail.png")
-    print("Created top10-thumbnail.png")
-
-
-# ── 2. ZEBRACAT REVIEW THUMBNAIL ────────────────────────────────────
-def make_zebracat():
-    img = Image.new("RGBA", (W, H))
-    draw = ImageDraw.Draw(img)
-
-    # Gradient background (teal to dark)
-    for y in range(H):
-        t = y / H
-        r = int(0x0d + (0x1a - 0x0d) * t)
-        g = int(0x94 + (0x1a - 0x94) * t)
-        b = int(0x88 + (0x2e - 0x88) * t)
-        draw.line([(0, y), (W, y)], fill=(r, g, b, 255))
-
-    add_decorative_circles(draw, (255, 255, 255))
-
-    # "REVIEW" badge top-right
-    badge_font = ImageFont.truetype(FONT_BOLD, 14)
+    # Badge
+    badge_font = ImageFont.truetype(FONT_BOLD, 11)
     badge_text = "IN-DEPTH REVIEW"
-    bb = draw.textbbox((0, 0), badge_text, font=badge_font)
-    bw = bb[2] - bb[0] + 24
+    bbox = draw.textbbox((0, 0), badge_text, font=badge_font)
+    bw = bbox[2] - bbox[0] + 24
+    bh = bbox[3] - bbox[1] + 12
     bx = (W - bw) // 2
-    draw_rounded_rect(draw, (bx, 20, bx + bw, 48), fill=(16, 185, 129, 220), radius=8)
-    draw.text((bx + 12, 23), badge_text, font=badge_font, fill="white")
+    by = text_start_y
+    draw.rounded_rectangle([bx, by, bx + bw, by + bh], radius=4, fill=accent_rgb)
+    draw.text((W // 2, by + bh // 2), badge_text, fill=(255, 255, 255), font=badge_font, anchor="mm")
 
-    # "ZEBRACAT" large text
-    main_font = ImageFont.truetype(FONT_BOLD, 64)
-    draw_text_centered(draw, "ZEBRACAT", 65, main_font, fill="white")
+    # Tool name
+    name_font = ImageFont.truetype(FONT_BOLD, 34)
+    name_y = by + bh + 12
+    draw.text((W // 2, name_y), name.upper(), fill=(255, 255, 255), font=name_font, anchor="mt")
 
-    # Star rating (4.2/5) - use DejaVu Sans for star glyph support
-    star_y = 150
-    star_size = 28
-    star_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", star_size)
-    total_stars_w = 5 * (star_size + 8)
-    sx = (W - total_stars_w) // 2
-    for i in range(5):
-        color = (255, 215, 0) if i < 4 else (255, 215, 0, 100)
-        draw.text((sx + i * (star_size + 8), star_y), "\u2605", font=star_font, fill=color)
+    # Stars
+    star_font = ImageFont.truetype(FONT_REG, 20)
+    star_y = name_y + 42
+    draw.text((W // 2, star_y), "\u2605\u2605\u2605\u2605\u2605", fill=hex_to_rgb("#f59e0b"), font=star_font, anchor="mt")
 
-    # Rating text
-    rating_font = ImageFont.truetype(FONT_BOLD, 22)
-    draw_text_centered(draw, "4.2 / 5.0", 188, rating_font, fill=(255, 215, 0))
+    # Rating
+    rating_font = ImageFont.truetype(FONT_BOLD, 17)
+    rating_y = star_y + 26
+    draw.text((W // 2, rating_y), rating, fill=hex_to_rgb("#f59e0b"), font=rating_font, anchor="mt")
 
     # Subtitle
-    sub_font = ImageFont.truetype(FONT_REG, 20)
-    draw_text_centered(draw, "AI Video Generation Platform", 225, sub_font, fill=(200, 230, 225))
+    sub_font = ImageFont.truetype(FONT_REG, 13)
+    sub_y = rating_y + 24
+    draw.text((W // 2, sub_y), subtitle, fill=(200, 200, 220), font=sub_font, anchor="mt")
 
-    # "2026" year tag bottom
-    year_font = ImageFont.truetype(FONT_BOLD, 16)
-    year_text = "2026"
-    bb = draw.textbbox((0, 0), year_text, font=year_font)
-    yw = bb[2] - bb[0] + 20
-    yx = W - yw - 20
-    draw_rounded_rect(draw, (yx, H - 45, yx + yw, H - 20), fill=(255, 255, 255, 50), radius=6)
-    draw.text((yx + 10, H - 43), year_text, font=year_font, fill="white")
-
-    # Bottom accent bar
-    draw.rectangle([(0, H - 6), (W, H)], fill=(16, 185, 129))
-
-    img.convert("RGB").save(f"{OUT}/zebracat-review-thumbnail.png")
-    print("Created zebracat-review-thumbnail.png")
+    return img
 
 
-# ── 3. E-COMMERCE THUMBNAIL ─────────────────────────────────────────
-def make_ecommerce():
-    img = Image.new("RGBA", (W, H))
+def generate_comparison_thumbnail(keys, title):
+    img = make_gradient(W, H, "#1a1a2e", "#0d47a1")
     draw = ImageDraw.Draw(img)
+    draw.ellipse([W-90, -30, W+30, 90], outline=(100, 181, 246), width=2)
+    draw.ellipse([-30, H-90, 90, H+30], outline=(100, 181, 246), width=2)
 
-    # Gradient background (purple to dark)
-    for y in range(H):
-        t = y / H
-        r = int(0x7c + (0x1a - 0x7c) * t)
-        g = int(0x3a + (0x1a - 0x3a) * t)
-        b = int(0xed + (0x2e - 0xed) * t)
-        draw.line([(0, y), (W, y)], fill=(r, g, b, 255))
+    logos = []
+    for key in keys:
+        domain = LOGO_DOMAINS.get(key)
+        logo = fetch_logo(domain) if domain else None
+        logos.append(logo)
 
-    add_decorative_circles(draw, (255, 255, 255))
+    logo_size = 70
+    circle_size = logo_size + 20
+    valid_logos = [l for l in logos if l is not None]
+    n = len(valid_logos)
 
-    # "AI VIDEO GUIDE" badge
-    badge_font = ImageFont.truetype(FONT_BOLD, 14)
-    badge_text = "AI VIDEO GUIDE"
-    bb = draw.textbbox((0, 0), badge_text, font=badge_font)
-    bw = bb[2] - bb[0] + 24
+    if n >= 2:
+        if n == 2:
+            total = circle_size * 2 + 60
+            start_x = (W - total) // 2
+            for idx, logo in enumerate(valid_logos):
+                logo = logo.resize((logo_size, logo_size), Image.LANCZOS)
+                cb = Image.new('RGBA', (circle_size, circle_size), (0, 0, 0, 0))
+                cd = ImageDraw.Draw(cb)
+                cd.ellipse([0, 0, circle_size - 1, circle_size - 1], fill=(255, 255, 255, 255))
+                cb.paste(logo, (10, 10), logo)
+                x = start_x + idx * (circle_size + 60)
+                img.paste(cb, (x, 25), cb)
+            vs_font = ImageFont.truetype(FONT_BOLD, 24)
+            draw.text((W // 2, 25 + circle_size // 2), "VS", fill=(255, 200, 50), font=vs_font, anchor="mm")
+        else:
+            total = circle_size * min(n, 3) + 25 * (min(n, 3) - 1)
+            start_x = (W - total) // 2
+            for idx in range(min(3, n)):
+                logo = valid_logos[idx].resize((logo_size, logo_size), Image.LANCZOS)
+                cb = Image.new('RGBA', (circle_size, circle_size), (0, 0, 0, 0))
+                cd = ImageDraw.Draw(cb)
+                cd.ellipse([0, 0, circle_size - 1, circle_size - 1], fill=(255, 255, 255, 255))
+                cb.paste(logo, (10, 10), logo)
+                x = start_x + idx * (circle_size + 25)
+                img.paste(cb, (x, 20), cb)
+        text_y = 130
+    else:
+        text_y = 60
+
+    title_font = ImageFont.truetype(FONT_BOLD, 24)
+    words = title.split()
+    lines, current = [], ""
+    for w in words:
+        test = f"{current} {w}".strip()
+        bbox = draw.textbbox((0, 0), test, font=title_font)
+        if bbox[2] - bbox[0] > W - 60:
+            lines.append(current)
+            current = w
+        else:
+            current = test
+    if current:
+        lines.append(current)
+
+    for i, line in enumerate(lines):
+        draw.text((W // 2, text_y + i * 35), line, fill=(255, 255, 255), font=title_font, anchor="mt")
+
+    sub_y = text_y + len(lines) * 35 + 10
+    sub_font = ImageFont.truetype(FONT_REG, 13)
+    draw.text((W // 2, sub_y), "Head-to-Head Comparison 2026", fill=(180, 180, 200), font=sub_font, anchor="mt")
+
+    brand_font = ImageFont.truetype(FONT_REG, 11)
+    draw.text((W // 2, H - 15), "AI Video Picks", fill=(150, 150, 170), font=brand_font, anchor="mb")
+    return img
+
+
+def generate_top10_thumbnail():
+    img = make_gradient(W, H, "#1a1a2e", "#0d47a1")
+    draw = ImageDraw.Draw(img)
+    draw.ellipse([W-80, -30, W+30, 80], outline=(100, 181, 246), width=2)
+    draw.ellipse([-30, H-80, 80, H+30], outline=(100, 181, 246), width=2)
+
+    top_keys = ["heygen", "synthesia", "zebracat", "pictory", "descript"]
+    logo_size = 45
+    circle_size = logo_size + 14
+    total = circle_size * len(top_keys) + 12 * (len(top_keys) - 1)
+    start_x = (W - total) // 2
+
+    for i, key in enumerate(top_keys):
+        logo = fetch_logo(LOGO_DOMAINS[key])
+        if logo:
+            logo = logo.resize((logo_size, logo_size), Image.LANCZOS)
+            cb = Image.new('RGBA', (circle_size, circle_size), (0, 0, 0, 0))
+            cd = ImageDraw.Draw(cb)
+            cd.ellipse([0, 0, circle_size - 1, circle_size - 1], fill=(255, 255, 255, 255))
+            cb.paste(logo, (7, 7), logo)
+            x = start_x + i * (circle_size + 12)
+            img.paste(cb, (x, 18), cb)
+
+    badge_font = ImageFont.truetype(FONT_BOLD, 12)
+    badge_text = "2026 RANKING"
+    bbox = draw.textbbox((0, 0), badge_text, font=badge_font)
+    bw = bbox[2] - bbox[0] + 24
+    bh = bbox[3] - bbox[1] + 12
     bx = (W - bw) // 2
-    draw_rounded_rect(draw, (bx, 20, bx + bw, 48), fill=(167, 100, 255, 220), radius=8)
-    draw.text((bx + 12, 23), badge_text, font=badge_font, fill="white")
+    by = 88
+    draw.rounded_rectangle([bx, by, bx + bw, by + bh], radius=4, fill=hex_to_rgb("#f59e0b"))
+    draw.text((W // 2, by + bh // 2), badge_text, fill=(255, 255, 255), font=badge_font, anchor="mm")
 
-    # "$" symbols as subtle background decoration
-    dollar_font = ImageFont.truetype(FONT_BOLD, 120)
-    draw.text((15, 180), "$", font=dollar_font, fill=(255, 255, 255, 18))
-    draw.text((W - 110, 170), "$", font=dollar_font, fill=(255, 255, 255, 18))
+    big_font = ImageFont.truetype(FONT_BOLD, 58)
+    draw.text((W // 2, 150), "TOP 10", fill=(255, 255, 255), font=big_font, anchor="mt")
 
-    # "E-COMMERCE" large text
-    main_font = ImageFont.truetype(FONT_BOLD, 52)
-    draw_text_centered(draw, "E-COMMERCE", 65, main_font, fill="white")
+    sub_font = ImageFont.truetype(FONT_BOLD, 21)
+    draw.text((W // 2, 220), "Best AI Video Tools", fill=(255, 255, 255), font=sub_font, anchor="mt")
 
-    # "+80% Sales" callout
-    callout_font = ImageFont.truetype(FONT_BOLD, 36)
-    callout_text = "+80% Sales"
-    bb = draw.textbbox((0, 0), callout_text, font=callout_font)
-    cw = bb[2] - bb[0] + 40
-    cx = (W - cw) // 2
-    draw_rounded_rect(draw, (cx, 140, cx + cw, 190), fill=(16, 185, 129, 220), radius=10)
-    draw.text((cx + 20, 143), callout_text, font=callout_font, fill="white")
+    draw.line([(W // 2 - 40, 253), (W // 2 + 40, 253)], fill=hex_to_rgb("#f59e0b"), width=3)
 
-    # Subtitle
-    sub_font = ImageFont.truetype(FONT_REG, 20)
-    draw_text_centered(draw, "Boost Your Online Store with AI Video", 210, sub_font, fill=(220, 210, 255))
+    bottom_font = ImageFont.truetype(FONT_REG, 13)
+    draw.text((W // 2, 268), "Complete Guide & Reviews", fill=(180, 180, 200), font=bottom_font, anchor="mt")
 
-    # Bottom accent bar
-    draw.rectangle([(0, H - 6), (W, H)], fill=(124, 58, 237))
-
-    img.convert("RGB").save(f"{OUT}/ecommerce-thumbnail.png")
-    print("Created ecommerce-thumbnail.png")
+    brand_font = ImageFont.truetype(FONT_REG, 11)
+    draw.text((W // 2, H - 12), "AI Video Picks", fill=(150, 150, 170), font=brand_font, anchor="mb")
+    return img
 
 
 if __name__ == "__main__":
-    make_top10()
-    make_zebracat()
-    make_ecommerce()
-    print("All thumbnails generated!")
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    print("=== Review Thumbnails ===")
+    for key, name, rating, subtitle in REVIEWS:
+        print(f"  {name}...", end=" ", flush=True)
+        img = generate_review_thumbnail(key, name, rating, subtitle)
+        fn = f"deepbrain-ai-review-thumbnail.png" if key == "deepbrain" else f"{key}-review-thumbnail.png"
+        img.save(os.path.join(OUT_DIR, fn), "PNG", optimize=True)
+        print(f"-> {fn}")
+
+    print("\n=== Comparison Thumbnails ===")
+    comparisons = [
+        (["heygen", "synthesia"], "HeyGen vs Synthesia 2026", "heygen-vs-synthesia-thumbnail.png"),
+        (["heygen", "synthesia", "pictory"], "HeyGen vs Synthesia vs Pictory", "comparison-thumbnail.png"),
+        (["runway"], "Kling vs Veo vs Runway 2026", "kling-veo-runway-thumbnail.png"),
+        (["descript", "kapwing"], "VEED vs Kapwing vs Descript", "veed-kapwing-descript-thumbnail.png"),
+    ]
+    for keys, title, fn in comparisons:
+        print(f"  {title}...", end=" ", flush=True)
+        img = generate_comparison_thumbnail(keys, title)
+        img.save(os.path.join(OUT_DIR, fn), "PNG", optimize=True)
+        print(f"-> {fn}")
+
+    print("\n=== Top 10 Thumbnail ===")
+    img = generate_top10_thumbnail()
+    img.save(os.path.join(OUT_DIR, "top10-thumbnail.png"), "PNG", optimize=True)
+    print("-> top10-thumbnail.png")
+
+    print("\nDone!")
