@@ -4,9 +4,9 @@
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video generation, editing, and avatar platforms. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. The site covers 31 AI video tools across 31 articles with honest ratings and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, and businesses evaluating AI video tools.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video generation, editing, and avatar platforms. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. The site covers 31 AI video tools across 33 articles with honest ratings and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, and businesses evaluating AI video tools.
 
-## Reviews (14)
+## Reviews (15)
 
 - [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html): AI avatar platform review covering Avatar IV, video translation, voice cloning, and interactive avatars. Rating: 8.5/10. From $24/month.
 - [Synthesia Review 2026](https://aivideopicks.com/posts/synthesia-review-2026.html): Enterprise AI avatar video platform with 230+ avatars, 140+ languages, and SOC 2 compliance. From $22/month.
@@ -22,8 +22,9 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Zebracat Review 2026](https://aivideopicks.com/posts/zebracat-review-2026.html): AI video ad creation tool for social media with AI scripts and stock footage. From $25/month.
 - [Vidnoz Review 2026](https://aivideopicks.com/posts/vidnoz-review-2026.html): Free AI avatar video maker with 1,000+ avatars, talking photos, and video translation. Free tier available.
 - [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html): AI captions and short-form video tool with auto-captions, B-roll generation, and eye contact correction. From $9/month.
+- [ElevenLabs Review 2026](https://aivideopicks.com/posts/elevenlabs-review-2026.html): AI voice generator review covering text-to-speech, voice cloning, dubbing, and pricing.
 
-## Comparisons (9)
+## Comparisons (10)
 
 - [Best AI Video Tools 2026](https://aivideopicks.com/posts/best-ai-video-tools-2026.html): Top 10 AI video tools ranked with pricing table, ratings, and use-case recommendations.
 - [HeyGen vs Synthesia 2026](https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html): Head-to-head comparison of the two leading AI avatar platforms across avatars, voices, pricing, and API.
@@ -34,6 +35,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html): Top free-tier AI video tools with no credit card required.
 - [AI Video Pricing Compared 2026](https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html): Side-by-side pricing breakdown for 10 major AI video platforms.
 - [Sora Alternatives 2026](https://aivideopicks.com/posts/sora-alternatives-2026.html): 10 best alternatives after OpenAI Sora shuts down April 26, 2026.
+- [Best AI Video Tools for Beginners 2026](https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html): Beginner's guide to choosing AI video tools with top 5 picks for new creators.
 
 ## Guides & Tutorials (6)
 

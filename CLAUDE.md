@@ -69,9 +69,10 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (31 articles)
+## Content Inventory (33 articles)
 
-### Reviews (14)
+### Reviews (15)
+- **elevenlabs-review-2026.html** (NEW Apr 7)
 - **deepbrain-ai-review-2026.html** (NEW Apr 4)
 - **heygen-review-2026.html** (NEW Apr 4)
 - fliki-review-2026.html
@@ -98,7 +99,8 @@ When this project is opened, run through these items:
 - ai-video-pricing-compared-2026.html
 - sora-alternatives-2026.html
 
-### Guides & Tutorials (6)
+### Guides & Tutorials (7)
+- **best-ai-video-tools-beginners-2026.html** (NEW Apr 7)
 - ai-tools-youtube-creators-2026.html
 - turn-long-videos-into-shorts-ai.html
 - ai-training-onboarding-videos.html

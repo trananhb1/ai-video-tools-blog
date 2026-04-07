@@ -332,6 +332,70 @@
         .card-thumb.thumb-submagic { background-image: url('assets/images/submagic-review-thumbnail.png'); }
         .card-thumb.thumb-gear { background-image: url('assets/images/gear-guide-thumbnail.png'); }
         .card-thumb.thumb-heygen-vs-synthesia { background-image: url('assets/images/heygen-vs-synthesia-thumbnail.png'); }
+        .card-thumb.thumb-elevenlabs { background-image: url('assets/images/elevenlabs-review-thumbnail.png'); }
+        .card-thumb.thumb-beginners { background-image: url('assets/images/beginners-guide-thumbnail.png'); }
+
+        /* Latest Articles Featured Section */
+        .featured-section {
+            padding: 80px 24px 0;
+        }
+
+        .featured-grid {
+            max-width: 1120px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        .featured-card {
+            background: var(--surface);
+            border: 2px solid var(--accent);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: box-shadow 0.25s, transform 0.25s;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--shadow-md);
+        }
+
+        .featured-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        .featured-card .card-thumb {
+            height: 210px;
+        }
+
+        .featured-label {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 4px 10px;
+            border-radius: 5px;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .featured-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .featured-section {
+                padding: 56px 24px 0;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .featured-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
         .card-badge {
             position: absolute;
@@ -720,6 +784,61 @@
         </div>
     </section>
 
+    <!-- Latest Articles -->
+    <section class="featured-section">
+        <div class="section-header">
+            <h2>Latest Articles</h2>
+            <p>Our newest reviews, guides, and comparisons -- fresh off the press.</p>
+        </div>
+
+        <div class="featured-grid">
+            <article class="featured-card">
+                <div class="card-thumb thumb-elevenlabs">
+                    <span class="card-badge review">New</span>
+                </div>
+                <div class="card-body">
+                    <span class="featured-label">Review</span>
+                    <h3><a href="posts/elevenlabs-review-2026.html">ElevenLabs Review 2026: Best AI Voice &amp; Audio Platform?</a></h3>
+                    <p class="excerpt">We test ElevenLabs' text-to-speech, voice cloning, dubbing, and sound effects. Full breakdown of quality, pricing, and whether it lives up to the hype.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 14 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-thumb thumb-beginners">
+                    <span class="card-badge guide">New</span>
+                </div>
+                <div class="card-body">
+                    <span class="featured-label">Guide</span>
+                    <h3><a href="posts/best-ai-video-tools-beginners-2026.html">Best AI Video Tools for Beginners (2026)</a></h3>
+                    <p class="excerpt">New to AI video? We break down the easiest tools for beginners, with step-by-step recommendations based on your goals and budget.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 11 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-thumb thumb-deepbrain">
+                    <span class="card-badge review">New</span>
+                </div>
+                <div class="card-body">
+                    <span class="featured-label">Review</span>
+                    <h3><a href="posts/deepbrain-ai-review-2026.html">DeepBrain AI Review 2026: Avatars Worth It?</a></h3>
+                    <p class="excerpt">We test DeepBrain AI Studios' ChatGPT script assistant, AI avatars, dubbing, and document-to-video. Full breakdown of features, pricing, and 50% affiliate commission.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 16 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <!-- Reviews Section -->
     <section class="section" id="reviews">
         <div class="section-header">
@@ -728,62 +847,22 @@
         </div>
 
         <div class="cards-grid">
+            <!-- Apr 7 -->
             <article class="card">
-                <div class="card-thumb thumb-heygen">
+                <div class="card-thumb thumb-elevenlabs">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
-                    <h3><a href="posts/heygen-review-2026.html">HeyGen Review 2026: Best AI Avatar Platform?</a></h3>
-                    <p class="excerpt">We test HeyGen's Avatar IV, video translation, voice cloning, and interactive avatars. Full breakdown of features, pricing, pros, cons, and alternatives.</p>
+                    <h3><a href="posts/elevenlabs-review-2026.html">ElevenLabs Review 2026: Best AI Voice &amp; Audio Platform?</a></h3>
+                    <p class="excerpt">We test ElevenLabs' text-to-speech, voice cloning, dubbing, and sound effects. Full breakdown of quality, pricing, and whether it lives up to the hype.</p>
                     <div class="card-meta">
                         <span>&#128197; Apr 2026</span>
-                        <span>&#128337; 18 min read</span>
+                        <span>&#128337; 14 min read</span>
                     </div>
                 </div>
             </article>
 
-            <article class="card">
-                <div class="card-thumb thumb-runway">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/runway-review-2026.html">Runway Review 2026: Is Gen-3 Alpha Worth It?</a></h3>
-                    <p class="excerpt">We test Runway's Gen-3 Alpha for text-to-video, image-to-video, and motion brush. Full breakdown of quality, speed, pricing, and creative control.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 11 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-fliki">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/fliki-review-2026.html">Fliki Review 2026: Best Text-to-Video for Creators?</a></h3>
-                    <p class="excerpt">Turn blog posts, scripts, and tweets into videos with AI voices in 75+ languages. We review Fliki's features, pricing, and output quality.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 9 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-zebracat">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/zebracat-review-2026.html">Zebracat Review 2026: AI Video Ads Made Simple?</a></h3>
-                    <p class="excerpt">A hands-on review of Zebracat for creating social media ads and short-form video content. Features, pricing, pros, cons, and real output examples.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
+            <!-- Apr 4 -->
             <article class="card">
                 <div class="card-thumb thumb-deepbrain">
                     <span class="card-badge review">Review</span>
@@ -798,104 +877,22 @@
                 </div>
             </article>
 
+            <!-- Apr 4 -->
             <article class="card">
-                <div class="card-thumb thumb-descript">
+                <div class="card-thumb thumb-heygen">
                     <span class="card-badge review">Review</span>
                 </div>
                 <div class="card-body">
-                    <h3><a href="posts/descript-review-2026.html">Descript Review 2026: The Best AI Video Editor?</a></h3>
-                    <p class="excerpt">Edit video like a document. We test Descript's text-based editing, filler word removal, Studio Sound, and AI features. Full pros, cons, and pricing.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-invideo">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/invideo-review-2026.html">InVideo Review 2026: Best AI Video Maker for Beginners?</a></h3>
-                    <p class="excerpt">5,000+ templates, AI script generator, and iStock footage built in. Is InVideo the easiest way to make marketing videos? Our honest take.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-pictory">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/pictory-review-2026.html">Pictory Review 2026: Best for Content Repurposing?</a></h3>
-                    <p class="excerpt">Turn blog posts and articles into videos automatically. We test Pictory's article-to-video feature, AI voiceover, and content repurposing workflow.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-colossyan">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/colossyan-review-2026.html">Colossyan Review 2026: Best for Multilingual Video?</a></h3>
-                    <p class="excerpt">70+ languages, AI avatars, and SCORM export. We review Colossyan for L&amp;D teams and global companies creating multilingual training content.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Mar 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-opus-clip">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/opus-clip-review-2026.html">Opus Clip Review 2026: Best AI Tool for Repurposing Long Videos?</a></h3>
-                    <p class="excerpt">We tested Opus Clip for turning long videos into viral short clips. Full breakdown of pricing, features, pros &amp; cons, and whether it is worth it for creators and marketers.</p>
+                    <h3><a href="posts/heygen-review-2026.html">HeyGen Review 2026: Best AI Avatar Platform?</a></h3>
+                    <p class="excerpt">We test HeyGen's Avatar IV, video translation, voice cloning, and interactive avatars. Full breakdown of features, pricing, pros, cons, and alternatives.</p>
                     <div class="card-meta">
                         <span>&#128197; Apr 2026</span>
-                        <span>&#128337; 10 min read</span>
+                        <span>&#128337; 18 min read</span>
                     </div>
                 </div>
             </article>
 
-            <article class="card">
-                <div class="card-thumb thumb-synthesia">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/synthesia-review-2026.html">Synthesia Review 2026: Best AI Avatar Video Platform for Business?</a></h3>
-                    <p class="excerpt">We tested the #1 AI avatar video platform. 160+ avatars, 140+ languages, and enterprise-grade features. Is Synthesia worth the price for your team?</p>
-                    <div class="card-meta">
-                        <span>&#128197; Apr 2026</span>
-                        <span>&#128337; 11 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-murf">
-                    <span class="card-badge review">Review</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/murf-ai-review-2026.html">Murf AI Review 2026: Best AI Voiceover Tool for Video Creators?</a></h3>
-                    <p class="excerpt">We tested Murf AI's 200+ voices across 20+ languages. Full review of the AI voiceover and text-to-speech platform, and whether it replaces human voiceover.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Apr 2026</span>
-                        <span>&#128337; 10 min read</span>
-                    </div>
-                </div>
-            </article>
-
+            <!-- Apr 3 -->
             <article class="card">
                 <div class="card-thumb thumb-vidnoz">
                     <span class="card-badge review">Review</span>
@@ -910,6 +907,7 @@
                 </div>
             </article>
 
+            <!-- Apr 3 -->
             <article class="card">
                 <div class="card-thumb thumb-submagic">
                     <span class="card-badge review">Review</span>
@@ -920,6 +918,156 @@
                     <div class="card-meta">
                         <span>&#128197; Apr 2026</span>
                         <span>&#128337; 14 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Apr -->
+            <article class="card">
+                <div class="card-thumb thumb-synthesia">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/synthesia-review-2026.html">Synthesia Review 2026: Best AI Avatar Video Platform for Business?</a></h3>
+                    <p class="excerpt">We tested the #1 AI avatar video platform. 160+ avatars, 140+ languages, and enterprise-grade features. Is Synthesia worth the price for your team?</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 11 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Apr -->
+            <article class="card">
+                <div class="card-thumb thumb-murf">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/murf-ai-review-2026.html">Murf AI Review 2026: Best AI Voiceover Tool for Video Creators?</a></h3>
+                    <p class="excerpt">We tested Murf AI's 200+ voices across 20+ languages. Full review of the AI voiceover and text-to-speech platform, and whether it replaces human voiceover.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Apr -->
+            <article class="card">
+                <div class="card-thumb thumb-opus-clip">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/opus-clip-review-2026.html">Opus Clip Review 2026: Best AI Tool for Repurposing Long Videos?</a></h3>
+                    <p class="excerpt">We tested Opus Clip for turning long videos into viral short clips. Full breakdown of pricing, features, pros &amp; cons, and whether it is worth it for creators and marketers.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-fliki">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/fliki-review-2026.html">Fliki Review 2026: Best Text-to-Video for Creators?</a></h3>
+                    <p class="excerpt">Turn blog posts, scripts, and tweets into videos with AI voices in 75+ languages. We review Fliki's features, pricing, and output quality.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 9 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-runway">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/runway-review-2026.html">Runway Review 2026: Is Gen-3 Alpha Worth It?</a></h3>
+                    <p class="excerpt">We test Runway's Gen-3 Alpha for text-to-video, image-to-video, and motion brush. Full breakdown of quality, speed, pricing, and creative control.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 11 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-zebracat">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/zebracat-review-2026.html">Zebracat Review 2026: AI Video Ads Made Simple?</a></h3>
+                    <p class="excerpt">A hands-on review of Zebracat for creating social media ads and short-form video content. Features, pricing, pros, cons, and real output examples.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-descript">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/descript-review-2026.html">Descript Review 2026: The Best AI Video Editor?</a></h3>
+                    <p class="excerpt">Edit video like a document. We test Descript's text-based editing, filler word removal, Studio Sound, and AI features. Full pros, cons, and pricing.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-invideo">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/invideo-review-2026.html">InVideo Review 2026: Best AI Video Maker for Beginners?</a></h3>
+                    <p class="excerpt">5,000+ templates, AI script generator, and iStock footage built in. Is InVideo the easiest way to make marketing videos? Our honest take.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-pictory">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/pictory-review-2026.html">Pictory Review 2026: Best for Content Repurposing?</a></h3>
+                    <p class="excerpt">Turn blog posts and articles into videos automatically. We test Pictory's article-to-video feature, AI voiceover, and content repurposing workflow.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
+            <article class="card">
+                <div class="card-thumb thumb-colossyan">
+                    <span class="card-badge review">Review</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/colossyan-review-2026.html">Colossyan Review 2026: Best for Multilingual Video?</a></h3>
+                    <p class="excerpt">70+ languages, AI avatars, and SCORM export. We review Colossyan for L&amp;D teams and global companies creating multilingual training content.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Mar 2026</span>
+                        <span>&#128337; 10 min read</span>
                     </div>
                 </div>
             </article>
@@ -1059,6 +1207,22 @@
         </div>
 
         <div class="cards-grid">
+            <!-- Apr 7 -->
+            <article class="card">
+                <div class="card-thumb thumb-beginners">
+                    <span class="card-badge guide">Guide</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/best-ai-video-tools-beginners-2026.html">Best AI Video Tools for Beginners (2026)</a></h3>
+                    <p class="excerpt">New to AI video? We break down the easiest tools for beginners, with step-by-step recommendations based on your goals and budget.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 11 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Apr 3 -->
             <article class="card">
                 <div class="card-thumb thumb-gear">
                     <span class="card-badge guide">Guide</span>
@@ -1073,6 +1237,22 @@
                 </div>
             </article>
 
+            <!-- Apr -->
+            <article class="card">
+                <div class="card-thumb thumb-social-media">
+                    <span class="card-badge guide">Guide</span>
+                </div>
+                <div class="card-body">
+                    <h3><a href="posts/ai-video-social-media-marketing-2026.html">How to Use AI Video Tools for Social Media Marketing (2026)</a></h3>
+                    <p class="excerpt">Create scroll-stopping social media videos with AI tools. Platform-specific strategies for TikTok, Instagram Reels, LinkedIn, and YouTube Shorts.</p>
+                    <div class="card-meta">
+                        <span>&#128197; Apr 2026</span>
+                        <span>&#128337; 12 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mar -->
             <article class="card">
                 <div class="card-thumb thumb-youtube">
                     <span class="card-badge guide">Guide</span>
@@ -1087,6 +1267,7 @@
                 </div>
             </article>
 
+            <!-- Mar -->
             <article class="card">
                 <div class="card-thumb thumb-shorts">
                     <span class="card-badge tutorial">Tutorial</span>
@@ -1101,6 +1282,7 @@
                 </div>
             </article>
 
+            <!-- Mar -->
             <article class="card">
                 <div class="card-thumb thumb-training">
                     <span class="card-badge guide">Guide</span>
@@ -1115,6 +1297,7 @@
                 </div>
             </article>
 
+            <!-- Mar -->
             <article class="card">
                 <div class="card-thumb thumb-textovideo">
                     <span class="card-badge guide">Guide</span>
@@ -1129,6 +1312,7 @@
                 </div>
             </article>
 
+            <!-- Mar -->
             <article class="card">
                 <div class="card-thumb thumb-tutorial">
                     <span class="card-badge tutorial">Tutorial</span>
@@ -1139,20 +1323,6 @@
                     <div class="card-meta">
                         <span>&#128197; Mar 2026</span>
                         <span>&#128337; 8 min read</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card-thumb thumb-social-media">
-                    <span class="card-badge guide">Guide</span>
-                </div>
-                <div class="card-body">
-                    <h3><a href="posts/ai-video-social-media-marketing-2026.html">How to Use AI Video Tools for Social Media Marketing (2026)</a></h3>
-                    <p class="excerpt">Create scroll-stopping social media videos with AI tools. Platform-specific strategies for TikTok, Instagram Reels, LinkedIn, and YouTube Shorts.</p>
-                    <div class="card-meta">
-                        <span>&#128197; Apr 2026</span>
-                        <span>&#128337; 12 min read</span>
                     </div>
                 </div>
             </article>
