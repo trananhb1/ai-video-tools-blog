@@ -66,6 +66,12 @@
 
   <!-- Individual Reviews (priority 0.8) -->
   <url>
+    <loc>https://aivideopicks.com/posts/movavi-review-2026.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aivideopicks.com/posts/heygen-review-2026.html</loc>
     <lastmod>2026-04-06</lastmod>
     <changefreq>monthly</changefreq>

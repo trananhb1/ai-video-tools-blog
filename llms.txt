@@ -4,10 +4,11 @@
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video generation, editing, and avatar platforms. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. The site covers 31 AI video tools across 33 articles with honest ratings and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, and businesses evaluating AI video tools.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video generation, editing, and avatar platforms. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. The site covers 32 AI video tools across 34 articles with honest ratings and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, and businesses evaluating AI video tools.
 
-## Reviews (15)
+## Reviews (16)
 
+- [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html): AI-enhanced video editor review covering timeline editing, AI tools, effects, and export options. Beginner-friendly with affordable pricing.
 - [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html): AI avatar platform review covering Avatar IV, video translation, voice cloning, and interactive avatars. Rating: 8.5/10. From $24/month.
 - [Synthesia Review 2026](https://aivideopicks.com/posts/synthesia-review-2026.html): Enterprise AI avatar video platform with 230+ avatars, 140+ languages, and SOC 2 compliance. From $22/month.
 - [DeepBrain AI Review 2026](https://aivideopicks.com/posts/deepbrain-ai-review-2026.html): AI Studios avatar platform with ChatGPT script assistant, custom avatars, and document-to-video. Rating: 7.8/10. From $24/month.

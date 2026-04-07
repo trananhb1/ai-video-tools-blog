@@ -69,9 +69,10 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (33 articles)
+## Content Inventory (34 articles)
 
-### Reviews (15)
+### Reviews (16)
+- **movavi-review-2026.html** (NEW Apr 8)
 - **elevenlabs-review-2026.html** (NEW Apr 7)
 - **deepbrain-ai-review-2026.html** (NEW Apr 4)
 - **heygen-review-2026.html** (NEW Apr 4)
