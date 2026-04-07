@@ -1068,6 +1068,16 @@
             <p style="font-size: 0.88rem; color: #888; margin-top: 12px;">Free plan available. No credit card required.</p>
         </div>
 
+        <!-- You Might Also Like -->
+        <div style="background:var(--surface-alt,#f8f9fc);border:1px solid var(--border,#e2e4eb);border-radius:12px;padding:24px 28px;margin:32px 0;">
+          <h3 style="font-size:1.1rem;color:var(--text-primary,#1a1a2e);margin:0 0 16px;">You Might Also Like</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+            <li><a href="how-to-create-ai-videos-heygen.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">How to Create Professional AI Videos with HeyGen (Step-by-Step Guide 2026) &rarr;</a></li>
+            <li><a href="heygen-vs-synthesia-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">HeyGen vs Synthesia: Which AI Video Tool Wins in 2026? &rarr;</a></li>
+            <li><a href="best-ai-talking-head-tools-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">Best AI Talking Head Tools in 2026 &rarr;</a></li>
+          </ul>
+        </div>
+
         <!-- Email Signup -->
         <div class="email-box">
             <h3>Get Our Weekly AI Video Tools Newsletter</h3>
@@ -1134,6 +1144,11 @@ window.addEventListener('scroll',function(){
   var pct=window.scrollY/(document.body.scrollHeight-window.innerHeight);
   bar.style.transform=pct>0.3?'translateY(0)':'translateY(100%)';
 });
+</script>
+
+<div id="progress-bar" style="position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#155DFC,#7eb3ff);width:0%;z-index:9999;transition:width 0.1s;"></div>
+<script>
+window.addEventListener('scroll',function(){var h=document.documentElement,b=document.body,st='scrollTop',sh='scrollHeight';var percent=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;document.getElementById('progress-bar').style.width=percent+'%';});
 </script>
 
 </body>
