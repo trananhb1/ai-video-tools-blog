@@ -110,7 +110,7 @@ Social proof + video format = engagement magnet. Way more believable than text o
 
 ### Tool Spotlight: Zebracat
 
-For ad-style videos specifically, [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9) is hard to beat.
+For ad-style videos specifically, [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) is hard to beat.
 
 **Why I like it for ads:**
 - **Text-to-video in minutes** — paste your script or even a URL and it generates a full video
@@ -128,7 +128,7 @@ For ad-style videos specifically, [Zebracat](http://studio.zebracat.ai/signup/?v
 
 That's a testing cycle that used to take a week, done before lunch.
 
-**Exclusive for AI Video Picks readers:** Use code **6YAZM9V5** at [Zebracat signup](http://studio.zebracat.ai/signup/?via=d98eb9) for a discount on your plan.
+**Exclusive for AI Video Picks readers:** Use code **6YAZM9V5** at [Zebracat signup](https://studio.zebracat.ai/signup/?via=d98eb9) for a discount on your plan.
 
 ### From the Blog
 
@@ -181,7 +181,7 @@ You make one video, pick your target languages, and the tool handles translation
 
 ### Trend 3: Text-to-Video for Social Media
 
-The barrier to entry for video content has basically collapsed. Tools like [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9) let you paste a blog post URL or a script and get a polished video back in minutes.
+The barrier to entry for video content has basically collapsed. Tools like [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) let you paste a blog post URL or a script and get a polished video back in minutes.
 
 This isn't about replacing professional video production. It's about making "good enough" video accessible to solo creators, small teams, and marketers who need to post daily but can't edit daily.
 
@@ -211,7 +211,7 @@ Pick one trend that matches your workflow. Try one tool. See what happens.
 
 **My recommendations to get started:**
 - For avatars and training: [Synthesia](https://www.synthesia.io/?via=tuan-tran)
-- For fast social/ad videos: [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9) (use code **6YAZM9V5** for a discount)
+- For fast social/ad videos: [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) (use code **6YAZM9V5** for a discount)
 
 See you next week,
 Tom
@@ -254,7 +254,7 @@ Think of it as replacing the *need* for an editor on routine projects, not repla
 Depends on what you're making:
 
 - **Training/explainer videos:** Start with [Synthesia](https://www.synthesia.io/?via=tuan-tran). The interface is dead simple — you type a script, pick an avatar, and you've got a video. No learning curve to speak of.
-- **Social media clips and ads:** Go with [Zebracat](http://studio.zebracat.ai/signup/?via=d98eb9). Paste text, get a video. Use code **6YAZM9V5** for a discount.
+- **Social media clips and ads:** Go with [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9). Paste text, get a video. Use code **6YAZM9V5** for a discount.
 - **Not sure yet:** Start with a free trial on any of them. You'll know within 20 minutes if it fits your workflow.
 
 **Q3: "Are AI-generated videos obvious to viewers? Will people know?"**

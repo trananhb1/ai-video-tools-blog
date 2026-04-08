@@ -43,7 +43,7 @@ When this project is opened, run through these items:
 | Synthesia | `https://www.synthesia.io/?via=tuan-tran` | Active | 15+ articles |
 | HeyGen | `https://www.heygen.com/?via=aivideopicks` | Applied | 10+ articles |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
-| Zebracat | `http://studio.zebracat.ai/signup/?via=d98eb9` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) |
+| Zebracat | `https://studio.zebracat.ai/signup/?via=d98eb9` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) |
 | Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 
