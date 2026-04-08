@@ -128,13 +128,18 @@
         a { color: #155DFC; text-decoration: none; }
         a:hover { text-decoration: underline; }
 
+        /* FTC Banner */
+        .ftc-banner { background: #f0f0f5; text-align: center; padding: 8px 16px; font-size: 12px; color: #666; border-bottom: 1px solid #e0e0e8; }
+
         /* Header */
-        .site-header { background: #1a1a2e; padding: 18px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
-        .header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
-        .logo { color: #fff; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
-        .logo span { color: #155DFC; }
-        .nav-links a { color: #ccc; margin-left: 24px; font-size: 0.95rem; transition: color 0.2s; }
-        .nav-links a:hover { color: #fff; text-decoration: none; }
+        .header { background: var(--navy, #1a1a2e); padding: 0 24px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 16px rgba(0,0,0,0.15); }
+        .header-inner { max-width: 1120px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; }
+        .logo-icon { width: 36px; height: 36px; background: var(--accent, #155DFC); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; color: #fff; position: relative; overflow: hidden; }
+        .logo-icon::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%); }
+        nav a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: color 0.2s, background 0.2s; }
+        nav a:hover { color: #fff; background: rgba(255,255,255,0.08); text-decoration: none; }
+        .mobile-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 8px; }
 
         /* Article Container */
         .article-container { max-width: 780px; margin: 0 auto; padding: 40px 20px 60px; }
@@ -227,9 +232,8 @@
         @media (max-width: 640px) {
             .article-header h1 { font-size: 1.55rem; }
             .article-content h2 { font-size: 1.3rem; }
-            .header-inner { flex-direction: column; gap: 10px; }
-            .nav-links { display: flex; gap: 16px; }
-            .nav-links a { margin-left: 0; }
+            nav { display: none; }
+            .mobile-toggle { display: block; }
             .cta-box { padding: 22px 18px; }
             .deal-card { padding: 18px 16px; }
             .gear-items { grid-template-columns: 1fr; }
@@ -238,10 +242,18 @@
 </head>
 <body>
 
+    <!-- FTC Disclosure Banner -->
+    <div class="ftc-banner">
+        Advertising Disclosure: This site contains affiliate links. We may earn a commission at no extra cost to you.
+    </div>
+
     <!-- Header -->
-    <header class="site-header">
+    <header class="header">
         <div class="header-inner">
-            <a href="../index.html" class="logo" style="text-decoration:none;">AI Video <span>Hub</span></a>
+            <a href="../index.html" class="logo">
+                <div class="logo-icon">&#9655;</div>
+                AI Video Picks
+            </a>
             <nav>
                 <a href="../index.html">Home</a>
                 <a href="../index.html#reviews">Reviews</a>
@@ -250,6 +262,7 @@
                 <a href="../about.html">About</a>
                 <a href="../contact.html">Contact</a>
             </nav>
+            <button class="mobile-toggle" aria-label="Toggle navigation">&#9776;</button>
         </div>
     </header>
 
