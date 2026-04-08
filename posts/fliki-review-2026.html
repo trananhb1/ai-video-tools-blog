@@ -1087,6 +1087,11 @@
             <a href="https://fliki.ai/?via=fbca94" rel="nofollow sponsored" target="_blank" class="cta-btn-primary" style="font-size: 1.15rem; padding: 16px 44px;">Start Creating Videos with Fliki &rarr;</a>
             <p style="font-size: 0.88rem; color: #888; margin-top: 12px;">Free plan available. No credit card required to start.</p>
         </div>
+<div style="display:flex;justify-content:space-between;align-items:center;max-width:820px;margin:32px auto;padding:0 24px;gap:16px;">
+  <a href="runway-review-2026.html" style="flex:1;text-decoration:none;color:#155DFC;font-weight:600;font-size:0.9rem;">&larr; Runway Review</a>
+  <a href="opus-clip-review-2026.html" style="flex:1;text-align:right;text-decoration:none;color:#155DFC;font-weight:600;font-size:0.9rem;">Opus Clip Review &rarr;</a>
+</div>
+
 
         <!-- Email Signup -->
         <div class="email-box">
@@ -1135,6 +1140,31 @@
     <p>&copy; 2026 AI Video Picks. All rights reserved.</p>
     <p style="margin-top: 8px;">Built with care by AI Video Picks</p>
 </footer>
+
+
+<!-- Exit Intent Popup -->
+<div id="exit-popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:10000;justify-content:center;align-items:center;">
+  <div style="background:#fff;border-radius:16px;padding:40px;max-width:480px;width:90%;text-align:center;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+    <button onclick="closeExitPopup()" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:24px;cursor:pointer;color:#999;">&times;</button>
+    <p style="font-size:2rem;margin:0 0 8px;">&#128640;</p>
+    <h3 style="font-size:1.3rem;color:#1a1a2e;margin:0 0 8px;">Before You Go...</h3>
+    <p style="font-size:0.95rem;color:#666;margin:0 0 20px;">Get our free AI Video Starter Kit — checklist, tool cheat sheet, and script templates.</p>
+    <form action="https://app.kit.com/forms/9231849/subscriptions" data-sv-form="9231849" data-uid="7bf7021caa" method="POST" target="_blank" style="display:flex;flex-direction:column;gap:10px;">
+      <input type="email" name="email_address" placeholder="Your email" required style="padding:12px 16px;border:1px solid #d0d5dd;border-radius:8px;font-size:0.95rem;">
+      <button type="submit" style="background:#155DFC;color:#fff;border:none;padding:12px;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;">Get Free Starter Kit &rarr;</button>
+    </form>
+    <p style="font-size:0.75rem;color:#999;margin:10px 0 0;">No spam. Unsubscribe anytime.</p>
+  </div>
+</div>
+<script>
+function closeExitPopup(){document.getElementById('exit-popup').style.display='none';sessionStorage.setItem('exitShown','1');}
+function showExitPopup(){if(!sessionStorage.getItem('exitShown')){document.getElementById('exit-popup').style.display='flex';sessionStorage.setItem('exitShown','1');}}
+document.addEventListener('mouseout',function(e){if(e.clientY<0&&!sessionStorage.getItem('exitShown'))showExitPopup();});
+setTimeout(function(){if(!sessionStorage.getItem('exitShown'))showExitPopup();},45000);
+</script>
+
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="display:none;position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:#155DFC;color:#fff;border:none;font-size:20px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:999;">&#8593;</button>
+<script>window.addEventListener('scroll',function(){document.getElementById('btt').style.display=window.scrollY>300?'block':'none';});</script>
 
 </body>
 </html>
