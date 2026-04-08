@@ -39,7 +39,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Sora Alternatives 2026](https://aivideopicks.com/posts/sora-alternatives-2026.html): 10 best alternatives after OpenAI Sora shuts down April 26, 2026.
 - [Best AI Video Tools for Beginners 2026](https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html): Beginner's guide to choosing AI video tools with top 5 picks for new creators.
 
-## Guides & Tutorials (6)
+## Guides & Tutorials (7)
 
 - [How to Create AI Videos with HeyGen](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html): Step-by-step tutorial from account setup to final export with HeyGen.
 - [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html): How to repurpose long-form content into TikTok, Reels, and YouTube Shorts using AI tools.
@@ -47,17 +47,20 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [AI Training & Onboarding Videos](https://aivideopicks.com/posts/ai-training-onboarding-videos.html): How to create corporate training and onboarding videos with AI avatars.
 - [What Is Text-to-Video AI?](https://aivideopicks.com/posts/what-is-text-to-video-ai.html): Beginner guide explaining how AI video generation technology works and its current capabilities.
 - [Best Gear for AI Video Creators 2026](https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html): 13 recommended products including mics, webcams, lighting, and accessories for AI video creation.
+- [AI Video Glossary 2026](https://aivideopicks.com/posts/ai-video-glossary-2026.html): 50 essential AI video terms explained in plain English — from avatars and lip sync to zero-shot generation.
 
 ## Use Cases (2)
 
 - [AI Video for E-Commerce](https://aivideopicks.com/posts/ai-video-for-ecommerce.html): How online stores use AI video for product demos, ads, and customer engagement.
 - [AI Video for Social Media Marketing](https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html): AI-powered social media video strategy, tools, and best practices for marketers.
 
-## Tools & Resources (3)
+## Tools & Resources (5)
 
 - [AI Video Cost Calculator](https://aivideopicks.com/tools/ai-video-cost-calculator.html): Interactive calculator showing how much you can save by switching from traditional video production to AI tools. Recommends tools based on use case.
 - [Compare AI Video Tools](https://aivideopicks.com/tools/compare.html): Side-by-side comparison builder — pick any 2-3 AI video tools and instantly compare pricing, features, avatars, languages, and ratings.
 - [AI Video Deals & Coupons 2026](https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html): Active deals, coupon codes, and free tiers for AI video tools. Updated April 2026.
+- [AI Video Script Generator](https://aivideopicks.com/tools/script-generator.html): Free interactive tool to generate video scripts for product demos, explainers, training, social ads, and YouTube intros.
+- [Free AI Video Starter Kit](https://aivideopicks.com/landing/starter-kit.html): Download free checklist, tool cheat sheet, and 3 script templates to create your first AI video.
 
 ## Topics Covered
 

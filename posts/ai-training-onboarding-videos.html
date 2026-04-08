@@ -577,6 +577,7 @@
                 <a href="../about.html">About</a>
                 <a href="../contact.html">Contact</a>
             </nav>
+            <button id="theme-toggle" onclick="toggleTheme()" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;padding:8px;margin-left:8px;" title="Toggle dark mode">&#127769;</button>
     </div>
 </header>
 
@@ -1100,6 +1101,23 @@
 </footer>
 
 
+<!-- Social Share -->
+<div id="share-bar" style="position:fixed;left:16px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:8px;z-index:998;">
+  <button onclick="window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+' '+encodeURIComponent(location.href),'_blank')" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Share on X">&#120143;</button>
+  <button onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(location.href),'_blank')" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Share on LinkedIn">in</button>
+  <button onclick="window.open('https://reddit.com/submit?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'_blank')" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Share on Reddit">&#9650;</button>
+  <button onclick="navigator.clipboard.writeText(location.href);this.innerHTML='&#10003;';setTimeout(()=>this.innerHTML='&#128279;',2000)" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Copy link">&#128279;</button>
+</div>
+<style>
+@media(max-width:768px){#share-bar{left:0!important;top:auto!important;bottom:0!important;transform:none!important;flex-direction:row!important;width:100%;justify-content:center;background:#fff;padding:8px 0;border-top:1px solid #e2e4eb;box-shadow:0 -2px 8px rgba(0,0,0,0.08);}}
+
+        /* Dark Mode */
+        [data-theme="dark"] { --navy: #0d0d1a; --navy-light: #0a0f1e; --text-primary: #e4e4e8; --text-secondary: #a0a0b8; --text-muted: #6a6a86; --surface: #1a1a2e; --surface-alt: #16213e; --border: #2a2a4e; --accent: #4d8aff; --accent-hover: #3a75e8; --accent-light: #1a2a4e; }
+        [data-theme="dark"] body { background: #1a1a2e; color: #e4e4e8; }
+        [data-theme="dark"] .ftc-banner { background: #16213e; border-color: #2a2a4e; color: #6a6a86; }
+        [data-theme="dark"] img { opacity: 0.9; }
+    </style>
+
 <!-- Exit Intent Popup -->
 <div id="exit-popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:10000;justify-content:center;align-items:center;">
   <div style="background:#fff;border-radius:16px;padding:40px;max-width:480px;width:90%;text-align:center;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
@@ -1124,5 +1142,9 @@ setTimeout(function(){if(!sessionStorage.getItem('exitShown'))showExitPopup();},
 <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="display:none;position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:#155DFC;color:#fff;border:none;font-size:20px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:999;">&#8593;</button>
 <script>window.addEventListener('scroll',function(){document.getElementById('btt').style.display=window.scrollY>300?'block':'none';});</script>
 
+<script>
+function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('theme',t);document.getElementById('theme-toggle').innerHTML=t==='dark'?'&#9728;':'&#127769;';}
+(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');document.getElementById('theme-toggle').innerHTML='&#9728;';}})();
+</script>
 </body>
 </html>

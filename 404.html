@@ -372,6 +372,12 @@
                 flex-direction: column;
             }
         }
+    
+        /* Dark Mode */
+        [data-theme="dark"] { --navy: #0d0d1a; --navy-light: #0a0f1e; --text-primary: #e4e4e8; --text-secondary: #a0a0b8; --text-muted: #6a6a86; --surface: #1a1a2e; --surface-alt: #16213e; --border: #2a2a4e; --accent: #4d8aff; --accent-hover: #3a75e8; --accent-light: #1a2a4e; }
+        [data-theme="dark"] body { background: #1a1a2e; color: #e4e4e8; }
+        [data-theme="dark"] .ftc-banner { background: #16213e; border-color: #2a2a4e; color: #6a6a86; }
+        [data-theme="dark"] img { opacity: 0.9; }
     </style>
 </head>
 <body>
@@ -391,6 +397,7 @@
                     <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <button id="theme-toggle" onclick="toggleTheme()" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;padding:8px;margin-left:8px;" title="Toggle dark mode">&#127769;</button>
         </div>
     </header>
 
@@ -451,5 +458,9 @@
         </div>
     </footer>
 
+<script>
+function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('theme',t);document.getElementById('theme-toggle').innerHTML=t==='dark'?'&#9728;':'&#127769;';}
+(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');document.getElementById('theme-toggle').innerHTML='&#9728;';}})();
+</script>
 </body>
 </html>
