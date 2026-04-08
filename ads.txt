@@ -1,2 +1,1 @@
-# Google AdSense - update with real publisher ID when approved
-# google.com, pub-XXXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-4110275440168341, DIRECT, f08c47fec0942fa0
