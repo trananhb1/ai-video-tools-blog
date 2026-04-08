@@ -53,6 +53,12 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [AI Video for E-Commerce](https://aivideopicks.com/posts/ai-video-for-ecommerce.html): How online stores use AI video for product demos, ads, and customer engagement.
 - [AI Video for Social Media Marketing](https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html): AI-powered social media video strategy, tools, and best practices for marketers.
 
+## Tools & Resources (3)
+
+- [AI Video Cost Calculator](https://aivideopicks.com/tools/ai-video-cost-calculator.html): Interactive calculator showing how much you can save by switching from traditional video production to AI tools. Recommends tools based on use case.
+- [Compare AI Video Tools](https://aivideopicks.com/tools/compare.html): Side-by-side comparison builder — pick any 2-3 AI video tools and instantly compare pricing, features, avatars, languages, and ratings.
+- [AI Video Deals & Coupons 2026](https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html): Active deals, coupon codes, and free tiers for AI video tools. Updated April 2026.
+
 ## Topics Covered
 
 - AI avatar and talking head video generation
