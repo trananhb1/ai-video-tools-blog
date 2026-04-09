@@ -555,7 +555,15 @@
             text-decoration: none;
         }
         .toc a:hover { text-decoration: underline; }
-</style>
+
+        /* Mobile global fixes */
+        @media (max-width: 768px) {
+            body { font-size: 16px; }
+            p, li, td, th { font-size: 16px !important; }
+            img { max-width: 100%; height: auto; }
+            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
+        }
+    </style>
 </head>
 <body>
 

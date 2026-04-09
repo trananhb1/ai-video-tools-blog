@@ -243,6 +243,14 @@
             .pricing-table th, .pricing-table td { padding: 8px 10px; }
             .platform-card { padding: 18px 16px; }
         }
+    
+        /* Mobile global fixes */
+        @media (max-width: 768px) {
+            body { font-size: 16px; }
+            p, li, td, th { font-size: 16px !important; }
+            img { max-width: 100%; height: auto; }
+            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
+        }
     </style>
 </head>
 <body>
@@ -520,7 +528,8 @@
             <h2 id="tool-stack">Recommended AI Tool Stack for Social Media Marketing</h2>
             <p>Not every marketer needs every tool. Here is how the AI video landscape breaks down by function, with our top recommendation and a budget alternative for each category.</p>
 
-            <table class="pricing-table">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+<table class="pricing-table">
                 <thead>
                     <tr>
                         <th>Function</th>
@@ -580,6 +589,7 @@
                     </tr>
                 </tbody>
             </table>
+</div>
 
             <h3>How to Choose Your Stack</h3>
             <p>Start with the platform where you get the most results and work outward:</p>
@@ -642,7 +652,8 @@
             <h2 id="cost-comparison">Cost Comparison: Traditional Video Production vs AI Tools</h2>
             <p>The financial case for AI video production is overwhelming. Here is a realistic comparison for a business publishing 20 social media videos per month across multiple platforms.</p>
 
-            <table class="pricing-table">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+<table class="pricing-table">
                 <thead>
                     <tr>
                         <th>Expense</th>
@@ -693,6 +704,7 @@
                     </tr>
                 </tbody>
             </table>
+</div>
 
             <p>Even at the low end, traditional production costs <strong>over 90x more per video</strong> than an AI-powered workflow. The quality gap has also narrowed dramatically. In 2024, AI-generated videos looked obviously synthetic. In 2026, tools like <a href="https://www.synthesia.io/?via=tuan-tran" target="_blank" rel="nofollow sponsored">Synthesia</a> and <a href="https://studio.zebracat.ai/signup/?via=d98eb9" target="_blank" rel="nofollow sponsored">Zebracat</a> produce output that is indistinguishable from traditionally produced content to most viewers.</p>
 

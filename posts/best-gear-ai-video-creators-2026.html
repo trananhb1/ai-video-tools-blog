@@ -265,6 +265,14 @@
             .quick-table th, .quick-table td { padding: 8px 10px; }
             .quick-hero-grid { grid-template-columns: 1fr !important; }
         }
+    
+        /* Mobile global fixes */
+        @media (max-width: 768px) {
+            body { font-size: 16px; }
+            p, li, td, th { font-size: 16px !important; }
+            img { max-width: 100%; height: auto; }
+            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
+        }
     </style>
 </head>
 <body>
@@ -381,7 +389,8 @@
             <!-- Quick Picks -->
             <h2 id="quick-picks">Quick Picks: Our Top Recommendations</h2>
 
-            <table class="quick-table">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+<table class="quick-table">
                 <thead>
                     <tr>
                         <th>Category</th>
@@ -437,6 +446,7 @@
                     </tr>
                 </tbody>
             </table>
+</div>
 
             <!-- Lighting -->
             <h2 id="lighting">Best Lighting: Neewer 18" Ring Light</h2>

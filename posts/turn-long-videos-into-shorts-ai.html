@@ -242,6 +242,14 @@
             .pricing-table { font-size: 0.82rem; }
             .pricing-table th, .pricing-table td { padding: 8px 10px; }
         }
+    
+        /* Mobile global fixes */
+        @media (max-width: 768px) {
+            body { font-size: 16px; }
+            p, li, td, th { font-size: 16px !important; }
+            img { max-width: 100%; height: auto; }
+            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
+        }
     </style>
 </head>
 <body>
@@ -502,7 +510,8 @@
             <h2 id="pricing-comparison">Pricing Comparison Table (2026)</h2>
             <p>Here is a side-by-side pricing breakdown to help you choose the right tool for your budget. All prices reflect monthly billing; annual plans typically save 20&ndash;40%.</p>
 
-            <table class="pricing-table">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+<table class="pricing-table">
                 <thead>
                     <tr>
                         <th>Tool</th>
@@ -550,6 +559,7 @@
                     </tr>
                 </tbody>
             </table>
+</div>
 
             <p><em>Prices reflect publicly listed rates as of March 2026. Visit each tool's website for the most current pricing and any active promotions.</em></p>
 
