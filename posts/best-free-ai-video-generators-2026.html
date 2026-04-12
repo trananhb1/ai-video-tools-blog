@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>8 Free AI Video Generators 2026 (Actually Free)</title>
@@ -797,7 +825,7 @@
 
     <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
       <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
-      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">The best truly free AI video generator in 2026 is CapCut, which offers full editing features with no watermark, no credit card, and no time limit. For AI-generated video from text prompts, Kling AI and Pika offer the most generous free credit allocations. Most &ldquo;free&rdquo; tools impose watermarks, 720p caps, or credit limits that run out mid-project &mdash; this guide ranks eight options by actual usable free value.</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;"><strong>The best truly free AI video generator in 2026 is CapCut</strong> &mdash; full editor, no watermark, no credit card, no time limit, price <strong>Free</strong>. Best for students, hobbyists, and creators who need to ship a video today without handing over a card. For AI-generated clips from text prompts, Kling 2.0 and Pika 2.2 offer the most generous free credit allocations (10s clips on the free tier). This guide ranks <strong>8 free options</strong> by actual usable free value, watermark policy, and resolution cap.</p>
     </div>
 
     <div class="article-body">
@@ -1637,6 +1665,7 @@
       <h3 style="font-size:1.1rem;color:var(--text-primary,#1a1a2e);margin:0 0 16px;">You Might Also Like</h3>
       <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
         <li><a href="best-ai-video-tools-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">The 10 Best AI Video Tools in 2026 (Ranked &amp; Rated) &rarr;</a></li>
+        <li><a href="cheapest-ai-video-generator-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">Cheapest AI Video Generator 2026: 9 Plans Compared &rarr;</a></li>
         <li><a href="ai-video-pricing-compared-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">AI Video Pricing Compared: What 10 Tools Actually Cost in 2026 &rarr;</a></li>
         <li><a href="best-ai-video-tools-beginners-2026.html" style="color:var(--accent,#155DFC);text-decoration:none;font-weight:600;font-size:0.95rem;">Best AI Video Tools for Beginners: Your Complete 2026 Guide &rarr;</a></li>
       </ul>

@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Video Tools for E-Commerce (Boost Sales 80%)</title>
@@ -987,6 +1015,7 @@
 
     </div>
 
+<p class="hero-backlink" data-marker="AVP_HERO_LINK_v1" style="margin:28px 0;padding:14px 18px;background:#f0f4ff;border-left:3px solid #155DFC;border-radius:6px;font-size:15px;">Still deciding which platform to use? See <a href="best-ai-video-tools-2026.html" style="color:#155DFC;text-decoration:underline;font-weight:600;">our top 10 AI video tools for 2026</a> &mdash; ranked after 80+ hours of hands-on testing.</p>
 </main>
 <div style="display:flex;justify-content:space-between;align-items:center;max-width:820px;margin:32px auto;padding:0 24px;gap:16px;">
   <a href="best-gear-ai-video-creators-2026.html" style="flex:1;text-decoration:none;color:#155DFC;font-weight:600;font-size:0.9rem;">&larr; Best Gear for Creators</a>

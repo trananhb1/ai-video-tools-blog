@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Create Videos with HeyGen (2026 Step-by-Step)</title>
@@ -373,7 +401,7 @@
 
         <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
       <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
-      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">You can create a professional AI avatar video with HeyGen in 8 simple steps, from script to finished video, in under 15 minutes. HeyGen offers a free tier with 3 videos per month and paid plans from $24/month, with 200+ avatars, 40+ languages, and natural lip-sync powered by Avatar IV technology. This step-by-step guide covers everything from account setup to final export.</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;"><strong>You can ship a professional HeyGen AI avatar video in 8 steps and under 15 minutes</strong> &mdash; from script to final export. Best for solo creators, marketers and L&amp;D teams who want a talking-head video without a camera or actor. HeyGen's free tier gives you <strong>3 videos</strong> (up to 3 min each); paid plans start at <strong>$29/month</strong> and unlock 200+ avatars, 175+ languages, and Avatar IV lip-sync. This guide walks you through every click.</p>
     </div>
 
         <!-- Key Takeaway -->

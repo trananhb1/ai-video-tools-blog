@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Gear for AI Video Creators in 2026</title>
@@ -312,7 +340,7 @@
 
         <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
       <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
-      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">The three essential gear items for AI video creators are a ring light ($49), USB microphone ($89), and HD webcam ($79) &mdash; totaling under $220. Quality input dramatically improves AI avatar recordings, voice clones, and source footage for repurposing tools like Descript and Opus Clip. A microphone is the single most impactful purchase, as audio quality is the biggest factor in viewer retention.</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;"><strong>The 3 essential gear items for AI video creators are a ring light ($49), USB microphone ($89), and HD webcam ($79) &mdash; a full starter kit for under $220.</strong> Best for solo creators, course instructors, and YouTubers who record their own talking-head or B-roll to feed into AI tools like Descript, HeyGen and Opus Clip. We list <strong>13 Amazon-tested picks</strong> across lighting, audio, camera, and capture. A microphone is the single most impactful purchase &mdash; audio quality drives viewer retention more than resolution.</p>
     </div>
 
         <!-- TOC -->

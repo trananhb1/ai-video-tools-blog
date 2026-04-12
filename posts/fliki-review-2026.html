@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fliki Review 2026: Text-to-Video in 75+ Languages</title>
@@ -705,7 +733,7 @@
 
     <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
       <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
-      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">Fliki is the best AI text-to-video tool for non-English creators, scoring 7.8/10 in our testing. Plans start at $21/month with 2,000+ AI voices across 75+ languages and a fast blog-to-video pipeline. Its multilingual voice library is a generation ahead of competitors, making it the top choice when natural-sounding non-English voiceover is the priority.</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;"><strong>Fliki is the best AI text-to-video tool for multilingual and non-English content</strong>, scoring 7.8/10 in our 2026 testing. Best for bloggers, educators, and global marketers who need natural voiceover in 75+ languages. Plans start at <strong>$21/month</strong> (Standard) and unlock 2,000+ AI voices, a blog-to-video pipeline, and 15 min/month export. Its multilingual voice library is a generation ahead of competitors when non-English voiceover is the priority.</p>
     </div>
 
     <!-- Quick Verdict Box -->
