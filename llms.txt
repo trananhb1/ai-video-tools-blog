@@ -13,6 +13,11 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - **Hardware:** Windows 11 (Ryzen 9 7900X, 32 GB, RTX 4070) + 2024 MacBook Pro M3.
 - **Methodology:** Every tool scored on render time per 60 s clip, output quality, cost per finished minute, watermark, max free output, and ease of use. Full data in the hero ranking post.
 
+## Deals (1)
+
+- [Save 15% on Movavi — April 2026 Code](https://aivideopicks.com/posts/save-15-percent-movavi-april-2026.html) — Verified Movavi Video Editor promo code with hard May 15 expiry.
+  Quick answer: Use code PTNAFFDIS010426ALLAFS15 at Movavi checkout for 15% off any yearly plan, dropping Video Editor yearly from $54.95 to ~$46.71 and Video Suite yearly from $84.95 to ~$72.21. Verified April 12, 2026 and expires May 15, 2026 — no stacking with other sales and not applicable to monthly or lifetime plans.
+
 ## Reviews (16)
 
 - [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html) — AI-enhanced video editor with timeline editing, AI tools, and export options.
