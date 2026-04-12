@@ -11,6 +11,34 @@
   gtag('js', new Date());
   gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
 </script>
+<script>
+/* AVP_OUTBOUND_TRACKER_v1 */
+(function(){
+  if (typeof gtag !== 'function') return;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
+    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
+    if (!isGo && !isExt) return;
+    var slug = '';
+    var m = href.match(/\/go\/([^\/?#]+)/);
+    if (m) slug = m[1];
+    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
+    gtag('event','affiliate_click', {
+      event_category: 'affiliate',
+      event_label: slug,
+      affiliate_partner: slug,
+      affiliate_url: href,
+      link_text: (a.innerText||'').trim().slice(0,80),
+      page_path: location.pathname,
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HeyGen vs Synthesia vs Pictory: Best AI Video 2026</title>
@@ -604,7 +632,7 @@
 
     <div class="quick-answer" style="background:linear-gradient(135deg,#e8efff,#f0f4ff);border:1px solid #c5d5ff;border-radius:10px;padding:20px 24px;margin:24px 0;">
       <p style="font-weight:700;font-size:15px;color:#155DFC;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.5px;">Quick Answer</p>
-      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;">HeyGen is best for avatar-based marketing videos with superior lip-sync, Synthesia leads for enterprise training with 140+ languages and SOC 2 compliance, and Pictory excels at content repurposing by turning blog posts into videos. HeyGen starts at $24/month, Synthesia at $22/month, and Pictory at $25/month &mdash; each dominates a distinct use case rather than being universally superior.</p>
+      <p style="font-size:16px;line-height:1.6;margin:0;color:#1a1a2e;"><strong>HeyGen wins for marketing avatars, Synthesia wins for enterprise L&amp;D, and Pictory wins for blog-to-video repurposing</strong> &mdash; each dominates a different use case. Best for marketing teams comparing avatars (HeyGen <strong>$29/mo</strong>), L&amp;D teams needing SCORM + SOC 2 (Synthesia <strong>$29/mo</strong>, 140+ languages), and content marketers repurposing written content (Pictory <strong>$23/mo</strong>). None is universally best &mdash; pick by use case.</p>
     </div>
 
     <!-- Quick Verdict Box -->
