@@ -75,8 +75,12 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Best AI Video Tools for Beginners 2026](https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html) — Beginner guide with top 5 picks.
   Quick answer: The best AI video tool for beginners in 2026 is Pictory ($23/month) for its script-to-video simplicity; Kapwing is the best free starter; HeyGen ($29/month) is the best if you want to appear on camera without a camera. Best for first-time AI video creators.
 
-## Guides & Tutorials (7)
+## Guides & Tutorials (9)
 
+- [How to Add Viral Captions to TikTok with Submagic](https://aivideopicks.com/posts/how-to-add-viral-captions-tiktok-submagic.html) — 7-step tutorial using Submagic's 35+ viral caption templates for TikTok shorts.
+  Quick answer: You can add viral animated captions to a TikTok video with Submagic in 7 steps and under 10 minutes — upload, auto-transcribe (~98% accuracy), pick one of 35+ viral templates (MrBeast, Hormozi), tweak emoji, proofread, export 1080x1920 MP4. From $9.99/month (Starter, 15 video minutes). Best for TikTok creators and short-form marketers.
+- [How to Make a Faceless YouTube Channel with HeyGen + Submagic](https://aivideopicks.com/posts/how-to-make-faceless-youtube-heygen-submagic.html) — Full 9-step workflow pairing HeyGen avatars with Submagic captions.
+  Quick answer: You can launch a faceless YouTube channel in 2026 with a 9-step workflow using HeyGen ($29/month) for the AI avatar and Submagic ($9.99/month) for viral captions — a total stack of roughly $39/month. Best for solo creators and side-hustlers publishing weekly explainer, finance, or educational content without appearing on camera.
 - [How to Create AI Videos with HeyGen](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html) — Step-by-step tutorial from account setup to final export.
   Quick answer: You can ship a professional HeyGen AI avatar video in 8 steps and under 15 minutes, from script to final export, on the $29/month Creator plan (free tier: 3 videos × 3 min). Best for solo creators, marketers and L&D teams who want a talking-head video without a camera.
 - [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html) — Repurpose long-form into TikTok, Reels, and YouTube Shorts.
