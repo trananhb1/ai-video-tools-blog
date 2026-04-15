@@ -3,12 +3,18 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Roundup / Comparison Posts (priority 0.9) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-descript-opus-clip-solo-creators-2026.html</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-colossyan-vs-synthesia-training-2026.html</loc>
     <lastmod>2026-04-13</lastmod>
