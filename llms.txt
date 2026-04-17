@@ -49,12 +49,14 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Vidnoz Review 2026](https://aivideopicks.com/posts/vidnoz-review-2026.html) — Free AI avatar video maker with 1,900+ avatars and video translation.
   Quick answer: Vidnoz is the best free AI avatar video maker in 2026, offering 1,900+ avatars, 140+ languages, and 60 free daily credits — paid plans from $19.99/month. Best for students, freelancers, and creators testing avatar video without paying.
 - [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html) — AI captions and short-form video tool.
-  Quick answer: Submagic is the fastest AI caption generator for short-form vertical video, with 35+ animated styles, Magic B-Roll, and eye-contact correction from $9.99/month (Starter). Best for TikTok creators, Reels-first marketers, and affiliate video editors.
+  Quick answer: Submagic is the fastest AI caption generator for short-form vertical video, with 35+ animated styles, Magic B-Roll, and eye-contact correction from $19/month (Starter, or $12/month annual). Best for TikTok creators, Reels-first marketers, and affiliate video editors.
 - [ElevenLabs Review 2026](https://aivideopicks.com/posts/elevenlabs-review-2026.html) — AI voice generator with text-to-speech, cloning, and dubbing.
   Quick answer: ElevenLabs is the highest-quality AI voice platform in 2026, with 5,000+ voices, instant cloning from 1 minute of audio, and 32-language dubbing from $5/month (Starter). Best for audiobook narrators, podcast producers, and game studios.
 
-## Comparisons (14)
+## Comparisons (15)
 
+- [Submagic vs CapCut 2026: Which Is Better for TikTok Captions?](https://aivideopicks.com/posts/submagic-vs-capcut-2026.html) — Head-to-head comparison of Submagic and CapCut for TikTok caption generation.
+  Quick answer: Submagic is the better TikTok caption tool for serious creators posting 3+ times per week, with 98%+ transcription accuracy across 48+ languages, 35+ animated viral caption templates, and Magic B-Roll that cuts editing time from 30-45 minutes to under 5 minutes per video, from $12/month (annual Starter). CapCut is better for hobbyists — free with no watermark, full video editor, but auto-captions are ~90-93% accurate in ~20 languages and take 30-45 minutes to style manually. Verified April 16, 2026.
 - [HeyGen vs Descript vs Opus Clip: Solo Creator Stack 2026](https://aivideopicks.com/posts/heygen-descript-opus-clip-solo-creators-2026.html) — Three-tool AI video stack for solo creators: HeyGen for talking-head, Descript for editing, Opus Clip for shorts.
   Quick answer: The best AI video stack for solo creators in 2026 is HeyGen + Descript + Opus Clip — not as competitors but as a workflow. Total ~$55/month on annual billing: HeyGen Creator $24/month, Descript Hobbyist $16/month, Opus Clip Starter $15/month. Drop HeyGen for a $31/month no-avatar stack (Descript + Opus Clip) — the cheapest credible solo creator setup in April 2026. Verified April 16, 2026.
 - [HeyGen vs Colossyan vs Synthesia for Training 2026](https://aivideopicks.com/posts/heygen-vs-colossyan-vs-synthesia-training-2026.html) — Three-way comparison for corporate training, onboarding and compliance video.
@@ -84,16 +86,21 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Best AI Video Tools for Beginners 2026](https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html) — Beginner guide with top 5 picks.
   Quick answer: The best AI video tool for beginners in 2026 is Pictory ($23/month) for its script-to-video simplicity; Kapwing is the best free starter; HeyGen ($29/month) is the best if you want to appear on camera without a camera. Best for first-time AI video creators.
 
+## Pricing Guides (1)
+
+- [HeyGen Pricing 2026: Plans, Cost Per Minute & Free Tier Explained](https://aivideopicks.com/posts/heygen-pricing-2026.html) — Complete HeyGen pricing breakdown with all 4 plans, credit system, cost per minute calculations, and competitor comparison.
+  Quick answer: HeyGen costs $29/month (Creator) or $24/month with annual billing as of April 2026. The free plan gives you 3 watermarked videos per month at 720p. Avatar IV videos consume 20 credits per minute, so the Creator plan's 200 credits cover about 10 minutes of premium avatar video — roughly $2.90 per finished minute. Pro plan ($99/month, 2,000 credits) drops the cost to $0.99/min. Annual billing saves 17-20%.
+
 ## Guides & Tutorials (9)
 
 - [How to Add Viral Captions to TikTok with Submagic](https://aivideopicks.com/posts/how-to-add-viral-captions-tiktok-submagic.html) — 7-step tutorial using Submagic's 35+ viral caption templates for TikTok shorts.
-  Quick answer: You can add viral animated captions to a TikTok video with Submagic in 7 steps and under 10 minutes — upload, auto-transcribe (~98% accuracy), pick one of 35+ viral templates (MrBeast, Hormozi), tweak emoji, proofread, export 1080x1920 MP4. From $9.99/month (Starter, 15 video minutes). Best for TikTok creators and short-form marketers.
+  Quick answer: You can add viral animated captions to a TikTok video with Submagic in 7 steps and under 10 minutes — upload, auto-transcribe (~98% accuracy), pick one of 35+ viral templates (MrBeast, Hormozi), tweak emoji, proofread, export 1080x1920 MP4. From $19/month (Starter, 15 videos) or $12/month annual. Best for TikTok creators and short-form marketers.
 - [How to Make a Faceless YouTube Channel with HeyGen + Submagic](https://aivideopicks.com/posts/how-to-make-faceless-youtube-heygen-submagic.html) — Full 9-step workflow pairing HeyGen avatars with Submagic captions.
-  Quick answer: You can launch a faceless YouTube channel in 2026 with a 9-step workflow using HeyGen ($29/month) for the AI avatar and Submagic ($9.99/month) for viral captions — a total stack of roughly $39/month. Best for solo creators and side-hustlers publishing weekly explainer, finance, or educational content without appearing on camera.
+  Quick answer: You can launch a faceless YouTube channel in 2026 with a 9-step workflow using HeyGen ($29/month) for the AI avatar and Submagic ($19/month) for viral captions — a total stack of roughly $48/month ($41/month on annual billing). Best for solo creators and side-hustlers publishing weekly explainer, finance, or educational content without appearing on camera.
 - [How to Create AI Videos with HeyGen](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html) — Step-by-step tutorial from account setup to final export.
   Quick answer: You can ship a professional HeyGen AI avatar video in 8 steps and under 15 minutes, from script to final export, on the $29/month Creator plan (free tier: 3 videos × 3 min). Best for solo creators, marketers and L&D teams who want a talking-head video without a camera.
 - [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html) — Repurpose long-form into TikTok, Reels, and YouTube Shorts.
-  Quick answer: The fastest way to repurpose long-form video into shorts in 2026 is Opus Clip (from $19/month) for virality scoring plus Submagic ($9.99/month) for animated captions. Best for podcasters and long-form YouTubers scaling short-form output.
+  Quick answer: The fastest way to repurpose long-form video into shorts in 2026 is Opus Clip (from $19/month) for virality scoring plus Submagic ($19/month) for animated captions. Best for podcasters and long-form YouTubers scaling short-form output.
 - [AI Tools for YouTube Creators 2026](https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html) — Complete AI YouTube workflow from scripting to thumbnails.
   Quick answer: The core AI stack for YouTubers in 2026 is ChatGPT for scripts, Descript ($24/month) for editing, Opus Clip ($19/month) for shorts, and ElevenLabs ($5/month) for voiceover — a full workflow under $60/month. Best for solo YouTubers replacing a junior editor.
 - [AI Training & Onboarding Videos](https://aivideopicks.com/posts/ai-training-onboarding-videos.html) — Corporate training and onboarding with AI avatars.
@@ -110,7 +117,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [AI Video for E-Commerce](https://aivideopicks.com/posts/ai-video-for-ecommerce.html) — AI video for product demos, ads, and customer engagement.
   Quick answer: E-commerce brands use AI video tools like HeyGen ($29/month), Pictory ($23/month), and Zebracat ($29/month) to produce product demos and paid-social creative at a fraction of traditional agency cost. Best for DTC and Shopify store owners scaling content without a videographer.
 - [AI Video for Social Media Marketing](https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html) — AI social media video strategy and tools.
-  Quick answer: The top AI social media stack in 2026 is Opus Clip ($19/month) + Submagic ($9.99/month) + HeyGen ($29/month), covering short-form repurposing, captions, and avatar hooks for under $60/month. Best for social media managers and small marketing teams.
+  Quick answer: The top AI social media stack in 2026 is Opus Clip ($19/month) + Submagic ($19/month) + HeyGen ($29/month), covering short-form repurposing, captions, and avatar hooks for under $70/month. Best for social media managers and small marketing teams.
 
 ## Tools & Resources (5)
 
