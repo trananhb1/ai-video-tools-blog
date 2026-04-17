@@ -5,39 +5,8 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4110275440168341" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M5NLTFV6FL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
-</script>
-<script>
-/* AVP_OUTBOUND_TRACKER_v1 */
-(function(){
-  if (typeof gtag !== 'function') return;
-  document.addEventListener('click', function(e){
-    var a = e.target.closest && e.target.closest('a[href]');
-    if (!a) return;
-    var href = a.getAttribute('href') || '';
-    var isGo = href.indexOf('/go/') === 0 || href.indexOf('https://aivideopicks.com/go/') === 0;
-    var isExt = /^https?:\/\//.test(href) && href.indexOf('aivideopicks.com') === -1;
-    if (!isGo && !isExt) return;
-    var slug = '';
-    var m = href.match(/\/go\/([^\/?#]+)/);
-    if (m) slug = m[1];
-    else try { slug = (new URL(href)).hostname.replace(/^www\./,''); } catch(_) { slug = href.slice(0,80); }
-    gtag('event','affiliate_click', {
-      event_category: 'affiliate',
-      event_label: slug,
-      affiliate_partner: slug,
-      affiliate_url: href,
-      link_text: (a.innerText||'').trim().slice(0,80),
-      page_path: location.pathname,
-      transport_type: 'beacon'
-    });
-  }, true);
-})();
-</script>
+<script src="/assets/js/analytics.js"></script>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -169,111 +138,7 @@
     }
     </script>
 
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; color: #333; line-height: 1.7; background: #f8f9fa; }
-        a { color: #155DFC; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-
-        /* Header */
-        .site-header { background: #1a1a2e; padding: 18px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
-        .header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
-        .logo { color: #fff; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
-        .logo span { color: #155DFC; }
-        .nav-links a { color: #ccc; margin-left: 24px; font-size: 0.95rem; transition: color 0.2s; }
-        .nav-links a:hover { color: #fff; text-decoration: none; }
-
-        /* Article Container */
-        .article-container { max-width: 780px; margin: 0 auto; padding: 40px 20px 60px; }
-
-        /* FTC Disclosure */
-        .ftc-disclosure { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 14px 18px; margin-bottom: 32px; font-size: 0.85rem; color: #664d03; line-height: 1.5; }
-
-        /* Breadcrumb */
-        .breadcrumb { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
-        .breadcrumb a { color: #155DFC; }
-
-        /* Article Header */
-        .article-header h1 { font-size: 2.1rem; line-height: 1.25; color: #1a1a2e; margin-bottom: 16px; font-weight: 800; }
-        .article-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 0.88rem; color: #777; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 2px solid #eee; }
-        .article-meta span { display: flex; align-items: center; gap: 5px; }
-
-        /* Content */
-        .article-content h2 { font-size: 1.55rem; color: #1a1a2e; margin: 40px 0 16px; padding-top: 12px; border-top: 1px solid #eee; font-weight: 700; }
-        .article-content h2:first-of-type { border-top: none; margin-top: 8px; }
-        .article-content h3 { font-size: 1.2rem; color: #333; margin: 28px 0 12px; font-weight: 600; }
-        .article-content p { margin-bottom: 16px; font-size: 1.02rem; }
-        .article-content ul, .article-content ol { margin: 0 0 20px 24px; }
-        .article-content li { margin-bottom: 8px; font-size: 1.02rem; }
-
-        /* Screenshot images */
-        .screenshot-img { width: 100%; border-radius: 8px; margin: 20px 0 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); border: 1px solid #e5e7eb; }
-
-        /* CTA Box */
-        .cta-box { background: linear-gradient(135deg, #155DFC 0%, #1a1a2e 100%); border-radius: 12px; padding: 28px 32px; margin: 32px 0; text-align: center; color: #fff; }
-        .cta-box h3 { color: #fff; font-size: 1.3rem; margin-bottom: 10px; }
-        .cta-box p { color: rgba(255,255,255,0.9); margin-bottom: 18px; font-size: 0.98rem; }
-        .cta-button { display: inline-block; background: #fff; color: #155DFC; padding: 13px 36px; border-radius: 8px; font-weight: 700; font-size: 1.05rem; transition: transform 0.2s, box-shadow 0.2s; }
-        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); text-decoration: none; }
-
-        /* Tip Box */
-        .tip-box { background: #e8f4fd; border-left: 4px solid #155DFC; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; }
-        .tip-box strong { color: #155DFC; }
-
-        /* Warning Box */
-        .warning-box { background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; }
-
-        /* Pricing Table */
-        .pricing-table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 0.95rem; }
-        .pricing-table th { background: #1a1a2e; color: #fff; padding: 12px 16px; text-align: left; }
-        .pricing-table td { padding: 11px 16px; border-bottom: 1px solid #eee; }
-        .pricing-table tr:nth-child(even) { background: #f8f9fa; }
-        .pricing-table .highlight-row { background: #e8f0ff; font-weight: 600; }
-
-        /* FAQ */
-        .faq-item { border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
-        .faq-question { background: #f8f9fa; padding: 16px 20px; font-weight: 600; font-size: 1.05rem; cursor: default; color: #1a1a2e; }
-        .faq-answer { padding: 16px 20px; font-size: 0.98rem; border-top: 1px solid #e0e0e0; }
-
-        /* TOC */
-        .toc { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 22px 28px; margin-bottom: 32px; }
-        .toc h3 { font-size: 1.1rem; margin-bottom: 12px; color: #1a1a2e; }
-        .toc ol { margin: 0; padding-left: 20px; }
-        .toc li { margin-bottom: 6px; font-size: 0.95rem; }
-        .toc a { color: #155DFC; }
-
-        /* Platform Card */
-        .platform-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 24px 28px; margin: 20px 0; }
-        .platform-card h3 { margin-top: 0; color: #1a1a2e; font-size: 1.25rem; }
-        .platform-card .platform-specs { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0 16px; }
-        .platform-card .spec-tag { background: #e8f0ff; color: #155DFC; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
-
-        /* Footer */
-        .site-footer { background: #1a1a2e; color: #aaa; padding: 36px 20px; text-align: center; font-size: 0.88rem; }
-        .site-footer a { color: #155DFC; }
-        .footer-inner { max-width: 1100px; margin: 0 auto; }
-
-        /* Responsive */
-        @media (max-width: 640px) {
-            .article-header h1 { font-size: 1.55rem; }
-            .article-content h2 { font-size: 1.3rem; }
-            .header-inner { flex-direction: column; gap: 10px; }
-            .nav-links { display: flex; gap: 16px; }
-            .nav-links a { margin-left: 0; }
-            .cta-box { padding: 22px 18px; }
-            .pricing-table { font-size: 0.82rem; }
-            .pricing-table th, .pricing-table td { padding: 8px 10px; }
-            .platform-card { padding: 18px 16px; }
-        }
-    
-        /* Mobile global fixes */
-        @media (max-width: 768px) {
-            body { font-size: 16px; }
-            p, li, td, th { font-size: 16px !important; }
-            img { max-width: 100%; height: auto; }
-            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/ai-video-social-media-marketing-2026.css">
 </head>
 <body>
 
@@ -887,15 +752,7 @@
   <button onclick="window.open('https://reddit.com/submit?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title),'_blank')" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Share on Reddit">&#9650;</button>
   <button onclick="navigator.clipboard.writeText(location.href);this.innerHTML='&#10003;';setTimeout(()=>this.innerHTML='&#128279;',2000)" style="width:40px;height:40px;border-radius:50%;border:1px solid #e2e4eb;background:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.08);" title="Copy link">&#128279;</button>
 </div>
-<style>
-@media(max-width:768px){#share-bar{left:0!important;top:auto!important;bottom:0!important;transform:none!important;flex-direction:row!important;width:100%;justify-content:center;background:#fff;padding:8px 0;border-top:1px solid #e2e4eb;box-shadow:0 -2px 8px rgba(0,0,0,0.08);}}
-
-        /* Dark Mode */
-        [data-theme="dark"] { --navy: #0d0d1a; --navy-light: #0a0f1e; --text-primary: #e4e4e8; --text-secondary: #a0a0b8; --text-muted: #6a6a86; --surface: #1a1a2e; --surface-alt: #16213e; --border: #2a2a4e; --accent: #4d8aff; --accent-hover: #3a75e8; --accent-light: #1a2a4e; }
-        [data-theme="dark"] body { background: #1a1a2e; color: #e4e4e8; }
-        [data-theme="dark"] .ftc-banner { background: #16213e; border-color: #2a2a4e; color: #6a6a86; }
-        [data-theme="dark"] img { opacity: 0.9; }
-    </style>
+<link rel="stylesheet" href="/assets/css/ai-tools-youtube-creators-2026-extra1.css">
 
 <!-- Exit Intent Popup -->
 <div id="exit-popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:10000;justify-content:center;align-items:center;">

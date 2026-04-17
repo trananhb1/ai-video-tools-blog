@@ -1,0 +1,7 @@
+@media(max-width:768px){#share-bar{left:0!important;top:auto!important;bottom:0!important;transform:none!important;flex-direction:row!important;width:100%;justify-content:center;background:#fff;padding:8px 0;border-top:1px solid #e2e4eb;box-shadow:0 -2px 8px rgba(0,0,0,0.08);}}
+
+        /* Dark Mode */
+        [data-theme="dark"] { --navy: #0d0d1a; --navy-light: #0a0f1e; --text-primary: #e4e4e8; --text-secondary: #a0a0b8; --text-muted: #6a6a86; --surface: #1a1a2e; --surface-alt: #16213e; --border: #2a2a4e; --accent: #4d8aff; --accent-hover: #3a75e8; --accent-light: #1a2a4e; }
+        [data-theme="dark"] body { background: #1a1a2e; color: #e4e4e8; }
+        [data-theme="dark"] .ftc-banner { background: #16213e; border-color: #2a2a4e; color: #6a6a86; }
+        [data-theme="dark"] img { opacity: 0.9; }
