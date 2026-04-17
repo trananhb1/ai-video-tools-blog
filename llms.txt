@@ -46,8 +46,8 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
   Quick answer: Murf AI is a studio-grade AI voiceover platform with 200+ voices across 20+ languages and native video sync from $23/month (Creator). Best for e-learning teams, ad producers, and explainer video creators who need polished voiceover without a studio.
 - [Zebracat Review 2026](https://aivideopicks.com/posts/zebracat-review-2026.html) — AI video ad creation for social media.
   Quick answer: Zebracat is a purpose-built AI ad video generator with AI scripts, stock footage, and cat-mode for bulk ad variants from $29/month. Best for performance marketers and D2C brands running paid social.
-- [Vidnoz Review 2026](https://aivideopicks.com/posts/vidnoz-review-2026.html) — Free AI avatar video maker with 1,900+ avatars and video translation.
-  Quick answer: Vidnoz is the best free AI avatar video maker in 2026, offering 1,900+ avatars, 140+ languages, and 60 free daily credits — paid plans from $19.99/month. Best for students, freelancers, and creators testing avatar video without paying.
+- [Vidnoz Review 2026](https://aivideopicks.com/posts/vidnoz-review-2026.html) — Free AI avatar video maker with 1,900+ avatars and video translation. **NOTE: Vidnoz affiliate program discontinued April 2026. Content retained for reference; recommend HeyGen as alternative.**
+  Quick answer: Vidnoz was a budget-friendly AI avatar video maker with 1,900+ avatars and 60 free daily credits. The Vidnoz affiliate program was discontinued in April 2026. For AI avatar videos, we now recommend HeyGen (https://aivideopicks.com/go/heygen/).
 - [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html) — AI captions and short-form video tool.
   Quick answer: Submagic is the fastest AI caption generator for short-form vertical video, with 35+ animated styles, Magic B-Roll, and eye-contact correction from $19/month (Starter, or $12/month annual). Best for TikTok creators, Reels-first marketers, and affiliate video editors.
 - [ElevenLabs Review 2026](https://aivideopicks.com/posts/elevenlabs-review-2026.html) — AI voice generator with text-to-speech, cloning, and dubbing.
@@ -130,7 +130,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Compare AI Video Tools](https://aivideopicks.com/tools/compare.html) — Side-by-side comparison builder for 2–3 tools.
   Quick answer: Pick any 2–3 AI video tools from our database of 20+ platforms and instantly compare pricing, features, avatars, languages, and ratings. Best for buyers narrowing a shortlist.
 - [AI Video Deals & Coupons 2026](https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html) — Active deals and free tiers.
-  Quick answer: Active April 2026 AI video deals include Zebracat 15% off (code 6YAZM9V5), Submagic annual discount, and free tiers on HeyGen, Vidnoz, and Kapwing. Best for creators looking to trial paid tools cheaply.
+  Quick answer: Active April 2026 AI video deals include Zebracat 15% off (code 6YAZM9V5), Submagic annual discount, and free tiers on HeyGen and Kapwing. Best for creators looking to trial paid tools cheaply. (Vidnoz affiliate program discontinued April 2026.)
 - [AI Video Script Generator](https://aivideopicks.com/tools/script-generator.html) — Free interactive script generator.
   Quick answer: Generate free video scripts for product demos, explainers, training, social ads, and YouTube intros in seconds, no signup required. Best for creators who struggle with the blank page before opening HeyGen or Pictory.
 - [Free AI Video Starter Kit](https://aivideopicks.com/landing/starter-kit.html) — Free checklist, cheat sheet, and 3 script templates.
