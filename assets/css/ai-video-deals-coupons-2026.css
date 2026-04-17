@@ -1,0 +1,123 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; color: #333; line-height: 1.7; background: #f8f9fa; }
+        a { color: #155DFC; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* FTC Banner */
+        .ftc-banner { background: #f0f0f5; text-align: center; padding: 8px 16px; font-size: 12px; color: #666; border-bottom: 1px solid #e0e0e8; }
+
+        /* Header */
+        .header { background: var(--navy, #1a1a2e); padding: 0 24px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 16px rgba(0,0,0,0.15); }
+        .header-inner { max-width: 1120px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; }
+        .logo-icon { width: 36px; height: 36px; background: var(--accent, #155DFC); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; color: #fff; position: relative; overflow: hidden; }
+        .logo-icon::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%); }
+        nav a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: color 0.2s, background 0.2s; }
+        nav a:hover { color: #fff; background: rgba(255,255,255,0.08); text-decoration: none; }
+        .mobile-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 8px; }
+
+        /* Article Container */
+        .article-container { max-width: 780px; margin: 0 auto; padding: 40px 20px 60px; }
+
+        /* FTC Disclosure */
+        .ftc-disclosure { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 14px 18px; margin-bottom: 32px; font-size: 0.85rem; color: #664d03; line-height: 1.5; }
+
+        /* Breadcrumb */
+        .breadcrumb { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+        .breadcrumb a { color: #155DFC; }
+
+        /* Article Header */
+        .article-header h1 { font-size: 2.1rem; line-height: 1.25; color: #1a1a2e; margin-bottom: 16px; font-weight: 800; }
+        .article-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 0.88rem; color: #777; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 2px solid #eee; }
+        .article-meta span { display: flex; align-items: center; gap: 5px; }
+
+        /* Content */
+        .article-content h2 { font-size: 1.55rem; color: #1a1a2e; margin: 40px 0 16px; padding-top: 12px; border-top: 1px solid #eee; font-weight: 700; }
+        .article-content h2:first-of-type { border-top: none; margin-top: 8px; }
+        .article-content h3 { font-size: 1.2rem; color: #333; margin: 28px 0 12px; font-weight: 600; }
+        .article-content p { margin-bottom: 16px; font-size: 1.02rem; }
+        .article-content ul, .article-content ol { margin: 0 0 20px 24px; }
+        .article-content li { margin-bottom: 8px; font-size: 1.02rem; }
+
+        /* CTA Box */
+        .cta-box { background: linear-gradient(135deg, #155DFC 0%, #1a1a2e 100%); border-radius: 12px; padding: 28px 32px; margin: 32px 0; text-align: center; color: #fff; }
+        .cta-box h3 { color: #fff; font-size: 1.3rem; margin-bottom: 10px; }
+        .cta-box p { color: rgba(255,255,255,0.9); margin-bottom: 18px; font-size: 0.98rem; }
+        .cta-button { display: inline-block; background: #fff; color: #155DFC; padding: 13px 36px; border-radius: 8px; font-weight: 700; font-size: 1.05rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); text-decoration: none; }
+
+        /* Tip Box */
+        .tip-box { background: #e8f4fd; border-left: 4px solid #155DFC; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; }
+        .tip-box strong { color: #155DFC; }
+
+        /* Deal Cards */
+        .deal-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 24px 28px; margin: 20px 0; border-left: 5px solid #ccc; }
+        .deal-card.coupon { border-left-color: #22c55e; }
+        .deal-card.free-tier { border-left-color: #3b82f6; }
+        .deal-card.trial { border-left-color: #f97316; }
+        .deal-card h3 { margin-top: 0; color: #1a1a2e; font-size: 1.2rem; margin-bottom: 8px; }
+        .deal-card .deal-desc { font-size: 1rem; color: #444; margin-bottom: 12px; }
+        .deal-card .deal-meta { font-size: 0.88rem; color: #777; margin-bottom: 14px; }
+        .deal-card .deal-meta span { margin-right: 16px; }
+
+        /* Coupon Code Box */
+        .coupon-code-box { display: inline-flex; align-items: center; background: #f0fdf4; border: 2px dashed #22c55e; border-radius: 8px; padding: 8px 16px; margin: 8px 0 14px; font-family: 'Courier New', monospace; font-size: 1.05rem; font-weight: 700; color: #166534; cursor: pointer; position: relative; }
+        .coupon-code-box .copy-label { font-size: 0.78rem; font-weight: 400; color: #888; margin-left: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+        /* Deal CTA Button */
+        .deal-btn { display: inline-block; padding: 10px 24px; border-radius: 8px; font-weight: 700; font-size: 0.95rem; color: #fff; transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; }
+        .deal-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); text-decoration: none; }
+        .deal-btn.green { background: #22c55e; }
+        .deal-btn.blue { background: #3b82f6; }
+        .deal-btn.orange { background: #f97316; }
+
+        /* Badge */
+        .badge { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; margin-left: 8px; vertical-align: middle; }
+        .badge-green { background: #dcfce7; color: #166534; }
+        .badge-blue { background: #dbeafe; color: #1e40af; }
+        .badge-orange { background: #fff7ed; color: #9a3412; }
+
+        /* Amazon Gear Bar */
+        .gear-bar { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 24px 28px; margin: 40px 0; }
+        .gear-bar h3 { font-size: 1.15rem; margin-bottom: 16px; color: #1a1a2e; }
+        .gear-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+        .gear-item { background: #f8f9fa; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; text-align: center; }
+        .gear-item .gear-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 8px; color: #1a1a2e; }
+        .gear-item a { display: inline-block; background: #f97316; color: #fff; padding: 8px 18px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; }
+        .gear-item a:hover { text-decoration: none; opacity: 0.9; }
+
+        /* FAQ */
+        .faq-item { border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
+        .faq-question { background: #f8f9fa; padding: 16px 20px; font-weight: 600; font-size: 1.05rem; cursor: default; color: #1a1a2e; }
+        .faq-answer { padding: 16px 20px; font-size: 0.98rem; border-top: 1px solid #e0e0e0; }
+
+        /* TOC */
+        .toc { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 22px 28px; margin-bottom: 32px; }
+        .toc h3 { font-size: 1.1rem; margin-bottom: 12px; color: #1a1a2e; }
+        .toc ol { margin: 0; padding-left: 20px; }
+        .toc li { margin-bottom: 6px; font-size: 0.95rem; }
+        .toc a { color: #155DFC; }
+
+        /* Footer */
+        .site-footer { background: #1a1a2e; color: #aaa; padding: 36px 20px; text-align: center; font-size: 0.88rem; }
+        .site-footer a { color: #155DFC; }
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .article-header h1 { font-size: 1.55rem; }
+            .article-content h2 { font-size: 1.3rem; }
+            nav { display: none; }
+            .mobile-toggle { display: block; }
+            .cta-box { padding: 22px 18px; }
+            .deal-card { padding: 18px 16px; }
+            .gear-items { grid-template-columns: 1fr; }
+        }
+    
+        /* Mobile global fixes */
+        @media (max-width: 768px) {
+            body { font-size: 16px; }
+            p, li, td, th { font-size: 16px !important; }
+            img { max-width: 100%; height: auto; }
+            .cta-button, .cta-btn, a.cta-button { display: block; width: 100%; text-align: center; min-height: 48px; padding: 14px 20px; box-sizing: border-box; }
+        }

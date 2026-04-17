@@ -134,6 +134,8 @@ landing/recommend.html  — Quiz-based recommendation page
 legal/                  — FTC disclosure, privacy policy
 email/                  — Welcome sequence + newsletters
 social/                 — Social media content + distribution plan
+assets/css/             — External CSS (one file per page, deduped by hash)
+assets/js/analytics.js  — GA4 gtag config + outbound affiliate click tracker
 assets/images/          — Thumbnails and media
 sitemap.xml             — SEO sitemap
 robots.txt              — Crawl directives
@@ -141,20 +143,77 @@ ads.txt                 — Ad network transparency
 CNAME                   — Domain config (aivideopicks.com)
 ```
 
+## Token-Saving Architecture (2026-04-17)
+
+CSS and JS are externalized. This means:
+- **To edit content**: only read/edit `posts/<slug>.html` (content only, ~200-800 lines)
+- **To edit styles**: only read/edit `assets/css/<slug>.css`
+- **To edit analytics/tracking**: only edit `assets/js/analytics.js`
+- **Do NOT re-inline CSS/JS** — the whole point is to keep them separate
+
+### Files you need for common tasks
+
+| Task | Files to touch | Files you do NOT need to read |
+|------|---------------|-------------------------------|
+| Edit post content | `posts/<slug>.html` | `assets/css/*`, `assets/js/*` |
+| Add new post | `posts/<slug>.html`, `sitemap.xml`, `llms.txt`, `index.html` (card only) | CSS files (copy `<link>` from existing post) |
+| Update nav/header | All `posts/*.html` (header HTML is still in each file) | CSS files |
+| Update styles | `assets/css/<slug>.css` | Post HTML files |
+| Update tracking | `assets/js/analytics.js` | Everything else |
+| Update homepage cards | `index.html` (bottom section only, ~line 1000+) | CSS, posts |
+
+### New post template (minimal head)
+
+When creating a new post, copy this head pattern instead of an entire existing post:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4110275440168341" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5NLTFV6FL"></script>
+<script src="/assets/js/analytics.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{TITLE}</title>
+<meta name="description" content="{DESCRIPTION}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://aivideopicks.com/posts/{SLUG}.html">
+<!-- Open Graph -->
+<meta property="og:title" content="{TITLE}">
+<meta property="og:description" content="{DESCRIPTION}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aivideopicks.com/posts/{SLUG}.html">
+<meta property="og:image" content="https://aivideopicks.com/assets/images/{SLUG}-thumbnail.png">
+<meta property="og:site_name" content="AI Video Picks">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{TITLE}">
+<meta name="twitter:description" content="{SHORT_DESC}">
+<meta name="twitter:image" content="https://aivideopicks.com/assets/images/{SLUG}-thumbnail.png">
+<!-- JSON-LD goes here -->
+<!-- CSS: reuse an existing file or create a new one -->
+<link rel="stylesheet" href="/assets/css/heygen-descript-opus-clip-solo-creators-2026.css">
+</head>
+```
+
+The recommended CSS file to reuse for new comparison posts is `heygen-descript-opus-clip-solo-creators-2026.css` (compact, clean). For new review posts, reuse `fliki-review-2026.css` (review layout with pros/cons, pricing grid).
+
 ## HTML Article Template Pattern
 Every article follows this structure:
-1. Google Analytics gtag (G-M5NLTFV6FL)
+1. AdSense tag + GA4 gtag loader + `<script src="/assets/js/analytics.js">`
 2. SEO meta tags (title, description, keywords, canonical)
 3. Open Graph + Twitter Card meta
 4. Article Schema JSON-LD + FAQ Schema
-5. Inline CSS (no external stylesheets)
+5. `<link rel="stylesheet" href="/assets/css/{slug}.css">` (external CSS)
 6. Sticky header: `<a class="logo">AI Video <span>Hub</span></a>` + nav links
 7. FTC disclosure banner
 8. Breadcrumb
 9. Article header (h1, meta with date/read time)
 10. Table of Contents
 11. Article content with h2/h3 sections
-12. CTA boxes (gradient blue → navy, white button)
+12. CTA boxes (gradient blue to navy, white button)
 13. FAQ section
 14. Footer with disclosure links
 
@@ -162,12 +221,14 @@ Every article follows this structure:
 - **FTC disclosure** on every article with affiliate links
 - **rel="nofollow noopener"** or **rel="nofollow sponsored"** on all affiliate links
 - **target="_blank"** on external links
-- **No external CSS** — all styles inline per page
+- **External CSS** — styles in `assets/css/`, linked via `<link rel="stylesheet">`
+- **External JS** — analytics in `assets/js/analytics.js`, linked via `<script src>`
 - **Lazy loading** on images: `loading="lazy"`
 - **Max title:** Keep SEO titles under 60 chars for Google
 - **Date format:** "Published: Month DD, YYYY"
-- CTA button text: "Try [Tool] Free →" for SaaS, "Check Price on Amazon →" for products
+- CTA button text: "Try [Tool] Free ->" for SaaS, "Check Price on Amazon ->" for products
 - Never say "Amazon AU" in CTAs — just "Amazon"
+- **Never re-inline CSS/JS** — this wastes tokens on every future edit
 
 ## Deployment
 ```bash
