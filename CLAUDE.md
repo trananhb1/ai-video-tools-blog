@@ -37,7 +37,7 @@ When this project is opened, run through these items:
 ### Active Affiliate Links
 | Program | Link | Status | Where Used |
 |---------|------|--------|------------|
-| Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | Review, 5 comparison articles |
+| Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | **DISCONTINUED (2026-04-17)** | Review kept for SEO, CTAs replaced with HeyGen |
 | Submagic | `https://submagic.co/?via=tom26` | Active | Review, 6 cross-linked articles (30% recurring) |
 | Fliki | `https://fliki.ai/?via=fbca94` | Active | Fliki review, pricing |
 | Synthesia | `https://www.synthesia.io/?via=tuan-tran` | Active | 15+ articles |
