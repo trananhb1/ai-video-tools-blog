@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Hub")
-- **Content:** 35 articles — reviews, comparisons, tutorials, gear guides
+- **Content:** 45 articles — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -69,13 +69,13 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (35 articles)
+## Content Inventory (45 articles)
 
 ### Reviews (16)
-- **movavi-review-2026.html** (NEW Apr 8)
-- **elevenlabs-review-2026.html** (NEW Apr 7)
-- **deepbrain-ai-review-2026.html** (NEW Apr 4)
-- **heygen-review-2026.html** (NEW Apr 4)
+- movavi-review-2026.html
+- elevenlabs-review-2026.html
+- deepbrain-ai-review-2026.html
+- heygen-review-2026.html
 - fliki-review-2026.html
 - synthesia-review-2026.html
 - descript-review-2026.html
@@ -86,41 +86,50 @@ When this project is opened, run through these items:
 - opus-clip-review-2026.html
 - murf-ai-review-2026.html
 - zebracat-review-2026.html
-- **vidnoz-review-2026.html** (NEW Apr 3)
-- **submagic-review-2026.html** (NEW Apr 3)
+- vidnoz-review-2026.html
+- submagic-review-2026.html
 
-### Comparisons (10)
-- **best-ai-talking-head-tools-2026.html** (NEW Apr 8)
-- **heygen-vs-synthesia-2026.html** (NEW Apr 4)
-- best-ai-video-tools-2026.html (top 10 ranked)
+### Comparisons (12)
+- best-ai-talking-head-tools-2026.html
+- heygen-vs-synthesia-2026.html
 - heygen-vs-synthesia-vs-pictory.html
+- heygen-vs-colossyan-vs-synthesia-training-2026.html
+- heygen-descript-opus-clip-solo-creators-2026.html
+- submagic-vs-capcut-2026.html
+- best-ai-video-tools-2026.html (top 10 ranked)
 - kling-vs-veo-vs-runway.html
 - veed-vs-kapwing-vs-descript.html
 - d-id-vs-elai-vs-hourone.html
 - best-free-ai-video-generators-2026.html
-- ai-video-pricing-compared-2026.html
 - sora-alternatives-2026.html
 
-### Guides & Tutorials (7)
-- **best-ai-video-tools-beginners-2026.html** (NEW Apr 7)
+### Guides & Tutorials (10)
+- heygen-pricing-2026.html
+- ai-video-pricing-compared-2026.html
+- best-ai-video-tools-beginners-2026.html
 - ai-tools-youtube-creators-2026.html
 - turn-long-videos-into-shorts-ai.html
 - ai-training-onboarding-videos.html
 - what-is-text-to-video-ai.html
 - how-to-create-ai-videos-heygen.html
-- **best-gear-ai-video-creators-2026.html** (NEW Apr 3, Amazon affiliate)
+- how-to-add-viral-captions-tiktok-submagic.html
+- how-to-make-faceless-youtube-heygen-submagic.html
 
-### Use Cases (3)
+### Use Cases & Other (7)
 - ai-video-for-ecommerce.html
 - ai-video-social-media-marketing-2026.html
-- (one more in guides section)
+- best-gear-ai-video-creators-2026.html (Amazon affiliate)
+- ai-video-deals-coupons-2026.html
+- save-15-percent-movavi-april-2026.html
+- ai-video-glossary-2026.html
+- cheapest-ai-video-generator-2026.html
 
 ## Site Structure
 ```
 index.html              — Homepage with article cards
 about.html              — About page
 contact.html            — Contact/lead capture
-posts/                  — All articles (27 HTML files)
+posts/                  — All articles (45 HTML files)
 landing/recommend.html  — Quiz-based recommendation page
 legal/                  — FTC disclosure, privacy policy
 email/                  — Welcome sequence + newsletters
