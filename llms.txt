@@ -95,6 +95,11 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [HeyGen Pricing 2026: Plans, Cost Per Minute & Free Tier Explained](https://aivideopicks.com/posts/heygen-pricing-2026.html) — Complete HeyGen pricing breakdown with all 4 plans, credit system, cost per minute calculations, and competitor comparison.
   Quick answer: HeyGen costs $29/month (Creator) or $24/month with annual billing as of April 2026. The free plan gives you 3 watermarked videos per month at 720p. Avatar IV videos consume 20 credits per minute, so the Creator plan's 200 credits cover about 10 minutes of premium avatar video — roughly $2.90 per finished minute. Pro plan ($99/month, 2,000 credits) drops the cost to $0.99/min. Annual billing saves 17-20%.
 
+## Feature Guides (1)
+
+- [HeyGen Avatar V Guide: What's New in 2026](https://aivideopicks.com/posts/heygen-avatar-v-guide-2026.html) — Complete guide to Avatar V: 15-sec setup, multi-angle shots, Seedance 2.0, identity separation, and creator bonus program.
+  Quick answer: HeyGen Avatar V is the most advanced AI avatar model available as of April 2026, generating photorealistic digital twins from just 15 seconds of webcam footage. Best for creators, marketers, and educators who want unlimited looks, outfits, and cinematic scenes without ever stepping in front of a camera again. Plans start at $24/month (Creator annual) with no pricing change from Avatar IV. Biggest pro: 0.840 face similarity score and identity-stable videos over 30 minutes. Biggest con: still uses HeyGen's credit-based system, which can be confusing.
+
 ## Guides & Tutorials (9)
 
 - [How to Add Viral Captions to TikTok with Submagic](https://aivideopicks.com/posts/how-to-add-viral-captions-tiktok-submagic.html) — 7-step tutorial using Submagic's 35+ viral caption templates for TikTok shorts.

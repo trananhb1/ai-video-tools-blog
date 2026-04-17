@@ -120,6 +120,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Feature Guides (priority 0.85) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-avatar-v-guide-2026.html</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Individual Reviews (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/movavi-review-2026.html</loc>
