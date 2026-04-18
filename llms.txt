@@ -13,8 +13,10 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - **Hardware:** Windows 11 (Ryzen 9 7900X, 32 GB, RTX 4070) + 2024 MacBook Pro M3.
 - **Methodology:** Every tool scored on render time per 60 s clip, output quality, cost per finished minute, watermark, max free output, and ease of use. Full data in the hero ranking post.
 
-## Deals (1)
+## Deals (2)
 
+- [HeyGen Avatar V Deal — What You Get Before April 30](https://aivideopicks.com/posts/heygen-avatar-v-deal-april-2026.html) — Avatar V launch deal with creator bonus up to $2,000, closing April 30, 2026.
+  Quick answer: HeyGen Avatar V launched April 8, 2026 — the most realistic AI avatar model available, creating digital twins from 15 seconds of footage with 0.840 face similarity (industry best). Plans start at $24/month (Creator annual) with Avatar V included at no extra cost. The current deal: a creator bonus program paying $150 to $2,000 based on content views, closing April 30, 2026 at 11:59 PM PST. No coupon code needed — sign up at regular pricing and earn bonuses on top.
 - [Save 15% on Movavi — April 2026 Code](https://aivideopicks.com/posts/save-15-percent-movavi-april-2026.html) — Verified Movavi Video Editor promo code with hard May 15 expiry.
   Quick answer: Use code PTNAFFDIS010426ALLAFS15 at Movavi checkout for 15% off any yearly plan, dropping Video Editor yearly from $54.95 to ~$46.71 and Video Suite yearly from $84.95 to ~$72.21. Verified April 12, 2026 and expires May 15, 2026 — no stacking with other sales and not applicable to monthly or lifetime plans.
 
