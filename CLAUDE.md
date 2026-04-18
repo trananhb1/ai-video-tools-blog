@@ -169,13 +169,13 @@ When creating a new post, copy this head pattern instead of an entire existing p
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4110275440168341" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M5NLTFV6FL"></script>
 <script src="/assets/js/analytics.js"></script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{TITLE}</title>
 <meta name="description" content="{DESCRIPTION}">
 <meta name="robots" content="index, follow">
