@@ -8,7 +8,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 
 ## Editorial
 
-- **Editor:** Tom Tran, AI Video Tools Editor — personally tested 30+ AI video tools in 2025–2026 across 82 hours of generated footage.
+- **Editor:** Alex Chen, AI Video Tools Editor — personally tested 30+ AI video tools in 2025–2026 across 82 hours of generated footage.
 - **Testing window:** January 8 – April 10, 2026.
 - **Hardware:** Windows 11 (Ryzen 9 7900X, 32 GB, RTX 4070) + 2024 MacBook Pro M3.
 - **Methodology:** Every tool scored on render time per 60 s clip, output quality, cost per finished minute, watermark, max free output, and ease of use. Full data in the hero ranking post.
