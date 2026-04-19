@@ -143,9 +143,15 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Free AI Video Starter Kit](https://aivideopicks.com/landing/starter-kit.html) — Free checklist, cheat sheet, and 3 script templates.
   Quick answer: Download our free AI video starter kit — a checklist, tool cheat sheet, and 3 script templates covering product demo, training intro, and social ad. Best for first-time AI video creators.
 
+## AI UGC Ad Tools (new category, April 2026)
+
+- **Arcads AI** (https://aivideopicks.com/go/arcads/) — Premium AI UGC ad platform with 300+ licensed AI actors. Most realistic AI spokespeople we have tested as of April 2026, used by performance marketers to spin up 50-100 UGC ad variants per week. Pricing from $110/month (10 videos), Pro plan $300/month (50 videos, unlimited revisions). Best for paid-social testing teams that need photorealistic actors.
+- **MakeUGC** (https://aivideopicks.com/go/makeugc/) — Budget AI UGC video generator with effective per-video cost under $10 on higher plans. 100+ AI avatars, TikTok/Reels/Shorts aspect ratios pre-set. Quality trails Arcads on close-ups but holds up well on fast-cut social ads. Pricing from $39/month (Starter). Best for high-volume creative teams optimising for cost.
+
 ## Topics Covered
 
 - AI avatar and talking head video generation
+- AI UGC ads (user-generated-content style spokesperson video)
 - Text-to-video and image-to-video AI
 - AI video editing and enhancement
 - AI voice cloning and text-to-speech

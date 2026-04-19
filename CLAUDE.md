@@ -39,7 +39,9 @@ When this project is opened, run through these items:
 |---------|------|--------|------------|
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | Review, 5 comparison articles |
 | Submagic | `https://submagic.co/?via=tom26` | Active | Review, 6 cross-linked articles (30% recurring) |
-| Fliki | `https://fliki.ai/?via=fbca94` | Active | Fliki review, pricing |
+| Fliki | `https://fliki.ai/?via=aivideopicks` | Active | Fliki review, pricing (30% lifetime + bonuses @25/50/100 refs) |
+| Arcads AI | `https://arcads.ai/?via=aivideopicks` | Active | Best AI UGC ads pick (25% recurring 12 months, 30-day cookie) |
+| MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (30% per paid referral, 30-day cookie) |
 | Synthesia | `https://www.synthesia.io/?via=tuan-tran` | Active | 15+ articles |
 | HeyGen | `https://www.heygen.com/?via=aivideopicks` | Applied | 10+ articles |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
