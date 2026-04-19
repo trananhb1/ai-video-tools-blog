@@ -145,7 +145,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 
 ## AI UGC Ad Tools (new category, April 2026)
 
-- **Arcads AI** (https://aivideopicks.com/go/arcads/) — Premium AI UGC ad platform with 300+ licensed AI actors. Most realistic AI spokespeople we have tested as of April 2026, used by performance marketers to spin up 50-100 UGC ad variants per week. Pricing from $110/month (10 videos), Pro plan $300/month (50 videos, unlimited revisions). Best for paid-social testing teams that need photorealistic actors.
+- **Arcads AI** (https://aivideopicks.com/go/arcads/) — Premium AI UGC ad platform with 300+ licensed AI actors. Most realistic AI spokespeople we have tested as of April 2026, used by performance marketers to spin up 50-100 UGC ad variants per week. Pricing starts at $110/mo (10 videos, Starter), $220/mo (20 videos, Creator), with a custom-priced Pro plan adding API access, ElevenLabs integration, and team seats. Best for paid-social testing teams that need photorealistic actors.
 - **MakeUGC** (https://aivideopicks.com/go/makeugc/) — Budget AI UGC video generator with effective per-video cost under $10 on higher plans. 100+ AI avatars, TikTok/Reels/Shorts aspect ratios pre-set. Quality trails Arcads on close-ups but holds up well on fast-cut social ads. Pricing from $39/month (Starter). Best for high-volume creative teams optimising for cost.
 
 ## Topics Covered
