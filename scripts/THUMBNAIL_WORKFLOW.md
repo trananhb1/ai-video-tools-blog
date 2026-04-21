@@ -2,12 +2,34 @@
 
 For agents publishing new posts on aivideopicks.com.
 
-## Pieces
+## Default: Pillow renderer (works in any env)
+
+```bash
+python3 scripts/generate-thumbnail.py \
+    --slug kling-3-review-2026 \
+    --title "Kling AI 3.0 Review: Best Free AI Video Generator?" \
+    --badge REVIEW \
+    --tools Kling Runway Veo
+```
+
+Outputs `assets/images/<slug>-thumbnail.png` (600x340).
+
+Runs sub-second, no external API, no auth, works in CCR/local/anywhere.
+Inter font bundled in `scripts/fonts/`. Renders match the Figma master.
+
+**Badges**: REVIEW (yellow), COMPARISON (blue), GUIDE (green), URGENT (red), DEAL (orange), NEW (purple), TUTORIAL (sky).
+
+**Tool chips** (max 7 fit cleanly): HeyGen, Synthesia, Kling, Runway, Pika, Fliki, Zebracat, Pictory, Submagic, Movavi, Vidnoz, Arcads, MakeUGC, Descript, Veo, Sora, ElevenLabs, InVideo, Veed, CapCut, OpusClip, Hedra. Add new tools by editing TOOL_CHIPS in the script.
+
+**Always include logos for every tool/service the post compares.** This is a hard rule per Apr 21 user feedback.
+
+## Reference: Figma master (design source of truth)
 
 - **Figma file**: `wjQh4PNW6yeK10rhprpxCM` (AI Video Picks - Thumbnails)
 - **Master template node**: `1:2` (Thumbnail/600x340 component)
 - **Token**: `~/.claude/secrets/figma.env` (FIGMA_TOKEN)
-- **Helper script**: `scripts/generate-thumbnail.py`
+
+Use the Figma file when you want to refine the brand design. After redesigning, port the changes back to `scripts/generate-thumbnail.py` so the Pillow output matches.
 
 ## Tool logo chip components
 
