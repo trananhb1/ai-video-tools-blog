@@ -75,10 +75,10 @@ Here's how I recommend choosing your tool:
 **Marketing & sales videos →** HeyGen
 Best avatar quality, lip-sync in 40+ languages, great for personalized outreach
 
-**Training & L&D content →** [Synthesia](https://www.synthesia.io/?via=tuan-tran)
+**Training & L&D content →** [Synthesia](https://www.synthesia.io/?via=aivideopicks)
 Built for enterprise training — templates, brand kits, SCORM export
 
-**Social media & short-form →** [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9)
+**Social media & short-form →** [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks)
 Fast text-to-video, auto-captions, built for TikTok/Reels/Shorts
 
 Notice how price isn't even on the list? That's intentional. The "cheapest" tool that doesn't fit your workflow costs you more in wasted time than the right tool at a higher price.
@@ -176,7 +176,7 @@ Quick one today — I negotiated a discount with one of my favorite tools and I 
 
 ### The deal
 
-**15% off your first 6 months of [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9)** with code **6YAZM9V5**.
+**15% off your first 6 months of [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks)** with code **6YAZM9V5**.
 
 If you're not familiar with Zebracat, here's why I'm a fan: it's purpose-built for turning text and ideas into short, scroll-stopping videos. No editing skills needed.
 
@@ -200,14 +200,14 @@ Unlike general-purpose video tools, Zebracat is optimized for ads. The templates
 
 ### How to claim the discount
 
-1. Go to [Zebracat signup](https://studio.zebracat.ai/signup/?via=d98eb9)
+1. Go to [Zebracat signup](https://studio.zebracat.ai/signup/?via=aivideopicks)
 2. Choose your plan
 3. Enter code **6YAZM9V5** at checkout
 4. Save 15% for 6 months
 
 That's a solid chunk of savings, especially if you're producing video content regularly.
 
-**[Get 15% Off Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9)**
+**[Get 15% Off Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks)**
 
 Talk soon,
 Tom
@@ -218,7 +218,7 @@ P.S. This code works on any paid plan. If you're not sure which plan to pick, st
 ---
 
 **CTA Button:** Claim 15% Off Zebracat
-**CTA Link:** https://studio.zebracat.ai/signup/?via=d98eb9
+**CTA Link:** https://studio.zebracat.ai/signup/?via=aivideopicks
 **Send timing:** Day 7 (1 week after signup)
 
 ---
@@ -243,7 +243,7 @@ Here's the **AI Video Creator Toolkit** — the core stack I recommend to anyone
 ### Your AI Video Toolkit Checklist
 
 - [ ] **AI Video Tool** — Your main platform for generating videos
-  Recommendations: [Synthesia](https://www.synthesia.io/?via=tuan-tran) (training/enterprise), [HeyGen](https://www.heygen.com/affiliate) [UPDATE WHEN APPROVED] (marketing), or [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) (social/ads)
+  Recommendations: [Synthesia](https://www.synthesia.io/?via=aivideopicks) (training/enterprise), [HeyGen](https://www.heygen.com/affiliate) [UPDATE WHEN APPROVED] (marketing), or [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) (social/ads)
 
 - [ ] **Graphics & Thumbnails** — For custom thumbnails, intros, and branded assets
   Recommendation: Canva (free tier is plenty to start)
@@ -303,8 +303,8 @@ P.S. If you're finding these emails useful, I'd appreciate a follow on Twitter/X
 
 | Tool | Link | Status |
 |---|---|---|
-| Synthesia | https://www.synthesia.io/?via=tuan-tran | Active |
-| Zebracat | https://studio.zebracat.ai/signup/?via=d98eb9 | Active (code: 6YAZM9V5, 15% off 6 months) |
+| Synthesia | https://www.synthesia.io/?via=aivideopicks | Active |
+| Zebracat | https://studio.zebracat.ai/signup/?via=aivideopicks | Active (code: 6YAZM9V5, 15% off 6 months) |
 | HeyGen | https://www.heygen.com/affiliate | [UPDATE WHEN APPROVED] |
 | Pictory | https://pictory.ai/affiliate | [UPDATE WHEN APPROVED] |
 

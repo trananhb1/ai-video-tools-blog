@@ -32,7 +32,7 @@ Made a long explainer? Use AI tools to auto-clip it into shorts, pull out quote 
 
 ### Tool Spotlight: Synthesia
 
-If you haven't looked at [Synthesia](https://www.synthesia.io/?via=tuan-tran) recently, it's worth a fresh look. They've been on a tear with updates.
+If you haven't looked at [Synthesia](https://www.synthesia.io/?via=aivideopicks) recently, it's worth a fresh look. They've been on a tear with updates.
 
 **What makes it stand out:**
 - **160+ AI avatars** that actually look human (no uncanny valley vibes)
@@ -110,7 +110,7 @@ Social proof + video format = engagement magnet. Way more believable than text o
 
 ### Tool Spotlight: Zebracat
 
-For ad-style videos specifically, [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) is hard to beat.
+For ad-style videos specifically, [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) is hard to beat.
 
 **Why I like it for ads:**
 - **Text-to-video in minutes** — paste your script or even a URL and it generates a full video
@@ -128,7 +128,7 @@ For ad-style videos specifically, [Zebracat](https://studio.zebracat.ai/signup/?
 
 That's a testing cycle that used to take a week, done before lunch.
 
-**Exclusive for AI Video Picks readers:** Use code **6YAZM9V5** at [Zebracat signup](https://studio.zebracat.ai/signup/?via=d98eb9) for a discount on your plan.
+**Exclusive for AI Video Picks readers:** Use code **6YAZM9V5** at [Zebracat signup](https://studio.zebracat.ai/signup/?via=aivideopicks) for a discount on your plan.
 
 ### From the Blog
 
@@ -167,7 +167,7 @@ Here are the 5 trends I'm watching right now.
 
 This is the big one. Instead of hunting for generic stock clips of "person typing at desk," creators are using AI avatars to deliver messages directly to camera.
 
-The quality has gotten genuinely good. [Synthesia's avatar library](https://www.synthesia.io/?via=tuan-tran) now has 160+ options that look natural, make eye contact, and handle multiple languages. For corporate and educational content, stock footage is starting to feel dated by comparison.
+The quality has gotten genuinely good. [Synthesia's avatar library](https://www.synthesia.io/?via=aivideopicks) now has 160+ options that look natural, make eye contact, and handle multiple languages. For corporate and educational content, stock footage is starting to feel dated by comparison.
 
 **Where it matters most:** Training videos, product explainers, internal comms. Anywhere you'd normally need a spokesperson but don't have the budget (or desire) to put someone on camera.
 
@@ -175,13 +175,13 @@ The quality has gotten genuinely good. [Synthesia's avatar library](https://www.
 
 This used to require translators, voice actors, and weeks of production. Now?
 
-You make one video, pick your target languages, and the tool handles translation, lip-sync, and voiceover. [Synthesia](https://www.synthesia.io/?via=tuan-tran) supports 130+ languages natively. It's not perfect for every use case, but for business content it's a game-changer.
+You make one video, pick your target languages, and the tool handles translation, lip-sync, and voiceover. [Synthesia](https://www.synthesia.io/?via=aivideopicks) supports 130+ languages natively. It's not perfect for every use case, but for business content it's a game-changer.
 
 **Who should care:** Anyone with a global audience — SaaS companies, e-learning platforms, international teams.
 
 ### Trend 3: Text-to-Video for Social Media
 
-The barrier to entry for video content has basically collapsed. Tools like [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) let you paste a blog post URL or a script and get a polished video back in minutes.
+The barrier to entry for video content has basically collapsed. Tools like [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) let you paste a blog post URL or a script and get a polished video back in minutes.
 
 This isn't about replacing professional video production. It's about making "good enough" video accessible to solo creators, small teams, and marketers who need to post daily but can't edit daily.
 
@@ -199,7 +199,7 @@ The practical application: record yourself once, then generate unlimited voiceov
 
 Imagine sending a prospect a video where an AI avatar greets them by name, references their company, and walks through a custom demo. That's happening now.
 
-This is still early, but the tools are getting there. Personalized video at scale is going to reshape sales outreach and onboarding. [Synthesia](https://www.synthesia.io/?via=tuan-tran) and HeyGen are both pushing hard in this direction.
+This is still early, but the tools are getting there. Personalized video at scale is going to reshape sales outreach and onboarding. [Synthesia](https://www.synthesia.io/?via=aivideopicks) and HeyGen are both pushing hard in this direction.
 
 **Where it's headed:** Dynamic video in email campaigns, personalized onboarding sequences, and sales cadences that feel 1:1 even when they're automated.
 
@@ -210,8 +210,8 @@ You don't need to jump on every trend. But if you're still doing everything manu
 Pick one trend that matches your workflow. Try one tool. See what happens.
 
 **My recommendations to get started:**
-- For avatars and training: [Synthesia](https://www.synthesia.io/?via=tuan-tran)
-- For fast social/ad videos: [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9) (use code **6YAZM9V5** for a discount)
+- For avatars and training: [Synthesia](https://www.synthesia.io/?via=aivideopicks)
+- For fast social/ad videos: [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) (use code **6YAZM9V5** for a discount)
 
 See you next week,
 Tom
@@ -253,8 +253,8 @@ Think of it as replacing the *need* for an editor on routine projects, not repla
 
 Depends on what you're making:
 
-- **Training/explainer videos:** Start with [Synthesia](https://www.synthesia.io/?via=tuan-tran). The interface is dead simple — you type a script, pick an avatar, and you've got a video. No learning curve to speak of.
-- **Social media clips and ads:** Go with [Zebracat](https://studio.zebracat.ai/signup/?via=d98eb9). Paste text, get a video. Use code **6YAZM9V5** for a discount.
+- **Training/explainer videos:** Start with [Synthesia](https://www.synthesia.io/?via=aivideopicks). The interface is dead simple — you type a script, pick an avatar, and you've got a video. No learning curve to speak of.
+- **Social media clips and ads:** Go with [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks). Paste text, get a video. Use code **6YAZM9V5** for a discount.
 - **Not sure yet:** Start with a free trial on any of them. You'll know within 20 minutes if it fits your workflow.
 
 **Q3: "Are AI-generated videos obvious to viewers? Will people know?"**
@@ -267,7 +267,7 @@ My advice: stop worrying about whether it looks "AI" and start worrying about wh
 
 ### Tool of the Month: Synthesia
 
-This month I'm giving the spotlight to [Synthesia](https://www.synthesia.io/?via=tuan-tran). Here's the deeper dive.
+This month I'm giving the spotlight to [Synthesia](https://www.synthesia.io/?via=aivideopicks). Here's the deeper dive.
 
 **What it does:**
 Turn text scripts into professional videos with AI avatars, voiceover, and branded templates. No camera, no studio, no editing timeline.
@@ -289,7 +289,7 @@ If you need cinematic B-roll, complex motion graphics, or anything highly creati
 
 **Pricing:** Plans start from around $22/month for personal use, with business tiers for teams. Worth it if you're making even 2-3 videos a month.
 
-[Try Synthesia here](https://www.synthesia.io/?via=tuan-tran)
+[Try Synthesia here](https://www.synthesia.io/?via=aivideopicks)
 
 ### Community Highlights
 
