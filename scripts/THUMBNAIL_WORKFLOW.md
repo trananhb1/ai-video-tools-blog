@@ -31,6 +31,29 @@ Inter font bundled in `scripts/fonts/`. Renders match the Figma master.
 
 Use the Figma file when you want to refine the brand design. After redesigning, port the changes back to `scripts/generate-thumbnail.py` so the Pillow output matches.
 
+## Premium thumbnail workflow (chat / human-in-the-loop)
+
+The autonomous trigger uses Pillow. For special posts (hero pages, deadline-driven content, big launches), regenerate via Figma for higher polish.
+
+**To request a premium thumbnail in chat:**
+
+> "Regenerate the {slug} thumbnail in Figma with title '{title}', badge {BADGE}, tools [Tool1, Tool2, ...]"
+
+The agent will:
+1. Use `use_figma` MCP to clone master node `1:2`, detach the instance, override title/badge/gradient, append logo chip components from page "Tool Logo Chips"
+2. Use `scripts/generate-thumbnail.py` (REST API path) — actually we need a separate `generate-thumbnail-figma.py` for this case, or just download via curl with the Figma node ID
+3. Replace `assets/images/{slug}-thumbnail.png`
+4. Commit + push
+
+Reasons to choose premium over Pillow:
+- Hero/landing page redesigns
+- Time-sensitive viral posts (Sora shutdown, new model launch)
+- Posts that will be heavily promoted on social
+
+**Why Pillow for autonomous, Figma for manual?**
+
+Figma Plugin API (the only way to programmatically modify a Figma file) requires the `use_figma` MCP, which is not available in remote autonomous trigger environments. Figma's REST API is read-only for content. Variables write API requires Enterprise plan ($75+/seat/mo). Pro plan accounts (like ours) cannot autonomously modify Figma files via API.
+
 ## Tool logo chip components
 
 A library of branded chips lives on the "Tool Logo Chips" page. Drop these into the master template's `LogoStrip` frame to show which tools the post covers.
