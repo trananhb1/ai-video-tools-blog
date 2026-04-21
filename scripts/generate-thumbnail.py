@@ -24,6 +24,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FONTS_DIR = Path(__file__).resolve().parent / "fonts"
+LOGOS_DIR = Path(__file__).resolve().parent / "logos"
 FONT_BOLD = str(FONTS_DIR / "Inter-Bold.ttf")
 FONT_SEMI = str(FONTS_DIR / "Inter-SemiBold.ttf")
 
@@ -183,28 +184,62 @@ def draw_title(draw, title):
         y += line_h
 
 
+def slug_for_tool(tool):
+    """Map display name to icon filename."""
+    return {
+        "OpusClip": "opus",
+        "Veo": "veo",
+        "Sora": "sora",
+    }.get(tool, tool.lower())
+
+
 def draw_chip_strip(img, tools):
+    """Render a row of icon chips: white rounded square + brand icon centered + small label below."""
     if not tools:
         return img
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ld = ImageDraw.Draw(layer)
-    font = ImageFont.truetype(FONT_BOLD, 13)
-    x = 32
-    y = 230
-    pad_x, pad_y = 12, 8
-    gap = 8
-    for t in tools[:7]:
-        cfg = TOOL_CHIPS.get(t, {"bg": NAVY, "fg": WHITE})
-        bb = ld.textbbox((0, 0), t, font=font)
+    font = ImageFont.truetype(FONT_BOLD, 10)
+
+    chip_w, chip_h = 56, 56          # white square
+    icon_size = 38                   # icon inside
+    label_y_offset = 4               # gap between chip and text label
+    gap = 10
+    y = 218
+
+    n = min(len(tools), 7)
+    total = n * chip_w + (n - 1) * gap
+    x = (W - total) // 2             # center the strip horizontally
+
+    for tool in tools[:7]:
+        # White rounded chip background
+        ld.rounded_rectangle((x, y, x + chip_w, y + chip_h), radius=10, fill=(255, 255, 255, 245))
+        # Subtle border
+        ld.rounded_rectangle((x, y, x + chip_w, y + chip_h), radius=10, outline=(0, 0, 0, 25), width=1)
+        # Icon centered
+        icon_path = LOGOS_DIR / f"{slug_for_tool(tool)}.png"
+        if icon_path.exists():
+            icon = Image.open(icon_path).convert("RGBA")
+            icon.thumbnail((icon_size, icon_size), Image.LANCZOS)
+            ix = x + (chip_w - icon.width) // 2
+            iy = y + (chip_h - icon.height) // 2
+            layer.paste(icon, (ix, iy), icon)
+        else:
+            # Fallback: brand color circle with first letter
+            cfg = TOOL_CHIPS.get(tool, {"bg": NAVY, "fg": WHITE})
+            ld.ellipse((x + 8, y + 8, x + chip_w - 8, y + chip_h - 8), fill=cfg["bg"])
+            init_font = ImageFont.truetype(FONT_BOLD, 18)
+            bb = ld.textbbox((0, 0), tool[0], font=init_font)
+            tw = bb[2] - bb[0]
+            th = bb[3] - bb[1]
+            ld.text((x + (chip_w - tw) // 2, y + (chip_h - th) // 2 - 2), tool[0],
+                    font=init_font, fill=cfg["fg"])
+        # Text label below
+        bb = ld.textbbox((0, 0), tool, font=font)
         tw = bb[2] - bb[0]
-        th = bb[3] - bb[1]
-        cw = tw + pad_x * 2
-        ch = th + pad_y * 2
-        if x + cw > W - 32:
-            break
-        ld.rounded_rectangle((x, y, x + cw, y + ch), radius=ch // 2, fill=cfg["bg"])
-        ld.text((x + pad_x, y + pad_y - 2), t, font=font, fill=cfg["fg"])
-        x += cw + gap
+        ld.text((x + (chip_w - tw) // 2, y + chip_h + label_y_offset), tool,
+                font=font, fill=(255, 255, 255, 230))
+        x += chip_w + gap
     return Image.alpha_composite(img, layer)
 
 
@@ -215,6 +250,97 @@ def draw_footer(img):
     fd.text((32, 290), "aivideopicks.com", font=font, fill=(255, 255, 255, 217))
     fd.rounded_rectangle((508, 296, 568, 300), radius=2, fill=YELLOW)
     return Image.alpha_composite(img, layer)
+
+
+def draw_stars(layer, cx, y, rating_5, size=22, gap=4):
+    """Draw 5 stars centered on cx with `rating_5` filled (0-5, fractional ok).
+    Yellow filled portion + dark unfilled outline."""
+    ld = ImageDraw.Draw(layer)
+    n = 5
+    total_w = n * size + (n - 1) * gap
+    start_x = cx - total_w // 2
+    for i in range(n):
+        x = start_x + i * (size + gap)
+        fill_amount = max(0, min(1, rating_5 - i))  # fraction of this star to fill
+        # Background star (unfilled, dark)
+        _draw_star(ld, x, y, size, fill=(255, 255, 255, 60))
+        if fill_amount > 0:
+            # Clip mask for partial fill
+            star_layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+            sd = ImageDraw.Draw(star_layer)
+            _draw_star(sd, 0, 0, size, fill=YELLOW)
+            mask = Image.new("L", (size, size), 0)
+            md = ImageDraw.Draw(mask)
+            md.rectangle((0, 0, int(size * fill_amount), size), fill=255)
+            layer.paste(star_layer, (x, y), mask)
+
+
+def _draw_star(draw, x, y, size, fill):
+    """Draw a 5-pointed star inscribed in a size×size box."""
+    import math
+    cx, cy = x + size / 2, y + size / 2
+    outer = size / 2
+    inner = outer * 0.45
+    points = []
+    for i in range(10):
+        r = outer if i % 2 == 0 else inner
+        angle = math.pi / 2 - i * math.pi / 5  # start at top
+        px = cx + r * math.cos(angle)
+        py = cy - r * math.sin(angle)
+        points.append((px, py))
+    draw.polygon(points, fill=fill)
+
+
+def render_review(slug, title, tool, rating_5, rating_text, output_dir=None):
+    """Review-card layout: big tool icon center, name, stars + rating, footer.
+
+    `rating_5` is 0-5 (fractional ok), `rating_text` is e.g. '8.5 / 10' shown below stars.
+    """
+    img = gradient(BLUE)
+    img = draw_circle_accent(img)
+    draw = ImageDraw.Draw(img)
+    draw_logo(draw)
+    img = draw_badge(img, "REVIEW", YELLOW, NAVY)
+
+    # Big tool icon centered horizontally, near top-middle
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    icon_path = LOGOS_DIR / f"{slug_for_tool(tool)}.png"
+    icon_size = 96
+    if icon_path.exists():
+        icon = Image.open(icon_path).convert("RGBA")
+        icon.thumbnail((icon_size, icon_size), Image.LANCZOS)
+        # White rounded backdrop
+        pad = 14
+        bx = (W - icon.width) // 2 - pad
+        by = 70
+        bd = ImageDraw.Draw(layer)
+        bd.rounded_rectangle((bx, by, bx + icon.width + pad * 2, by + icon.height + pad * 2),
+                             radius=18, fill=(255, 255, 255, 245))
+        layer.paste(icon, (bx + pad, by + pad), icon)
+
+    # Tool name (large)
+    name_font = ImageFont.truetype(FONT_BOLD, 32)
+    nd = ImageDraw.Draw(layer)
+    bb = nd.textbbox((0, 0), tool, font=name_font)
+    nx = (W - (bb[2] - bb[0])) // 2
+    nd.text((nx, 200), tool, font=name_font, fill=WHITE)
+
+    # Stars
+    draw_stars(layer, W // 2, 246, rating_5, size=22, gap=4)
+
+    # Rating text below stars
+    rt_font = ImageFont.truetype(FONT_BOLD, 16)
+    rd = ImageDraw.Draw(layer)
+    bb = rd.textbbox((0, 0), rating_text, font=rt_font)
+    rd.text(((W - (bb[2] - bb[0])) // 2, 278), rating_text, font=rt_font, fill=YELLOW)
+
+    img = Image.alpha_composite(img, layer)
+    img = draw_footer(img)
+
+    out = Path(output_dir or REPO_ROOT / "assets" / "images") / f"{slug}-thumbnail.png"
+    img.convert("RGB").save(out, "PNG", optimize=True)
+    print(f"Saved {out.relative_to(REPO_ROOT)} (review card)")
+    return out
 
 
 def render(slug, title, badge="REVIEW", tools=None, gradient_end=None, output_dir=None):
@@ -241,11 +367,20 @@ def render(slug, title, badge="REVIEW", tools=None, gradient_end=None, output_di
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--slug", required=True)
-    p.add_argument("--title", required=True)
+    p.add_argument("--title")
     p.add_argument("--badge", default="REVIEW")
     p.add_argument("--tools", nargs="*", default=[])
+    # Review card mode
+    p.add_argument("--review-tool", help="Tool name for review-card layout")
+    p.add_argument("--rating-5", type=float, help="Rating on 0-5 scale (fractional ok)")
+    p.add_argument("--rating-text", default="", help="Display text e.g. '8.5 / 10'")
     args = p.parse_args()
-    render(slug=args.slug, title=args.title, badge=args.badge, tools=args.tools)
+    if args.review_tool and args.rating_5 is not None:
+        render_review(slug=args.slug, title=args.title or args.review_tool,
+                      tool=args.review_tool, rating_5=args.rating_5,
+                      rating_text=args.rating_text)
+    else:
+        render(slug=args.slug, title=args.title, badge=args.badge, tools=args.tools)
 
 
 if __name__ == "__main__":
