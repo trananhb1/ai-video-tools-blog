@@ -9,7 +9,35 @@ For agents publishing new posts on aivideopicks.com.
 - **Token**: `~/.claude/secrets/figma.env` (FIGMA_TOKEN)
 - **Helper script**: `scripts/generate-thumbnail.py`
 
+## Tool logo chip components
+
+A library of branded chips lives on the "Tool Logo Chips" page. Drop these into the master template's `LogoStrip` frame to show which tools the post covers.
+
+| Tool | Node ID |
+|---|---|
+| HeyGen | `6:11` |
+| Synthesia | `6:13` |
+| Kling | `6:15` |
+| Runway | `6:17` |
+| Pika | `6:19` |
+| Fliki | `6:21` |
+| Zebracat | `6:23` |
+| Pictory | `6:25` |
+| Submagic | `6:27` |
+| Movavi | `6:29` |
+| Vidnoz | `6:31` |
+| Arcads | `6:33` |
+| MakeUGC | `6:35` |
+| Descript | `6:37` |
+| Veo | `6:39` |
+| Sora | `6:41` |
+| ElevenLabs | `6:43` |
+
+Need a tool not in the library? Add a new chip to the "Tool Logo Chips" page following the same component pattern, then add its node ID here.
+
 ## Step 1 — Clone the master + override (use_figma MCP)
+
+The `LogoStrip` is inside an instance, so you must `detachInstance()` before adding chips. Each thumbnail is a one-off export, so detaching is fine.
 
 ```js
 await figma.loadFontAsync({ family: "Inter", style: "Bold" });
@@ -46,7 +74,25 @@ badgeText.characters = "REVIEW";  // REVIEW | COMPARISON | GUIDE | URGENT | DEAL
 const badgeBg = instance.findOne(n => n.name === "BadgeBackground");
 badgeBg.fills = [{ type: 'SOLID', color: { r: 0.961, g: 0.773, b: 0.094 } }]; // yellow
 
-return { instanceId: instance.id };
+// Add tool logo chips for every tool/service mentioned in the post.
+// Detach the instance first so we can modify the LogoStrip.
+const detached = instance.detachInstance();
+const strip = detached.findOne(n => n.name === "LogoStrip");
+
+const toolsInPost = ["HeyGen", "Synthesia", "Kling"]; // up to 7 fits cleanly
+const chipIds = {
+  HeyGen: "6:11", Synthesia: "6:13", Kling: "6:15", Runway: "6:17",
+  Pika: "6:19", Fliki: "6:21", Zebracat: "6:23", Pictory: "6:25",
+  Submagic: "6:27", Movavi: "6:29", Vidnoz: "6:31", Arcads: "6:33",
+  MakeUGC: "6:35", Descript: "6:37", Veo: "6:39", Sora: "6:41",
+  ElevenLabs: "6:43"
+};
+for (const name of toolsInPost) {
+  const chipComp = await figma.getNodeByIdAsync(chipIds[name]);
+  strip.appendChild(chipComp.createInstance());
+}
+
+return { instanceId: detached.id };
 ```
 
 ## Step 2 — Export PNG via REST API
