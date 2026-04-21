@@ -37,15 +37,15 @@ When this project is opened, run through these items:
 ### Active Affiliate Links
 | Program | Link | Status | Where Used |
 |---------|------|--------|------------|
-| Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | Review, 5 comparison articles |
-| Submagic | `https://submagic.co/?via=tom26` | Active | Review, 6 cross-linked articles (30% recurring) |
+| Submagic | `https://submagic.co/?via=aivideopicks` | Active | Review, 6 cross-linked articles (30% recurring) — slug standardized 2026-04-19 |
 | Fliki | `https://fliki.ai/?via=aivideopicks` | Active | Fliki review, pricing (30% lifetime + bonuses @25/50/100 refs) |
 | Arcads AI | `https://arcads.ai/?via=aivideopicks` | Active | Best AI UGC ads pick (25% recurring 12 months, 30-day cookie) |
 | MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (30% per paid referral, 30-day cookie) |
-| Synthesia | `https://www.synthesia.io/?via=tuan-tran` | Active | 15+ articles |
-| HeyGen | `https://www.heygen.com/?via=aivideopicks` | Applied | 10+ articles |
+| Synthesia | `https://www.synthesia.io/?via=aivideopicks` | Active | 15+ articles — slug standardized 2026-04-19 (was tuan-tran) |
+| HeyGen | `https://www.heygen.com/?via=aivideopicks` | **Active & Earning** | Top earner: $121.10 lifetime (3 conversions). 35% recurring. Avatar V is killer feature. |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
-| Zebracat | `https://studio.zebracat.ai/signup/?via=d98eb9` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) |
+| Zebracat | `https://studio.zebracat.ai/?via=aivideopicks` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) — slug standardized 2026-04-19 (was d98eb9) |
+| Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
 | Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 
