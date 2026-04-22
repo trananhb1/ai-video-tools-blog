@@ -124,6 +124,7 @@ TOOL_KEYWORDS = {
     "CapCut":     ("capcut",),
     "OpusClip":   ("opus clip", "opusclip"),
     "Hedra":      ("hedra",),
+    "Colossyan":  ("colossyan",),
 }
 
 
@@ -161,26 +162,59 @@ def tools_in_post(text, slug):
 
     For REVIEW posts (slug like `<tool>-review-2026`), prioritize the
     reviewed tool first so it leads the chip strip.
-    For VS comparison posts (slug like `a-vs-b-vs-c`), prioritize those
-    in the order they appear in the slug.
+    For VS / STACK / NAMED-TRIO posts, return ONLY the tools named in
+    the slug — don't pad with other tools mentioned in the body.
     """
     body = text.lower()
+    s = slug.lower()
 
     priority = []
-    s = slug.lower()
     if "-review" in s:
         head = s.split("-review")[0]
         for name in TOOL_KEYWORDS:
             if head == name.lower() or head.startswith(name.lower() + "-"):
                 priority.append(name)
                 break
+
+    # VS comparison: slug like "a-vs-b" or "a-vs-b-vs-c" — show ONLY those tools
     if "-vs-" in s:
-        for token in re.split(r"-vs-|-(?=\d)", s):
+        for token in re.split(r"-vs-", s):
             for name in TOOL_KEYWORDS:
                 if name.lower() in token and name not in priority:
                     priority.append(name)
                     break
+        return priority  # exact set, no padding
 
+    # STACK posts: slug starts with multiple tool names like
+    # "heygen-descript-opus-clip-solo-creators-2026". Detect tool tokens
+    # at the head of the slug (before non-tool words).
+    head_tokens = s.split("-")
+    head_tools = []
+    i = 0
+    while i < len(head_tokens):
+        # Try 2-word tool names first (e.g. "opus-clip")
+        if i + 1 < len(head_tokens):
+            two_word = head_tokens[i] + "-" + head_tokens[i + 1]
+            matched = False
+            for name in TOOL_KEYWORDS:
+                if name.lower().replace(" ", "-") == two_word or name.lower() == two_word.replace("-", ""):
+                    if name not in head_tools:
+                        head_tools.append(name)
+                    i += 2
+                    matched = True
+                    break
+            if matched:
+                continue
+        # Single-word tool name
+        for name in TOOL_KEYWORDS:
+            if name.lower() == head_tokens[i] and name not in head_tools:
+                head_tools.append(name)
+                break
+        i += 1
+    if len(head_tools) >= 2:  # at least 2 = it's a stack post
+        return head_tools
+
+    # Default: scan body, return up to 7
     found = list(priority)
     for name, kws in TOOL_KEYWORDS.items():
         if name in found:
