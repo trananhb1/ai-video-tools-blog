@@ -75,7 +75,7 @@ TOOL_CHIPS = {
     "CapCut":     {"bg": (0, 0, 0),       "fg": WHITE},
     "OpusClip":   {"bg": (0, 199, 130),   "fg": WHITE},
     "Hedra":      {"bg": (255, 100, 50),  "fg": WHITE},
-    "Arcads":     {"bg": NAVY,            "fg": WHITE},
+    "Colossyan":  {"bg": (90, 35, 180),   "fg": WHITE},
 }
 
 
