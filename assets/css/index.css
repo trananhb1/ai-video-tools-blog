@@ -286,6 +286,7 @@
         .card-thumb.thumb-free-generators { background-image: url('/assets/images/free-ai-video-thumbnail.png'); }
         .card-thumb.thumb-pricing { background-image: url('/assets/images/pricing-compared-thumbnail.png'); }
         .card-thumb.thumb-sora { background-image: url('/assets/images/sora-alternatives-thumbnail.png'); }
+        .card-thumb.thumb-happyhorse-explained { background-image: url('/assets/images/happyhorse-1-0-explained-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-opus-clip { background-image: url('/assets/images/opus-clip-review-thumbnail.png'); }
         .card-thumb.thumb-synthesia { background-image: url('/assets/images/synthesia-review-thumbnail.png'); }
         .card-thumb.thumb-murf { background-image: url('/assets/images/murf-ai-review-thumbnail.png'); }
