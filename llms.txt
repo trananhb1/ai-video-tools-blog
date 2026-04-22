@@ -13,6 +13,11 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - **Hardware:** Windows 11 (Ryzen 9 7900X, 32 GB, RTX 4070) + 2024 MacBook Pro M3.
 - **Methodology:** Every tool scored on render time per 60 s clip, output quality, cost per finished minute, watermark, max free output, and ease of use. Full data in the hero ranking post.
 
+## URGENT (1)
+
+- [How to Export Your Sora Videos Before April 26 Shutdown (Step-by-Step)](https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html) — 5-step export guide for sora.chatgpt.com/exports/me before OpenAI deletes everything on April 26, 2026.
+  Quick answer: Go to sora.chatgpt.com/exports/me by April 26, 2026. Click "Request my data export" — OpenAI emails you a download link within 1-4 hours (up to 24 hours for heavy users). The archive is a ZIP with every video, the prompt that produced it, and a metadata file. After April 26, the Sora app and web interface shut down and the export tool goes offline. The Sora API stays live until September 24, 2026, but API generations are NOT included in this export. Don't wait until April 25.
+
 ## Deals (2)
 
 - [HeyGen Avatar V Deal — What You Get Before April 30](https://aivideopicks.com/posts/heygen-avatar-v-deal-april-2026.html) — Avatar V launch deal with creator bonus up to $2,000, closing April 30, 2026.

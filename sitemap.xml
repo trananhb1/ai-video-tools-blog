@@ -3,8 +3,16 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- URGENT: Sora export how-to (shutdown Apr 26, 2026) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
