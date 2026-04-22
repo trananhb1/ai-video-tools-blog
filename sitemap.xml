@@ -3,9 +3,17 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- New Models -->
+  <url>
+    <loc>https://aivideopicks.com/posts/happyhorse-1-0-explained.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Deals -->
