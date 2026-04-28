@@ -3,9 +3,49 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Cost Per Minute Data Post (link magnet, new 2026-04-28) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/ai-video-cost-per-minute-2026.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- AI Writing Hub (cornerstone, new category expansion) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-writing-tools-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Copy.ai Review (AI Writing, new 2026-04-25) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/copy-ai-review-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasper AI Review (P0 expansion article #2) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/jasper-review-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- HeyGen cluster: alternatives (new 2026-04-25) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-alternatives-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- URGENT: Sora export how-to (shutdown Apr 26, 2026) -->
@@ -35,7 +75,7 @@
   <!-- Pricing Guides -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-pricing-2026.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>

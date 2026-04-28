@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Hub")
-- **Content:** 45 articles — reviews, comparisons, tutorials, gear guides
+- **Content:** 46 articles — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -71,9 +71,9 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (45 articles)
+## Content Inventory (48 articles)
 
-### Reviews (16)
+### Reviews (18)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
 - deepbrain-ai-review-2026.html
@@ -90,8 +90,11 @@ When this project is opened, run through these items:
 - zebracat-review-2026.html
 - vidnoz-review-2026.html
 - submagic-review-2026.html
+- jasper-review-2026.html
+- copy-ai-review-2026.html
 
-### Comparisons (12)
+### Comparisons (13)
+- ai-video-cost-per-minute-2026.html
 - best-ai-talking-head-tools-2026.html
 - heygen-vs-synthesia-2026.html
 - heygen-vs-synthesia-vs-pictory.html

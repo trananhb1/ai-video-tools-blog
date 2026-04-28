@@ -1,0 +1,150 @@
+{
+  "generated": "2026-04-27",
+  "sources_checked": [
+    "reddit",
+    "google_trends"
+  ],
+  "total_topics": 13,
+  "high_score_topics": 8,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "312 upvotes, 9782 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "video ai generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "free ai video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 83,
+      "growth": "top query (value: 87)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 91
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "sora",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video tools",
+      "final_score": 75
+    },
+    {
+      "topic": "ai video generator",
+      "source": "google_trends",
+      "trend_score": 74,
+      "growth": "top query (value: 69)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 74
+    },
+    {
+      "topic": "capcut ai video editor",
+      "source": "google_trends",
+      "trend_score": 73,
+      "growth": "top query (value: 66)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 73
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 50,
+      "growth": "top query (value: 20)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 50
+    },
+    {
+      "topic": "3d model to seedance 2 render",
+      "source": "reddit",
+      "subreddit": "aivideo",
+      "trend_score": 50,
+      "growth": "54 upvotes, 3 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/aivideo/comments/1svyx8j/3d_model_to_seedance_2_render/",
+      "final_score": 50
+    },
+    {
+      "topic": "Met investigates hundreds of officers after using Palantir AI tool | Metropolitan police | The Guardian",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 50,
+      "growth": "93 upvotes, 17 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1sw0vy7/met_investigates_hundreds_of_officers_after_using/",
+      "final_score": 50
+    },
+    {
+      "topic": "ai image to video generator",
+      "source": "google_trends",
+      "trend_score": 46,
+      "growth": "top query (value: 13)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 46
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 46,
+      "growth": "top query (value: 13)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 46
+    }
+  ],
+  "categories": {
+    "general": 8,
+    "pricing": 3,
+    "roundup": 2
+  }
+}

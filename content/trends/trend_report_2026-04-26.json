@@ -1,0 +1,120 @@
+{
+  "generated": "2026-04-26",
+  "sources_checked": [
+    "reddit",
+    "google_trends"
+  ],
+  "total_topics": 10,
+  "high_score_topics": 6,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "312 upvotes, 9782 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "free ai video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 97)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 85
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "sora",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video tools",
+      "final_score": 75
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 69,
+      "growth": "top query (value: 59)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 69
+    },
+    {
+      "topic": "ai image to video generator",
+      "source": "google_trends",
+      "trend_score": 69,
+      "growth": "top query (value: 59)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 69
+    },
+    {
+      "topic": "Nature-published Chinese semiconductor researcher fell to his death at U of Michigan. Cops investigating Danhao Wang's death as \"possible act of self-harm\". The Chinese Ministry of Foreign Affairs calls for a \"full investigation\", the death following \"hostile questioning by US law enforcement\".",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 68,
+      "growth": "1195 upvotes, 153 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1sujisg/naturepublished_chinese_semiconductor_researcher/",
+      "final_score": 68
+    },
+    {
+      "topic": "Comfy raises $30M to continue building the best creative AI tool in open",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 62,
+      "growth": "432 upvotes, 170 comments",
+      "region": "global",
+      "category": "roundup",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1sumuc3/comfy_raises_30m_to_continue_building_the_best/",
+      "final_score": 62
+    }
+  ],
+  "categories": {
+    "general": 5,
+    "pricing": 2,
+    "roundup": 3
+  }
+}
