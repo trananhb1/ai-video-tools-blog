@@ -1,0 +1,27 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-04-26T01:00:03Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:05 [INFO] === Source 1: Google Trends ===
+03:00:12 [INFO] Google Trends: scanning 22 seed terms...
+03:00:33 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:00:45 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+03:00:50 [INFO] Google Trends: found 7 unique topics
+03:00:50 [INFO] === Source 2: Reddit ===
+03:00:50 [INFO] Reddit: scanning 8 subreddits...
+03:00:50 [WARNING] Reddit r/aivideo error: HTTP Error 403: Blocked
+03:01:16 [INFO] Reddit: found 3 relevant topics
+03:01:16 [INFO] Total unique topics: 10
+03:01:16 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-26.json
+03:01:16 [INFO] Added 2 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+03:01:16 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-26.json
+03:01:16 [INFO] Top 5 topics:
+03:01:16 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+03:01:16 [INFO]   2. [93] free ai video generator (pricing)
+03:01:16 [INFO]   3. [93] text to video generator free (pricing)
+03:01:16 [INFO]   4. [85] best video generator ai (roundup)
+03:01:16 [INFO]   5. [85] best ai video editor (roundup)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-04-26T01:01:17Z

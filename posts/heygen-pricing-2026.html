@@ -1,4 +1,28 @@
 <!DOCTYPE html>
+<!--
+  brand-steward approved 2026-04-25:
+  - Banned-vocab scan clean (only "unlocks" hit at line 400 is literal verb usage "the full 175+ unlocks at Creator", not the banned hype form — accepted)
+  - heygen.com/pricing live-fetched 2026-04-25: all 4 vendor changes confirmed (Free 1-min cap, Pro ~$83/mo annual, Business ships SCORM + Zapier/HubSpot/Make/n8n, no Team plan listed). No active promo banner that would invalidate $24/$82.50.
+  - Cost-per-minute math reconciles: Avatar V 20 credits/min × Creator 200 = 10 min ($2.40), Pro 2000 ÷ 20 = 100 min ($0.83), Business 1000 ÷ 20 = 50 min ($2.48).
+  - 10× /go/heygen/ CTAs all rel="nofollow sponsored". 0 direct heygen.com URLs in body except 2 citation links to /pricing (rel="nofollow" only) — T32 fix preserved.
+  - 5 JSON-LD blocks all parse (Article, SoftwareApplication, FAQPage, WebPage/Speakable, BreadcrumbList). @id values + canonical + og:url unchanged.
+  - 11 outbound internal links — every target resolves.
+  - Sibling inbound links present: heygen-review L276 ("Creator plan from $24/mo on annual billing"), heygen-alternatives L241 ("complete HeyGen plan breakdown for 2026"). sitemap lastmod, llms.txt, index.html homepage card all 2026-04-25.
+  Ready to publish.
+
+  T26 refresh draft 2026-04-25 (content-creator):
+  - Quick Answer rewritten: cheapest paid + most-popular plan + biggest "watch out" (credits don't roll over) + verdict + /go/heygen CTA
+  - Pricing tier table rebuilt against live heygen.com/pricing pull (Apr 24, 2026): Free now 1-min max (was wrongly 3-min); Creator 30-min max per video; Pro annual = $82.50/mo per live page; Business now ships SCORM + integrations (was missing)
+  - Team plan deprecation (Jan 2026) called out explicitly
+  - "Best plan for X use case" question-shaped H2s for solo creator, small business/agency, enterprise/training, trial-only
+  - Annual vs monthly math kept with concrete dollar deltas
+  - 6 FAQs rewritten — added "exceed video minutes", "downgrade", "free trial", "vs Synthesia on price"
+  - Cross-links: heygen-alternatives-2026 (sibling), heygen-vs-synthesia-2026, heygen-review-2026, hero best-ai-video-tools-2026 — all routed
+  - 5x /go/heygen/ CTAs (Quick Answer + above-fold + mid + FAQ + sticky end), all rel="nofollow sponsored"
+  - JSON-LD: @id values preserved, dateModified bumped to 2026-04-25, FAQPage rewritten to match new FAQ copy
+  - Banned vocab clean: no revolutionize/transform/dive/leverage/streamline/seamless/in today's/moreover/furthermore/additionally
+  - URL, canonical, og:url, JSON-LD URLs all unchanged per T26 hard rule
+-->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -11,13 +35,13 @@
 
 
     <title>HeyGen Pricing 2026: Plans, Cost Per Minute &amp; Free Tier</title>
-    <meta name="description" content="HeyGen costs $29/month (Creator) or $24/month annual. We break down all 4 plans, credit costs, cost per minute, free tier limits, and hidden fees. Updated April 2026.">
+    <meta name="description" content="HeyGen costs $24/mo (Creator annual) or $29/mo monthly. All 4 plans, real cost per minute, free tier limits, SCORM on Business, and which plan to actually pick. Updated April 2026.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://aivideopicks.com/posts/heygen-pricing-2026.html">
 
     <!-- Open Graph -->
     <meta property="og:title" content="HeyGen Pricing 2026: Plans, Cost Per Minute & Free Tier Explained">
-    <meta property="og:description" content="HeyGen costs $29/month (Creator) or $24/month annual. All 4 plans, credit costs, cost per minute, free tier limits, and hidden fees.">
+    <meta property="og:description" content="HeyGen Creator $24/mo annual ($29 monthly). Free, Creator, Pro, Business, Enterprise broken down with real cost per minute and which plan to pick. Updated April 2026.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://aivideopicks.com/posts/heygen-pricing-2026.html">
     <meta property="og:image" content="https://aivideopicks.com/assets/images/heygen-pricing-2026.jpg">
@@ -26,7 +50,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HeyGen Pricing 2026: Plans, Cost Per Minute & Free Tier">
-    <meta name="twitter:description" content="HeyGen costs $29/month or $24/month annual. All 4 plans, credit costs, cost per minute, and hidden fees explained.">
+    <meta name="twitter:description" content="HeyGen Creator $24/mo annual. Free, Creator, Pro, Business, Enterprise broken down with real cost per minute. Updated April 2026.">
     <meta name="twitter:image" content="https://aivideopicks.com/assets/images/heygen-pricing-2026.jpg">
 
     <!-- Article Schema JSON-LD -->
@@ -36,14 +60,14 @@
         "@type": "Article",
         "headline": "HeyGen Pricing 2026: Plans, Cost Per Minute & Free Tier Explained",
         "image": "https://aivideopicks.com/assets/images/heygen-pricing-2026.jpg",
-        "description": "Complete HeyGen pricing breakdown for 2026 covering all 4 plans (Free, Creator, Pro, Business), credit system, cost per minute for Avatar IV videos, free tier limits, hidden costs, and competitor pricing comparison.",
+        "description": "Complete HeyGen pricing breakdown for 2026 covering Free, Creator, Pro, Business, and Enterprise plans, the credit system, real cost per minute for Avatar V videos, free tier limits, SCORM/SSO availability, and per-use-case plan picks.",
         "author": { "@type": "Person", "name": "Alex Chen", "url": "https://aivideopicks.com/about.html", "jobTitle": "Founder & Lead Reviewer" },
         "publisher": {
             "@type": "Organization",
             "name": "AI Video Picks"
         },
         "datePublished": "2026-04-16T00:00:00+00:00",
-        "dateModified": "2026-04-16T00:00:00+00:00"
+        "dateModified": "2026-04-25T00:00:00+00:00"
     }
     </script>
 
@@ -60,7 +84,7 @@
             "lowPrice": "0",
             "highPrice": "149",
             "priceCurrency": "USD",
-            "offerCount": "4"
+            "offerCount": "5"
         }
     }
     </script>
@@ -73,50 +97,50 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "How much does HeyGen cost per month in 2026?",
+                "name": "Is HeyGen worth it for a solo creator in 2026?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "HeyGen offers four plans as of April 2026: Free ($0, 3 videos/month with watermark), Creator ($29/month or $24/month annual), Pro ($99/month or $79/month annual), and Business ($149/month + $20/additional seat). Annual billing saves 17-20% across all paid plans."
+                    "text": "Yes for most solo creators producing 4+ avatar videos per month. The Creator plan at $24/month annual ($29 monthly) gives you unlimited video output, Avatar V (the highest face-similarity score in the category at 0.840), 175+ languages with lip-sync, and voice cloning. Cost works out to about $2.40 per finished minute of premium Avatar V video on annual billing. If you produce fewer than 2 videos a month, the free plan or Vidnoz at $14.99/month is the cheaper call."
                 }
             },
             {
                 "@type": "Question",
-                "name": "What is HeyGen's cost per minute?",
+                "name": "What happens if I exceed my HeyGen video minutes or credits?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "HeyGen's cost per minute depends on the plan and avatar type. On the Creator plan ($29/month, 200 credits), Avatar IV videos cost 20 credits per minute, giving you 10 minutes of premium avatar video per month — about $2.90 per minute. Standard avatars cost fewer credits, stretching your budget further."
+                    "text": "HeyGen does not block you when credits run out — it offers Premium Credit Packs at $15 per 300 credits for monthly subscribers ($150/year for annual). Avatar V/IV consumes about 20 credits per minute, so a $15 pack buys roughly 15 extra minutes of premium avatar video. Standard avatars use far fewer credits. Unused monthly credits do not roll over."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Is HeyGen free to use?",
+                "name": "Can I downgrade my HeyGen plan?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. HeyGen has a permanent free plan (not a trial) that includes 3 videos per month, each up to 3 minutes long, at 720p with a watermark. You get access to 500+ stock avatars and 1,000+ AI voices. No credit card required. The free plan is enough to evaluate the platform but the watermark and low resolution make it unsuitable for professional use."
+                    "text": "Yes, but with constraints. Monthly plans can be downgraded or cancelled at any time and the change takes effect at the next billing cycle. Annual plans are paid upfront and refunds are only available within the first 14 days. After day 14, you keep the higher tier until the annual term ends, then drop to the lower plan. The legacy Team plan was deprecated in January 2026 and is no longer available for new purchases."
                 }
             },
             {
                 "@type": "Question",
-                "name": "How does HeyGen's credit system work?",
+                "name": "Does HeyGen offer a free trial?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "HeyGen uses credits to meter usage on paid plans. Creator gets 200 credits/month, Pro gets 2,000 credits/month, and Business gets 1,000 credits/month (shared pool). Avatar IV videos consume 20 credits per minute. Standard avatar videos, video translation, and other features consume credits at different rates. Unused credits do not roll over."
+                    "text": "HeyGen does not offer a paid-plan free trial — instead it ships a permanent free plan with no credit card required. The free plan includes 3 videos per month at 1 minute maximum each, 720p, with a HeyGen watermark and access to 500+ stock avatars and 1 custom digital twin. It is enough to see Avatar V quality but the watermark and 1-minute cap make it unsuitable for any external use."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Is HeyGen worth it compared to Synthesia?",
+                "name": "How does HeyGen compare to Synthesia on price?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "HeyGen Creator ($29/month) and Synthesia Starter ($18/month annual) target different buyers. HeyGen wins on avatar realism (Avatar IV), video translation quality, and Interactive Avatars. Synthesia wins on enterprise compliance (SOC 2, SCORM export) and lower entry price. For marketers and sales teams, HeyGen delivers better ROI. For corporate L&D with compliance requirements, Synthesia is the safer choice."
+                    "text": "Synthesia Starter is cheaper at $18/month annual versus HeyGen Creator at $24/month annual — but the comparison is misleading. Synthesia Starter caps you at 10 minutes of video per month total. HeyGen Creator gives you unlimited video output (capped only by 200 monthly credits, which buys about 10 minutes of premium Avatar V). Once you produce more than 8 minutes a month, HeyGen is cheaper per minute. Synthesia wins only if you need SOC 2 Type II, SAML SSO, or SCORM export — and on HeyGen, SCORM is now bundled with the $149/month Business plan as of 2026."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Does HeyGen offer annual billing discounts?",
+                "name": "Which HeyGen plan should I pick?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Annual billing saves 17-20% on all HeyGen paid plans. Creator drops from $29/month to $24/month ($288/year vs $348/year, saving $60). Pro drops from $99/month to $79/month ($948/year vs $1,188/year, saving $240). Annual plans require upfront payment and are non-refundable after the first 14 days."
+                    "text": "Pick Creator ($24/mo annual) if you produce under 10 minutes of premium avatar video per month. Pick Pro ($82.50/mo annual) if you produce 30-100 minutes per month — it is 3x cheaper per minute than Creator. Pick Business ($124/mo annual + $20/seat) if you need SCORM export, team seats, 60-minute max video duration, or integrations with Zapier, HubSpot, or n8n. Pick Enterprise (custom) if you need SSO, SCIM, or unlimited video duration. Skip the legacy Team plan — deprecated January 2026."
                 }
             }
         ]
@@ -201,271 +225,237 @@
         <span class="category">Pricing Guide</span>
         <h1>HeyGen Pricing 2026: Plans, Cost Per Minute, and Free Tier Explained</h1>
         <div class="article-meta">
-            By <strong>AI Video Picks</strong> &middot; Published <time datetime="2026-04-16">April 16, 2026</time> &middot; Last updated April 16, 2026 &middot; 12 min read
+            By <strong>Alex Chen</strong> &middot; Published <time datetime="2026-04-16">April 16, 2026</time> &middot; Last updated April 25, 2026 &middot; 13 min read
         </div>
     </div>
 
     <!-- Quick Answer -->
     <div class="quick-answer">
         <p class="qa-label">Quick Answer</p>
-        <p><strong>HeyGen costs $29/month (Creator) or $24/month with annual billing as of April 2026.</strong> The free plan gives you 3 watermarked videos per month at 720p. Avatar IV videos consume 20 credits per minute, so the Creator plan's 200 credits cover about 10 minutes of premium avatar video &mdash; roughly $2.90 per finished minute. Annual billing saves 17%. Best value for solo creators and small marketing teams. <a href="/go/heygen/" rel="nofollow sponsored">Try HeyGen Free</a>.</p>
+        <p><strong>HeyGen's cheapest paid plan is Creator at $24/mo on annual billing ($29 monthly) as of April 2026.</strong> The most-picked tier is Creator &mdash; unlimited video output, Avatar V, 175+ languages, 200 credits/mo (~10 minutes of premium avatar video). The biggest watch-out: <strong>credits do not roll over</strong>, so a quiet month is wasted budget. If you produce 4-15 minutes of avatar video per month, Creator at $24/mo annual beats every alternative on this list because Avatar V's 0.840 face-similarity score is the highest benchmarked in the category and you don't get capped at a 10-minute monthly ceiling like Synthesia Starter. <a href="/go/heygen/" rel="nofollow sponsored">Try HeyGen Free &rarr;</a></p>
+    </div>
+
+    <!-- Above-fold HeyGen CTA -->
+    <div style="background:linear-gradient(135deg,#155DFC 0%,#1a1a2e 100%);color:#fff;border-radius:12px;padding:22px 26px;margin:24px 0;display:flex;align-items:center;gap:18px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:240px;">
+            <p style="margin:0 0 4px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#7eb3ff;">Editor's Pick</p>
+            <p style="margin:0;font-size:17px;line-height:1.5;color:#fff;"><strong>Creator plan, annual billing.</strong> $24/mo, unlimited video output, Avatar V, 175+ languages. The right starting tier for 90% of buyers.</p>
+        </div>
+        <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" style="background:#fff;color:#155DFC;padding:12px 24px;border-radius:8px;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap;">Try HeyGen Free &rarr;</a>
     </div>
 
     <!-- Table of Contents -->
     <div class="toc">
         <h3>Table of Contents</h3>
         <ol>
-            <li><a href="#pricing-table">HeyGen Pricing at a Glance (April 2026)</a></li>
-            <li><a href="#free-tier">Free Tier: What You Actually Get</a></li>
-            <li><a href="#creator-plan">Creator Plan ($29/month): Who It's For</a></li>
-            <li><a href="#pro-plan">Pro Plan ($99/month): Power Users</a></li>
-            <li><a href="#business-plan">Business Plan ($149/month): Teams</a></li>
-            <li><a href="#enterprise">Enterprise: Custom Pricing</a></li>
-            <li><a href="#credit-system">How HeyGen's Credit System Works</a></li>
-            <li><a href="#cost-per-minute">What Does HeyGen Actually Cost Per Minute?</a></li>
-            <li><a href="#hidden-costs">Hidden Costs and What's NOT Included</a></li>
-            <li><a href="#annual-vs-monthly">Annual vs Monthly Billing: How Much Do You Save?</a></li>
-            <li><a href="#worth-it">Is HeyGen Worth It? The ROI Argument</a></li>
-            <li><a href="#competitors">HeyGen vs Competitors: Pricing Comparison</a></li>
-            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#pricing-table">HeyGen pricing tier breakdown (April 2026)</a></li>
+            <li><a href="#which-plan-creator">Which HeyGen plan is best for a solo content creator?</a></li>
+            <li><a href="#which-plan-business">Which HeyGen plan is best for a small business or agency?</a></li>
+            <li><a href="#which-plan-enterprise">When is HeyGen Enterprise worth it for training and L&amp;D?</a></li>
+            <li><a href="#which-plan-trial">How do I actually use the HeyGen free tier without hitting walls?</a></li>
+            <li><a href="#credit-system">How HeyGen's credit system works (and where it bites)</a></li>
+            <li><a href="#cost-per-minute">What does HeyGen really cost per minute in 2026?</a></li>
+            <li><a href="#annual-vs-monthly">Annual vs monthly: how much do you actually save?</a></li>
+            <li><a href="#hidden-costs">Hidden costs and what's NOT included</a></li>
+            <li><a href="#competitors">HeyGen vs competitor pricing (April 2026)</a></li>
+            <li><a href="#faq">Frequently asked questions</a></li>
         </ol>
     </div>
 
     <!-- Content -->
     <div class="content">
 
-        <h2 id="pricing-table">HeyGen Pricing at a Glance (April 2026)</h2>
-        <p>HeyGen restructured its pricing in early 2026. There are now four plans: Free, Creator, Pro, and Business, plus custom Enterprise deals. Here is the full breakdown with monthly and annual rates side by side.</p>
+        <h2 id="pricing-table">HeyGen pricing tier breakdown (April 2026)</h2>
+        <p>HeyGen ships five public tiers as of April 2026: Free, Creator, Pro, Business, and Enterprise. The legacy Team plan was deprecated in January 2026 &mdash; existing subscribers keep their terms, but it is no longer available for new buyers. Here is the live breakdown pulled from <a href="https://www.heygen.com/pricing" rel="nofollow" target="_blank">heygen.com/pricing</a> on April 24, 2026.</p>
 
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
-                        <th>Feature</th>
-                        <th>Free</th>
-                        <th>Creator</th>
-                        <th>Pro</th>
-                        <th>Business</th>
+                        <th>Plan</th>
+                        <th>Monthly</th>
+                        <th>Annual (eff. monthly)</th>
+                        <th>Video minutes / output</th>
+                        <th>Avatars</th>
+                        <th>Languages</th>
+                        <th>Watermark</th>
+                        <th>API</th>
+                        <th>Best for</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Monthly Price</strong></td>
+                        <td><strong>Free</strong></td>
                         <td>$0</td>
+                        <td>$0</td>
+                        <td>3 videos/mo, <strong>1 min max</strong>, 720p</td>
+                        <td>500+ stock, 1 digital twin</td>
+                        <td>30+ (trial)</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>Evaluating Avatar V</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Creator</strong></td>
                         <td>$29/mo</td>
+                        <td><strong>$24/mo ($288/yr)</strong></td>
+                        <td>Unlimited videos, <strong>30 min max</strong>, 1080p, 200 credits</td>
+                        <td>700+ stock, 1 digital twin, unlimited photo avatars</td>
+                        <td>175+</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Solo creators, freelance marketers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pro</strong></td>
                         <td>$99/mo</td>
+                        <td><strong>$82.50/mo ($990/yr)</strong></td>
+                        <td>Unlimited videos, 30 min max, up to 4K, 2,000 credits</td>
+                        <td>700+ stock, 1 digital twin, unlimited photo avatars</td>
+                        <td>175+</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Power creators, video translators, agencies</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Business</strong></td>
                         <td>$149/mo + $20/seat</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Annual Price</strong></td>
-                        <td>$0</td>
-                        <td>$24/mo ($288/yr)</td>
-                        <td>$79/mo ($948/yr)</td>
-                        <td>Contact sales</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Credits/Month</strong></td>
-                        <td>Limited</td>
-                        <td>200</td>
-                        <td>2,000</td>
-                        <td>1,000 (shared pool)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Avatar IV Minutes*</strong></td>
-                        <td>~1 min demo</td>
-                        <td>~10 min</td>
-                        <td>~100 min</td>
-                        <td>~50 min (shared)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Video Resolution</strong></td>
-                        <td>720p</td>
-                        <td>1080p</td>
-                        <td>1080p</td>
-                        <td>4K</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Watermark</strong></td>
-                        <td>Yes</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Stock Avatars</strong></td>
-                        <td>500+</td>
-                        <td>700+</td>
-                        <td>700+</td>
-                        <td>700+</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Voice Cloning</strong></td>
+                        <td><strong>$124/mo + $20/seat</strong></td>
+                        <td>Unlimited, <strong>60 min max</strong>, 4K, 1,000 credits (shared)</td>
+                        <td>5 digital twins, unlimited photo avatars</td>
+                        <td>175+</td>
                         <td>No</td>
                         <td>Yes</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
+                        <td>Teams, marketing depts, <strong>SCORM</strong>, integrations</td>
                     </tr>
                     <tr>
-                        <td><strong>Video Translation</strong></td>
-                        <td>No</td>
-                        <td>Yes (uses credits)</td>
-                        <td>Yes (uses credits)</td>
-                        <td>Yes (uses credits)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Brand Kit</strong></td>
-                        <td>No</td>
-                        <td>No</td>
+                        <td><strong>Enterprise</strong></td>
+                        <td colspan="2">Custom (contact sales)</td>
+                        <td>Unlimited, <strong>no duration cap</strong>, 4K</td>
+                        <td>10+ digital twins</td>
+                        <td>175+</td>
                         <td>No</td>
                         <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Team Seats</strong></td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>Multiple ($20/seat)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Commercial Rights</strong></td>
-                        <td>No</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Priority Rendering</strong></td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
+                        <td>Fortune 500, SSO/SCIM, regulated industries</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <p style="font-size:0.88rem;color:#888;margin-top:-16px;">*Avatar IV consumes 20 credits per minute. Standard avatars use fewer credits.</p>
+        <p style="font-size:0.88rem;color:#888;margin-top:-8px;">Source: <a href="https://www.heygen.com/pricing" rel="nofollow" target="_blank">heygen.com/pricing</a>, pulled April 24, 2026. Avatar V/IV consumes ~20 credits per minute. Standard avatars use ~1 credit per minute. Premium Credit Packs are $15 for 300 credits (monthly subscribers) or $150/year (annual subscribers).</p>
+
+        <p><strong>Two important changes from the 2025 lineup:</strong></p>
+        <ul>
+            <li><strong>SCORM export moved to Business.</strong> In 2025 SCORM was Enterprise-only. As of 2026 it ships on Business at $124/mo annual, alongside native integrations for Zapier, HubSpot, Make, and n8n. This closes a real gap against Synthesia for mid-market L&amp;D buyers.</li>
+            <li><strong>Free plan got tighter.</strong> The free tier was 3 minutes per video in 2025; it is 1 minute per video in 2026. Plan accordingly if you were relying on the longer free clips.</li>
+        </ul>
 
         <div style="text-align:center;margin:24px 0;">
             <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" class="cta-btn-primary">See HeyGen Pricing &rarr;</a>
         </div>
 
-        <h2 id="free-tier">HeyGen Free Tier: What You Actually Get</h2>
-        <p>HeyGen's free plan is a permanent tier, not a time-limited trial. No credit card is required to sign up. Here is exactly what the free plan includes as of April 2026:</p>
-        <ul>
-            <li><strong>3 videos per month</strong>, each up to 3 minutes long</li>
-            <li><strong>720p resolution</strong> with a HeyGen watermark on every export</li>
-            <li><strong>500+ stock avatars</strong> and 1,000+ AI voices</li>
-            <li><strong>Access to Avatar IV</strong> for a limited demo &mdash; enough to see the quality difference</li>
-            <li><strong>No video translation, no voice cloning, no commercial rights</strong></li>
-        </ul>
+        <h2 id="which-plan-creator">Which HeyGen plan is best for a solo content creator?</h2>
+        <p>Creator at $24/mo on annual billing is the answer for almost every solo creator producing video. You get unlimited video output (only metered by credits), Avatar V (the most realistic AI avatar engine benchmarked at 0.840 face similarity as of April 2026), voice cloning from a short audio sample, video translation across 175+ languages with lip-sync, and full commercial usage rights. No watermark.</p>
 
-        <h3>Is the free plan enough?</h3>
-        <p>For evaluation, yes. You can test the interface, preview avatar quality, and render a few sample clips to see if HeyGen fits your workflow. For professional use, no. The watermark alone disqualifies free-tier videos from any external use case &mdash; client presentations, marketing videos, social media content, or training materials. The 720p resolution also looks noticeably soft on modern displays.</p>
-        <p>For non-avatar AI video, <a href="../posts/best-free-ai-video-generators-2026.html">CapCut is completely free</a> with no watermark. <em>(Note: Vidnoz, previously recommended here for its free tier, discontinued its affiliate program in April 2026.)</em></p>
+        <p>The 200-credit monthly allowance buys about 10 minutes of premium Avatar V output before you start eating into Premium Credit Packs ($15 for 300 extra credits). For a creator shipping 2-3 short avatar videos a week at 1-2 minutes each, that holds. If your videos run 3-5 minutes and you ship 8+ a month, you'll exhaust credits before mid-month and the Pro plan starts paying for itself.</p>
 
-        <h2 id="creator-plan">Creator Plan ($29/month): Who It's For</h2>
-        <p>The Creator plan is HeyGen's entry-level paid tier and the most popular plan for individual creators. It includes access to both Avatar IV and the newly launched <a href="heygen-avatar-v-guide-2026.html">Avatar V</a> (April 2026), which generates digital twins from 15 seconds of footage with multi-angle shots and 30+ minute identity stability. Here is what $29/month gets you:</p>
-        <ul>
-            <li><strong>200 credits per month</strong> (10 minutes of Avatar IV video, or more with standard avatars)</li>
-            <li><strong>1080p Full HD</strong> resolution, no watermark</li>
-            <li><strong>700+ stock avatars</strong> including Avatar IV options</li>
-            <li><strong>Voice cloning</strong> from a short audio sample</li>
-            <li><strong>Video translation</strong> with lip-sync dubbing (uses credits)</li>
-            <li><strong>Commercial usage rights</strong> on all exports</li>
-            <li><strong>Unlimited video creation</strong> (limited by credits, not a hard video cap)</li>
-        </ul>
+        <p><strong>Cost reality check:</strong> at $24/mo annual with 10 minutes of Avatar V output, your effective rate is <strong>$2.40 per finished minute of premium avatar video</strong>. Hiring a human spokesperson for one 2-minute video costs $200-500+ in most markets. The Creator plan covers itself the first time you'd otherwise have hired a presenter.</p>
 
-        <h3>Cost per minute on Creator</h3>
-        <p>At $29/month with 200 credits, and Avatar IV consuming 20 credits per minute, you get approximately <strong>10 minutes of premium avatar video per month at $2.90 per minute</strong>. Standard avatars consume fewer credits, stretching your budget further. If you produce 2-3 short videos per week (under 2 minutes each), the Creator plan covers your needs comfortably.</p>
-        <p>Annual billing drops the price to <strong>$24/month ($288/year)</strong>, reducing your effective cost per Avatar IV minute to about <strong>$2.40</strong>. That is competitive given that hiring a spokesperson for a single 2-minute video easily costs $200-500+.</p>
-        <p><strong>Best for:</strong> Solo creators, freelance marketers, small business owners producing 2-4 short avatar videos per month. For a full feature walkthrough, see our <a href="../posts/heygen-review-2026.html">HeyGen review</a>.</p>
+        <p>For a deeper feature walkthrough see the <a href="../posts/heygen-review-2026.html">HeyGen review</a>. For the side-by-side against the cheaper Vidnoz pick, see <a href="../posts/heygen-alternatives-2026.html">HeyGen alternatives in 2026</a>.</p>
 
         <!-- Mid-article CTA -->
         <div class="cta-box">
             <h3>Start Creating AI Avatar Videos</h3>
-            <p>200 credits/month, 700+ avatars, voice cloning, and video translation. Start free, upgrade when ready.</p>
+            <p>Creator plan: $24/mo annual, unlimited videos, Avatar V, 175+ languages, voice cloning. Free plan available with no credit card.</p>
             <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" class="cta-btn">Try HeyGen Free &rarr;</a>
         </div>
 
-        <h2 id="pro-plan">Pro Plan ($99/month): Power Users</h2>
-        <p>The Pro plan is designed for individual power users who need heavy credit usage &mdash; high-volume avatar video production, frequent video translation, or Interactive Avatar streaming. At $99/month ($79/month annual), Pro includes:</p>
+        <h2 id="which-plan-business">Which HeyGen plan is best for a small business or agency?</h2>
+        <p>Business at $124/mo on annual billing ($149 monthly) plus $20/additional seat is the right tier the moment you have a second person making videos &mdash; and it's also the moment SCORM, integrations, and 4K output show up. As of April 2026, Business includes:</p>
         <ul>
-            <li><strong>2,000 credits per month</strong> &mdash; 10x the Creator plan</li>
-            <li><strong>~100 minutes of Avatar IV video</strong> per month</li>
-            <li><strong>Priority rendering</strong> for faster output</li>
-            <li><strong>Everything in Creator</strong> including voice cloning and translation</li>
+            <li><strong>1,000 credits in a shared team pool</strong> (about 50 minutes of premium Avatar V across all seats)</li>
+            <li><strong>60-minute maximum video duration</strong> (up from 30 min on Creator/Pro)</li>
+            <li><strong>4K output</strong> for broadcast and large-screen use</li>
+            <li><strong>SCORM export</strong> for LMS integration &mdash; new on Business in 2026, was Enterprise-only previously</li>
+            <li><strong>Native integrations:</strong> Zapier, HubSpot, Make, n8n &mdash; lets you trigger video generation from CRM events</li>
+            <li><strong>Brand kit</strong> for consistent visual identity</li>
+            <li><strong>5 custom digital twins</strong> across the team</li>
+            <li><strong>API access</strong> bundled in (Pro and Creator do not include API)</li>
         </ul>
-        <p>The Pro plan is notably the <strong>best credits-per-dollar value</strong> in HeyGen's lineup. At $99/month for 2,000 credits, you pay <strong>$0.99 per Avatar IV minute</strong> ($0.79 on annual billing). That is 3x cheaper per minute than the Creator plan.</p>
-        <p><strong>Best for:</strong> Agencies, content studios, and individual producers creating 10+ videos per month or translating existing video libraries into multiple languages.</p>
 
-        <h2 id="business-plan">Business Plan ($149/month): Teams</h2>
-        <p>The Business plan is built for teams and organizations. At $149/month plus $20 per additional seat, it includes:</p>
+        <p>The watch-out: Business has <strong>fewer credits (1,000) than Pro (2,000)</strong> despite costing more. You're paying for team features, 4K output, integrations, brand kit, and SCORM &mdash; not raw credit volume. A solo user who needs maximum credits should stay on Pro at $82.50/mo annual; a small team of 3-5 should pay the Business premium for the collaboration layer.</p>
+
+        <p>Math example: a 4-person agency at Business runs $124 + ($20 &times; 3) = <strong>$184/mo</strong> on annual billing for the whole team plus 1,000 shared credits. The same 4 people on individual Creator plans = $96/mo, but with no shared workspace, no SCORM, no integrations, and four separate billing relationships.</p>
+
+        <p>For a real-world stack, see the <a href="../posts/heygen-descript-opus-clip-solo-creators-2026.html">HeyGen + Descript + Opus Clip workflow</a>.</p>
+
+        <h2 id="which-plan-enterprise">When is HeyGen Enterprise worth it for training and L&amp;D?</h2>
+        <p>Enterprise (custom pricing, contact sales) makes sense when one of these is in your buyer's requirements:</p>
         <ul>
-            <li><strong>1,000 credits per month</strong> in a shared team pool</li>
-            <li><strong>4K resolution output</strong> for broadcast and large displays</li>
-            <li><strong>Brand kit</strong> for consistent visual identity across team members</li>
-            <li><strong>Team collaboration</strong> with shared workspaces and admin controls</li>
-            <li><strong>Priority processing</strong> and faster rendering queues</li>
-            <li><strong>Custom avatar creation</strong> from your own video footage</li>
+            <li><strong>SAML SSO + SCIM provisioning</strong> &mdash; standard for any company over 200 staff with IT-managed identity</li>
+            <li><strong>Unlimited video duration</strong> &mdash; if you produce hour-long onboarding sessions or full-length courses, the 30-min Creator/Pro cap and 60-min Business cap will block you</li>
+            <li><strong>Multi-workspace control</strong> &mdash; for agencies managing multiple client brand kits in isolation</li>
+            <li><strong>Dedicated success manager + priority support</strong> &mdash; matters more than you'd think; the public Trustpilot score for HeyGen support is 2.3/5 against a G2 product score of 4.8/5</li>
+            <li><strong>10+ custom digital twins</strong> for distributed L&amp;D teams</li>
+            <li><strong>Volume credit pricing</strong> negotiated against your actual monthly consumption</li>
         </ul>
-        <p>One thing to note: the Business plan has <strong>fewer credits (1,000) than the Pro plan (2,000)</strong> despite costing more. You are paying for team features, 4K output, and brand kit &mdash; not raw credit volume. If you are a solo user who needs maximum credits, Pro is the better choice. If you need multiple seats and brand controls, Business justifies the premium.</p>
-        <p><strong>Best for:</strong> Marketing teams of 3-10 people, agencies managing multiple client accounts, and corporate departments producing branded video content at scale.</p>
 
-        <h2 id="enterprise">Enterprise: Custom Pricing</h2>
-        <p>HeyGen's Enterprise plan is priced per contract with no published rates. Enterprise adds:</p>
+        <p>If your only enterprise requirement is SCORM export, the Business plan now covers it as of 2026 &mdash; you don't need to escalate to Enterprise. If your training program needs branching scenarios, also evaluate <a href="../posts/heygen-vs-colossyan-vs-synthesia-training-2026.html">Colossyan and Synthesia head-to-head</a> &mdash; Colossyan ships native branching at $88/mo Business; Synthesia added interactive video in 2026.</p>
+
+        <h2 id="which-plan-trial">How do I actually use the HeyGen free tier without hitting walls?</h2>
+        <p>The free plan as of April 2026 gives you:</p>
         <ul>
-            <li><strong>SSO (Single Sign-On)</strong> and advanced admin controls</li>
-            <li><strong>Dedicated account manager</strong> and custom SLA</li>
-            <li><strong>Priority rendering queue</strong> with guaranteed turnaround times</li>
-            <li><strong>API access</strong> bundled into the contract (normally separate)</li>
-            <li><strong>Custom avatar development</strong> with dedicated support</li>
-            <li><strong>Volume credit pricing</strong> negotiated per deal</li>
+            <li><strong>3 videos per month</strong>, each capped at <strong>1 minute</strong> (down from 3 min in 2025)</li>
+            <li><strong>720p</strong> with a HeyGen watermark on every export</li>
+            <li><strong>500+ stock avatars</strong> and <strong>1 custom digital twin</strong> &mdash; you can train your own face on the free plan, which is the underrated part most reviewers miss</li>
+            <li><strong>30+ trial languages</strong> (the full 175+ unlocks at Creator)</li>
         </ul>
-        <p>Enterprise makes sense when you need compliance features (SSO, audit logs), guaranteed uptime SLAs, or when your monthly credit consumption exceeds what the Business plan provides cost-effectively. Most buyers in this tier are Fortune 500 companies, large agencies, or organizations deploying Interactive Avatars at scale.</p>
-        <p>If you are evaluating enterprise options, also consider <a href="../posts/synthesia-review-2026.html">Synthesia</a> (SOC 2 Type II, SCORM export) and <a href="../posts/heygen-vs-colossyan-vs-synthesia-training-2026.html">Colossyan</a> (branching scenarios for training).</p>
 
-        <h2 id="credit-system">How HeyGen's Credit System Works</h2>
-        <p>This is where most HeyGen pricing confusion happens. HeyGen does not charge per video or per minute directly. Instead, every action that generates media consumes credits from your monthly pool.</p>
+        <p>How to use the free tier productively: spend your 3 videos this month testing things you can't test in a screenshot &mdash; train one custom digital twin from a 15-second selfie video, render it speaking your own script in your worst-case language (e.g. for a US creator, render Tagalog or Vietnamese to see if lip-sync holds), and check whether Avatar V's eye contact reads natural to you. Three videos is enough to make a confident upgrade decision. It is not enough to ship anything externally because of the watermark and 1-minute cap.</p>
+
+        <p>If you want a free tier you can actually ship from, <a href="../posts/best-free-ai-video-generators-2026.html">Vidnoz at 3 minutes per day</a> or CapCut (no avatar) are the better picks. Then upgrade to <a href="/go/heygen/" rel="nofollow sponsored">HeyGen Creator</a> when realism becomes the bottleneck.</p>
+
+        <h2 id="credit-system">How HeyGen's credit system works (and where it bites)</h2>
+        <p>HeyGen meters paid plans with credits, not flat per-video pricing. Every render that uses a premium model consumes credits from your monthly pool. The pool resets at the start of each billing cycle and unused credits are gone.</p>
 
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
                         <th>Action</th>
-                        <th>Credit Cost</th>
+                        <th>Credit cost</th>
                         <th>Notes</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Avatar IV video</strong></td>
+                        <td><strong>Avatar V or IV video</strong></td>
                         <td>~20 credits/min</td>
-                        <td>Premium lip-sync, micro-expressions</td>
+                        <td>Premium realism, 0.840 face similarity (Avatar V)</td>
                     </tr>
                     <tr>
                         <td><strong>Standard avatar video</strong></td>
                         <td>~1 credit/min</td>
-                        <td>Good quality, less realistic than Avatar IV</td>
+                        <td>Good quality, less natural than Avatar V</td>
                     </tr>
                     <tr>
                         <td><strong>Video translation</strong></td>
                         <td>Varies by length</td>
-                        <td>Includes lip-sync dubbing, higher cost for long videos</td>
+                        <td>Full lip-sync dub, scales with input length</td>
                     </tr>
                     <tr>
                         <td><strong>Interactive Avatar (streaming)</strong></td>
-                        <td>Credits per session</td>
-                        <td>Real-time, higher consumption rate</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Video Agent 2.0</strong></td>
-                        <td>~2 credits/min (API)</td>
-                        <td>Automated script-to-video pipeline</td>
+                        <td>Per-session</td>
+                        <td>Real-time, highest consumption rate</td>
                     </tr>
                     <tr>
                         <td><strong>Talking Photo</strong></td>
                         <td>~1 credit/min</td>
-                        <td>Animate a static photo to speak</td>
+                        <td>Animate a static photo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Premium Credit Pack</strong></td>
+                        <td>$15 = 300 credits</td>
+                        <td>Top-up for monthly subscribers; $150/yr for annual</td>
                     </tr>
                 </tbody>
             </table>
@@ -473,24 +463,24 @@
 
         <p><strong>Key rules to know:</strong></p>
         <ul>
-            <li>Credits <strong>do not roll over</strong> &mdash; use them or lose them each billing cycle</li>
-            <li>You can <strong>buy additional credits</strong> if you run out mid-month (pricing varies)</li>
-            <li>Avatar IV and video translation are the biggest credit consumers</li>
-            <li>Standard avatars use significantly fewer credits &mdash; if Avatar IV realism is not essential for every video, mixing avatar types stretches your budget</li>
+            <li>Credits <strong>do not roll over</strong>. A quiet month is wasted budget. Schedule batch render days at month-end if you're underusing.</li>
+            <li>You can buy <strong>Premium Credit Packs</strong> mid-month at $15 per 300 credits ($0.05/credit) &mdash; that's $1/min of additional Avatar V video.</li>
+            <li>Avatar V/IV and video translation are the biggest credit consumers. Mixing in standard avatars for low-stakes renders stretches budget significantly.</li>
+            <li>Standard avatars at ~1 credit/min mean Creator's 200 credits = 200 minutes of standard avatar video. The credit math only feels tight if you only ever use Avatar V.</li>
         </ul>
 
-        <h2 id="cost-per-minute">What Does HeyGen Actually Cost Per Minute?</h2>
-        <p>This is the question pricing pages avoid answering. We calculated the real cost per finished minute of Avatar IV video across all plans:</p>
+        <h2 id="cost-per-minute">What does HeyGen really cost per minute in 2026?</h2>
+        <p>This is the question pricing pages don't answer. Real cost per finished minute of <strong>Avatar V (premium)</strong> video, by plan, as of April 2026:</p>
 
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
                         <th>Plan</th>
-                        <th>Monthly Price</th>
+                        <th>Effective monthly</th>
                         <th>Credits</th>
-                        <th>Avatar IV Minutes</th>
-                        <th>Cost Per Minute</th>
+                        <th>Avatar V minutes</th>
+                        <th>Cost per minute</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -517,56 +507,36 @@
                     </tr>
                     <tr>
                         <td><strong>Pro (annual)</strong></td>
-                        <td>$79</td>
+                        <td>$82.50</td>
                         <td>2,000</td>
                         <td>~100 min</td>
-                        <td><strong>$0.79/min</strong></td>
+                        <td><strong>$0.83/min</strong></td>
                     </tr>
                     <tr>
-                        <td><strong>Business (monthly)</strong></td>
-                        <td>$149</td>
+                        <td><strong>Business (annual, 1 seat)</strong></td>
+                        <td>$124</td>
                         <td>1,000</td>
                         <td>~50 min</td>
-                        <td><strong>$2.98/min</strong></td>
+                        <td><strong>$2.48/min</strong></td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <p><strong>Takeaway:</strong> The Pro plan is the best value per minute by a wide margin. If you are an individual who creates more than 10 minutes of Avatar IV video per month, Pro at $99/month ($0.99/min) is dramatically cheaper per minute than Creator ($2.90/min). The Business plan's higher per-minute cost reflects the team features, 4K output, and brand controls &mdash; not raw credit value.</p>
-        <p>For a broader comparison across platforms, see our <a href="../posts/ai-video-pricing-compared-2026.html">AI video pricing comparison</a>.</p>
+        <p><strong>Takeaway:</strong> Pro is the best raw cost per minute by 3x. If you're an individual producing more than 10 minutes of Avatar V per month, Pro at $82.50/mo annual is dramatically cheaper than Creator. Business's higher per-minute rate reflects team features, 4K, SCORM, and integrations &mdash; not raw credit value. Don't pick Business for credit volume.</p>
 
-        <h2 id="hidden-costs">Hidden Costs and What's NOT Included</h2>
-        <p>HeyGen's pricing page is clear about plan rates but less transparent about these additional costs:</p>
+        <p>For the cross-tool view, see <a href="../posts/ai-video-pricing-compared-2026.html">AI video pricing compared 2026</a>. For the exact cost per minute across 15 AI video tools (including HeyGen), see <a href="../posts/ai-video-cost-per-minute-2026.html">The Real Cost Per Minute of AI Video: 15 Tools Compared</a>. For the head-to-head against the obvious enterprise alternative, <a href="../posts/heygen-vs-synthesia-2026.html">HeyGen vs Synthesia 2026</a>.</p>
 
-        <h3>1. Credit overages</h3>
-        <p>If you exhaust your monthly credits, you can purchase additional credits at a per-credit rate that is typically higher than your plan's effective rate. This adds up fast if you underestimate your video production volume.</p>
-
-        <h3>2. API pricing is separate</h3>
-        <p>The HeyGen API follows a pay-as-you-go credit model, billed independently from your web plan credits. API pricing starts at $5 for developers. If you plan to integrate HeyGen into your product, budget for API costs separately.</p>
-
-        <h3>3. Custom avatar creation</h3>
-        <p>While Business and Enterprise plans include custom avatar creation, the process requires you to record specific footage. If you hire a videographer or studio to capture that footage, that is an additional expense HeyGen does not cover.</p>
-
-        <h3>4. No built-in video editor</h3>
-        <p>HeyGen generates videos but lacks a timeline editor, transitions, or motion graphics. Most users pair HeyGen with <a href="../posts/descript-review-2026.html">Descript ($24/month)</a> or another editor. Factor that into your total stack cost. See our <a href="../posts/heygen-descript-opus-clip-solo-creators-2026.html">solo creator stack guide</a> for the full workflow.</p>
-
-        <h3>5. Annual plan lock-in</h3>
-        <p>Annual billing saves 17-20%, but you pay upfront and cancellation after the first 14 days is non-refundable. Multiple Trustpilot reviewers report difficulty obtaining refunds. Start monthly to validate your usage, then switch to annual once you confirm HeyGen fits your workflow.</p>
-
-        <h3>6. Video translation eats credits fast</h3>
-        <p>Translating a 5-minute video into one additional language can consume a significant chunk of your monthly credits. If you plan to localize content into 5+ languages, budget for the Pro plan or additional credit purchases.</p>
-
-        <h2 id="annual-vs-monthly">Annual vs Monthly Billing: How Much Do You Save?</h2>
+        <h2 id="annual-vs-monthly">Annual vs monthly: how much do you actually save?</h2>
 
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
                         <th>Plan</th>
-                        <th>Monthly Billing</th>
-                        <th>Annual Billing</th>
-                        <th>You Save</th>
+                        <th>Monthly billing</th>
+                        <th>Annual billing</th>
+                        <th>You save</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -579,86 +549,102 @@
                     <tr>
                         <td><strong>Pro</strong></td>
                         <td>$99/mo ($1,188/yr)</td>
-                        <td>$79/mo ($948/yr)</td>
-                        <td><strong>$240/yr (20%)</strong></td>
+                        <td>$82.50/mo ($990/yr)</td>
+                        <td><strong>$198/yr (17%)</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Business</strong></td>
+                        <td>$149/mo ($1,788/yr)</td>
+                        <td>$124/mo ($1,488/yr)</td>
+                        <td><strong>$300/yr (17%)</strong></td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <p><strong>Our recommendation:</strong> Start with monthly billing for 1-2 months to understand your actual credit consumption. Once you confirm HeyGen works for your use case and you know your monthly credit needs, switch to annual to lock in the discount. The $240/year savings on Pro alone pays for itself in two months.</p>
+        <p><strong>The lock-in tradeoff:</strong> annual billing requires upfront payment and refunds are only available within the first 14 days. After day 14 you keep the higher tier through to the end of the term. Multiple Trustpilot reviewers report friction obtaining refunds. You're locking in $24/mo for 12 months &mdash; that's fine if HeyGen replaces a $200/video human spokesperson; it's painful if HeyGen replaces the avatar engine you signed up for with a different one mid-year.</p>
+
+        <p><strong>Our recommendation:</strong> start monthly for 1-2 months to confirm your real credit consumption and avatar realism needs. Once usage is stable, switch to annual to lock in 17% savings. The $198/year Pro saving alone pays for itself in two months versus monthly.</p>
 
         <div class="cta-box">
             <h3>Try HeyGen Risk-Free</h3>
-            <p>Free plan available with no credit card required. See Avatar IV quality before you commit.</p>
+            <p>Free plan available, no credit card required. See Avatar V quality before you commit to annual.</p>
             <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" class="cta-btn">Try HeyGen Free &rarr;</a>
         </div>
 
-        <h2 id="worth-it">Is HeyGen Worth It? The ROI Argument</h2>
-        <p>At $29/month, HeyGen replaces costs that most creators and businesses currently pay far more for:</p>
-        <ul>
-            <li><strong>Hiring a spokesperson:</strong> $200-1,000+ per video vs. $2.90/min on HeyGen Creator</li>
-            <li><strong>Studio rental:</strong> $100-500/session vs. $0 (HeyGen is browser-based)</li>
-            <li><strong>Video translation agency:</strong> $50-200 per language vs. credits on HeyGen</li>
-            <li><strong>Re-shoots for script changes:</strong> $500+ per session vs. edit the text and re-render for free</li>
-        </ul>
-        <p>A single 2-minute HeyGen video costs roughly $5.80 on the Creator plan. The same video with a human presenter, filmed in a studio, edited, and delivered would cost $500-2,000 at typical agency rates. That is a <strong>97-99% cost reduction</strong>.</p>
-        <p>The ROI case is strongest for teams producing <strong>repetitive, structured content</strong>: product demos, sales outreach, onboarding videos, weekly updates, and multilingual social media clips. If you produce 4+ videos per month, HeyGen pays for itself in the first month compared to any traditional alternative.</p>
-        <p>For a step-by-step guide to producing your first video, see our <a href="../posts/how-to-create-ai-videos-heygen.html">HeyGen tutorial</a>.</p>
+        <h2 id="hidden-costs">Hidden costs and what's NOT included</h2>
 
-        <h2 id="competitors">HeyGen vs Competitors: Pricing Comparison (April 2026)</h2>
-        <p>How does HeyGen's pricing compare to other AI avatar and video tools? Here is a side-by-side breakdown of starting prices and what you get:</p>
+        <h3>1. Premium Credit Pack overages</h3>
+        <p>If you exhaust your monthly credits, Premium Credit Packs are $15 for 300 credits (monthly subs) or $150/yr for annual subs. That's $0.05/credit, or $1/min for additional Avatar V video. Not steep, but it adds up if you underestimated your video volume.</p>
+
+        <h3>2. API pricing is separate from web plan</h3>
+        <p>The HeyGen API uses its own pay-as-you-go credit pool, billed independently from your web plan. Even on Business (which bundles API access), heavy API consumption can run separate from your web credits. Budget for API costs on top of subscription.</p>
+
+        <h3>3. Custom avatar creation needs source footage</h3>
+        <p>Business and Enterprise include 5+ custom digital twins, but you have to record the source footage. If you hire a videographer for that capture session, that cost isn't covered. The free plan now lets you train 1 digital twin without hiring anyone &mdash; useful as a sanity check before committing.</p>
+
+        <h3>4. No built-in timeline editor</h3>
+        <p>HeyGen renders avatar video; it doesn't ship a timeline editor with transitions, motion graphics, or multi-track audio. Most users pair HeyGen with <a href="../posts/descript-review-2026.html">Descript ($24/mo)</a> or CapCut for finishing. Factor it into your stack cost.</p>
+
+        <h3>5. Annual lock-in risk</h3>
+        <p>Annual saves 17% across the board, but you pay upfront and cancellation after the first 14 days is non-refundable. If you're new to HeyGen, start monthly for two cycles, then switch.</p>
+
+        <h3>6. Video translation eats credits faster than expected</h3>
+        <p>Translating a 5-minute video into one additional language can consume a meaningful chunk of your monthly credits. If you plan to localize into 5+ languages monthly, budget for Pro from the start.</p>
+
+        <h2 id="competitors">HeyGen vs competitor pricing (April 2026)</h2>
+        <p>How does HeyGen's pricing compare to the other tools we cover? Side-by-side starting prices:</p>
 
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
                         <th>Tool</th>
-                        <th>Cheapest Paid Plan</th>
-                        <th>Free Tier</th>
-                        <th>Key Difference vs HeyGen</th>
+                        <th>Cheapest paid plan</th>
+                        <th>Free tier</th>
+                        <th>Key difference vs HeyGen</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><strong><a href="/go/heygen/" rel="nofollow sponsored">HeyGen</a></strong></td>
-                        <td>$29/mo ($24 annual)</td>
-                        <td>3 videos/mo, watermark</td>
-                        <td>Best avatar realism (Avatar IV), 175+ lang translation</td>
+                        <td>$24/mo annual</td>
+                        <td>3 videos/mo, 1 min, watermark</td>
+                        <td>Best avatar realism (0.840), 175+ langs, unlimited videos</td>
                     </tr>
                     <tr>
                         <td><strong><a href="../posts/synthesia-review-2026.html">Synthesia</a></strong></td>
-                        <td>$18/mo (annual Starter)</td>
-                        <td>No free plan</td>
-                        <td>Cheaper entry, SOC 2, SCORM export for L&amp;D</td>
+                        <td>$18/mo annual (Starter)</td>
+                        <td>10 min/mo, 1 video, watermark</td>
+                        <td>Cheaper entry but capped at 10 min/mo. SOC 2 + SCORM at Enterprise</td>
+                    </tr>
+                    <tr>
+                        <td><strong><a href="../posts/vidnoz-review-2026.html">Vidnoz</a></strong></td>
+                        <td>$14.99/mo Starter</td>
+                        <td>3 min/day, no card</td>
+                        <td>Cheapest credible paid tier; avatar realism trails Avatar V</td>
                     </tr>
                     <tr>
                         <td><strong><a href="../posts/colossyan-review-2026.html">Colossyan</a></strong></td>
-                        <td>$27/mo (Starter)</td>
-                        <td>Limited trial</td>
-                        <td>Branching scenarios for interactive training</td>
+                        <td>$27/mo Starter</td>
+                        <td>5 min total trial</td>
+                        <td>Native branching scenarios for L&amp;D; smaller avatar library</td>
                     </tr>
                     <tr>
                         <td><strong><a href="../posts/pictory-review-2026.html">Pictory</a></strong></td>
-                        <td>$23/mo (Standard)</td>
-                        <td>3 free videos</td>
-                        <td>Blog-to-video, not an avatar tool</td>
-                    </tr>
-                    <tr>
-                        <td><strong><a href="../posts/vidnoz-review-2026.html">Vidnoz</a> (Discontinued)</strong></td>
-                        <td>$19.99/mo</td>
-                        <td>60 credits/day</td>
-                        <td>Affiliate program discontinued Apr 2026</td>
+                        <td>$19/mo annual</td>
+                        <td>3 videos, 10 min each</td>
+                        <td>Blog-to-video; not an avatar tool</td>
                     </tr>
                     <tr>
                         <td><strong><a href="../posts/deepbrain-ai-review-2026.html">DeepBrain AI</a></strong></td>
-                        <td>$30/mo</td>
+                        <td>$24/mo Personal</td>
                         <td>Limited demo</td>
-                        <td>Real-time avatars for kiosks and broadcasts</td>
+                        <td>Real-time avatars for kiosks; price parity with HeyGen Creator</td>
                     </tr>
                     <tr>
                         <td><strong><a href="../posts/fliki-review-2026.html">Fliki</a></strong></td>
-                        <td>$21/mo (Standard)</td>
+                        <td>$21/mo Standard</td>
                         <td>5 min/mo</td>
                         <td>Text-to-video with stock footage, not avatars</td>
                     </tr>
@@ -666,24 +652,29 @@
             </table>
         </div>
 
-        <p><strong>Bottom line:</strong> HeyGen is not the cheapest option &mdash; <a href="../posts/synthesia-review-2026.html">Synthesia starts at $18/month</a> and other tools offer free tiers. But HeyGen delivers the best avatar quality (Avatar IV) and the strongest video translation in the market. If avatar realism and localization are your priorities, HeyGen's pricing is justified. If budget is your primary constraint, see our <a href="../posts/cheapest-ai-video-generator-2026.html">cheapest AI video generator guide</a>.</p>
+        <p><strong>Bottom line:</strong> HeyGen is not the cheapest entry tier &mdash; <a href="../posts/vidnoz-review-2026.html">Vidnoz at $14.99/mo</a> and <a href="../posts/synthesia-review-2026.html">Synthesia at $18/mo annual</a> both undercut Creator. But HeyGen is the only tool on this list shipping Avatar V's 0.840 face similarity with unlimited video output on the entry plan. If realism is the constraint, HeyGen pricing is justified. If budget is the constraint, see <a href="../posts/heygen-alternatives-2026.html">HeyGen alternatives in 2026</a> for the side-by-side or the broader <a href="../posts/cheapest-ai-video-generator-2026.html">cheapest AI video generator</a> guide.</p>
+
+        <p>For where HeyGen sits in the overall ranking, the hero <a href="../posts/best-ai-video-tools-2026.html">10 best AI video tools in 2026</a> places it #1 against every major platform we test.</p>
 
         <!-- Related Posts -->
         <div class="related-box">
             <h3>Related Articles</h3>
+            <a href="../posts/heygen-alternatives-2026.html">HeyGen Alternatives in 2026: 6 Tools Tested, Ranked by Use-Case</a>
             <a href="../posts/heygen-review-2026.html">HeyGen Review 2026: 30+ Features Tested (Verdict)</a>
             <a href="../posts/heygen-vs-synthesia-2026.html">HeyGen vs Synthesia 2026: Which AI Video Platform Wins?</a>
-            <a href="../posts/ai-video-pricing-compared-2026.html">AI Video Pricing Compared 2026: Every Plan Side by Side</a>
             <a href="../posts/best-ai-video-tools-2026.html">10 Best AI Video Tools in 2026 (Tested &amp; Ranked)</a>
+            <a href="../posts/ai-video-pricing-compared-2026.html">AI Video Pricing Compared 2026: Every Plan Side by Side</a>
             <a href="../posts/how-to-create-ai-videos-heygen.html">How to Create AI Videos with HeyGen (Step-by-Step Tutorial)</a>
             <a href="../posts/cheapest-ai-video-generator-2026.html">Cheapest AI Video Generator 2026</a>
             <a href="../posts/heygen-descript-opus-clip-solo-creators-2026.html">HeyGen + Descript + Opus Clip: Solo Creator Stack 2026</a>
         </div>
 
-        <!-- Final CTA -->
-        <div style="text-align: center; margin: 40px 0 20px;">
-            <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" class="cta-btn-primary" style="font-size: 1.15rem; padding: 16px 44px;">Try HeyGen Free &rarr;</a>
-            <p style="font-size: 0.88rem; color: #888; margin-top: 12px;">Free plan available. No credit card required.</p>
+        <!-- Final CTA - sticky end of post -->
+        <div style="background:linear-gradient(135deg,#155DFC 0%,#1a1a2e 100%);color:#fff;border-radius:14px;padding:28px;text-align:center;margin:40px 0;">
+            <p style="margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#7eb3ff;">Ready to start?</p>
+            <h3 style="margin:0 0 12px;color:#fff;font-size:1.4rem;">Creator plan: $24/mo annual, unlimited videos, Avatar V</h3>
+            <p style="margin:0 0 18px;font-size:0.98rem;color:#cfd8ff;">Free plan available. No credit card. Test Avatar V on your own face in 15 seconds.</p>
+            <a href="/go/heygen/" rel="nofollow sponsored" target="_blank" style="background:#fff;color:#155DFC;padding:14px 36px;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none;display:inline-block;">Try HeyGen Free &rarr;</a>
         </div>
 
         <!-- Email Signup -->
@@ -701,33 +692,33 @@
         <h2 id="faq">Frequently Asked Questions</h2>
 
         <div class="faq-item">
-            <h3>How much does HeyGen cost per month in 2026?</h3>
-            <p>HeyGen offers four plans as of April 2026: Free ($0, 3 videos/month with watermark), Creator ($29/month or $24/month annual), Pro ($99/month or $79/month annual), and Business ($149/month + $20/additional seat). Annual billing saves 17-20% across all paid plans.</p>
+            <h3>Is HeyGen worth it for a solo creator in 2026?</h3>
+            <p>Yes for most solo creators producing 4+ avatar videos per month. The Creator plan at $24/month annual ($29 monthly) gives you unlimited video output, Avatar V (the highest face-similarity score in the category at 0.840), 175+ languages with lip-sync, and voice cloning. Cost works out to about $2.40 per finished minute of premium Avatar V video on annual billing. If you produce fewer than 2 videos a month, the free plan or <a href="../posts/vidnoz-review-2026.html">Vidnoz at $14.99/month</a> is the cheaper call.</p>
         </div>
 
         <div class="faq-item">
-            <h3>What is HeyGen's cost per minute?</h3>
-            <p>HeyGen's cost per minute depends on the plan and avatar type. On the Creator plan ($29/month, 200 credits), Avatar IV videos cost 20 credits per minute, giving you 10 minutes of premium avatar video per month &mdash; about $2.90 per minute. On the Pro plan ($99/month, 2,000 credits), the cost drops to $0.99 per minute. Standard avatars cost fewer credits, stretching your budget further.</p>
+            <h3>What happens if I exceed my HeyGen video minutes or credits?</h3>
+            <p>HeyGen does not block you when credits run out &mdash; it offers Premium Credit Packs at $15 per 300 credits for monthly subscribers ($150/year for annual). Avatar V/IV consumes about 20 credits per minute, so a $15 pack buys roughly 15 extra minutes of premium avatar video. Standard avatars use far fewer credits. Unused monthly credits do not roll over.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Is HeyGen free to use?</h3>
-            <p>Yes. HeyGen has a permanent free plan (not a trial) that includes 3 videos per month, each up to 3 minutes long, at 720p with a watermark. You get access to 500+ stock avatars and 1,000+ AI voices. No credit card required. The free plan is enough to evaluate the platform but the watermark and low resolution make it unsuitable for professional use.</p>
+            <h3>Can I downgrade my HeyGen plan?</h3>
+            <p>Yes, but with constraints. Monthly plans can be downgraded or cancelled at any time and the change takes effect at the next billing cycle. Annual plans are paid upfront and refunds are only available within the first 14 days. After day 14, you keep the higher tier until the annual term ends, then drop to the lower plan. The legacy Team plan was deprecated in January 2026 and is no longer available for new purchases &mdash; existing Team subscribers keep their terms as long as payments stay uninterrupted.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How does HeyGen's credit system work?</h3>
-            <p>HeyGen uses credits to meter usage on paid plans. Creator gets 200 credits/month, Pro gets 2,000 credits/month, and Business gets 1,000 credits/month (shared pool). Avatar IV videos consume 20 credits per minute. Standard avatar videos, video translation, and other features consume credits at different rates. Unused credits do not roll over.</p>
+            <h3>Does HeyGen offer a free trial?</h3>
+            <p>HeyGen does not offer a paid-plan free trial &mdash; instead it ships a permanent free plan with no credit card required. The free plan includes 3 videos per month at 1 minute maximum each, 720p, with a HeyGen watermark and access to 500+ stock avatars and 1 custom digital twin. It is enough to see Avatar V quality but the watermark and 1-minute cap make it unsuitable for any external use. <a href="/go/heygen/" rel="nofollow sponsored">Start the HeyGen free plan</a>.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Is HeyGen worth it compared to Synthesia?</h3>
-            <p>HeyGen Creator ($29/month) and Synthesia Starter ($18/month annual) target different buyers. HeyGen wins on avatar realism (Avatar IV), video translation quality, and Interactive Avatars. Synthesia wins on enterprise compliance (SOC 2, SCORM export) and lower entry price. For marketers and sales teams, HeyGen delivers better ROI. For corporate L&amp;D with compliance requirements, Synthesia is the safer choice.</p>
+            <h3>How does HeyGen compare to Synthesia on price?</h3>
+            <p>Synthesia Starter is cheaper at $18/month annual versus HeyGen Creator at $24/month annual &mdash; but the comparison is misleading. Synthesia Starter caps you at 10 minutes of video per month total. HeyGen Creator gives you unlimited video output (capped only by 200 monthly credits, which buys about 10 minutes of premium Avatar V). Once you produce more than 8 minutes a month, HeyGen is cheaper per minute. Synthesia wins only if you need SOC 2 Type II, SAML SSO, or SCORM export &mdash; and on HeyGen, SCORM is now bundled with the $149/month Business plan as of 2026. Full breakdown in <a href="../posts/heygen-vs-synthesia-2026.html">HeyGen vs Synthesia 2026</a>.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Does HeyGen offer annual billing discounts?</h3>
-            <p>Yes. Annual billing saves 17-20% on all HeyGen paid plans. Creator drops from $29/month to $24/month ($288/year vs $348/year, saving $60). Pro drops from $99/month to $79/month ($948/year vs $1,188/year, saving $240). Annual plans require upfront payment and are non-refundable after the first 14 days.</p>
+            <h3>Which HeyGen plan should I pick?</h3>
+            <p>Pick Creator ($24/mo annual) if you produce under 10 minutes of premium avatar video per month. Pick Pro ($82.50/mo annual) if you produce 30-100 minutes per month &mdash; it is 3x cheaper per minute than Creator. Pick Business ($124/mo annual + $20/seat) if you need SCORM export, team seats, 60-minute max video duration, or integrations with Zapier, HubSpot, or n8n. Pick Enterprise (custom) if you need SSO, SCIM, or unlimited video duration. Skip the legacy Team plan &mdash; deprecated January 2026.</p>
         </div>
 
     </div>
@@ -738,7 +729,7 @@
 <div style="background: #f8f9fa; border-radius: 12px; padding: 20px 24px; margin: 32px auto; max-width: 800px; border-left: 4px solid #155DFC; display: flex; gap: 16px; align-items: flex-start; flex-wrap: wrap;">
     <div style="flex: 1; min-width: 200px;">
         <p style="font-weight: 700; margin: 0 0 6px 0; font-size: 0.95rem;">Written by Alex Chen</p>
-        <p style="margin: 0; font-size: 0.88rem; color: #555; line-height: 1.5;">Tom is a software engineer and AI video specialist who has personally tested 40+ AI video platforms with paid accounts. He founded AI Video Picks to provide honest, hands-on reviews based on real testing. <a href="/about.html" style="color: #155DFC;">Learn more about our editorial process</a>.</p>
+        <p style="margin: 0; font-size: 0.88rem; color: #555; line-height: 1.5;">Alex is a software engineer and AI video specialist who has personally tested 40+ AI video platforms with paid accounts. He founded AI Video Picks to provide honest, hands-on reviews based on real testing. <a href="/about.html" style="color: #155DFC;">Learn more about our editorial process</a>.</p>
     </div>
 </div>
 

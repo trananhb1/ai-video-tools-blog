@@ -1,0 +1,182 @@
+{
+  "generated": "2026-04-25",
+  "sources_checked": [
+    "google_trends",
+    "reddit"
+  ],
+  "total_topics": 16,
+  "high_score_topics": 9,
+  "monetizable_topics": 2,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "318 upvotes, 9782 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "video ai generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "kling ai video",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Kling AI",
+      "monetizable": true,
+      "final_score": 89
+    },
+    {
+      "topic": "ai text to video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 85
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "kling ai free",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 57)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "Kling AI",
+      "monetizable": true,
+      "final_score": 80
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 57)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 76
+    },
+    {
+      "topic": "sora",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video tools",
+      "final_score": 75
+    },
+    {
+      "topic": "ai video",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 98)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Kling AI",
+      "final_score": 75
+    },
+    {
+      "topic": "Nature-published Chinese semiconductor researcher fell to his death at U of Michigan. Cops investigating Danhao Wang's death as \"possible act of self-harm\". The Chinese Ministry of Foreign Affairs calls for a \"full investigation\", the death following \"hostile questioning by US law enforcement\".",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 68,
+      "growth": "1111 upvotes, 149 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1sujisg/naturepublished_chinese_semiconductor_researcher/",
+      "final_score": 68
+    },
+    {
+      "topic": "Comfy raises $30M to continue building the best creative AI tool in open",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 61,
+      "growth": "416 upvotes, 157 comments",
+      "region": "global",
+      "category": "roundup",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1sumuc3/comfy_raises_30m_to_continue_building_the_best/",
+      "final_score": 61
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 52,
+      "growth": "top query (value: 24)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 52
+    },
+    {
+      "topic": "image to video ai generator",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    },
+    {
+      "topic": "runway ai",
+      "source": "google_trends",
+      "trend_score": 57,
+      "growth": "top query (value: 35)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Kling AI",
+      "final_score": 47
+    },
+    {
+      "topic": "runway",
+      "source": "google_trends",
+      "trend_score": 57,
+      "growth": "top query (value: 35)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Kling AI",
+      "final_score": 47
+    }
+  ],
+  "categories": {
+    "general": 10,
+    "pricing": 3,
+    "roundup": 3
+  }
+}

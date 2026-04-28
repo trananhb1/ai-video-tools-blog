@@ -1,0 +1,22 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-04-25T17:25:07Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+19:25:07 [INFO] === Source 1: Google Trends ===
+19:25:08 [INFO] Google Trends: using cache (13 items)
+19:25:08 [INFO] === Source 2: Reddit ===
+19:25:08 [INFO] Reddit: using cache (3 items)
+19:25:08 [INFO] Total unique topics: 16
+19:25:08 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-25.json
+19:25:08 [INFO] Added 1 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+19:25:08 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-25.json
+19:25:08 [INFO] Top 5 topics:
+19:25:08 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+19:25:08 [INFO]   2. [93] video ai generator free (pricing)
+19:25:08 [INFO]   3. [89] kling ai video (general)
+19:25:08 [INFO]   4. [85] ai text to video generator (general)
+19:25:08 [INFO]   5. [85] best ai video editor (roundup)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-04-25T17:25:08Z
