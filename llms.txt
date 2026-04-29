@@ -28,7 +28,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Save 15% on Movavi — April 2026 Code](https://aivideopicks.com/posts/save-15-percent-movavi-april-2026.html) — Verified Movavi Video Editor promo code with hard May 15 expiry.
   Quick answer: Use code PTNAFFDIS010426ALLAFS15 at Movavi checkout for 15% off any yearly plan, dropping Video Editor yearly from $54.95 to ~$46.71 and Video Suite yearly from $84.95 to ~$72.21. Verified April 12, 2026 and expires May 15, 2026 — no stacking with other sales and not applicable to monthly or lifetime plans.
 
-## Reviews (16)
+## Reviews (18)
 
 - [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html) — AI-enhanced video editor with timeline editing, AI tools, and export options.
   Quick answer: Movavi Video Editor Plus 2026 is a beginner-friendly desktop editor starting at $54.95/year with AI background removal, motion tracking, and 4K export. Best for hobbyists and course creators who want a one-time-fee alternative to subscription tools like Descript.
@@ -63,7 +63,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [ElevenLabs Review 2026](https://aivideopicks.com/posts/elevenlabs-review-2026.html) — AI voice generator with text-to-speech, cloning, and dubbing.
   Quick answer: ElevenLabs is the highest-quality AI voice platform in 2026, with 5,000+ voices, instant cloning from 1 minute of audio, and 32-language dubbing from $5/month (Starter). Best for audiobook narrators, podcast producers, and game studios.
 
-## Comparisons (20)
+## Comparisons (23)
 
 - [The Real Cost Per Minute of AI Video: 15 Tools Compared (April 2026)](https://aivideopicks.com/posts/ai-video-cost-per-minute-2026.html) -- Original pricing data: true cost per minute for 15 AI video tools sorted cheapest to most expensive. Methodology, hidden costs, and best-value picks by use case.
   Quick answer: The cheapest AI video tool per finished minute in April 2026 is Pictory at $0.08/min ($19/mo annual, 240 min/mo). For avatar video, Vidnoz is cheapest at $1.00/min and HeyGen offers the best quality-to-cost ratio at $1.93/min. For pure AI-generated video, Kling Standard is cheapest at roughly $2.54/min ($6.99/mo). The most expensive tool per minute is Runway Gen-4 at $7.20/min on Standard. The 90x price gap between cheapest and most expensive exists because assembler tools (stock footage + voiceover) and generative tools (original AI frames) are fundamentally different products. All prices verified April 25-28, 2026.
@@ -92,14 +92,20 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
   Quick answer: HeyGen wins on avatar realism and custom avatar cloning (from $29/month), Synthesia wins on language coverage (140+), governance (SOC 2, SCORM), and enterprise pricing (from $29/month). Best for buyers choosing between the two category leaders.
 - [HeyGen vs Synthesia vs Pictory](https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html) — Three-way comparison across avatar and repurposing use cases.
   Quick answer: HeyGen wins for marketing avatars ($29/month), Synthesia wins for enterprise L&D with SCORM and SOC 2 ($29/month), and Pictory wins for blog-to-video repurposing ($23/month). None is universally best — pick by use case.
+- [HeyGen vs Fliki 2026](https://aivideopicks.com/posts/heygen-vs-fliki-2026.html) — Avatar platform vs text-to-video tool: features, pricing, and best use case.
+  Quick answer: HeyGen ($24/mo Creator) wins for AI avatar videos with lip-sync and voice cloning. Fliki ($28/mo Standard) wins for text-to-video with 2,000+ AI voices in 80 languages. Pick HeyGen for talking-head content, Fliki for voiceover-driven video at scale.
+- [HeyGen vs Arcads 2026](https://aivideopicks.com/posts/heygen-vs-arcads-2026.html) — AI avatar platform vs AI UGC ad generator compared.
+  Quick answer: HeyGen ($24/mo) is the general-purpose AI avatar tool for marketing, training, and social content. Arcads ($97/mo) is purpose-built for performance ad creatives with UGC-style actors. Pick HeyGen for versatility, Arcads for direct-response ad campaigns.
+- [HeyGen vs MakeUGC 2026](https://aivideopicks.com/posts/heygen-vs-makeugc-2026.html) — AI avatar platform vs AI UGC creator compared.
+  Quick answer: HeyGen ($24/mo) offers 120+ stock avatars and custom avatar cloning for general video. MakeUGC ($49/mo) focuses on UGC-style ad creatives with scripted product demos. Pick HeyGen for broader content needs, MakeUGC for ecommerce ad production.
 - [Kling vs Veo vs Runway](https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html) — Cinematic AI video generators compared.
   Quick answer: Runway Gen-4.5 wins for character consistency and editor UX (from $15/month), Google Veo 3 wins for raw cinematic quality (Gemini Advanced $19.99/month), and Kling 2.0 wins for free-tier access and motion brush. Best for filmmakers and motion designers.
 - [VEED vs Kapwing vs Descript](https://aivideopicks.com/posts/veed-vs-kapwing-vs-descript.html) — Online video editors compared for solo creators and teams.
   Quick answer: Descript wins for podcast and talking-head editing ($24/month Creator), Kapwing wins for browser-based team collaboration (free tier usable, paid from $16/month), and VEED wins for subtitles and branded social clips (from $18/month). Best for creators choosing an everyday editor.
 - [D-ID vs Elai vs HourOne](https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html) — AI avatar platforms compared for training and presentations.
   Quick answer: D-ID wins for photo-to-video and API developer integrations (from $5.90/month), Elai.io wins for SMB training (from $29/month), and HourOne wins for enterprise brand video at scale (custom pricing). Best for corporate L&D teams comparing mid-market avatar options.
-- [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html) — Top free-tier AI video tools with no credit card required.
-  Quick answer: The best truly free AI video generator in 2026 is CapCut (no watermark, no credit card, no time limit); Kling 2.0 and Pika 2.2 lead on free text-to-video credits. 8 free options ranked by usable free value.
+- [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html) — 8 free AI video generators tested, ranked by actual usable free value (updated April 28, 2026).
+  Quick answer: The best truly free AI video generator in 2026 is CapCut (full editor, no watermark, no credit card, 1080p export). For AI-generated clips from text prompts, Kling AI offers 66 free credits/day (~6 clips) and Pika gives 80 credits/month at 480p. Google Veo via YouTube is the best free AI footage generator (unlimited, 1080p, no watermark). No free tool offers AI avatars — for that, HeyGen ($24/mo annual) is the best paid upgrade. 8 tools ranked.
 - [AI Video Pricing Compared 2026](https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html) — Side-by-side pricing for 20+ major AI video platforms.
   Quick answer: The cheapest credible paid AI video tool in April 2026 is Pictory at $23/month; the best value per finished minute for avatar video is HeyGen Creator at $29/month (about $0.97/minute in our tests). Best for buyers comparing SaaS budgets across 20+ platforms.
 - [Best AI Video Tools for Beginners 2026](https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html) — Beginner guide with top 5 picks.
@@ -161,7 +167,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - **Arcads AI** (https://aivideopicks.com/go/arcads/) — Premium AI UGC ad platform with 300+ licensed AI actors. Most realistic AI spokespeople we have tested as of April 2026, used by performance marketers to spin up 50-100 UGC ad variants per week. Pricing starts at $110/mo (10 videos, Starter), $220/mo (20 videos, Creator), with a custom-priced Pro plan adding API access, ElevenLabs integration, and team seats. Best for paid-social testing teams that need photorealistic actors.
 - **MakeUGC** (https://aivideopicks.com/go/makeugc/) — Budget AI UGC video generator with effective per-video cost under $10 on higher plans. 100+ AI avatars, TikTok/Reels/Shorts aspect ratios pre-set. Quality trails Arcads on close-ups but holds up well on fast-cut social ads. Pricing from $39/month (Starter). Best for high-volume creative teams optimising for cost.
 
-## AI Writing Reviews (3)
+## AI Writing Reviews (4)
 
 - [Best AI Writing Tools 2026: 8 Tested & Ranked by Use Case](https://aivideopicks.com/posts/best-ai-writing-tools-2026.html) — Cornerstone ranking of 8 AI writing tools tested head-to-head: Jasper, Copy.ai, Writesonic, Surfer SEO, ChatGPT, Grammarly, Frase, and Rytr, with verified April 2026 pricing.
   Quick answer: The best AI writing tool in 2026 is Jasper AI (9.1/10) for marketing teams — unlimited words, brand voice training, 50+ templates from $49/month (Creator) with a 7-day free trial. Best value: Copy.ai (8.7/10, $49/mo Pro, free tier: 2,000 words/mo) for sales and workflow automation. Best for SEO: Surfer SEO (8.5/10, $99/mo Essential) for data-driven content optimization with SERP analysis. Cheapest paid: Rytr at $9/month. Best free: Copy.ai (2,000 words/month, no credit card). Annual billing saves 17-26% across all platforms. Verified April 25, 2026.
@@ -171,6 +177,9 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 
 - [Copy.ai Review 2026: Pricing, Workflows & Honest Rating](https://aivideopicks.com/posts/copy-ai-review-2026.html) — Deep-dive review of Copy.ai's AI writing and workflow automation platform, covering free tier, pricing, hands-on testing, pros/cons, and comparison with Jasper, ChatGPT, and Writesonic.
   Quick answer: Copy.ai costs $49/month (Starter) as of April 2026, with a permanent free tier giving 2,000 words/month and no credit card required. Best for sales and marketing teams that need workflow automation for prospecting emails, content pipelines, and repetitive copy tasks. Scored 8.7/10 in our testing. Annual billing drops to $36/month (26% savings). Biggest pro: the Workflow Builder automates entire GTM sequences that no other writing tool handles. Biggest con: long-form blog posts over 1,500 words get repetitive and need heavier editing than Jasper output. Verified April 25, 2026.
+
+- [Writesonic Review 2026: AI Writing + SEO Platform Tested](https://aivideopicks.com/posts/writesonic-review-2026.html) — Deep-dive review of Writesonic covering AI Article Writer 6.0, GEO tracking, SEO audits, 100+ templates, pricing breakdown, pros/cons, and comparison with Jasper, Copy.ai, and ChatGPT.
+  Quick answer: Writesonic costs $49/month (Lite) as of April 2026, with a limited free tier and annual billing dropping to $39/month (20% savings). Best for SEO bloggers and content marketers who want AI article writing, keyword targeting, and content optimization in a single tool. Scored 8.3/10 in our testing. Biggest pro: the AI Article Writer 6.0 generates up to 5,000-word drafts with built-in SERP analysis, and the GEO dashboard (Professional plan, $249/month) tracks your visibility across ChatGPT, Gemini, and Perplexity — a feature no competitor offers. Biggest con: output quality trails Jasper on brand consistency and needs heavier editing on long-form content, and the GEO features that make Writesonic unique are locked behind expensive higher tiers. Verified April 25, 2026.
 
 ## Topics Covered
 
