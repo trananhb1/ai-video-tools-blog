@@ -48,6 +48,10 @@ When this project is opened, run through these items:
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
 | Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
+| InVideo | `https://invideo.io/` | **NEEDS SIGNUP** | 50% monthly / 25% annual via Impact.com. Signup: invideo.io/make/affiliate-program/ — currently bare URL with NO tracking |
+| Pika | `?via=aivideopicks` | **NEEDS SIGNUP** | 30% recurring via Rewardful. Signup: pika.getrewardful.com/signup — `?via=` may work after registration |
+| Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | Awin network. Signup: affiliates.runwayml.com — current `?via=` is NOT valid |
+| Kling | `?via=aivideopicks` | **NEEDS SIGNUP** | 2.7% via 37X (low priority). Current `?via=` is NOT valid |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
@@ -71,9 +75,9 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (48 articles)
+## Content Inventory (49 articles)
 
-### Reviews (18)
+### Reviews (19)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
 - deepbrain-ai-review-2026.html
@@ -92,6 +96,7 @@ When this project is opened, run through these items:
 - submagic-review-2026.html
 - jasper-review-2026.html
 - copy-ai-review-2026.html
+- writesonic-review-2026.html
 
 ### Comparisons (13)
 - ai-video-cost-per-minute-2026.html
