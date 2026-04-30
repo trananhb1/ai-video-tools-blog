@@ -48,10 +48,10 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- HeyGen cluster: alternatives (new 2026-04-25) -->
+  <!-- HeyGen cluster: alternatives (expanded 2026-04-30, consolidated 3 vs pages) -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-alternatives-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -438,22 +438,23 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <!-- Consolidated into heygen-alternatives-2026.html (canonical + noindex, 2026-04-30) -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-fliki-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-arcads-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-makeugc-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 </urlset>
