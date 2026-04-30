@@ -48,8 +48,8 @@ When this project is opened, run through these items:
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
 | Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
-| InVideo | `https://invideo.io/` | **NEEDS SIGNUP** | 50% monthly / 25% annual via Impact.com. Signup: invideo.io/make/affiliate-program/ — currently bare URL with NO tracking |
-| Pika | `?via=aivideopicks` | **NEEDS SIGNUP** | 30% recurring via Rewardful. Signup: pika.getrewardful.com/signup — `?via=` may work after registration |
+| InVideo | `https://invideo.io/` | **PENDING** | 50% monthly / 25% annual via Impact.com. Applied, awaiting approval |
+| Pika | `https://pika.style/?via=aivideopicks` | Active | 30% recurring via Rewardful. Redirect updated from pika.art to pika.style |
 | Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | Awin network. Signup: affiliates.runwayml.com — current `?via=` is NOT valid |
 | Kling | `?via=aivideopicks` | **NEEDS SIGNUP** | 2.7% via 37X (low priority). Current `?via=` is NOT valid |
 
