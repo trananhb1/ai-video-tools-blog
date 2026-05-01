@@ -648,12 +648,11 @@
         <div class="email-box">
             <h3>Get Our Weekly AI Video Tools Newsletter</h3>
             <p>New tool reviews, tutorials, deals, and workflow tips. Delivered every Tuesday. No spam, unsubscribe anytime.</p>
-            <form action="https://app.kit.com/forms/9231849/subscriptions" data-sv-form="9231849" data-uid="7bf7021caa" method="POST" target="_blank">
-                <input type="text" name="fields[first_name]" placeholder="Your first name" required>
-                <input type="email" name="email_address" placeholder="Your best email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-            <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+            <form data-newsletter style="display:flex;gap:10px;flex-wrap:wrap;">
+<input type="text" name="first_name" placeholder="Your first name" required>
+<input type="email" name="email" placeholder="Your best email" required>
+<button type="submit">Subscribe</button>
+</form>
         </div>
 
         <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
@@ -740,10 +739,7 @@
     <p style="font-size:2rem;margin:0 0 8px;">&#128640;</p>
     <h3 style="font-size:1.3rem;color:#1a1a2e;margin:0 0 8px;">Before You Go...</h3>
     <p style="font-size:0.95rem;color:#666;margin:0 0 20px;">Get our free AI Video Starter Kit — checklist, tool cheat sheet, and script templates.</p>
-    <form action="https://app.kit.com/forms/9231849/subscriptions" data-sv-form="9231849" data-uid="7bf7021caa" method="POST" target="_blank" style="display:flex;flex-direction:column;gap:10px;">
-      <input type="email" name="email_address" placeholder="Your email" required style="padding:12px 16px;border:1px solid #d0d5dd;border-radius:8px;font-size:0.95rem;">
-      <button type="submit" style="background:#155DFC;color:#fff;border:none;padding:12px;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;">Get Free Starter Kit &rarr;</button>
-    </form>
+    <form data-newsletter style="display:flex;flex-direction:column;gap:10px;"><input type="email" name="email" placeholder="Your email" required style="padding:12px 16px;border:1px solid #d0d5dd;border-radius:8px;font-size:0.95rem;"><button type="submit" style="background:#155DFC;color:#fff;border:none;padding:12px;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;">Get Free Starter Kit &rarr;</button></form>
     <p style="font-size:0.75rem;color:#999;margin:10px 0 0;">No spam. Unsubscribe anytime.</p>
   </div>
 </div>
@@ -760,6 +756,28 @@ setTimeout(function(){if(!sessionStorage.getItem('exitShown'))showExitPopup();},
 <script>
 function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('theme',t);document.getElementById('theme-toggle').innerHTML=t==='dark'?'&#9728;':'&#127769;';}
 (function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');document.getElementById('theme-toggle').innerHTML='&#9728;';}})();
+</script>
+<script>
+(function(){
+  var W='https://aivideopicks-newsletter.trananhb1.workers.dev';
+  document.querySelectorAll('form[data-newsletter]').forEach(function(form){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var btn=form.querySelector('button[type="submit"]');
+      var ei=form.querySelector('input[name="email"]');
+      var ni=form.querySelector('input[name="first_name"]');
+      if(!ei||!ei.value)return;
+      var ot=btn.textContent;btn.disabled=true;btn.textContent='...';
+      fetch(W+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:ei.value,first_name:ni?ni.value:''})
+      }).then(function(r){return r.json()}).then(function(d){
+        if(d.success){form.innerHTML='<p style="color:#155DFC;font-weight:600;margin:8px 0;">You\'re in! Check your inbox.</p>';
+          if(typeof gtag==='function')gtag('event','newsletter_subscribe',{method:'resend'});
+        }else{btn.disabled=false;btn.textContent=ot;}
+      }).catch(function(){btn.disabled=false;btn.textContent=ot;});
+    });
+  });
+})();
 </script>
 </body>
 </html>

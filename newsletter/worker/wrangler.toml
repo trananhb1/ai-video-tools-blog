@@ -1,0 +1,8 @@
+name = "aivideopicks-newsletter"
+main = "index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+AUDIENCE_ID = "efccec02-9c7f-484e-99db-53319d9287dc"
+
+# RESEND_API_KEY set via: wrangler secret put RESEND_API_KEY

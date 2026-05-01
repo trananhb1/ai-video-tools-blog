@@ -1,0 +1,23 @@
+name: Weekly Newsletter
+
+on:
+  schedule:
+    # Every Saturday at 9:00 AM AEST (23:00 UTC Friday)
+    - cron: '0 23 * * 5'
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Send weekly newsletter
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+        run: python3 newsletter/send_weekly.py
