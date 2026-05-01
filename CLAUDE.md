@@ -75,7 +75,7 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (49 articles)
+## Content Inventory (50 articles)
 
 ### Reviews (19)
 - movavi-review-2026.html
@@ -113,7 +113,8 @@ When this project is opened, run through these items:
 - best-free-ai-video-generators-2026.html
 - sora-alternatives-2026.html
 
-### Guides & Tutorials (10)
+### Guides & Tutorials (11)
+- google-vids-veo-free-2026.html
 - heygen-pricing-2026.html
 - ai-video-pricing-compared-2026.html
 - best-ai-video-tools-beginners-2026.html
