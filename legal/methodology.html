@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4110275440168341" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5NLTFV6FL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
+</script>
+    <title>How We Test &amp; Review AI Video Tools &mdash; Methodology | AI Video Picks</title>
+    <meta name="description" content="Editorial methodology for AI Video Picks: scoring criteria, what 'tested' actually means here, dated test logs by tool, review update cadence, and conflict-of-interest disclosure.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aivideopicks.com/legal/methodology.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How We Test &amp; Review AI Video Tools &mdash; Methodology | AI Video Picks">
+    <meta property="og:description" content="Scoring criteria, what 'tested' means, dated test logs by tool, and update cadence. Honest scope labelling on every review.">
+    <meta property="og:url" content="https://aivideopicks.com/legal/methodology.html">
+    <meta property="og:site_name" content="AI Video Picks">
+    <meta property="og:image" content="https://aivideopicks.com/og-image.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How We Test AI Video Tools &mdash; Methodology">
+    <meta name="twitter:description" content="Scoring criteria, dated test logs, and update cadence behind every review on aivideopicks.com.">
+    <meta name="twitter:image" content="https://aivideopicks.com/og-image.jpg">
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "How We Test & Review AI Video Tools",
+      "url": "https://aivideopicks.com/legal/methodology.html",
+      "dateModified": "2026-05-03",
+      "author": {
+        "@type": "Person",
+        "name": "Tom Tran",
+        "url": "https://aivideopicks.com/about.html",
+        "jobTitle": "Founder, AI Video Picks",
+        "sameAs": ["https://linkedin.com/in/tom-tran"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Video Picks",
+        "url": "https://aivideopicks.com"
+      },
+      "mainEntity": {
+        "@type": "Article",
+        "headline": "Editorial Methodology &mdash; AI Video Picks",
+        "description": "Scoring criteria, scope labelling, dated test logs by tool, and update cadence for AI Video Picks reviews."
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/assets/css/legal-disclosure.css">
+    <style>
+      .scope-table { width: 100%; border-collapse: collapse; margin: 18px 0 28px; font-size: 0.95rem; }
+      .scope-table th, .scope-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+      .scope-table th { background: #f1f5f9; font-weight: 700; color: #1a1a2e; }
+      .scope-table tr:nth-child(even) td { background: #fafafa; }
+      .badge-paid { background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
+      .badge-trial { background: #fef9c3; color: #854d0e; padding: 2px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
+      .badge-docs { background: #e0e7ff; color: #3730a3; padding: 2px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
+      .criteria-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 18px 0 24px; }
+      .criteria-card { background: #f8f9fa; border-left: 3px solid #155DFC; border-radius: 6px; padding: 14px 16px; }
+      .criteria-card h4 { margin: 0 0 6px; font-size: 0.95rem; color: #1a1a2e; }
+      .criteria-card p { margin: 0; font-size: 0.88rem; color: #555; }
+      .criteria-card .weight { display: inline-block; background: #155DFC; color: #fff; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 6px; }
+      [data-theme="dark"] .scope-table th { background: #16213e; color: #e4e4e8; }
+      [data-theme="dark"] .scope-table td { color: #c5c5d5; }
+      [data-theme="dark"] .scope-table tr:nth-child(even) td { background: #0f1730; }
+      [data-theme="dark"] .criteria-card { background: #16213e; }
+      [data-theme="dark"] .criteria-card h4 { color: #e4e4e8; }
+      [data-theme="dark"] .criteria-card p { color: #a0a0b8; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo"><span>AI</span> Video Picks</a>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../index.html#reviews">Reviews</a>
+                <a href="../index.html#comparisons">Comparisons</a>
+                <a href="../index.html#guides">Guides</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+            <button id="theme-toggle" onclick="toggleTheme()" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;padding:8px;margin-left:8px;" title="Toggle dark mode">&#127769;</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>How We Test &amp; Review AI Video Tools</h1>
+        <p class="updated">Last updated: May 3, 2026</p>
+
+        <p>This page exists because most AI video reviews on the open web are repackaged press releases. We've tried to do something different: be specific about what we have and haven't done with each tool. If a review on this site says we tested HeyGen Avatar V on a real client video, we did. If it says a feature is based on vendor documentation, that's exactly what it means.</p>
+
+        <p>This document covers the scoring criteria we use, what scope labels mean in practice, the dated test log by tool, how often reviews are refreshed, and how affiliate revenue interacts with editorial choices. If something on this site doesn't match what you find when you sign up for a tool, email <a href="mailto:contact@aivideopicks.com">contact@aivideopicks.com</a> and we'll fix it.</p>
+
+        <h2 id="who-we-are">Who writes the reviews</h2>
+        <p>Reviews on aivideopicks.com are written and edited by <a href="/about.html">Tom Tran</a>, a Sydney-based business and data analyst with 8+ years' experience across banking, edtech, logistics, and CRM (TPBank, AFS, Trames, CMC Global on Starbucks/Highland Coffee accounts). Tom holds a Master of ICT (Cloud) from Western Sydney University and a Master of Business from the University of Plymouth (UK). The site is a one-person operation &mdash; there is no editorial team behind a stock photo.</p>
+        <p>The relevant skill for this site is software evaluation: cost per output, where the tool breaks under real load, whether it actually fits a workflow. AI video tools get judged the same way Tom would evaluate any other piece of business software in a procurement decision.</p>
+
+        <h2 id="scoring-criteria">Scoring criteria</h2>
+        <p>Every review on this site uses the same six-criterion framework, scored 1&ndash;10 each, weighted to produce the headline rating you see at the top of every review (e.g. "8.5 / 10"). Weights add up to 100%.</p>
+
+        <div class="criteria-grid">
+            <div class="criteria-card">
+                <span class="weight">25%</span>
+                <h4>Output quality</h4>
+                <p>Avatar realism, video resolution, lip-sync accuracy, voice naturalness, motion stability. The thing the customer actually receives.</p>
+            </div>
+            <div class="criteria-card">
+                <span class="weight">20%</span>
+                <h4>Real-world fit</h4>
+                <p>Does this tool actually solve the job a buyer is trying to do? A great avatar tool that can't export to your LMS scores low here.</p>
+            </div>
+            <div class="criteria-card">
+                <span class="weight">20%</span>
+                <h4>Pricing transparency</h4>
+                <p>Public pricing, no hidden credit traps, watermark policy on free tiers, fair annual-vs-monthly spread. Hidden costs lose points.</p>
+            </div>
+            <div class="criteria-card">
+                <span class="weight">15%</span>
+                <h4>Ease of use</h4>
+                <p>First-30-minutes friction, signup flow, empty-state UX, time to first usable output. Rated from a non-power-user perspective.</p>
+            </div>
+            <div class="criteria-card">
+                <span class="weight">10%</span>
+                <h4>Customer support</h4>
+                <p>Response time on real tickets, billing transparency, account recovery, public Trustpilot/G2 patterns. Vendor lock-in counts against.</p>
+            </div>
+            <div class="criteria-card">
+                <span class="weight">10%</span>
+                <h4>Update cadence</h4>
+                <p>How fast the vendor ships meaningful improvements (model versions, language coverage, integrations) without breaking existing workflows.</p>
+            </div>
+        </div>
+
+        <p>Headline ratings are rounded to one decimal place. We do not award 10/10 &mdash; nothing in this category is perfect, and a perfect score would imply we'd run out of room to upgrade later when the next model lands.</p>
+
+        <h2 id="what-tested-means">What "tested" actually means here</h2>
+        <p>This is the part most affiliate sites skip. Three honest categories cover every tool on this site:</p>
+
+        <table class="scope-table">
+            <thead>
+                <tr>
+                    <th>Scope label</th>
+                    <th>What it means</th>
+                    <th>How we mark it</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>We have an active paid subscription on the tool and use it on real client work or this site's own production. Reviews include first-hand observations.</td>
+                    <td>Phrasing like "in our testing", "we ran X on Y" with the relevant month marker. Dated test log entry below.</td>
+                </tr>
+                <tr>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>We have used the trial or free tier hands-on but have not maintained a paid subscription long enough to ship paid client work with it.</td>
+                    <td>Phrasing like "we tested on the free plan", "trial behaviour suggests". Limits are flagged explicitly.</td>
+                </tr>
+                <tr>
+                    <td><span class="badge-docs">Vendor docs only</span></td>
+                    <td>We do not have current access. The review pulls verifiable facts from the vendor's published pricing, product, and technical documentation, dated to the month of the source pull.</td>
+                    <td>Phrasing like "based on vendor documentation as of {month YYYY}". No invented test observations, no fake screenshots.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Most reviews on this site fall into one of these three buckets cleanly. A few are mixed &mdash; e.g. we paid for Tool X for three months but cancelled when our use case changed, so the review is "hands-on, paid plan (until {month})" plus "vendor docs for changes since". Mixed-scope reviews say so up front.</p>
+
+        <h2 id="test-log">Dated test log</h2>
+        <p>This is the load-bearing part of this page. It's a sparse, honest record of what we actually did with each tool and when. It will grow as we publish more reviews and revisit existing ones. If a tool you care about isn't here yet, the review for it is either (a) freshly published and the log entry is being added, or (b) flagged as vendor-docs-only on the review page itself.</p>
+
+        <table class="scope-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Tool</th>
+                    <th>Scope</th>
+                    <th>What we tested / verified</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2026-04-08&ndash;ongoing</td>
+                    <td><a href="/posts/heygen-review-2026.html">HeyGen</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Avatar V (launched 2026-04-08): 15-second avatar setup, 0.840 face similarity claim verified on HeyGen's own benchmark page, lip-sync tested on a 90-second product walkthrough script and a 3-minute training segment in English and Vietnamese. Creator plan ($24/mo annual) used for ongoing site work. Trustpilot 2.3/5 pattern noted &mdash; matches our experience: product is excellent, billing/support raise legitimate caution flags.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-12&ndash;2026-04-30</td>
+                    <td><a href="/posts/heygen-avatar-v-deal-april-2026.html">HeyGen Avatar V (deal page)</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>April 2026 creator bonus program tracked through to its 2026-04-30 close. Bonus tier thresholds (YouTube 10K&ndash;250K views, TikTok/Reels/Shorts 100K&ndash;2M views) verified against HeyGen's published creator agreement at the time. Page now reflects the bonus program ended.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-17&ndash;ongoing</td>
+                    <td><a href="/posts/submagic-review-2026.html">Submagic</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Caption auto-generation tested on 4 short-form clips (TikTok and YouTube Shorts dimensions), Hormozi/MrBeast/Ali Abdaal preset comparisons, B-roll auto-suggestion accuracy, silence-removal pass quality. Active paid subscription used for this site's own short-form output.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-08&ndash;ongoing</td>
+                    <td><a href="/posts/movavi-review-2026.html">Movavi Video Editor Plus 2026</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Yearly plan at $54.95 tested on a Windows desktop install, AI background removal on three different subject types, motion tracking on a horizontal pan, 4K H.264 export benchmarked. Annual code <code>PTNAFFDIS010426ALLAFS15</code> verified at checkout (15% off, expires 2026-05-15).</td>
+                </tr>
+                <tr>
+                    <td>2026-04-17&ndash;ongoing</td>
+                    <td><a href="/posts/elevenlabs-review-2026.html">ElevenLabs</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Voice cloning tested on a 30-second sample of editor's own voice (English), v3 model output compared against Murf and Descript Overdub, Studio long-form generation tested on a 4-minute script with a single voice and with a multi-speaker dialogue. Used as the ongoing voiceover engine for this site's tutorial videos.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-09&ndash;ongoing</td>
+                    <td><a href="/posts/pictory-review-2026.html">Pictory</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Standard plan ($23/mo) tested on blog-to-video repurposing of three existing posts on this site. Stock footage match quality, auto-caption accuracy, and voiceover voice library spot-checked. Pictory affiliate slug confirmed working as <code>?ref=aivideopicks</code> at this time.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-23 (rejected)&nbsp;&middot; ongoing</td>
+                    <td><a href="/posts/descript-review-2026.html">Descript</a></td>
+                    <td><span class="badge-paid">Hands-on, paid plan</span></td>
+                    <td>Edit-by-transcript workflow on a 22-minute interview, filler-word removal accuracy, Studio Sound effect on noisy laptop-mic audio, Overdub voice cloning. Affiliate application rejected 2026-04-23 (low traffic per Descript's stated bar at the time); review remains hands-on regardless &mdash; we still pay for the Creator plan and use it. Affiliate parameter has been stripped from links until/unless re-approved.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-29&nbsp;&middot; ongoing</td>
+                    <td><a href="/posts/google-vids-veo-free-2026.html">Google Vids (Veo 3.1)</a></td>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>10 free Veo 3.1 clips/month confirmed on a fresh Workspace account. Clip quality on three prompt types (product demo, talking-head substitute, b-roll filler) compared against Sora export and Kling 3.0 output captured pre-shutdown.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-26&nbsp;&middot; one-off</td>
+                    <td><a href="/posts/sora-alternatives-2026.html">Sora &mdash; export &amp; shutdown</a></td>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>Sora consumer export (sora.chatgpt.com/exports/me) used to download our own assets before the 2026-04-26 shutdown. Export ZIP structure (videos, prompts, metadata) documented in the migration post. Sora API timeline (live until 2026-09-24) verified against OpenAI's published deprecation notice.</td>
+                </tr>
+                <tr>
+                    <td>2026-05-03</td>
+                    <td><a href="/posts/vidnoz-review-2026.html">Vidnoz</a></td>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>Free tier (60 credits/day, 1,800+ avatars, 720p watermarked output) tested on three short avatar clips. Affiliate program status confirmed active via Vidnoz's affiliate-solutions page (50&ndash;70% commission tiers, Post Affiliate Pro platform). Pricing claims ($14.99/mo Starter) verified against the live pricing page at this date.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-25</td>
+                    <td><a href="/posts/synthesia-review-2026.html">Synthesia</a></td>
+                    <td><span class="badge-docs">Vendor docs only</span></td>
+                    <td>Pricing tiers ($22/mo Starter on annual, 230+ avatars, 140+ languages, SOC 2 Type II, SCORM export) pulled from Synthesia's published plan page and security/compliance pages. No active paid subscription at this time &mdash; review explicitly says so.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-25</td>
+                    <td><a href="/posts/runway-review-2026.html">Runway Gen-4.5</a></td>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>125-credit free allowance tested on three Gen-4.5 prompts at 1080p. Generation length cap (up to 40 sec on the free pool) and credit burn rate matched Runway's published table.</td>
+                </tr>
+                <tr>
+                    <td>2026-04-25</td>
+                    <td><a href="/posts/fliki-review-2026.html">Fliki</a></td>
+                    <td><span class="badge-trial">Trial / free-tier sample</span></td>
+                    <td>Free 5 min/month plan tested on a blog-to-video conversion of one site post. Voice library breadth across 75+ languages spot-checked on English (US), Vietnamese, French, and Spanish. Standard pricing ($21/mo annual) verified at this date.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="font-size: 0.92rem; color: #555; font-style: italic;">Tools not listed above (Colossyan, Murf, DeepBrain, D-ID, Elai, HourOne, Kling, Hailuo, Luma, HappyHorse, Seedance, Veed, Kapwing, Capcut, Opus Clip, Zebracat, Arcads, MakeUGC, InVideo, Writesonic, Jasper, Copy.ai, and others covered on this site) are currently <span class="badge-docs">Vendor docs only</span> &mdash; reviews lean on the vendor's published pricing and feature pages plus public benchmarks (Artificial Analysis Elo for video generators, G2 and Trustpilot rating patterns for SaaS). The review page for each one labels its scope inline. New hands-on entries will be added here as we cycle them onto the active subscription roster.</p>
+
+        <h2 id="update-cadence">How often we update reviews</h2>
+        <p>AI video tools change quietly. Pricing shifts, plan limits move, model versions ship without changelogs. To keep reviews from rotting, we run the following update cadence:</p>
+        <ul>
+            <li><strong>Top-5 traffic posts:</strong> re-evaluated every quarter against the vendor's current pricing and feature pages. <code>dateModified</code> in the JSON-LD bumps when something material changes &mdash; not just on cosmetic edits.</li>
+            <li><strong>Long-tail review and comparison posts:</strong> annually, or sooner if a vendor ships a major model release, drops a tier, or kills a feature.</li>
+            <li><strong>Pricing-specific pages</strong> (e.g. cost-per-minute, deals/coupons): sweep verified at least monthly, with the verification date stated in the body.</li>
+            <li><strong>Event-triggered updates</strong>: when an affiliate program closes (Murf 2026-04-13, Colossyan declined, Descript 2026-04-23) or a tool shuts down (Sora 2026-04-26), affected pages are reworked the same day or the next session.</li>
+        </ul>
+        <p>Every post on this site shows its last-updated date in the body and in <code>dateModified</code> in the JSON-LD schema block. As a general rule for this category: information older than ~90 days should be verified against the vendor's own page before you commit to a paid plan or annual contract &mdash; including on this site.</p>
+
+        <h2 id="conflicts">Conflict of interest disclosure</h2>
+        <p>Many links on this site are affiliate links. If you sign up for a tool through one and become a paying customer, we receive a commission &mdash; typically a one-off bounty or a small recurring share &mdash; at no extra cost to you. That money pays for the tool subscriptions used to research the reviews above and keeps the site running.</p>
+        <p><strong>The honest version:</strong> affiliate revenue does not change the rating a tool receives. We have written negative observations about tools we earn from (HeyGen Trustpilot pattern, Vidnoz support concerns, Runway credit burn rate) and we have continued to recommend tools that pay no commission at all (D-ID, Kapwing, Capcut where the use case fits). Where we don't have an affiliate relationship, we say so. Where a program is dead or we were rejected (Murf 2026-04-13, Colossyan declined, Descript 2026-04-23), we strip the affiliate parameters and re-route to a current alternative or leave the link clean.</p>
+        <p>Full program-by-program detail is in the <a href="/legal/disclosure.html">Affiliate Disclosure</a>. Editorial principles and the broader site policy live in the <a href="/legal/terms.html">Terms of Use</a> and the editorial process section of <a href="/about.html#editorial-process">About AI Video Picks</a>.</p>
+
+        <h2 id="corrections">Corrections</h2>
+        <p>If a claim on this site doesn't match what a tool actually does today &mdash; pricing has moved, a feature was removed, a benchmark was misread &mdash; email <a href="mailto:contact@aivideopicks.com">contact@aivideopicks.com</a>. We aim to fix factual errors within a few business days and will note material corrections in the affected post.</p>
+
+        <p style="margin-top:32px;color:#888;font-size:0.9rem;">For related documents see also our <a href="/legal/disclosure.html">Affiliate Disclosure</a>, <a href="/legal/privacy.html">Privacy Policy</a>, and <a href="/legal/terms.html">Terms of Use</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AI Video Picks. All rights reserved.</p>
+        <p style="margin-top: 8px;"><a href="/legal/privacy.html">Privacy Policy</a> &middot; <a href="/legal/disclosure.html">Affiliate Disclosure</a> &middot; <a href="/legal/terms.html">Terms of Use</a> &middot; <a href="/legal/methodology.html">Methodology</a> &middot; <a href="/about.html">About</a> &middot; <a href="/contact.html">Contact</a></p>
+        <p style="margin-top: 8px;">Built and edited by Tom Tran, Sydney.</p>
+    </footer>
+<script>
+function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('theme',t);document.getElementById('theme-toggle').innerHTML=t==='dark'?'&#9728;':'&#127769;';}
+(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');document.getElementById('theme-toggle').innerHTML='&#9728;';}})();
+</script>
+</body>
+</html>

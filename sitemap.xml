@@ -91,7 +91,7 @@
   <!-- Pricing Guides -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-pricing-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -129,7 +129,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-vs-pictory.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -147,13 +147,13 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-ai-talking-head-tools-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -195,7 +195,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -217,13 +217,13 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/deepbrain-ai-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -265,7 +265,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/fliki-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -277,7 +277,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/synthesia-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -303,7 +303,7 @@
   <!-- Vidnoz Review (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/vidnoz-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -311,7 +311,7 @@
   <!-- Submagic Review (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/submagic-review-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -451,6 +451,13 @@
     <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <!-- Editorial methodology (E-E-A-T trust page, new 2026-05-03) -->
+  <url>
+    <loc>https://aivideopicks.com/legal/methodology.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <!-- Consolidated into heygen-alternatives-2026.html (canonical + noindex, 2026-04-30) -->
   <url>

@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated April 30, 2026.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated May 3, 2026.
 
 ## About
 
@@ -9,7 +9,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 ## Editorial
 
 - **Editor:** Tom Tran, founder of AI Video Picks. Sydney, Australia. Operator-perspective reviews — tools tested on real projects rather than as benchmarks.
-- **Methodology:** For tools we have tested in production, reviews include first-hand observations. For tools not yet tested in-house, reviews lean on verified vendor documentation, public benchmarks, and pricing pulled within the dated review window. We label which is which.
+- **Methodology:** For tools we have tested in production, reviews include first-hand observations. For tools not yet tested in-house, reviews lean on verified vendor documentation, public benchmarks, and pricing pulled within the dated review window. We label which is which. Full methodology, scoring criteria (Output 25%, Real-world fit 20%, Pricing 20%, Ease 15%, Support 10%, Cadence 10%), the dated test log, scope-label definitions, and conflict-of-interest disclosure are published at [Editorial Methodology](https://aivideopicks.com/legal/methodology.html).
 - **Source disclosure:** Pricing and feature claims include a "as of {month YYYY}" marker; assume facts older than 90 days may need re-verification.
 
 ## Sora Shutdown Archive (2)
