@@ -80,15 +80,15 @@
         <h2>Send Us a Message</h2>
         <p>Use the form below to get in touch. Whether you have a question about a review, want to suggest a tool for us to test, or have a partnership inquiry, we are happy to help.</p>
 
-        <form class="contact-form" action="mailto:contact@aivideopicks.com" method="POST" enctype="text/plain">
+        <form class="contact-form" id="contact-form" action="https://aivideopicks-newsletter.trananhb1.workers.dev/contact" method="POST" enctype="application/x-www-form-urlencoded" novalidate>
             <div class="form-row">
                 <div class="form-group">
                     <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    <input type="text" id="name" name="name" placeholder="Jane Doe" required minlength="1" maxlength="100">
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required maxlength="254">
                 </div>
             </div>
             <div class="form-group">
@@ -105,10 +105,19 @@
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Tell us how we can help..." required></textarea>
+                <textarea id="message" name="message" placeholder="Tell us how we can help..." required minlength="10" maxlength="5000"></textarea>
+            </div>
+            <!-- Honeypot field — hidden from humans, bots fill it. Server discards any submission with this set. -->
+            <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+                <label for="website">Website (leave blank)</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
             </div>
             <button type="submit" class="submit-btn">Send Message</button>
+            <p id="contact-form-status" role="status" aria-live="polite" style="margin-top:12px;font-size:0.95rem;"></p>
         </form>
+        <noscript>
+            <p style="margin-top:12px;font-size:0.95rem;color:#666;">JavaScript is disabled, so the form above will submit as a plain POST. If you would prefer to email directly, write to <a href="mailto:contact@aivideopicks.com">contact@aivideopicks.com</a>.</p>
+        </noscript>
 
         <div class="response-note">
             &#9200; We typically respond within 48 hours. For urgent inquiries, email us directly at <a href="mailto:contact@aivideopicks.com" style="margin-left: 4px;">contact@aivideopicks.com</a>
@@ -191,7 +200,7 @@
                     <ul>
                         <li><a href="/legal/privacy.html">Privacy Policy</a></li>
                         <li><a href="/legal/disclosure.html">Affiliate Disclosure</a></li>
-                        <li><a href="/legal/disclosure.html#terms">Terms of Use</a></li>
+                        <li><a href="/legal/terms.html">Terms of Use</a></li>
                     </ul>
                 </div>
             </div>
@@ -207,6 +216,48 @@
 <script>
 function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('theme',t);document.getElementById('theme-toggle').innerHTML=t==='dark'?'&#9728;':'&#127769;';}
 (function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');document.getElementById('theme-toggle').innerHTML='&#9728;';}})();
+</script>
+<script>
+(function(){
+  var form=document.getElementById('contact-form');
+  if(!form)return;
+  var status=document.getElementById('contact-form-status');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var btn=form.querySelector('button[type="submit"]');
+    var data={
+      name:(form.querySelector('[name="name"]').value||'').trim(),
+      email:(form.querySelector('[name="email"]').value||'').trim(),
+      subject:(form.querySelector('[name="subject"]').value||'general'),
+      message:(form.querySelector('[name="message"]').value||'').trim(),
+      website:(form.querySelector('[name="website"]').value||'')
+    };
+    if(!data.name||!data.email||data.message.length<10){
+      status.style.color='#b91c1c';
+      status.textContent='Please fill in your name, email, and a message of at least 10 characters.';
+      return;
+    }
+    var ot=btn.textContent;btn.disabled=true;btn.textContent='Sending...';
+    status.style.color='#666';status.textContent='';
+    fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){return r.json().then(function(d){return {ok:r.ok,d:d}})})
+      .then(function(res){
+        if(res.ok&&res.d.success){
+          form.innerHTML='<p style="color:#155DFC;font-weight:600;font-size:1rem;margin:8px 0;">Thanks &mdash; we got your message and will reply within a few business days.</p>';
+          if(typeof gtag==="function")gtag('event','contact_form_submit',{method:'worker'});
+        }else{
+          status.style.color='#b91c1c';
+          status.textContent=(res.d&&res.d.error)?res.d.error:'Something went wrong. Please email contact@aivideopicks.com directly.';
+          btn.disabled=false;btn.textContent=ot;
+        }
+      })
+      .catch(function(){
+        status.style.color='#b91c1c';
+        status.textContent='Network error. Please email contact@aivideopicks.com directly.';
+        btn.disabled=false;btn.textContent=ot;
+      });
+  });
+})();
 </script>
 <script>
 (function(){

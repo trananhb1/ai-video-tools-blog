@@ -1,10 +1,11 @@
 /**
- * AI Video Picks — Newsletter Signup Worker (Cloudflare Workers)
+ * AI Video Picks — Newsletter + Contact Worker (Cloudflare Workers)
  *
- * Handles POST /subscribe from static site forms.
- * Adds contact to Resend Audience, triggers welcome email.
+ * Routes:
+ *   POST /subscribe — adds contact to Resend Audience, triggers welcome email
+ *   POST /contact   — accepts contact form submissions, forwards to inbox via Resend
  *
- * Environment variables (set in wrangler.toml or dashboard):
+ * Environment variables (set in wrangler.toml or `wrangler secret put`):
  *   RESEND_API_KEY  — Resend API key
  *   AUDIENCE_ID     — Resend audience ID
  */
@@ -16,6 +17,8 @@ const CORS_HEADERS = {
 };
 
 const FROM_EMAIL = 'Tom from AI Video Picks <newsletter@aivideopicks.com>';
+const CONTACT_FROM = 'AI Video Picks Contact Form <contact@aivideopicks.com>';
+const CONTACT_INBOX = 'trananhb1@gmail.com';
 const REPLY_TO = 'trananhb1@gmail.com';
 const SITE_URL = 'https://aivideopicks.com';
 
@@ -33,6 +36,10 @@ export default {
 
     if (url.pathname === '/subscribe') {
       return handleSubscribe(request, env);
+    }
+
+    if (url.pathname === '/contact') {
+      return handleContact(request, env);
     }
 
     return jsonResponse({ error: 'Not found' }, 404);
@@ -141,6 +148,121 @@ async function sendWelcomeEmail(email, firstName, env) {
       html,
     }),
   });
+}
+
+async function handleContact(request, env) {
+  let body;
+  const contentType = request.headers.get('content-type') || '';
+
+  try {
+    if (contentType.includes('application/json')) {
+      body = await request.json();
+    } else if (contentType.includes('form')) {
+      const formData = await request.formData();
+      body = Object.fromEntries(formData);
+    } else {
+      return jsonResponse({ error: 'Invalid content type' }, 400);
+    }
+  } catch (err) {
+    return jsonResponse({ error: 'Could not parse request body' }, 400);
+  }
+
+  // Honeypot — bots fill this hidden field, humans don't.
+  // Silently accept (200 OK) so bots don't retry, but discard.
+  const honeypot = (body.website || '').trim();
+  if (honeypot) {
+    return jsonResponse({ success: true, message: 'Thanks!' });
+  }
+
+  const name = (body.name || '').trim();
+  const email = (body.email || '').trim().toLowerCase();
+  const subject = (body.subject || 'general').trim().slice(0, 100);
+  const message = (body.message || '').trim();
+
+  // Validation
+  if (!name || name.length < 1 || name.length > 100) {
+    return jsonResponse({ error: 'Name is required (1-100 chars)' }, 400);
+  }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254) {
+    return jsonResponse({ error: 'A valid email is required' }, 400);
+  }
+  if (!message || message.length < 10 || message.length > 5000) {
+    return jsonResponse({ error: 'Message must be 10-5000 characters' }, 400);
+  }
+
+  // Basic spam guards beyond the honeypot
+  const lowerMsg = message.toLowerCase();
+  const spamHits = ['<a href=', 'http://', 'https://'].filter(s => lowerMsg.includes(s)).length;
+  if (spamHits >= 3) {
+    // Looks link-spammy — accept silently to avoid signalling the filter.
+    return jsonResponse({ success: true, message: 'Thanks!' });
+  }
+
+  // Escape for safe HTML rendering in the email body.
+  const esc = (s) => s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
+  const userIp = request.headers.get('cf-connecting-ip') || 'unknown';
+  const userAgent = request.headers.get('user-agent') || 'unknown';
+  const country = request.headers.get('cf-ipcountry') || 'unknown';
+
+  const html = `<!DOCTYPE html><html><body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;color:#1a1a2e;max-width:640px;margin:0 auto;padding:24px;">
+<h2 style="color:#155DFC;margin:0 0 16px;">New contact form submission</h2>
+<table cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:14px;">
+  <tr><td style="background:#f8f9fa;width:120px;font-weight:600;">Name</td><td>${esc(name)}</td></tr>
+  <tr><td style="background:#f8f9fa;font-weight:600;">Email</td><td><a href="mailto:${esc(email)}">${esc(email)}</a></td></tr>
+  <tr><td style="background:#f8f9fa;font-weight:600;">Subject</td><td>${esc(subject)}</td></tr>
+  <tr><td style="background:#f8f9fa;font-weight:600;">IP / country</td><td>${esc(userIp)} / ${esc(country)}</td></tr>
+</table>
+<h3 style="margin:24px 0 8px;">Message</h3>
+<div style="background:#f8f9fa;padding:16px;border-left:3px solid #155DFC;white-space:pre-wrap;">${esc(message)}</div>
+<p style="font-size:11px;color:#999;margin-top:24px;">User-Agent: ${esc(userAgent)}</p>
+</body></html>`;
+
+  const textBody = `New contact form submission
+
+Name: ${name}
+Email: ${email}
+Subject: ${subject}
+IP/Country: ${userIp} / ${country}
+
+Message:
+${message}
+
+User-Agent: ${userAgent}
+`;
+
+  try {
+    const res = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: CONTACT_FROM,
+        to: [CONTACT_INBOX],
+        reply_to: email,
+        subject: `[contact] ${subject} — ${name}`,
+        html,
+        text: textBody,
+      }),
+    });
+
+    if (!res.ok) {
+      const errData = await res.json().catch(() => ({}));
+      console.error('Resend contact email error:', errData);
+      return jsonResponse({ error: 'Could not send message, please email contact@aivideopicks.com directly' }, 500);
+    }
+
+    return jsonResponse({ success: true, message: 'Thanks — we got your message and will reply within a few business days.' });
+  } catch (err) {
+    console.error('Contact handler error:', err);
+    return jsonResponse({ error: 'Something went wrong, please try again' }, 500);
+  }
 }
 
 function jsonResponse(data, status = 200) {

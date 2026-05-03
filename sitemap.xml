@@ -424,13 +424,13 @@
   <!-- Site Pages -->
   <url>
     <loc>https://aivideopicks.com/about.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/contact.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -443,6 +443,12 @@
   <url>
     <loc>https://aivideopicks.com/legal/disclosure.html</loc>
     <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/legal/terms.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
