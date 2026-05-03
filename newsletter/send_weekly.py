@@ -15,7 +15,7 @@ import os, re, json, glob, datetime, textwrap
 from pathlib import Path
 from html.parser import HTMLParser
 
-RESEND_API_KEY = os.getenv("RESEND_API_KEY", "***REDACTED***")
+RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 AUDIENCE_ID = os.getenv("AUDIENCE_ID", "efccec02-9c7f-484e-99db-53319d9287dc")
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() == "true"
 SITE_URL = "https://aivideopicks.com"

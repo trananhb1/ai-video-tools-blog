@@ -8,7 +8,7 @@ Can also be run standalone: python3 newsletter/send_welcome.py <email> [first_na
 
 import os, sys, json, urllib.request
 
-RESEND_API_KEY = os.getenv("RESEND_API_KEY", "***REDACTED***")
+RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 SITE_URL = "https://aivideopicks.com"
 FROM_EMAIL = "Tom from AI Video Picks <newsletter@aivideopicks.com>"
 REPLY_TO = "trananhb1@gmail.com"
