@@ -59,7 +59,7 @@ log = logging.getLogger("aivp_writer")
 SITE_URL = "https://aivideopicks.com"
 GA_ID = "G-M5NLTFV6FL"
 ADSENSE_ID = "ca-pub-4110275440168341"
-AUTHOR_NAME = "Alex Chen"
+AUTHOR_NAME = "Tom Tran"
 AUTHOR_URL = f"{SITE_URL}/about.html"
 
 # CSS to reuse (as per CLAUDE.md)
@@ -271,7 +271,7 @@ def generate_html_article(topic: dict) -> tuple[str, dict]:
         "headline": "{title}",
         "image": "{SITE_URL}/assets/images/{slug}-thumbnail.png",
         "description": "{description}",
-        "author": {{ "@type": "Person", "name": "{AUTHOR_NAME}", "url": "{AUTHOR_URL}", "jobTitle": "Founder & Lead Reviewer" }},
+        "author": {{ "@type": "Person", "name": "{AUTHOR_NAME}", "url": "{AUTHOR_URL}", "jobTitle": "Founder, AI Video Picks", "sameAs": ["https://linkedin.com/in/tom-tran"] }},
         "publisher": {{
             "@type": "Organization",
             "name": "AI Video Picks",

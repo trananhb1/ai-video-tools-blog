@@ -8,10 +8,9 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 
 ## Editorial
 
-- **Editor:** Alex Chen, AI Video Tools Editor — personally tested 30+ AI video tools in 2025–2026 across 82 hours of generated footage.
-- **Testing window:** January 8 – April 10, 2026.
-- **Hardware:** Windows 11 (Ryzen 9 7900X, 32 GB, RTX 4070) + 2024 MacBook Pro M3.
-- **Methodology:** Every tool scored on render time per 60 s clip, output quality, cost per finished minute, watermark, max free output, and ease of use. Full data in the hero ranking post.
+- **Editor:** Tom Tran, founder of AI Video Picks. Sydney, Australia. Operator-perspective reviews — tools tested on real projects rather than as benchmarks.
+- **Methodology:** For tools we have tested in production, reviews include first-hand observations. For tools not yet tested in-house, reviews lean on verified vendor documentation, public benchmarks, and pricing pulled within the dated review window. We label which is which.
+- **Source disclosure:** Pricing and feature claims include a "as of {month YYYY}" marker; assume facts older than 90 days may need re-verification.
 
 ## Sora Shutdown Archive (2)
 
