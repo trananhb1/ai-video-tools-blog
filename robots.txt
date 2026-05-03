@@ -1,8 +1,11 @@
 # robots.txt for aivideopicks.com
 # Allow all crawlers full access — we want AI citation
+# Disallow internal/staging paths that aren't user-facing
 
 User-agent: *
 Allow: /
+Disallow: /scripts/
+Disallow: /content/drafts/
 
 # Google (Search + Ads + AI)
 User-agent: Googlebot
