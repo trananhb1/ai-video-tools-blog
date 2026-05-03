@@ -478,4 +478,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+  <!-- HeyGen vs Vidnoz comparison (new 2026-05-03) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-vidnoz-2026.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
