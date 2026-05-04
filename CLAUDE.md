@@ -49,6 +49,7 @@ When this project is opened, run through these items:
 | Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 | InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
+| Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
 | Pika | `https://pika.style/?via=aivideopicks` | Active | 30% recurring via Rewardful. Redirect updated from pika.art to pika.style |
 | Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | Awin network. Signup: affiliates.runwayml.com — current `?via=` is NOT valid |
 | Kling | `?via=aivideopicks` | **NEEDS SIGNUP** | 2.7% via 37X (low priority). Current `?via=` is NOT valid |
