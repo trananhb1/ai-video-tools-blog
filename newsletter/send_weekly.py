@@ -277,7 +277,18 @@ def main():
 
     html = build_email_html(recent, all_posts)
     today = datetime.datetime.now()
-    subject = f"AI Video Weekly #{(today - datetime.datetime(2026, 5, 1)).days // 7 + 1}: {len(recent) if recent else len(all_posts[:3])} New {'Posts' if len(recent) != 1 else 'Post'} This Week"
+    subject = build_subject(recent, all_posts)
+
+
+def build_subject(recent: list, all_posts: list) -> str:
+    posts = recent if recent else all_posts[:3]
+    if not posts:
+        return "This week in AI video tools"
+    lead = posts[0]["title"].split(":")[0].split("|")[0].strip()
+    others = len(posts) - 1
+    if others > 0:
+        return f"{lead} + {others} more reviews"
+    return lead
 
     if DRY_RUN:
         preview_path = Path(__file__).parent / "preview.html"
