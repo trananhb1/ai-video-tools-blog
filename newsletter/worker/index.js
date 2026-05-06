@@ -2,18 +2,21 @@
  * AI Video Picks — Newsletter + Contact Worker (Cloudflare Workers)
  *
  * Routes:
- *   POST /subscribe — adds contact to Resend Audience, triggers welcome email
- *   POST /contact   — accepts contact form submissions, forwards to inbox via Resend
+ *   POST /subscribe        — adds contact to Resend Audience, triggers welcome email
+ *   POST /contact          — accepts contact form submissions, forwards to inbox via Resend
+ *   GET  /admin/subscribers — lists all subscribers (requires Authorization: Bearer <ADMIN_TOKEN>)
+ *   GET  /admin/stats       — subscriber count + recent signups summary
  *
  * Environment variables (set in wrangler.toml or `wrangler secret put`):
  *   RESEND_API_KEY  — Resend API key
  *   AUDIENCE_ID     — Resend audience ID
+ *   ADMIN_TOKEN     — Bearer token for admin endpoints
  */
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': 'https://aivideopicks.com',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
 
 const FROM_EMAIL = 'Tom from AI Video Picks <newsletter@aivideopicks.com>';
@@ -28,11 +31,29 @@ export default {
       return new Response(null, { status: 204, headers: CORS_HEADERS });
     }
 
+    const url = new URL(request.url);
+
+    // Admin routes (GET, bearer-token auth)
+    if (url.pathname.startsWith('/admin/')) {
+      if (request.method !== 'GET') {
+        return jsonResponse({ error: 'Method not allowed' }, 405);
+      }
+      if (!verifyAdmin(request, env)) {
+        return jsonResponse({ error: 'Unauthorized' }, 401);
+      }
+      if (url.pathname === '/admin/subscribers') {
+        return handleAdminSubscribers(env);
+      }
+      if (url.pathname === '/admin/stats') {
+        return handleAdminStats(env);
+      }
+      return jsonResponse({ error: 'Not found' }, 404);
+    }
+
+    // Public routes (POST only)
     if (request.method !== 'POST') {
       return jsonResponse({ error: 'Method not allowed' }, 405);
     }
-
-    const url = new URL(request.url);
 
     if (url.pathname === '/subscribe') {
       return handleSubscribe(request, env);
@@ -45,6 +66,72 @@ export default {
     return jsonResponse({ error: 'Not found' }, 404);
   },
 };
+
+function verifyAdmin(request, env) {
+  const auth = request.headers.get('Authorization') || '';
+  const token = auth.replace(/^Bearer\s+/i, '');
+  return token && token === env.ADMIN_TOKEN;
+}
+
+async function handleAdminSubscribers(env) {
+  try {
+    const res = await fetch(
+      `https://api.resend.com/audiences/${env.AUDIENCE_ID}/contacts`,
+      {
+        headers: { Authorization: `Bearer ${env.RESEND_API_KEY}` },
+      }
+    );
+    const data = await res.json();
+    if (!res.ok) {
+      return jsonResponse({ error: 'Resend API error', details: data }, 502);
+    }
+    const contacts = (data.data || []).map(c => ({
+      email: c.email,
+      first_name: c.first_name || '',
+      subscribed: !c.unsubscribed,
+      created_at: c.created_at,
+    }));
+    return jsonResponse({
+      total: contacts.length,
+      subscribed: contacts.filter(c => c.subscribed).length,
+      contacts,
+    });
+  } catch (err) {
+    return jsonResponse({ error: 'Failed to fetch subscribers' }, 500);
+  }
+}
+
+async function handleAdminStats(env) {
+  try {
+    const res = await fetch(
+      `https://api.resend.com/audiences/${env.AUDIENCE_ID}/contacts`,
+      {
+        headers: { Authorization: `Bearer ${env.RESEND_API_KEY}` },
+      }
+    );
+    const data = await res.json();
+    if (!res.ok) {
+      return jsonResponse({ error: 'Resend API error', details: data }, 502);
+    }
+    const contacts = data.data || [];
+    const subscribed = contacts.filter(c => !c.unsubscribed);
+    const lastWeek = new Date(Date.now() - 7 * 86400000).toISOString();
+    const recent = subscribed.filter(c => c.created_at >= lastWeek);
+    return jsonResponse({
+      total: contacts.length,
+      subscribed: subscribed.length,
+      unsubscribed: contacts.length - subscribed.length,
+      new_last_7_days: recent.length,
+      recent_signups: recent.map(c => ({
+        email: c.email,
+        first_name: c.first_name || '',
+        created_at: c.created_at,
+      })),
+    });
+  } catch (err) {
+    return jsonResponse({ error: 'Failed to fetch stats' }, 500);
+  }
+}
 
 async function handleSubscribe(request, env) {
   let body;
