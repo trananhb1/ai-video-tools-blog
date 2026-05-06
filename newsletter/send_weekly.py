@@ -100,40 +100,62 @@ def get_all_posts_sorted() -> list:
 
 
 AFFILIATE_PICKS = [
-    {"name": "HeyGen", "url": "https://www.heygen.com/?via=aivideopicks", "tagline": "Best for marketing videos & avatars", "offer": "35% recurring commission"},
-    {"name": "Synthesia", "url": "https://www.synthesia.io/?via=aivideopicks", "tagline": "Enterprise training & L&D", "offer": "160+ AI avatars, 130+ languages"},
-    {"name": "Zebracat", "url": "https://studio.zebracat.ai/?via=aivideopicks", "tagline": "Fast social & ad video creation", "offer": "Use code 6YAZM9V5 for 15% off"},
-    {"name": "Pika", "url": "https://pika.style/?via=aivideopicks", "tagline": "Creative text-to-video generation", "offer": "Free tier available"},
-    {"name": "Fliki", "url": "https://fliki.ai/?via=aivideopicks", "tagline": "Blog-to-video in minutes", "offer": "30% lifetime commission"},
+    {"name": "HeyGen", "url": "https://www.heygen.com/?via=aivideopicks", "tagline": "Best for marketing videos & avatars", "offer": "Free plan available", "color": "#6C5CE7", "icon": "HG"},
+    {"name": "Synthesia", "url": "https://www.synthesia.io/?via=aivideopicks", "tagline": "Enterprise training & L&D", "offer": "160+ AI avatars, 130+ languages", "color": "#00B894", "icon": "Sy"},
+    {"name": "Zebracat", "url": "https://studio.zebracat.ai/?via=aivideopicks", "tagline": "Fast social & ad video creation", "offer": "Use code 6YAZM9V5 for 15% off", "color": "#FDCB6E", "icon": "Zc"},
+    {"name": "Pika", "url": "https://pika.style/?via=aivideopicks", "tagline": "Creative text-to-video generation", "offer": "Free tier available", "color": "#E17055", "icon": "Pk"},
+    {"name": "Fliki", "url": "https://fliki.ai/?via=aivideopicks", "tagline": "Blog-to-video in minutes", "offer": "Free plan + paid from $28/mo", "color": "#0984E3", "icon": "Fk"},
+    {"name": "Pictory", "url": "https://pictory.ai?ref=aivideopicks", "tagline": "Turn scripts & blogs into videos", "offer": "New 2.0 with AI avatars!", "color": "#A29BFE", "icon": "Pc"},
+    {"name": "InVideo", "url": "https://invideo.sjv.io/aivideopicks", "tagline": "AI video editor for social content", "offer": "Free plan available", "color": "#00CEC9", "icon": "IV"},
+    {"name": "Creatify", "url": "https://app.creatify.ai/?via=Aivideopicks", "tagline": "AI ad video generator", "offer": "$49 off first month", "color": "#FF7675", "icon": "Cr"},
 ]
 
 
 def build_post_card(post: dict) -> str:
+    utm = "?utm_source=newsletter&utm_medium=email&utm_campaign=weekly"
     return f"""
     <tr><td style="padding:0 0 20px 0;">
       <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f9fc;border-radius:12px;overflow:hidden;">
-        <tr><td style="padding:24px;">
-          <a href="{post['url']}?utm_source=newsletter&utm_medium=email&utm_campaign=weekly" style="color:#155DFC;font-size:18px;font-weight:700;text-decoration:none;line-height:1.3;">{post['title']}</a>
-          <p style="color:#4a4a68;font-size:14px;line-height:1.5;margin:8px 0 12px;">{post['description'][:150]}{'...' if len(post['description']) > 150 else ''}</p>
-          <a href="{post['url']}?utm_source=newsletter&utm_medium=email&utm_campaign=weekly" style="display:inline-block;background:#155DFC;color:#ffffff;font-size:13px;font-weight:700;padding:8px 20px;border-radius:6px;text-decoration:none;">Read More →</a>
+        <tr><td>
+          <a href="{post['url']}{utm}">
+            <img src="{post['image']}" alt="{post['title']}" width="552" style="width:100%;height:auto;display:block;border-radius:12px 12px 0 0;" />
+          </a>
+        </td></tr>
+        <tr><td style="padding:20px 24px 24px;">
+          <a href="{post['url']}{utm}" style="color:#155DFC;font-size:18px;font-weight:700;text-decoration:none;line-height:1.3;">{post['title']}</a>
+          <p style="color:#4a4a68;font-size:14px;line-height:1.5;margin:8px 0 16px;">{post['description'][:150]}{'...' if len(post['description']) > 150 else ''}</p>
+          <a href="{post['url']}{utm}" style="display:inline-block;background:#155DFC;color:#ffffff;font-size:13px;font-weight:700;padding:10px 24px;border-radius:6px;text-decoration:none;">Read More →</a>
         </td></tr>
       </table>
     </td></tr>"""
 
 
+def _utm(url: str) -> str:
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}utm_source=newsletter&utm_medium=email&utm_campaign=weekly"
+
+
 def build_affiliate_section() -> str:
     import random
-    picks = random.sample(AFFILIATE_PICKS, min(3, len(AFFILIATE_PICKS)))
+    picks = random.sample(AFFILIATE_PICKS, min(4, len(AFFILIATE_PICKS)))
     rows = ""
     for p in picks:
         rows += f"""
-        <tr><td style="padding:8px 0;">
-          <table width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #e2e4eb;border-radius:8px;">
-            <tr><td style="padding:16px;">
-              <a href="{p['url']}?utm_source=newsletter&utm_medium=email&utm_campaign=weekly" style="color:#155DFC;font-size:15px;font-weight:700;text-decoration:none;">{p['name']}</a>
-              <span style="color:#4a4a68;font-size:13px;"> — {p['tagline']}</span>
-              <p style="color:#7a7a96;font-size:12px;margin:4px 0 0;">{p['offer']}</p>
-            </td></tr>
+        <tr><td style="padding:6px 0;">
+          <table width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #e2e4eb;border-radius:10px;">
+            <tr>
+              <td width="56" style="padding:14px 0 14px 14px;vertical-align:middle;">
+                <div style="width:44px;height:44px;border-radius:10px;background:{p['color']};text-align:center;line-height:44px;color:#ffffff;font-size:16px;font-weight:800;">{p['icon']}</div>
+              </td>
+              <td style="padding:14px 16px;vertical-align:middle;">
+                <a href="{_utm(p['url'])}" style="color:#155DFC;font-size:15px;font-weight:700;text-decoration:none;">{p['name']}</a>
+                <span style="color:#4a4a68;font-size:13px;"> — {p['tagline']}</span>
+                <p style="color:#7a7a96;font-size:12px;margin:4px 0 0;">{p['offer']}</p>
+              </td>
+              <td width="80" style="padding:14px 14px 14px 0;vertical-align:middle;text-align:right;">
+                <a href="{_utm(p['url'])}" style="display:inline-block;background:#f0f2f5;color:#155DFC;font-size:12px;font-weight:700;padding:6px 12px;border-radius:6px;text-decoration:none;">Try Free →</a>
+              </td>
+            </tr>
           </table>
         </td></tr>"""
     return rows
