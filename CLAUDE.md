@@ -5,7 +5,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Domain:** https://aivideopicks.com
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
-- **Brand:** AI Video Picks (logo text: "AI Video Hub")
+- **Brand:** AI Video Picks (logo text: "AI Video Picks")
 - **Content:** 62 articles — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
@@ -220,7 +220,7 @@ Every article follows this structure:
 3. Open Graph + Twitter Card meta
 4. Article Schema JSON-LD + FAQ Schema
 5. `<link rel="stylesheet" href="/assets/css/{slug}.css">` (external CSS)
-6. Sticky header: `<a class="logo">AI Video <span>Hub</span></a>` + nav links
+6. Sticky header: `<a class="logo">AI Video <span>Picks</span></a>` + nav links
 7. FTC disclosure banner
 8. Breadcrumb
 9. Article header (h1, meta with date/read time)
