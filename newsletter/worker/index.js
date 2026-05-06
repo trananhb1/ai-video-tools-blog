@@ -33,19 +33,19 @@ export default {
 
     const url = new URL(request.url);
 
-    // Admin routes (GET, bearer-token auth)
+    // Admin routes (bearer-token auth)
     if (url.pathname.startsWith('/admin/')) {
-      if (request.method !== 'GET') {
-        return jsonResponse({ error: 'Method not allowed' }, 405);
-      }
       if (!verifyAdmin(request, env)) {
         return jsonResponse({ error: 'Unauthorized' }, 401);
       }
-      if (url.pathname === '/admin/subscribers') {
+      if (request.method === 'GET' && url.pathname === '/admin/subscribers') {
         return handleAdminSubscribers(env);
       }
-      if (url.pathname === '/admin/stats') {
+      if (request.method === 'GET' && url.pathname === '/admin/stats') {
         return handleAdminStats(env);
+      }
+      if (request.method === 'POST' && url.pathname === '/admin/send') {
+        return handleAdminSend(request, env);
       }
       return jsonResponse({ error: 'Not found' }, 404);
     }
@@ -133,6 +133,68 @@ async function handleAdminStats(env) {
   }
 }
 
+async function handleAdminSend(request, env) {
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return jsonResponse({ error: 'Invalid JSON body' }, 400);
+  }
+
+  const { subject, html, test_email } = body;
+  if (!subject || !html) {
+    return jsonResponse({ error: 'subject and html are required' }, 400);
+  }
+
+  try {
+    let active;
+
+    if (test_email) {
+      active = [{ email: test_email }];
+    } else {
+      const contactRes = await fetch(
+        `https://api.resend.com/audiences/${env.AUDIENCE_ID}/contacts`,
+        { headers: { Authorization: `Bearer ${env.RESEND_API_KEY}` } }
+      );
+      const contactData = await contactRes.json();
+      if (!contactRes.ok) {
+        return jsonResponse({ error: 'Failed to fetch contacts', details: contactData }, 502);
+      }
+      active = (contactData.data || []).filter(c => !c.unsubscribed);
+      if (!active.length) {
+        return jsonResponse({ error: 'No active subscribers' }, 400);
+      }
+    }
+
+    const emails = active.map(c => ({
+      from: 'Tom from AI Video Picks <newsletter@aivideopicks.com>',
+      to: [c.email],
+      reply_to: 'trananhb1@gmail.com',
+      subject,
+      html,
+    }));
+
+    const results = [];
+    for (let i = 0; i < emails.length; i += 100) {
+      const batch = emails.slice(i, i + 100);
+      const sendRes = await fetch('https://api.resend.com/emails/batch', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(batch),
+      });
+      const sendData = await sendRes.json();
+      results.push({ batch: Math.floor(i / 100) + 1, count: batch.length, response: sendData });
+    }
+
+    return jsonResponse({ sent: active.length, batches: results });
+  } catch (err) {
+    return jsonResponse({ error: 'Send failed', message: err.message }, 500);
+  }
+}
+
 async function handleSubscribe(request, env) {
   let body;
   const contentType = request.headers.get('content-type') || '';
@@ -199,7 +261,7 @@ async function sendWelcomeEmail(email, firstName, env) {
 <tr><td align="center">
 <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
   <tr><td style="background:linear-gradient(135deg,#155DFC 0%,#1a1a2e 100%);padding:32px 24px;border-radius:12px 12px 0 0;text-align:center;">
-    <h1 style="color:#ffffff;font-size:22px;font-weight:800;margin:0;">AI Video <span style="color:#60a5fa;">Hub</span></h1>
+    <h1 style="color:#ffffff;font-size:22px;font-weight:800;margin:0;">AI Video <span style="color:#60a5fa;">Picks</span></h1>
     <p style="color:#94a3b8;font-size:13px;margin:8px 0 0;">Welcome to AI Video Picks!</p>
   </td></tr>
   <tr><td style="background:#ffffff;padding:28px 24px;">
