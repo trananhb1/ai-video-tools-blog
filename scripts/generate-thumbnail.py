@@ -76,6 +76,17 @@ TOOL_CHIPS = {
     "OpusClip":   {"bg": (0, 199, 130),   "fg": WHITE},
     "Hedra":      {"bg": (255, 100, 50),  "fg": WHITE},
     "Colossyan":  {"bg": (90, 35, 180),   "fg": WHITE},
+    "Jasper":     {"bg": (255, 88, 0),    "fg": WHITE},
+    "Writesonic": {"bg": (124, 58, 237),  "fg": WHITE},
+    "CopyAI":     {"bg": (51, 51, 51),    "fg": WHITE},
+    "Creatify":   {"bg": (99, 102, 241),  "fg": WHITE},
+    "Murf":       {"bg": (0, 102, 255),   "fg": WHITE},
+    "DeepBrain":  {"bg": (0, 112, 243),   "fg": WHITE},
+    "D-ID":       {"bg": (100, 75, 200),  "fg": WHITE},
+    "Elai":       {"bg": (67, 56, 202),   "fg": WHITE},
+    "HourOne":    {"bg": (0, 148, 255),   "fg": WHITE},
+    "Kapwing":    {"bg": (116, 71, 255),  "fg": WHITE},
+    "Google":     {"bg": (66, 133, 244),  "fg": WHITE},
 }
 
 
@@ -124,7 +135,7 @@ def draw_circle_accent(img):
 def draw_logo(draw):
     font = ImageFont.truetype(FONT_BOLD, 14)
     # Track letter-spacing manually via per-char draw
-    text = "AI VIDEO HUB"
+    text = "AI VIDEO PICKS"
     x = 32
     y = 28
     for ch in text:
@@ -190,6 +201,12 @@ def slug_for_tool(tool):
         "OpusClip": "opus",
         "Veo": "veo",
         "Sora": "sora",
+        "CopyAI": "copy-ai",
+        "DeepBrain": "deepbrain",
+        "ElevenLabs": "elevenlabs",
+        "MakeUGC": "makeugc",
+        "D-ID": "d-id",
+        "HourOne": "hourone",
     }.get(tool, tool.lower())
 
 

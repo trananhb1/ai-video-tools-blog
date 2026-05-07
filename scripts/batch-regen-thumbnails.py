@@ -72,6 +72,14 @@ SLUG_TO_PNG = {
     "opus-clip-review-2026":  "opus-clip-review",
     "murf-ai-review-2026":    "murf-ai-review",
     "deepbrain-ai-review-2026": "deepbrain-ai-review",
+    "jasper-review-2026":       "jasper-review",
+    "writesonic-review-2026":   "writesonic-review",
+    "copy-ai-review-2026":      "copy-ai-review",
+    "creatify-review-2026":     "creatify-review",
+    "heygen-pricing-2026":      "heygen-pricing",
+    "heygen-vs-colossyan-vs-synthesia-training-2026": "heygen-colossyan-synthesia-training",
+    "ai-video-cost-per-minute-2026": "ai-video-cost-per-minute-2026",
+    "google-vids-veo-free-2026": "google-vids-veo-free-2026",
 }
 
 # Review post slug prefix → tool name to feature in review card
@@ -92,6 +100,10 @@ REVIEW_TOOL = {
     "opus-clip-review-2026":  "OpusClip",
     "murf-ai-review-2026":    "Murf",
     "deepbrain-ai-review-2026": "DeepBrain",
+    "jasper-review-2026":       "Jasper",
+    "writesonic-review-2026":   "Writesonic",
+    "copy-ai-review-2026":      "CopyAI",
+    "creatify-review-2026":     "Creatify",
 }
 
 REVIEW_PATTERN = re.compile(r"-review(-\d+)?$")
@@ -125,6 +137,17 @@ TOOL_KEYWORDS = {
     "OpusClip":   ("opus clip", "opusclip"),
     "Hedra":      ("hedra",),
     "Colossyan":  ("colossyan",),
+    "Jasper":     ("jasper",),
+    "Writesonic": ("writesonic",),
+    "CopyAI":     ("copy.ai", "copy ai", "copyai"),
+    "Creatify":   ("creatify",),
+    "Murf":       ("murf",),
+    "DeepBrain":  ("deepbrain",),
+    "D-ID":       ("d-id",),
+    "Elai":       ("elai",),
+    "HourOne":    ("hourone", "hour one"),
+    "Kapwing":    ("kapwing",),
+    "Google":     ("google vids",),
 }
 
 
@@ -242,10 +265,12 @@ def extract_rating(text):
     m = re.search(r'"ratingValue"\s*:\s*"?([\d.]+)"?', text)
     if m:
         v = float(m.group(1))
-        # Look for matching X/10 score in body for the display
         score10 = re.search(r"(\d+\.?\d*)\s*/\s*10", text)
         if score10:
-            return v, f"{score10.group(1)} / 10"
+            v10 = float(score10.group(1))
+            return v10 / 2, f"{score10.group(1)} / 10"
+        if v > 5:
+            return v / 2, f"{v} / 10"
         return v, f"{v} / 5"
     # Fallback: scan for "X.X / 10" or "X out of 10" in body
     m = re.search(r"(\d+\.?\d*)\s*/\s*10", text)
