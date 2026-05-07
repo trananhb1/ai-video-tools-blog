@@ -687,7 +687,7 @@ if(localStorage.getItem('theme')==='dark')document.body.classList.add('dark-mode
       if(!ei||!ei.value)return;
       var ot=btn.textContent;btn.disabled=true;btn.textContent='...';
       fetch(W+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({email:ei.value,first_name:ni?ni.value:''})
+        body:JSON.stringify({email:ei.value,first_name:ni?ni.value:'',source:window.location.pathname})
       }).then(function(r){return r.json()}).then(function(d){
         if(d.success){form.innerHTML='<p style="color:#155DFC;font-weight:600;margin:8px 0;">You\'re in! Check your inbox.</p>';
           if(typeof gtag==='function')gtag('event','newsletter_subscribe',{method:'resend'});

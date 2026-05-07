@@ -1409,7 +1409,7 @@ function toggleTheme(){var t=document.documentElement.getAttribute('data-theme')
       if(!emailInput||!emailInput.value)return;
       btn.disabled=true;btn.textContent='Subscribing...';
       fetch(WORKER+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({email:emailInput.value,first_name:nameInput?nameInput.value:''})
+        body:JSON.stringify({email:emailInput.value,first_name:nameInput?nameInput.value:'',source:window.location.pathname})
       }).then(function(r){return r.json()}).then(function(d){
         if(d.success){
           form.innerHTML='<p style="color:#155DFC;font-weight:600;font-size:1rem;margin:12px 0;">You\'re in! Check your inbox for a welcome email.</p>';
