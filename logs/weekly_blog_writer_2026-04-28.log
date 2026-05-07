@@ -1,0 +1,72 @@
++ echo '=== AI Video Picks weekly blog writer ==='
+=== AI Video Picks weekly blog writer ===
+++ date -u +%Y-%m-%dT%H:%M:%SZ
++ echo 'Started: 2026-04-28T23:14:32Z'
+Started: 2026-04-28T23:14:32Z
+++ hostname
++ echo 'Host: vmi3238899'
+Host: vmi3238899
++ echo ------------------------------------------
+------------------------------------------
++ echo ''
+
++ echo '--- Step 1: Full Trend Discovery (all sources) ---'
+--- Step 1: Full Trend Discovery (all sources) ---
++ /usr/bin/python3 /home/tom/ai-video-tools-blog/scripts/trend_discovery.py --no-cache
+01:14:32 [INFO] === Source 1: Google Trends ===
+01:14:34 [INFO] Google Trends: scanning 22 seed terms...
+01:15:22 [INFO] Google Trends: found 42 unique topics
+01:15:22 [INFO] === Source 2: Reddit ===
+01:15:22 [INFO] Reddit: scanning 8 subreddits...
+01:15:57 [INFO] Reddit: found 3 relevant topics
+01:15:57 [INFO] === Source 3: Content Gap Analysis ===
+01:15:57 [INFO] Content gap analysis: 56 existing articles
+01:15:57 [INFO] Content gaps: found 83 opportunities
+01:15:57 [INFO] Total unique topics: 128
+01:15:57 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+01:15:57 [INFO] Added 15 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+01:15:57 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+01:15:57 [INFO] Top 5 topics:
+01:15:57 [INFO]   1. [100] Heygen vs Fliki 2026 (comparison)
+01:15:57 [INFO]   2. [100] Heygen vs Arcads 2026 (comparison)
+01:15:57 [INFO]   3. [100] Heygen vs Makeugc 2026 (comparison)
+01:15:57 [INFO]   4. [100] Heygen vs Zebracat 2026 (comparison)
+01:15:57 [INFO]   5. [100] Heygen vs Vidnoz 2026 (comparison)
++ TREND_RC=0
++ echo 'Trend discovery exit code: 0'
+Trend discovery exit code: 0
++ '[' 0 -ne 0 ']'
++ echo ''
+
++ echo '--- Step 2: Blog Post Generation (up to 3 posts) ---'
+--- Step 2: Blog Post Generation (up to 3 posts) ---
++ /usr/bin/python3 /home/tom/ai-video-tools-blog/scripts/blog_post_writer.py --count 3
+01:15:57 [INFO] Loaded 50 topics from backlog
+01:15:57 [INFO] 49 candidates after dedup
+01:15:57 [INFO] Written: heygen-vs-fliki-2026 (1110 words)
+01:15:57 [INFO] Written: heygen-vs-arcads-2026 (1115 words)
+01:15:57 [INFO] Written: heygen-vs-makeugc-2026 (1110 words)
+01:15:57 [INFO] Done. Wrote 3 blog post drafts in /home/tom/ai-video-tools-blog/content/drafts
++ WRITE_RC=0
++ echo 'Blog writer exit code: 0'
+Blog writer exit code: 0
++ echo ''
+
++ echo '--- Step 3: Draft inventory ---'
+--- Step 3: Draft inventory ---
+++ find /home/tom/ai-video-tools-blog/content/drafts/ -name '*.html'
+++ wc -l
++ DRAFT_COUNT=5
++ echo 'Total blog drafts available: 5'
+Total blog drafts available: 5
+++ find /home/tom/ai-video-tools-blog/posts/ -name '*.html'
+++ wc -l
++ PUBLISHED_COUNT=56
++ echo 'Total published posts: 56'
+Total published posts: 56
++ echo ------------------------------------------
+------------------------------------------
+++ date -u +%Y-%m-%dT%H:%M:%SZ
++ echo 'Finished: 2026-04-28T23:15:57Z'
+Finished: 2026-04-28T23:15:57Z
++ exit 0

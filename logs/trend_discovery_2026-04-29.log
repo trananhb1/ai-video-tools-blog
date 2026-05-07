@@ -1,0 +1,22 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-04-29T01:00:02Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:03 [INFO] === Source 1: Google Trends ===
+03:00:08 [INFO] Google Trends: using cache (42 items)
+03:00:08 [INFO] === Source 2: Reddit ===
+03:00:08 [INFO] Reddit: using cache (3 items)
+03:00:08 [INFO] Total unique topics: 45
+03:00:08 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+03:00:08 [INFO] Added 15 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+03:00:08 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+03:00:08 [INFO] Top 5 topics:
+03:00:08 [INFO]   1. [95] heygen ai (general)
+03:00:08 [INFO]   2. [95] Sora 2 megathread (part 3) (general)
+03:00:08 [INFO]   3. [91] synthesia ai (general)
+03:00:08 [INFO]   4. [89] kling ai video (general)
+03:00:08 [INFO]   5. [85] best video generator ai (roundup)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-04-29T01:00:08Z

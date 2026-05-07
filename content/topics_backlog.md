@@ -251,3 +251,145 @@
 - **Score**: 52 | **Monetizable**: No
 - **Status**: QUEUED
 
+
+
+## Auto-Discovered (2026-05-04)
+
+### 1. free ai video editor
+- **Added**: 2026-05-04 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. ai editor rsp editing
+- **Added**: 2026-05-04 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 72 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. Wan Animate vs Wan Scail (SCAIL): Which do you prefer? Side-by-side comparison video + upscales
+- **Added**: 2026-05-04 (auto-discovered)
+- **Source**: reddit | **Category**: comparison
+- **Score**: 64 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-06)
+
+### 1. Y'all might want to try this
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 52 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. GTA 70s - Teaser Trailer: Z-Image Turbo - Flux Klein 9b - Wan 2.2
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-06)
+
+### 1. Heygen vs Zebracat 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. Heygen vs Vidnoz 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 3. Heygen vs Kling 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 4. Synthesia vs Fliki 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 5. Synthesia vs Submagic 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 6. Synthesia vs Arcads 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 7. Synthesia vs Makeugc 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 8. Synthesia vs Zebracat 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 9. Synthesia vs Kling 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 10. Fliki vs Submagic 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 11. Fliki vs Arcads 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 12. Fliki vs Makeugc 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 13. Fliki vs Pictory 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 14. Fliki vs Zebracat 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 15. Fliki vs Kling 2026
+- **Added**: 2026-05-06 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-07)
+
+### 1. Patrick starwalker vs Sponge wan by SpongeWars
+- **Added**: 2026-05-07 (auto-discovered)
+- **Source**: reddit | **Category**: comparison
+- **Score**: 64 | **Monetizable**: No
+- **Status**: QUEUED
+

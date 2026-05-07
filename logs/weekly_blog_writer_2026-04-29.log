@@ -1,0 +1,43 @@
+=== AI Video Picks weekly blog writer ===
+Started: 2026-04-29T02:00:01Z
+Host: vmi3238899
+------------------------------------------
+
+--- Step 1: Full Trend Discovery (all sources) ---
+04:00:02 [INFO] === Source 1: Google Trends ===
+04:00:05 [INFO] Google Trends: scanning 22 seed terms...
+04:00:53 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+04:00:53 [INFO] Rate limited, backing off 44s...
+04:02:01 [INFO] Google Trends: found 19 unique topics
+04:02:01 [INFO] === Source 2: Reddit ===
+04:02:01 [INFO] Reddit: scanning 8 subreddits...
+04:02:26 [INFO] Reddit: found 3 relevant topics
+04:02:26 [INFO] === Source 3: Content Gap Analysis ===
+04:02:26 [INFO] Content gap analysis: 60 existing articles
+04:02:26 [INFO] Content gaps: found 80 opportunities
+04:02:26 [INFO] Total unique topics: 102
+04:02:26 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+04:02:26 [INFO] Added 15 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+04:02:26 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-29.json
+04:02:26 [INFO] Top 5 topics:
+04:02:26 [INFO]   1. [100] Heygen vs Zebracat 2026 (comparison)
+04:02:26 [INFO]   2. [100] Heygen vs Vidnoz 2026 (comparison)
+04:02:26 [INFO]   3. [100] Heygen vs Kling 2026 (comparison)
+04:02:26 [INFO]   4. [100] Synthesia vs Fliki 2026 (comparison)
+04:02:26 [INFO]   5. [100] Synthesia vs Submagic 2026 (comparison)
+Trend discovery exit code: 0
+
+--- Step 2: Blog Post Generation (up to 3 posts) ---
+04:02:26 [INFO] Loaded 50 topics from backlog
+04:02:26 [INFO] 49 candidates after dedup
+04:02:26 [INFO] Written: heygen-vs-zebracat-2026 (1110 words)
+04:02:26 [INFO] Written: heygen-vs-vidnoz-2026 (1110 words)
+04:02:26 [INFO] Written: heygen-vs-kling-2026 (1117 words)
+04:02:26 [INFO] Done. Wrote 3 blog post drafts in /home/tom/ai-video-tools-blog/content/drafts
+Blog writer exit code: 0
+
+--- Step 3: Draft inventory ---
+Total blog drafts available: 8
+Total published posts: 60
+------------------------------------------
+Finished: 2026-04-29T02:02:26Z

@@ -1,0 +1,140 @@
+{
+  "generated": "2026-05-04",
+  "sources_checked": [
+    "google_trends",
+    "reddit"
+  ],
+  "total_topics": 12,
+  "high_score_topics": 9,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "318 upvotes, 9780 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "free ai video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "free ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 95)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video editor",
+      "final_score": 93
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 84,
+      "growth": "top query (value: 88)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 84
+    },
+    {
+      "topic": "sora",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video tools",
+      "final_score": 75
+    },
+    {
+      "topic": "image to video ai generator",
+      "source": "google_trends",
+      "trend_score": 74,
+      "growth": "top query (value: 68)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 74
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 74,
+      "growth": "top query (value: 68)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 74
+    },
+    {
+      "topic": "ai editor rsp editing",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "1250% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 72
+    },
+    {
+      "topic": "Wan Animate vs Wan Scail (SCAIL): Which do you prefer? Side-by-side comparison video + upscales",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 54,
+      "growth": "228 upvotes, 48 comments",
+      "region": "global",
+      "category": "comparison",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1t2gpr6/wan_animate_vs_wan_scail_scail_which_do_you/",
+      "final_score": 64
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 57,
+      "growth": "top query (value: 34)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 57
+    },
+    {
+      "topic": "runway",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 26)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 43
+    }
+  ],
+  "categories": {
+    "general": 6,
+    "pricing": 3,
+    "roundup": 2,
+    "comparison": 1
+  }
+}

@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 62 articles — reviews, comparisons, tutorials, gear guides
+- **Content:** 46 articles — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -46,7 +46,7 @@ When this project is opened, run through these items:
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
 | Zebracat | `https://studio.zebracat.ai/?via=aivideopicks` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) — slug standardized 2026-04-19 (was d98eb9) |
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
-| Descript | `?via=aivideopicks` | **Rejected Apr 23** | 7+ articles — /go/descript/ redirects to bare URL, no commission |
+| Descript | `?via=aivideopicks` | Applied | 7+ articles |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 | InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
@@ -76,7 +76,7 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (62 articles)
+## Content Inventory (51 articles)
 
 ### Reviews (20)
 - movavi-review-2026.html

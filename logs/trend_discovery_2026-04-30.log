@@ -1,0 +1,29 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-04-30T01:00:02Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:02 [INFO] === Source 1: Google Trends ===
+03:00:10 [INFO] Google Trends: scanning 22 seed terms...
+03:00:22 [WARNING] Google Trends batch 0 error: The request failed: Google returned a response with code 429
+03:00:22 [INFO] Rate limited, backing off 43s...
+03:01:16 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:01:16 [INFO] Rate limited, backing off 54s...
+03:02:22 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+03:02:22 [INFO] Rate limited, backing off 56s...
+03:03:18 [INFO] Google Trends: found 0 unique topics
+03:03:18 [INFO] === Source 2: Reddit ===
+03:03:18 [INFO] Reddit: scanning 8 subreddits...
+03:03:39 [INFO] Reddit: found 4 relevant topics
+03:03:39 [INFO] Total unique topics: 4
+03:03:39 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-30.json
+03:03:39 [INFO] Added 3 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+03:03:39 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-04-30.json
+03:03:39 [INFO] Top 5 topics:
+03:03:39 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+03:03:39 [INFO]   2. [54] ChatGPT REALLY wants to be "right" recently (general)
+03:03:39 [INFO]   3. [51] Update: Im going to full finetune LTX 2.3 for 2D a (news)
+03:03:39 [INFO]   4. [50] OpenAI really really really wants GPT 5.5 to stop  (roundup)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-04-30T01:03:40Z

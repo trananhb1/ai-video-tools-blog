@@ -1,0 +1,158 @@
+{
+  "generated": "2026-05-03",
+  "sources_checked": [
+    "google_trends",
+    "reddit"
+  ],
+  "total_topics": 14,
+  "high_score_topics": 9,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "309 upvotes, 9780 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "free ai video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 98)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "ai image generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 85
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 92)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 85
+    },
+    {
+      "topic": "free ai image generator",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 57)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 76
+    },
+    {
+      "topic": "sora",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video tools",
+      "final_score": 75
+    },
+    {
+      "topic": "image to video ai generator",
+      "source": "google_trends",
+      "trend_score": 74,
+      "growth": "top query (value: 68)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 74
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "top query (value: 65)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 72
+    },
+    {
+      "topic": "ai editor rsp editing",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "800% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 68
+    },
+    {
+      "topic": "online ai video editor",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "top query (value: 41)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 60
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 59,
+      "growth": "top query (value: 39)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 59
+    },
+    {
+      "topic": "text to speech",
+      "source": "google_trends",
+      "trend_score": 66,
+      "growth": "top query (value: 53)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 56
+    },
+    {
+      "topic": "runway",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 26)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 43
+    }
+  ],
+  "categories": {
+    "general": 9,
+    "pricing": 3,
+    "roundup": 2
+  }
+}

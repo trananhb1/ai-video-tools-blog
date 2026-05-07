@@ -1,0 +1,48 @@
+{
+  "generated": "2026-05-01",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 3,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "313 upvotes, 9782 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "OpenAI really really really wants GPT 5.5 to stop randomly talking about gremlins and goblins",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 55,
+      "growth": "457 upvotes, 36 comments",
+      "region": "global",
+      "category": "roundup",
+      "url": "https://reddit.com/r/OpenAI/comments/1szc8h1/openai_really_really_really_wants_gpt_55_to_stop/",
+      "final_score": 55
+    },
+    {
+      "topic": "After seeing deepseek refused to acknowledge Taiwan is a coutry I had to do a little experiment",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 52,
+      "growth": "64 upvotes, 41 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1szyid6/after_seeing_deepseek_refused_to_acknowledge/",
+      "final_score": 52
+    }
+  ],
+  "categories": {
+    "general": 2,
+    "roundup": 1
+  }
+}

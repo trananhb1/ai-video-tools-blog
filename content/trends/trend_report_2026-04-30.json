@@ -1,0 +1,60 @@
+{
+  "generated": "2026-04-30",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 4,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "310 upvotes, 9782 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "ChatGPT REALLY wants to be \"right\" recently",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 54,
+      "growth": "118 upvotes, 64 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/ChatGPT/comments/1sz0se4/chatgpt_really_wants_to_be_right_recently/",
+      "final_score": 54
+    },
+    {
+      "topic": "Update: Im going to full finetune LTX 2.3 for 2D animation, and I\u2019m looking for people who want to help with the dataset/training (all kinds of help are welcome.)",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 51,
+      "growth": "73 upvotes, 24 comments",
+      "region": "global",
+      "category": "news",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1syczqo/update_im_going_to_full_finetune_ltx_23_for_2d/",
+      "final_score": 51
+    },
+    {
+      "topic": "OpenAI really really really wants GPT 5.5 to stop randomly talking about gremlins and goblins",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 50,
+      "growth": "99 upvotes, 12 comments",
+      "region": "global",
+      "category": "roundup",
+      "url": "https://reddit.com/r/OpenAI/comments/1szc8h1/openai_really_really_really_wants_gpt_55_to_stop/",
+      "final_score": 50
+    }
+  ],
+  "categories": {
+    "general": 2,
+    "news": 1,
+    "roundup": 1
+  }
+}
