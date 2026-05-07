@@ -322,6 +322,13 @@
         .card-thumb.thumb-heygen-pricing { background-image: url('/assets/images/heygen-pricing-2026.jpg'); background-size: cover; background-position: center; }
         .card-thumb.thumb-heygen-alternatives { background-image: url('/assets/images/heygen-alternatives-2026-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-ai-writing-tools { background-image: url('/assets/images/best-ai-writing-tools-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-creatify-review { background-image: url('/assets/images/creatify-review-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-sora-alternatives { background-image: url('/assets/images/sora-alternatives-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-google-vids-veo-free { background-image: url('/assets/images/google-vids-veo-free-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-cost-per-minute { background-image: url('/assets/images/ai-video-cost-per-minute-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-writesonic { background-image: url('/assets/images/writesonic-review-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-copy-ai { background-image: url('/assets/images/copy-ai-review-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-jasper { background-image: url('/assets/images/jasper-review-2026-thumbnail.png'); background-size: cover; background-position: center; }
 
         /* Latest Articles Featured Section */
         .featured-section {
