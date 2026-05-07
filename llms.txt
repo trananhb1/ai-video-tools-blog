@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated May 3, 2026.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated May 7, 2026.
 
 ## About
 
@@ -31,8 +31,8 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 
 - [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html) — AI-enhanced video editor with timeline editing, AI tools, and export options.
   Quick answer: Movavi Video Editor Plus 2026 is a beginner-friendly desktop editor starting at $54.95/year with AI background removal, motion tracking, and 4K export. Best for hobbyists and course creators who want a one-time-fee alternative to subscription tools like Descript.
-- [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html) — AI avatar platform with Avatar IV, video translation, voice cloning, and interactive avatars.
-  Quick answer: HeyGen is the best overall AI avatar video tool in 2026, scoring 9.2/10 in our testing, with 200+ avatars, 175+ languages, and Avatar IV lip-sync from $29/month. Best for solo creators, marketers and L&D teams who want a talking-head video without a camera.
+- [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html) — AI avatar platform with Avatar V, Seedance 2.0 cinematic Digital Twin, Instant Highlights v2, video translation, voice cloning, and interactive avatars. Updated May 7, 2026.
+  Quick answer: HeyGen is the best AI avatar video tool for marketers, sales teams, and multilingual creators in 2026, scoring 8.5/10 in our testing. Plans start at $24/month as of May 2026, with 200+ avatars and one-click video translation in 175+ languages. The April 2026 update added Seedance 2.0 integration with Digital Twin cinematic scenes and Instant Highlights v2 for AI-powered long-form video repurposing. Best for SaaS marketers, sales reps personalising outbound at scale, and creators localising content into multiple languages.
 - [Synthesia Review 2026](https://aivideopicks.com/posts/synthesia-review-2026.html) — Enterprise AI avatar video platform with 230+ avatars and 140+ languages.
   Quick answer: Synthesia is the enterprise-favorite AI avatar platform, scoring 8.8/10, with 230+ avatars, 140+ languages, SCORM export, and SOC 2 compliance from $29/month. Best for L&D and corporate training teams that need compliance-grade governance.
 - [DeepBrain AI Review 2026](https://aivideopicks.com/posts/deepbrain-ai-review-2026.html) — AI Studios avatar platform with ChatGPT script assistant and document-to-video.
