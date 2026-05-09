@@ -20,4 +20,6 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          ADMIN_TOKEN: ${{ secrets.NEWSLETTER_ADMIN_TOKEN }}
+          WORKER_URL: ${{ secrets.NEWSLETTER_WORKER_URL }}
         run: python3 newsletter/send_weekly.py
