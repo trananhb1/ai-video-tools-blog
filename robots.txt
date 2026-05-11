@@ -6,6 +6,7 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /content/drafts/
+Disallow: /go/
 
 # Google (Search + Ads + AI)
 User-agent: Googlebot
