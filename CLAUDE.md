@@ -56,7 +56,8 @@ When this project is opened, run through these items:
 | Vidyo.ai | `https://vidyo.ai?via=aivideopicks` | **Active** | Via Rewardful. Approved 2026-05-10. (Quso was formerly Vidyo.ai) |
 | Elai | `https://elai.io/?via=aivideopicks` | **Active** | 25% recurring 12mo via Rewardful. Approved 2026-05-10. D-ID vs Elai comparison. |
 | Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | Awin network. Signup: affiliates.runwayml.com — current `?via=` is NOT valid |
-| Kling | `?via=aivideopicks` | **NEEDS SIGNUP** | 2.7% via 37X (low priority). Current `?via=` is NOT valid |
+| PixVerse | `https://motivaiprivatelimited.sjv.io/aivideopicks` | **Active** | Via Impact.com (MOTIVAI). Approved 2026-05-11. Redirect: /go/pixverse/ |
+| Kling | `?via=aivideopicks` | **REJECTED** | Rejected by Impact.com. Need to email Kling directly to request review. Current `?via=` is NOT valid |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
@@ -80,9 +81,9 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (51 articles)
+## Content Inventory (52 articles)
 
-### Reviews (20)
+### Reviews (21)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
 - deepbrain-ai-review-2026.html
@@ -103,6 +104,7 @@ When this project is opened, run through these items:
 - copy-ai-review-2026.html
 - writesonic-review-2026.html
 - creatify-review-2026.html
+- pixverse-review-2026.html
 
 ### Comparisons (13)
 - ai-video-cost-per-minute-2026.html

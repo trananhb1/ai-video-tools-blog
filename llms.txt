@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated May 8, 2026.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Last updated May 11, 2026.
 
 ## About
 
@@ -27,7 +27,7 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
 - [Save 15% on Movavi — April 2026 Code](https://aivideopicks.com/posts/save-15-percent-movavi-april-2026.html) — Verified Movavi Video Editor promo code with hard May 15 expiry.
   Quick answer: Use code PTNAFFDIS010426ALLAFS15 at Movavi checkout for 15% off any yearly plan, dropping Video Editor yearly from $54.95 to ~$46.71 and Video Suite yearly from $84.95 to ~$72.21. Verified April 12, 2026 and expires May 15, 2026 — no stacking with other sales and not applicable to monthly or lifetime plans.
 
-## Reviews (19)
+## Reviews (20)
 
 - [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html) — AI-enhanced video editor with timeline editing, AI tools, and export options.
   Quick answer: Movavi Video Editor Plus 2026 is a beginner-friendly desktop editor starting at $54.95/year with AI background removal, motion tracking, and 4K export. Best for hobbyists and course creators who want a one-time-fee alternative to subscription tools like Descript.
@@ -63,6 +63,9 @@ AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video
   Quick answer: ElevenLabs is the highest-quality AI voice platform in 2026, with 5,000+ voices, instant cloning from 1 minute of audio, and 32-language dubbing from $5/month (Starter). Best for audiobook narrators, podcast producers, and game studios.
 - [Creatify AI Review 2026](https://aivideopicks.com/posts/creatify-review-2026.html) — AI ad creative platform with URL-to-video, 1,500+ AI avatars, batch generation, and AI scriptwriting for e-commerce.
   Quick answer: Creatify AI is the best AI ad creative generator for e-commerce sellers and DTC brands in 2026, scoring 7.8/10. Paste a product URL, get a complete video ad with AI avatar spokesperson, script, and stock footage. Starter plan $33/month (100 credits). Best for Shopify sellers, Amazon FBA operators, and performance marketing teams producing 10-50+ ad variants per week without hiring a creative agency. Biggest pro: URL-to-video automation produces usable ad creatives in under 2 minutes. Biggest con: avatar lip-sync trails HeyGen and Arcads on close-up shots; credit system requires careful budgeting.
+
+- [PixVerse Review 2026](https://aivideopicks.com/posts/pixverse-review-2026.html) — AI video generator with V6 model, 20+ cinematic lens controls, native audio, multi-shot character consistency, and four visual styles (Realistic, Anime, Clay, 3D).
+  Quick answer: PixVerse is the best AI video generator for short-form social content and character-locked storytelling in 2026, scoring 8.0/10. The V6 model (March 2026) delivers 15-second 1080p clips with 20+ cinematic lens controls, native audio generation, and multi-shot character consistency. Standard plan $10/month (1,200 credits, 720p); Pro $30/month (6,000 credits, 1080p/4K). Best for TikTok/Reels creators, marketing teams, and anime-style content producers. Biggest pro: cinematic camera controls (dolly zoom, rack focus, tilt-shift) that rival tools costing 3x more. Biggest con: 15-second maximum duration locks you out of anything longer than a social clip.
 
 ## Comparisons (22)
 
