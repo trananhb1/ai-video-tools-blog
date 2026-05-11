@@ -3,9 +3,17 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Arcads vs Creatify vs MakeUGC (new 2026-05-11) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Google Vids Veo 3.1 Free Tutorial (new 2026-04-29) -->
@@ -165,7 +173,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
