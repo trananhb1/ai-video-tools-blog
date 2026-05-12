@@ -46,7 +46,7 @@ When this project is opened, run through these items:
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
 | Zebracat | `https://studio.zebracat.ai/?via=aivideopicks` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) — slug standardized 2026-04-19 (was d98eb9) |
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
-| Descript | `?via=aivideopicks` | Applied | 7+ articles |
+| Descript | `https://get.descript.com/aivideopicks` | **Active** | 7+ articles — via Impact/Descript direct program, approved 2026-05-12 |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 | InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
