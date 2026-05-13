@@ -55,7 +55,7 @@ When this project is opened, run through these items:
 | Quso | `https://quso.ai?via=aivideopicks` | **Active** | 40% via Rewardful. Approved 2026-05-10. Shorts article. |
 | Vidyo.ai | `https://vidyo.ai?via=aivideopicks` | **Active** | Via Rewardful. Approved 2026-05-10. (Quso was formerly Vidyo.ai) |
 | Elai | `https://elai.io/?via=aivideopicks` | **Active** | 25% recurring 12mo via Rewardful. Approved 2026-05-10. D-ID vs Elai comparison. |
-| Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | Awin network. Signup: affiliates.runwayml.com — current `?via=` is NOT valid |
+| Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | NOT on Awin (Awin 85317 = Runway Catalog fashion, unrelated). Portal: affiliates.runwayml.com (invite-only, login-only). Tom must email partnerships@runwayml.com. Current `?via=` is NOT valid. |
 | PixVerse | `https://motivaiprivatelimited.sjv.io/aivideopicks` | **Active** | Via Impact.com (MOTIVAI). Approved 2026-05-11. Redirect: /go/pixverse/ |
 | Kling | `?via=aivideopicks` | **REJECTED** | Rejected by Impact.com. Need to email Kling directly to request review. Current `?via=` is NOT valid |
 
