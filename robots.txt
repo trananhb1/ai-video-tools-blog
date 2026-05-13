@@ -78,3 +78,8 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://aivideopicks.com/sitemap.xml
+
+# LLM-readable site index (llms.txt specification)
+# https://llmstxt.org/
+# Contains structured summaries of all articles with Quick Answer boxes for AI citation
+
