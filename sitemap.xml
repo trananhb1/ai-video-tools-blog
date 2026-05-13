@@ -194,12 +194,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: best-ai-video-tools-beginners-2026 (consolidated into best-ai-video-tools-2026#best-for-beginners, Phase 2) -->
 
   <!-- Vidnoz Review (priority 0.8) -->
   <url>
@@ -261,40 +256,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-generators-marketing-teams-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+  <!-- Removed: best-ai-video-generators-marketing-teams-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
 
   <!-- Guides & Tutorials — missing entries -->
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-training-onboarding-videos.html</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: ai-tools-youtube-creators-2026 (consolidated into best-ai-video-tools-2026#best-for-youtube-creators, Phase 2) -->
+  <!-- Removed: ai-training-onboarding-videos (consolidated into best-ai-video-tools-2026#best-for-training-videos, Phase 2) -->
+  <!-- Removed: ai-video-social-media-marketing-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
 
   <!-- Use-Case Posts (priority 0.7) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-for-ecommerce.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Removed: ai-video-for-ecommerce (consolidated into best-ai-video-tools-2026#best-for-e-commerce, Phase 2) -->
 
   <!-- Landing Pages -->
   <url>
