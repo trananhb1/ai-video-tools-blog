@@ -24,58 +24,24 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Google Vids Veo 3.1 Free Tutorial (new 2026-04-29) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/google-vids-veo-free-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <!-- Removed: google-vids-veo-free-2026 (consolidated, redirects to best-free-ai-video-generators) -->
 
-  <!-- Cost Per Minute Data Post (link magnet, new 2026-04-28) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-cost-per-minute-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <!-- Removed: ai-video-cost-per-minute-2026 (consolidated into ai-video-pricing-compared-2026) -->
 
   <!-- AI Writing Hub (cornerstone, new category expansion) -->
   <url>
     <loc>https://aivideopicks.com/posts/best-ai-writing-tools-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Copy.ai Review (AI Writing, new 2026-04-25) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/copy-ai-review-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Jasper AI Review (P0 expansion article #2) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/jasper-review-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Writesonic Review (P0 expansion article #8) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/writesonic-review-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: copy-ai-review-2026, jasper-review-2026, writesonic-review-2026 (consolidated into best-ai-writing-tools-2026) -->
 
   <!-- HeyGen cluster: alternatives (expanded 2026-04-30, consolidated 3 vs pages) -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-alternatives-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -88,13 +54,7 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- New Models -->
-  <url>
-    <loc>https://aivideopicks.com/posts/happyhorse-1-0-explained.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: happyhorse-1-0-explained (consolidated, redirects to best-free-ai-video-generators) -->
 
   <!-- Deals -->
   <url>
@@ -114,25 +74,10 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- Removed: heygen-descript-opus-clip-solo-creators-2026 (consolidated into heygen-alternatives-2026) -->
+  <!-- Removed: heygen-vs-colossyan-vs-synthesia-training-2026 (consolidated into heygen-alternatives-2026) -->
+  <!-- Removed: cheapest-ai-video-generator-2026 (consolidated into best-free-ai-video-generators-2026) -->
   <!-- Roundup / Comparison Posts (priority 0.9) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-descript-opus-clip-solo-creators-2026.html</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-colossyan-vs-synthesia-training-2026.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/cheapest-ai-video-generator-2026.html</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-ai-video-tools-2026.html</loc>
     <lastmod>2026-05-13</lastmod>
@@ -146,12 +91,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/veed-vs-kapwing-vs-descript.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <!-- Removed: veed-vs-kapwing-vs-descript (consolidated into best-ai-video-tools-2026) -->
   <url>
     <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
     <lastmod>2026-05-10</lastmod>
@@ -166,36 +106,25 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/sora-alternatives-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
+  <!-- Removed: sora-alternatives-2026 (consolidated, redirects to best-free-ai-video-generators) -->
   <url>
     <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Feature Guides (priority 0.85) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-avatar-v-guide-2026.html</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
+  <!-- Removed: heygen-avatar-v-guide-2026 (consolidated into heygen-review-2026#avatar-v) -->
 
   <!-- Individual Reviews (priority 0.8) -->
   <url>
@@ -206,7 +135,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-review-2026.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -265,12 +194,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-tools-beginners-2026.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: best-ai-video-tools-beginners-2026 (consolidated into best-ai-video-tools-2026#best-for-beginners, Phase 2) -->
 
   <!-- Vidnoz Review (priority 0.8) -->
   <url>
@@ -283,7 +207,7 @@
   <!-- Submagic Review (priority 0.8) -->
   <url>
     <loc>https://aivideopicks.com/posts/submagic-review-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -303,79 +227,29 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Removed: how-to-create-ai-videos-heygen (consolidated into heygen-review-2026#how-to-create) -->
   <!-- Tutorials (priority 0.8) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
   <url>
     <loc>https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/what-is-text-to-video-ai.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-add-viral-captions-tiktok-submagic.html</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-make-faceless-youtube-heygen-submagic.html</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+  <!-- Removed: what-is-text-to-video-ai (consolidated, redirects to best-free-ai-video-generators) -->
+  <!-- Removed: how-to-add-viral-captions-tiktok-submagic (consolidated into submagic-review-2026) -->
+  <!-- Removed: how-to-make-faceless-youtube-heygen-submagic (consolidated into heygen-review-2026) -->
 
   <!-- Removed: heygen-vs-arcads, heygen-vs-fliki, heygen-vs-makeugc, heygen-vs-elevenlabs (all consolidated into heygen-alternatives-2026) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/submagic-vs-capcut-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-generators-marketing-teams-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+  <!-- Removed: submagic-vs-capcut-2026 (consolidated into submagic-review-2026) -->
+  <!-- Removed: best-ai-video-generators-marketing-teams-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
 
   <!-- Guides & Tutorials — missing entries -->
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-tools-youtube-creators-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-training-onboarding-videos.html</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-social-media-marketing-2026.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Removed: ai-tools-youtube-creators-2026 (consolidated into best-ai-video-tools-2026#best-for-youtube-creators, Phase 2) -->
+  <!-- Removed: ai-training-onboarding-videos (consolidated into best-ai-video-tools-2026#best-for-training-videos, Phase 2) -->
+  <!-- Removed: ai-video-social-media-marketing-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
 
   <!-- Use-Case Posts (priority 0.7) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/ai-video-for-ecommerce.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Removed: ai-video-for-ecommerce (consolidated into best-ai-video-tools-2026#best-for-e-commerce, Phase 2) -->
 
   <!-- Landing Pages -->
   <url>
