@@ -419,3 +419,61 @@
 - **Score**: 54 | **Monetizable**: No
 - **Status**: QUEUED
 
+
+
+## Auto-Discovered (2026-05-16)
+
+### 1. free video generator
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. kling ai
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 89 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 3. text to video ai for free
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 70 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 4. Wan 2.2 Remix is the best for uncensored video or is there something better ?
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: reddit | **Category**: comparison
+- **Score**: 69 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 5. Recent poll shows that 70% of Americans don't want AI data centers being built in their local area
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 57 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 6. Replaced (Made with ChatGPT Image 2.0 &amp; Seedance 2.0)
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: reddit | **Category**: alternatives
+- **Score**: 55 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 7. A third-grade girl used GPT to generate an image and then created a virtual avatar, garnering 16 million views on X
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: reddit | **Category**: tutorial
+- **Score**: 52 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 8. What 'little secret' made your life easier when using your AI tools?
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 52 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 9. best ai video generator
+- **Added**: 2026-05-16 (auto-discovered)
+- **Source**: google_trends | **Category**: roundup
+- **Score**: 49 | **Monetizable**: No
+- **Status**: QUEUED
+

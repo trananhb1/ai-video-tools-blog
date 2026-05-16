@@ -8,6 +8,16 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Pika 2.5 Review (new 2026-05-16) - placed near top for highest crawl priority -->
+
+  <!-- Pika 2.5 Review (new 2026-05-16) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/pika-review-2026.html</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Synthesia vs Arcads 2026 (new 2026-05-16) -->
   <url>
     <loc>https://aivideopicks.com/posts/synthesia-vs-arcads-2026.html</loc>
