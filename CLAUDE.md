@@ -55,9 +55,9 @@ When this project is opened, run through these items:
 | Quso | `https://quso.ai?via=aivideopicks` | **Active** | 40% via Rewardful. Approved 2026-05-10. Shorts article. |
 | Vidyo.ai | `https://vidyo.ai?via=aivideopicks` | **Active** | Via Rewardful. Approved 2026-05-10. (Quso was formerly Vidyo.ai) |
 | Elai | `https://elai.io/?via=aivideopicks` | **Active** | 25% recurring 12mo via Rewardful. Approved 2026-05-10. D-ID vs Elai comparison. |
-| Runway | `?via=aivideopicks` | **NEEDS SIGNUP** | NOT on Awin (Awin 85317 = Runway Catalog fashion, unrelated). Portal: affiliates.runwayml.com (invite-only, login-only). Tom must email partnerships@runwayml.com. Current `?via=` is NOT valid. |
+| Runway | `?via=aivideopicks` | **AWAITING REPLY** | NOT on Awin (Awin 85317 = Runway Catalog fashion, unrelated). Portal: affiliates.runwayml.com (invite-only). Email sent to partnerships@runwayml.com on 2026-05-13 (Resend ID 5e8f46c1). Response window by May 20. Current `?via=` is NOT valid. |
 | PixVerse | `https://motivaiprivatelimited.sjv.io/aivideopicks` | **Active** | Via Impact.com (MOTIVAI). Approved 2026-05-11. Redirect: /go/pixverse/ |
-| Kling | `?via=aivideopicks` | **REJECTED** | Rejected by Impact.com. Need to email Kling directly to request review. Current `?via=` is NOT valid |
+| Kling | `?via=aivideopicks` | **APPLY VIA IMPACT** | Initially rejected by Impact.com. Kling replied May 12 with self-service signup: `app.impact.com/campaign-promo-signup/Lohas-Games-Pte-Ltd.brand`. 4-5 week review. Tom should apply. Current `?via=` is NOT valid until approved. |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`

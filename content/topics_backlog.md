@@ -393,3 +393,29 @@
 - **Score**: 64 | **Monetizable**: No
 - **Status**: QUEUED
 
+
+
+## Auto-Discovered (2026-05-14)
+
+### 1. This is one of the craziest ai video I've seen
+- **Added**: 2026-05-14 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 69 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. Sam Altman testimony: Musk wanted 'total control' of OpenAI to pass to his children
+- **Added**: 2026-05-14 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 65 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-15)
+
+### 1. For the person who thinks girls kicking soccer balls is "the craziest AI video"
+- **Added**: 2026-05-15 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 54 | **Monetizable**: No
+- **Status**: QUEUED
+

@@ -331,6 +331,7 @@
         .card-thumb.thumb-writesonic { background-image: url('/assets/images/writesonic-review-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-copy-ai { background-image: url('/assets/images/copy-ai-review-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-jasper { background-image: url('/assets/images/jasper-review-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-translation-tools { background-image: url('/assets/images/best-ai-video-translation-tools-2026-thumbnail.png'); background-size: cover; background-position: center; }
 
         /* Latest Articles Featured Section */
         .featured-section {
