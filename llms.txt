@@ -1,10 +1,10 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 16, 2026. 50 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 16, 2026. 51 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 50 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 51 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site
 
@@ -77,7 +77,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [PixVerse Review 2026](https://aivideopicks.com/posts/pixverse-review-2026.html) — AI video generator with V6 model, 20+ cinematic lens controls, native audio, multi-shot character consistency, and four visual styles (Realistic, Anime, Clay, 3D).
   Quick answer: PixVerse is the best AI video generator for short-form social content and character-locked storytelling in 2026, scoring 8.0/10. The V6 model (March 2026) delivers 15-second 1080p clips with 20+ cinematic lens controls, native audio generation, and multi-shot character consistency. Standard plan $10/month (1,200 credits, 720p); Pro $30/month (6,000 credits, 1080p/4K). Best for TikTok/Reels creators, marketing teams, and anime-style content producers. Biggest pro: cinematic camera controls (dolly zoom, rack focus, tilt-shift) that rival tools costing 3x more. Biggest con: 15-second maximum duration locks you out of anything longer than a social clip.
 
-## Comparisons (16)
+## Comparisons (17)
 
 - [Best AI Video Translation Tools 2026: 6 Tested Side-by-Side](https://aivideopicks.com/posts/best-ai-video-translation-tools-2026.html) — Comparison of HeyGen Translate, ElevenLabs Dubbing, Synthesia, Rask AI, Submagic and Kapwing with May 2026 pricing, lip-sync coverage, voice cloning support, and best-pick by use case.
   Quick answer: The best AI video translation tool in May 2026 is HeyGen Translate ($24/month annual Creator) — it dubs uploaded videos into 175+ languages with voice cloning and lip-syncs the speaker's mouth in 40+ languages via HeyGen 5.0. ElevenLabs Dubbing Studio is best for audio-first creators (29 languages, professional voice cloning, $22/month Creator). Rask AI is the best non-avatar lip-sync option in 130+ languages ($60/month Creator). Synthesia wins for enterprise L&D with SOC 2 + SCORM + 1-click translation (from $18/month annual). Submagic is best for subtitle-only translation in 100+ languages ($20/month). Kapwing Pro is best for browser-first teams ($24/month, ~$0.48 per dubbed minute). Verified May 15, 2026.
@@ -104,6 +104,8 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
   Quick answer: HeyGen wins for solo creators and SMBs ($24/month annual), Synthesia wins for enterprise L&D ($18/month annual, SOC 2 + SCORM), and DeepBrain AI wins for real-time avatars ($30/month). 12 avatar platforms tested across March-April 2026.
 - [HeyGen vs Synthesia 2026](https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html) — Head-to-head of the two leading AI avatar platforms.
   Quick answer: HeyGen wins on avatar realism and custom avatar cloning (from $24/month annual), Synthesia wins on language coverage (140+), governance (SOC 2, SCORM), and enterprise pricing (from $18/month annual). Best for buyers choosing between the two category leaders.
+- [Synthesia vs Fliki 2026: Which AI Video Tool Wins?](https://aivideopicks.com/posts/synthesia-vs-fliki-2026.html) — Side-by-side comparison of Synthesia (avatar-led video) and Fliki (text-to-video voiceover) with May 2026 pricing, voice library breadth, blog-to-video pipelines, enterprise features, and best-pick by use case.
+  Quick answer: Synthesia and Fliki are not direct competitors — Synthesia is the best AI avatar video platform for corporate training, onboarding, and L&D (from $18/month annual, 230+ avatars, 140+ languages, SOC 2 + SCORM). Fliki is the best text-to-video tool for voiceover-driven content like blog repurposing, faceless YouTube, and multilingual social posts (from $21/month, 2,000+ voices, 75+ languages, blog-to-video pipeline). Pick Synthesia if you need an on-screen presenter; pick Fliki if you only need voiceover plus visuals. Fliki is ~35% cheaper per finished minute at the Standard tier. Verified May 16, 2026.
 - ~~HeyGen vs Synthesia vs Pictory~~ — consolidated into [HeyGen Alternatives 2026](https://aivideopicks.com/posts/heygen-alternatives-2026.html).
 - ~~HeyGen vs Fliki / vs Arcads / vs MakeUGC~~ — all consolidated into [HeyGen Alternatives 2026](https://aivideopicks.com/posts/heygen-alternatives-2026.html).
 - [Kling vs Veo vs Runway](https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html) — Cinematic AI video generators compared.
