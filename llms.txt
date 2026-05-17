@@ -1,10 +1,10 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 17, 2026. 37 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 17, 2026. 38 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 54 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 38 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site
 
