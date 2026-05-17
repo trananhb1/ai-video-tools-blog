@@ -74,6 +74,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Kommodo Review (new 2026-05-17) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/kommodo-review-2026.html</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Arcads vs Creatify vs MakeUGC (new 2026-05-11) -->
   <url>
     <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
