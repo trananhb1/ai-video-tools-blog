@@ -3,9 +3,17 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Grok Imagine Video Review (new 2026-05-17) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/grok-imagine-video-review-2026.html</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Pika 2.5 Review (new 2026-05-16) - placed near top for highest crawl priority -->

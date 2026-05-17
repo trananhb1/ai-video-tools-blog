@@ -1,10 +1,10 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 16, 2026. 35 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 17, 2026. 36 articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 52 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 53 live articles with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site
 
@@ -41,7 +41,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - ~~HeyGen Avatar V Deal (April 2026)~~ — expired, redirects to [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html).
 - ~~Save 15% Movavi (April 2026)~~ — expired, redirects to [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html).
 
-## Reviews (16)
+## Reviews (17)
 
 - [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html) — AI-enhanced video editor with timeline editing, AI tools, and export options.
   Quick answer: Movavi Video Editor Plus 2026 is a beginner-friendly desktop editor starting at $54.95/year with AI background removal, motion tracking, and 4K export. Best for hobbyists and course creators who want a one-time-fee alternative to subscription tools like Descript.
@@ -78,6 +78,8 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
   Quick answer: PixVerse is the best AI video generator for short-form social content and character-locked storytelling in 2026, scoring 8.0/10. The V6 model (March 2026) delivers 15-second 1080p clips with 20+ cinematic lens controls, native audio generation, and multi-shot character consistency. Standard plan $10/month (1,200 credits, 720p); Pro $30/month (6,000 credits, 1080p/4K). Best for TikTok/Reels creators, marketing teams, and anime-style content producers. Biggest pro: cinematic camera controls (dolly zoom, rack focus, tilt-shift) that rival tools costing 3x more. Biggest con: 15-second maximum duration locks you out of anything longer than a social clip.
 - [Pika 2.5 Review 2026](https://aivideopicks.com/posts/pika-review-2026.html) — AI video generator built around Pikaffects (Squish, Cake-ify, Melt, Explode, Inflate, Crumble, Crush, Deflate, Dissolve, Eye-pop, Levitate, Peel, Poke, Tear), physics-driven sound FX, Pika 2.5 Studio timeline editor, and Pikaframes clip extension.
   Quick answer: Pika 2.5 is the best AI video tool for viral one-tap effects and short-form social content in 2026, scoring 8.0/10. As of May 2026, Pika 2.5 delivers 5- and 10-second clips at up to 1080p, with 14+ physics-driven Pikaffects and integrated sound-FX generation synced to on-screen events. Paid plans start at $8/month (Standard, 700 credits, no watermark, commercial use rights) — the cheapest credible paid AI video tool with commercial rights in the category. Pro $28/mo (2,300 credits); Fancy $76/mo (6,000 credits). Best for TikTok/Reels creators, meme accounts, and small social teams chasing Pikaffects-driven viral formats. Biggest pro: Pikaffects library plus $8/mo entry price with commercial rights. Biggest con: no music, voiceover, or dialogue generation (SFX only); native clip length capped at 10 seconds (25s via Pikaframes).
+- [Grok Imagine Video Review 2026](https://aivideopicks.com/posts/grok-imagine-video-review-2026.html) — xAI's AI video generator with native synchronized audio (dialogue, music, SFX), cheapest major API at $0.05/sec, 15-second 720p clips, bundled with X/SuperGrok subscriptions.
+  Quick answer: Grok Imagine 1.0 is the cheapest AI video API on the market and the only major generator bundled inside a social platform, scoring 7.0/10 in our testing. As of May 2026, it generates 15-second 720p clips with native synchronized audio (dialogue, music, SFX) — a feature only two other tools match (Veo 3.1 and Seedance 2.0). No free tier since March 19, 2026. SuperGrok at $30/month gives ~100 videos/day; the API costs $0.05/sec ($4.20/min with audio), making it 3-7x cheaper than Veo 3.1 or Sora 2 Pro. Best for developers building on the API and X power users already paying for SuperGrok. Biggest pro: native audio generation with dialogue at the lowest API price. Biggest con: 720p cap (1080p Pro rolling out), rate limits slashed ~80% for paid users in May 2026, and quality ranks #11 T2V on Artificial Analysis.
 
 ## Comparisons (18)
 
