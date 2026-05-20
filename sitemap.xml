@@ -510,6 +510,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- HeyGen vs Vidnoz comparison (new 2026-05-20) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-vidnoz-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- HeyGen vs Creatify comparison (new 2026-05-20) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-creatify-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Kommodo Review (new 2026-05-20) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/kommodo-review-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- InVideo vs Pictory 2026 (new 2026-05-21) -->
   <url>
