@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 37 live articles (+ 33 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 38 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -81,9 +81,9 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (37 live articles + 33 noindex redirects)
+## Content Inventory (38 live articles + 34 noindex redirects)
 
-### Reviews (23)
+### Reviews (24)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
 - deepbrain-ai-review-2026.html
@@ -107,6 +107,7 @@ When this project is opened, run through these items:
 - pixverse-review-2026.html
 - google-flow-review-2026.html
 - grok-imagine-video-review-2026.html
+- elai-review-2026.html
 
 ### Comparisons (13)
 - ai-video-cost-per-minute-2026.html
