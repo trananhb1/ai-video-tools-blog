@@ -50,7 +50,7 @@ When this project is opened, run through these items:
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 | InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
-| Pika | `https://pika.style/?via=aivideopicks` | Active | 30% recurring via Rewardful. Redirect updated from pika.art to pika.style |
+| Pika | `https://pika.style/?via=aivideopicks` | Active | 30% recurring via Rewardful. Note: pika.style is a screenshot/mockup tool, NOT pika.art (AI video generator). The Pika 2.5 review covers pika.art but the affiliate is with pika.style — different products. |
 | Kommodo | `https://kommodo.ai/?via=aivideopicks` | **Active** | 50% lifetime via Rewardful. Approved 2026-05-10. |
 | Quso | `https://quso.ai?via=aivideopicks` | **Active** | 40% via Rewardful. Approved 2026-05-10. Shorts article. |
 | Vidyo.ai | `https://vidyo.ai?via=aivideopicks` | **Active** | Via Rewardful. Approved 2026-05-10. (Quso was formerly Vidyo.ai) |
