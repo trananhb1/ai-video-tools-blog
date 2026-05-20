@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,6 +12,22 @@
   <url>
     <loc>https://aivideopicks.com/posts/elai-review-2026.html</loc>
     <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Best AI Meeting Assistants 2026 (new 2026-05-21) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-meeting-assistants-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Best AI Presentation Tools 2026 (new 2026-05-21) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

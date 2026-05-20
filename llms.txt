@@ -1,10 +1,10 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 20, 2026. 37 live articles covering 35+ AI video tools and 8 AI writing tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 21, 2026. 39 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools and 8 AI writing tools across 37 live articles (plus 33 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools across 39 live articles (plus 33 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site
 
@@ -26,6 +26,10 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - Best AI ad creative tool: Creatify AI (7.8/10, $33/month Starter)
 - Best AI voice platform: ElevenLabs ($5/month Starter)
 - Best AI writing tool: Jasper AI (9.1/10, from $49/month Creator)
+- Best AI meeting assistant: Fireflies.ai (9.0/10, from $10/user/month Pro annual)
+- Best free AI meeting assistant: Fathom (8.8/10, unlimited recordings, 5.0/5 G2 from 6,767 reviews)
+- Best AI presentation tool: Gamma (9.0/10, from $8/month Plus annual)
+- Best AI presentation tool for design: Beautiful.ai (8.5/10, from $12/month Pro annual)
 - OpenAI Sora: consumer app shut down April 26, 2026; API live until September 24, 2026
 
 ## Sora Shutdown Archive (2)
@@ -199,8 +203,26 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [Writesonic Review 2026: AI Writing + SEO Platform Tested](https://aivideopicks.com/posts/writesonic-review-2026.html) — Deep-dive review of Writesonic covering AI Article Writer 6.0, GEO tracking, SEO audits, 100+ templates, pricing breakdown, pros/cons, and comparison with Jasper, Copy.ai, and ChatGPT.
   Quick answer: Writesonic costs $49/month (Lite) as of April 2026, with a limited free tier and annual billing dropping to $39/month (20% savings). Best for SEO bloggers and content marketers who want AI article writing, keyword targeting, and content optimization in a single tool. Scored 8.3/10 in our testing. Biggest pro: the AI Article Writer 6.0 generates up to 5,000-word drafts with built-in SERP analysis, and the GEO dashboard (Professional plan, $249/month) tracks your visibility across ChatGPT, Gemini, and Perplexity — a feature no competitor offers. Biggest con: output quality trails Jasper on brand consistency and needs heavier editing on long-form content, and the GEO features that make Writesonic unique are locked behind expensive higher tiers. Verified April 25, 2026.
 
+## AI Meeting Assistants (1)
+
+- [Best AI Meeting Assistants 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-meeting-assistants-2026.html) — Comparison of 5 AI meeting notetakers tested head-to-head: Fireflies.ai, Fathom, tl;dv, Otter.ai, and Krisp with verified May 2026 pricing, transcription accuracy, AI summary quality, and CRM integrations.
+  Quick answer: The best AI meeting assistant in 2026 is Fireflies.ai (9.0/10) — unlimited transcriptions, AI summaries with action items, and integrations with Zoom, Google Meet, and Teams from $10/user/month (Pro, annual). Best free: Fathom (8.8/10, unlimited recordings, 5.0/5 on G2 from 6,767 reviews, free tier with 5 AI summaries/month). Best for teams: tl;dv (8.5/10, CRM integration, clip sharing, $18/user/month annual). Cheapest paid: Krisp Pro at $8/month with AI noise cancellation included. Best transcription accuracy: Otter.ai ($8.33/month annual). Verified May 21, 2026.
+
+## AI Presentation Tools (1)
+
+- [Best AI Presentation Tools 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html) — Comparison of Gamma, Beautiful.ai, Tome, Slidesgo, and Google Slides + Gemini for AI-powered presentation creation. Verified May 21, 2026.
+  Quick answer: The best AI presentation tool in 2026 is Gamma for AI-generated presentations from text prompts ($10/month Plus, $20/month Pro). Beautiful.ai wins for smart design rules that prevent ugly slides ($12/month Pro). Slidesgo is the cheapest at $4.99/month with 20,000+ templates. Google Slides + Gemini is the best free option for Google Workspace users. Tome wins for AI-driven storytelling narratives ($20/month Pro).
+
+## AI Presentation Tools (1)
+
+- [Best AI Presentation Tools 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html) — Comparison of 5 AI presentation tools tested head-to-head: Gamma, Beautiful.ai, Tome, Slidesgo + Wepik AI, and Google Slides + Gemini with verified May 2026 pricing, AI generation quality, design polish, and collaboration features.
+  Quick answer: The best AI presentation tool in 2026 is Gamma (9.0/10) — it generates polished, multi-slide decks from a text prompt in under 60 seconds with one-click redesign, embed-anywhere sharing, and built-in viewer analytics. Plans start at $8/month (Plus, annual billing) with a free tier of 400 AI credits (~10 full presentations). Best for design quality: Beautiful.ai (8.5/10, $12/mo annual, smart templates that auto-format every slide). Best for storytelling: Tome (8.0/10, $16/mo Pro, AI narrative decks). Best free: Slidesgo (3 AI decks/month, $3/mo Premium) and Google Slides + Gemini (free with Google account). Verified May 21, 2026.
+
 ## Topics Covered
 
+- AI presentation tools and slide generation
+- AI meeting assistants and transcription
+- AI presentation tools and slide generation
 - AI writing tools and content generation
 - AI avatar and talking head video generation
 - AI UGC ads (user-generated-content style spokesperson video)
