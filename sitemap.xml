@@ -8,6 +8,22 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- InVideo vs Canva Video 2026 (new 2026-05-21) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-canva-video-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- InVideo vs Fliki 2026 (new 2026-05-21) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-fliki-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Free AI Video Generators for YouTube 2026 (new 2026-05-21) -->
   <url>
     <loc>https://aivideopicks.com/posts/free-ai-video-generators-youtube-2026.html</loc>
@@ -427,6 +443,14 @@
   <url>
     <loc>https://aivideopicks.com/posts/creatify-review-2026.html</loc>
     <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- InVideo vs Pictory 2026 (new 2026-05-21) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-pictory-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
