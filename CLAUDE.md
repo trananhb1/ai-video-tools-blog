@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 38 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 39 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -124,7 +124,7 @@ When this project is opened, run through these items:
 - best-free-ai-video-generators-2026.html
 - sora-alternatives-2026.html
 
-### Guides & Tutorials (11)
+### Guides & Tutorials (12)
 - google-vids-veo-free-2026.html
 - heygen-pricing-2026.html
 - ai-video-pricing-compared-2026.html
@@ -136,6 +136,7 @@ When this project is opened, run through these items:
 - how-to-create-ai-videos-heygen.html
 - how-to-add-viral-captions-tiktok-submagic.html
 - how-to-make-faceless-youtube-heygen-submagic.html
+- heygen-streaming-avatar-api-background-guide.html
 
 ### Use Cases & Other (7)
 - ai-video-for-ecommerce.html

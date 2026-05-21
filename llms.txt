@@ -1,10 +1,10 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 21, 2026. 39 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 21, 2026. 44 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools across 39 live articles (plus 33 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of May 2026 the site covers 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools across 41 live articles (plus 33 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site
 
@@ -87,7 +87,10 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [Grok Imagine Video Review 2026](https://aivideopicks.com/posts/grok-imagine-video-review-2026.html) — xAI's AI video generator with native synchronized audio (dialogue, music, SFX), cheapest major API at $0.05/sec, 15-second 720p clips, bundled with X/SuperGrok subscriptions.
   Quick answer: Grok Imagine 1.0 is the cheapest AI video API on the market and the only major generator bundled inside a social platform, scoring 7.0/10 in our testing. As of May 2026, it generates 15-second 720p clips with native synchronized audio (dialogue, music, SFX) — a feature only two other tools match (Veo 3.1 and Seedance 2.0). No free tier since March 19, 2026. SuperGrok at $30/month gives ~100 videos/day; the API costs $0.05/sec ($4.20/min with audio), making it 3-7x cheaper than Veo 3.1 or Sora 2 Pro. Best for developers building on the API and X power users already paying for SuperGrok. Biggest pro: native audio generation with dialogue at the lowest API price. Biggest con: 720p cap (1080p Pro rolling out), rate limits slashed ~80% for paid users in May 2026, and quality ranks #11 T2V on Artificial Analysis.
 
-## Comparisons (18)
+## Comparisons (19)
+
+- [7 Best AI Image-to-Video Generators in 2026 (Free & Paid)](https://aivideopicks.com/posts/best-ai-image-to-video-generators-2026.html) — Comparison of 7 AI image-to-video generators tested head-to-head: Runway Gen-4, Kling AI 3.0, Google Veo 3.1, PixVerse V6, Luma Dream Machine, Seedance 2.0, and Hailuo/Minimax with May 2026 pricing, free tiers, output quality, max duration, and resolution.
+  Quick answer: The best free AI image-to-video generator in May 2026 is Kling AI 3.0 with 66 daily credits, 3D face reconstruction, and native 4K on paid plans ($6.99/mo). For highest output quality, Runway Gen-4 delivers up to 4K resolution with the best character consistency (from $12/mo, 125 free credits). For free daily use with native audio, Google Veo 3.1 via Flow offers 50 free daily credits. For short-form social content, PixVerse V6 has 20+ cinematic lens controls and native audio at $10/mo. All 7 tools offer free tiers or free credits. Verified May 21, 2026.
 
 - [Best AI Video Translation Tools 2026: 6 Tested Side-by-Side](https://aivideopicks.com/posts/best-ai-video-translation-tools-2026.html) — Comparison of HeyGen Translate, ElevenLabs Dubbing, Synthesia, Rask AI, Submagic and Kapwing with May 2026 pricing, lip-sync coverage, voice cloning support, and best-pick by use case.
   Quick answer: The best AI video translation tool in May 2026 is HeyGen Translate ($24/month annual Creator) — it dubs uploaded videos into 175+ languages with voice cloning and lip-syncs the speaker's mouth in 40+ languages via HeyGen 5.0. ElevenLabs Dubbing Studio is best for audio-first creators (29 languages, professional voice cloning, $22/month Creator). Rask AI is the best non-avatar lip-sync option in 130+ languages ($60/month Creator). Synthesia wins for enterprise L&D with SOC 2 + SCORM + 1-click translation (from $18/month annual). Submagic is best for subtitle-only translation in 100+ languages ($20/month). Kapwing Pro is best for browser-first teams ($24/month, ~$0.48 per dubbed minute). Verified May 15, 2026.
@@ -141,12 +144,18 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 
 - ~~HeyGen Avatar V Guide~~ — consolidated into [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html#avatar-v). Avatar V details covered in the review.
 
-## Guides & Tutorials (10)
+## Guides & Tutorials (12)
+
+- [Best Free AI Video Generators for YouTube 2026](https://aivideopicks.com/posts/free-ai-video-generators-youtube-2026.html) — 8 free AI video generators tested specifically for YouTube creators: watermark policies, YPP monetization compatibility, AI disclosure label requirements, resolution floors, Shorts vs long-form format picks, and upgrade paths. CapCut, Google Veo 3.1, Kling AI 3.0, InVideo AI, Canva, Vidnoz, Fliki, Seedance 2.0. Updated May 21, 2026.
+  Quick answer: CapCut is the best free AI video tool for YouTube in May 2026 — 1080p export, no watermark on desktop, unlimited editing, auto-captions, and 9:16 Shorts templates. For AI-generated clips and B-roll, Google Veo 3.1 via Flow gives 50 free daily credits at 720p with native audio. For AI avatar narration on a budget, Vidnoz offers 3 free minutes/day. The catch: most free tiers export at 720p with watermarks and no commercial-use license — fine for testing, not for a monetized channel. To go watermark-free at 1080p+ with commercial rights, upgrade to Fliki Standard ($21/mo) or InVideo Plus ($28/mo).
 
 - ~~How to Generate Free AI Video with Google Vids~~ — consolidated into [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html). The 5-step Google Vids tutorial is now embedded in the Tool #1 (Google Veo 3.1) section of the hero page.
 
 - ~~How to Add Viral Captions to TikTok with Submagic~~ — consolidated into [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html). Tutorial steps merged into the review.
 - ~~How to Make a Faceless YouTube Channel with HeyGen + Submagic~~ — consolidated into [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html). Faceless YouTube workflow covered in the review.
+- [HeyGen Streaming Avatar API: Custom Background Colors (Code Examples)](https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html) — Developer guide to setting background type, color value, and hex codes in HeyGen's NewSessionRequest. Covers Studio Video API (working), Streaming Avatar API (sunset March 2026), and LiveAvatar client-side chroma-key workaround.
+  Quick answer: The background: { type: "color", value: "#hex" } parameter works in HeyGen's Studio Video API (/v2/video/generate) but does NOT work in the Streaming Avatar or LiveAvatar API. As of May 2026, streaming sessions always render on a green screen (#008000). To set a custom background color on a streaming avatar, you must remove the green screen client-side using chroma-key compositing. HeyGen's official liveavatar-web-sdk includes a reference bg-removal-demo app. The old @heygen/streaming-avatar package was sunset March 31, 2026; use @heygen/liveavatar-web-sdk for new integrations.
+
 - [How to Create AI Videos with HeyGen](https://aivideopicks.com/posts/how-to-create-ai-videos-heygen.html) — Step-by-step tutorial from account setup to final export.
   Quick answer: You can ship a professional HeyGen AI avatar video in 8 steps and under 15 minutes, from script to final export, on the $24/month annual Creator plan ($29 monthly; free tier: 3 videos x 3 min). Best for solo creators, marketers and L&D teams who want a talking-head video without a camera.
 - [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html) — Repurpose long-form into TikTok, Reels, and YouTube Shorts.
@@ -210,11 +219,6 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 
 ## AI Presentation Tools (1)
 
-- [Best AI Presentation Tools 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html) — Comparison of Gamma, Beautiful.ai, Tome, Slidesgo, and Google Slides + Gemini for AI-powered presentation creation. Verified May 21, 2026.
-  Quick answer: The best AI presentation tool in 2026 is Gamma for AI-generated presentations from text prompts ($10/month Plus, $20/month Pro). Beautiful.ai wins for smart design rules that prevent ugly slides ($12/month Pro). Slidesgo is the cheapest at $4.99/month with 20,000+ templates. Google Slides + Gemini is the best free option for Google Workspace users. Tome wins for AI-driven storytelling narratives ($20/month Pro).
-
-## AI Presentation Tools (1)
-
 - [Best AI Presentation Tools 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html) — Comparison of 5 AI presentation tools tested head-to-head: Gamma, Beautiful.ai, Tome, Slidesgo + Wepik AI, and Google Slides + Gemini with verified May 2026 pricing, AI generation quality, design polish, and collaboration features.
   Quick answer: The best AI presentation tool in 2026 is Gamma (9.0/10) — it generates polished, multi-slide decks from a text prompt in under 60 seconds with one-click redesign, embed-anywhere sharing, and built-in viewer analytics. Plans start at $8/month (Plus, annual billing) with a free tier of 400 AI credits (~10 full presentations). Best for design quality: Beautiful.ai (8.5/10, $12/mo annual, smart templates that auto-format every slide). Best for storytelling: Tome (8.0/10, $16/mo Pro, AI narrative decks). Best free: Slidesgo (3 AI decks/month, $3/mo Premium) and Google Slides + Gemini (free with Google account). Verified May 21, 2026.
 
@@ -222,7 +226,6 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 
 - AI presentation tools and slide generation
 - AI meeting assistants and transcription
-- AI presentation tools and slide generation
 - AI writing tools and content generation
 - AI avatar and talking head video generation
 - AI UGC ads (user-generated-content style spokesperson video)

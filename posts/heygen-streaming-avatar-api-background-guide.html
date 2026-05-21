@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4110275440168341" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5NLTFV6FL"></script>
+<script src="/assets/js/analytics.js"></script>
+
+    <title>HeyGen Streaming Avatar API Background Color (Hex Guide)</title>
+    <meta name="description" content="How to set background type, color value, and hex codes in HeyGen's NewSessionRequest. Working code for Studio Video API, plus chroma-key workaround for Streaming/LiveAvatar.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="HeyGen Streaming Avatar API Background Color (Hex Guide)">
+    <meta property="og:description" content="Set background type, color value, and hex codes in HeyGen's API. Working code for Studio Video API + chroma-key workaround for LiveAvatar streaming sessions.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html">
+    <meta property="og:image" content="https://aivideopicks.com/assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png">
+    <meta property="og:site_name" content="AI Video Picks">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HeyGen Streaming Avatar API Background Color (Hex Guide)">
+    <meta name="twitter:description" content="Background type + color value hex codes for HeyGen's NewSessionRequest. Working code + LiveAvatar chroma-key workaround.">
+    <meta name="twitter:image" content="https://aivideopicks.com/assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png">
+
+    <!-- Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "HeyGen Streaming Avatar API: Custom Background Colors (Code Examples)",
+        "image": "https://aivideopicks.com/assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png",
+        "description": "Developer guide to setting background type, color value, and hex codes in HeyGen's NewSessionRequest for the Studio Video API and LiveAvatar streaming sessions.",
+        "author": { "@type": "Person", "name": "Tom Tran", "url": "https://aivideopicks.com/about.html", "jobTitle": "Founder, AI Video Picks", "sameAs": ["https://linkedin.com/in/tom-tran"] },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI Video Picks",
+            "url": "https://aivideopicks.com"
+        },
+        "datePublished": "2026-05-21T00:00:00+00:00",
+        "dateModified": "2026-05-21T00:00:00+00:00",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html",
+            "name": "HeyGen Streaming Avatar API: Custom Background Colors (Code Examples)",
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".quick-answer", "h1", ".faq-item p", "table"]
+            }
+        }
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Does the HeyGen Streaming Avatar API support custom background colors via NewSessionRequest?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. As of May 2026, the background parameter with type 'color' and a hex value does NOT work in the Streaming Avatar or LiveAvatar API. The parameter is accepted in the Studio Video API (/v2/video/generate) but is ignored or returns an error in streaming sessions. Streaming avatars render on a green screen (#008000) by default. You must remove the green background client-side using chroma-key compositing and replace it with your desired color, image, or video."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why does my background parameter return an error in createStartAvatar?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The background object ({ type: 'color', value: '#000' }) is a Studio Video API parameter. It does not apply to the Streaming Avatar SDK (createStartAvatar) or the LiveAvatar Web SDK. HeyGen's team confirmed this in their developer forums. The streaming session always outputs a green-screen feed regardless of what you pass in the background field."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I get a transparent or custom background in HeyGen LiveAvatar?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Use client-side chroma-key removal. HeyGen's official liveavatar-web-sdk repository includes a bg-removal-demo app that performs canvas-based green-screen removal on the video stream. It lets you swap the background to any color, image, or video URL without restarting the session. No server-side changes are needed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What hex color is the HeyGen streaming avatar green screen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyGen streaming avatars render on a green screen with the approximate hex value #008000. Your chroma-key implementation should target this hue range. The exact shade may vary slightly between avatar models, so use a tolerance threshold (e.g., HSL hue 100-140, saturation > 40%) rather than an exact pixel match."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happened to the HeyGen Interactive Avatar API?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyGen's Interactive Avatar API (using @heygen/streaming-avatar npm package) was sunset on March 31, 2026. It has been replaced by the LiveAvatar API with the @heygen/liveavatar-web-sdk package. The Interactive Avatar API is no longer available. All new integrations should use LiveAvatar."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://aivideopicks.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guides",
+                "item": "https://aivideopicks.com/#guides"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "HeyGen Streaming Avatar API Background Guide"
+            }
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="/assets/css/heygen-streaming-avatar-api-background-guide.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header-inner">
+        <a href="../index.html" class="logo">AI Video <span>Picks</span></a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#reviews">Reviews</a>
+            <a href="../index.html#comparisons">Comparisons</a>
+            <a href="../index.html#guides">Guides</a>
+            <a href="../about.html">About</a>
+            <a href="../contact.html">Contact</a>
+        </nav>
+        <button id="theme-toggle" onclick="toggleTheme()" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;padding:8px;margin-left:8px;" title="Toggle dark mode">&#127769;</button>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- FTC Disclosure -->
+    <div class="disclosure">
+        <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through our links, we may earn a commission at no extra cost to you. We only recommend products we have tested and genuinely believe in. See our <a href="../legal/disclosure.html">full disclosure policy</a>.
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="../index.html">Home</a> &rsaquo; <a href="../index.html#guides">Guides</a> &rsaquo; HeyGen Streaming Avatar API Background Guide
+    </div>
+
+    <!-- Article Header -->
+    <div class="article-header">
+        <span class="category">Developer Guide</span>
+        <h1>HeyGen Streaming Avatar API: Custom Background Colors (Code Examples)</h1>
+        <div class="article-meta">
+            <span>Published: May 21, 2026</span>
+            <span>&middot; 7 min read</span>
+            <span>&middot; Updated: May 2026</span>
+        </div>
+    </div>
+
+    <!-- Thumbnail -->
+    <img src="../assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png" alt="HeyGen Streaming Avatar API Background Color Guide" class="screenshot-img" loading="lazy">
+
+    <!-- Quick Answer -->
+    <div class="quick-answer">
+        <p class="label">Quick Answer</p>
+        <p class="body">The <code>background: { type: "color", value: "#hex" }</code> parameter works in <strong>HeyGen's Studio Video API</strong> (<code>/v2/video/generate</code>) but does <strong>NOT</strong> work in the Streaming Avatar or LiveAvatar API. As of May 2026, streaming sessions always render on a green screen (<code>#008000</code>). To set a custom background color on a streaming avatar, you must remove the green screen client-side using chroma-key compositing and replace it with your desired hex color. HeyGen's official <a href="https://github.com/heygen-com/liveavatar-web-sdk" target="_blank" rel="nofollow noopener">liveavatar-web-sdk</a> includes a reference <code>bg-removal-demo</code> app. <a href="/go/heygen/" target="_blank" rel="nofollow sponsored">Try HeyGen Free &rarr;</a></p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="toc">
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#background-parameter">The Background Parameter: Where It Works</a></li>
+            <li><a href="#studio-video-api">Studio Video API: Working Code (Color, Image, Transparent)</a></li>
+            <li><a href="#streaming-avatar-limitation">Streaming Avatar API: Why Background Does Not Work</a></li>
+            <li><a href="#liveavatar-chroma-key">LiveAvatar: Client-Side Chroma-Key Workaround</a></li>
+            <li><a href="#hex-reference">Common Hex Color Values for HeyGen Backgrounds</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+        </ol>
+    </nav>
+
+    <!-- Article Content -->
+    <div class="content">
+
+        <p>If you searched for <strong>HeyGen StreamingAvatarAPI NewSessionRequest background type color value hex</strong>, you probably have the HeyGen docs open in one tab and a broken API call in the other. This guide gives you the straight answer: which HeyGen API endpoints accept the <code>background</code> parameter, which ones ignore it, and exactly how to get a custom background color on a streaming avatar session.</p>
+
+        <p>All code examples below are verified against <a href="https://docs.heygen.com/reference/create-an-avatar-video-v2" target="_blank" rel="nofollow noopener">HeyGen's v2 API documentation</a> and the <a href="https://github.com/heygen-com/liveavatar-web-sdk" target="_blank" rel="nofollow noopener">LiveAvatar Web SDK</a> as of May 2026.</p>
+
+        <!-- Section 1: The Background Parameter -->
+        <h2 id="background-parameter">The Background Parameter: Where It Works</h2>
+
+        <p>HeyGen has two fundamentally different APIs for avatar video:</p>
+
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>API</th>
+                    <th>Background Parameter</th>
+                    <th>Status (May 2026)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Studio Video API (<code>/v2/video/generate</code>)</td>
+                    <td><code>background.type</code> + <code>background.value</code></td>
+                    <td>Works &mdash; color, image, video, transparent</td>
+                </tr>
+                <tr>
+                    <td>Streaming Avatar (<code>@heygen/streaming-avatar</code>)</td>
+                    <td><code>background</code> in <code>createStartAvatar()</code></td>
+                    <td>Sunset March 31, 2026 &mdash; parameter never worked</td>
+                </tr>
+                <tr>
+                    <td>LiveAvatar (<code>@heygen/liveavatar-web-sdk</code>)</td>
+                    <td>No server-side background param</td>
+                    <td>Active &mdash; use client-side chroma-key</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <p>The confusion happens because the Studio Video API and the Streaming Avatar API share similar parameter shapes, but the <code>background</code> object only works in the Studio Video API. HeyGen's own team <a href="https://docs.heygen.com/discuss/66c628cc34f093004cb00b4c" target="_blank" rel="nofollow noopener">confirmed this in their developer forums</a>: &ldquo;The background color of the interactive avatar cannot be customized using the provided parameter. You&rsquo;ll need to handle the background removal on your side.&rdquo;</p>
+
+        <!-- Section 2: Studio Video API -->
+        <h2 id="studio-video-api">Studio Video API: Working Code (Color, Image, Transparent)</h2>
+
+        <p>If you are generating pre-rendered avatar videos (not real-time streaming), this is the API you want. The <code>background</code> object goes inside each element of <code>video_inputs</code>.</p>
+
+        <h3>Solid Color Background (Hex)</h3>
+
+        <span class="code-label">cURL</span>
+<pre><code>curl -X POST https://api.heygen.com/v2/video/generate \
+  -H "X-Api-Key: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "video_inputs": [{
+      "character": {
+        "type": "avatar",
+        "avatar_id": "YOUR_AVATAR_ID",
+        "avatar_style": "normal"
+      },
+      "voice": {
+        "type": "text",
+        "input_text": "Hello from a custom background.",
+        "voice_id": "YOUR_VOICE_ID"
+      },
+      "background": {
+        "type": "color",
+        "value": "#FAFAFA"
+      }
+    }],
+    "dimension": { "width": 1920, "height": 1080 }
+  }'</code></pre>
+
+        <h3>Python (requests)</h3>
+
+        <span class="code-label">Python</span>
+<pre><code>import requests
+
+url = "https://api.heygen.com/v2/video/generate"
+headers = {
+    "X-Api-Key": "YOUR_API_KEY",
+    "Content-Type": "application/json"
+}
+payload = {
+    "video_inputs": [{
+        "character": {
+            "type": "avatar",
+            "avatar_id": "YOUR_AVATAR_ID",
+            "avatar_style": "normal"
+        },
+        "voice": {
+            "type": "text",
+            "input_text": "Hello from a custom background.",
+            "voice_id": "YOUR_VOICE_ID"
+        },
+        "background": {
+            "type": "color",
+            "value": "#1a1a2e"  # dark navy
+        }
+    }],
+    "dimension": {"width": 1920, "height": 1080}
+}
+response = requests.post(url, json=payload, headers=headers)
+print(response.json())</code></pre>
+
+        <h3>Other Background Types</h3>
+
+        <p>The Studio Video API supports four background types:</p>
+
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Value</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>"color"</code></td>
+                    <td>Hex code, e.g. <code>"#FAFAFA"</code></td>
+                    <td>Any valid 6-digit hex. Include the <code>#</code> prefix.</td>
+                </tr>
+                <tr>
+                    <td><code>"image"</code></td>
+                    <td>Public URL or <code>image_asset_id</code></td>
+                    <td>HeyGen downloads the image at render time. Must be publicly accessible.</td>
+                </tr>
+                <tr>
+                    <td><code>"video"</code></td>
+                    <td><code>video_asset_id</code> + <code>play_style</code></td>
+                    <td>Play styles: <code>loop</code>, <code>freeze</code>, <code>fit_to_scene</code>, <code>full_video</code></td>
+                </tr>
+                <tr>
+                    <td><code>"transparent"</code></td>
+                    <td>None (omit <code>value</code>)</td>
+                    <td>Output is WebM, not MP4. Larger file sizes.</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <!-- CTA 1 (mid-article) -->
+        <div class="cta-box">
+            <h3>Build with HeyGen's API</h3>
+            <p>HeyGen's API uses pay-as-you-go credits starting at $5 minimum. Free plan includes 3 videos/month to test your integration before going live.</p>
+            <a href="/go/heygen/" target="_blank" rel="nofollow sponsored" class="cta-button">Try HeyGen Free &rarr;</a>
+            <a href="heygen-review-2026.html" class="cta-button secondary">Read Full Review</a>
+        </div>
+
+        <!-- Section 3: Streaming Avatar Limitation -->
+        <h2 id="streaming-avatar-limitation">Streaming Avatar API: Why Background Does Not Work</h2>
+
+        <p>The old <code>@heygen/streaming-avatar</code> SDK (v1.x&ndash;2.x) accepted a <code>background</code> field in <code>createStartAvatar()</code>. Developers tried passing it like this:</p>
+
+        <div class="warning-box">
+            <strong>This does NOT work.</strong> The code below is shown as a reference for what fails. Do not copy this into production.
+        </div>
+
+        <span class="code-label">JavaScript (broken)</span>
+<pre><code>// THIS DOES NOT WORK - shown for reference only
+const sessionData = await avatar.createStartAvatar({
+  quality: AvatarQuality.High,
+  avatarName: "YOUR_AVATAR_ID",
+  voice: { voiceId: "YOUR_VOICE_ID" },
+  background: {
+    type: "color",        // ignored by the API
+    value: "#000000"      // ignored by the API
+  }
+});</code></pre>
+
+        <p>The API either silently ignores the <code>background</code> field or returns an error, depending on the SDK version. The streaming session always renders the avatar on a green screen regardless of what you pass.</p>
+
+        <div class="info-box">
+            <strong>Important:</strong> The <code>@heygen/streaming-avatar</code> npm package and the Interactive Avatar API were <strong>sunset on March 31, 2026</strong>. HeyGen has replaced them with <a href="https://www.liveavatar.com/" target="_blank" rel="nofollow noopener">LiveAvatar</a> and the <code>@heygen/liveavatar-web-sdk</code> package. If you are starting a new integration, use LiveAvatar.
+        </div>
+
+        <!-- Section 4: LiveAvatar Chroma-Key Workaround -->
+        <h2 id="liveavatar-chroma-key">LiveAvatar: Client-Side Chroma-Key Workaround</h2>
+
+        <p>Since neither the old Streaming Avatar API nor the new LiveAvatar API supports server-side background customization, you handle it on the client. The approach: receive the green-screen video stream, remove the green pixels using canvas compositing, then composite your desired background underneath.</p>
+
+        <p>HeyGen provides an official reference implementation in their <a href="https://github.com/heygen-com/liveavatar-web-sdk" target="_blank" rel="nofollow noopener">liveavatar-web-sdk</a> repository. The <code>apps/bg-removal-demo</code> app demonstrates:</p>
+
+        <ul>
+            <li>Client-side chroma-key on the green-screen video stream</li>
+            <li>Swap background to any hex color, image URL, or video URL</li>
+            <li>No session restart required when changing backgrounds</li>
+        </ul>
+
+        <h3>How It Works (Simplified)</h3>
+
+        <span class="code-label">JavaScript</span>
+<pre><code>// 1. Capture each video frame onto a hidden canvas
+const ctx = canvas.getContext("2d");
+ctx.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
+
+// 2. Read pixel data
+const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
+const data = frame.data;
+
+// 3. Replace green pixels with transparent
+for (let i = 0; i &lt; data.length; i += 4) {
+  const r = data[i], g = data[i + 1], b = data[i + 2];
+  // Check if pixel is "green screen" green
+  if (g &gt; 80 &amp;&amp; r &lt; 100 &amp;&amp; b &lt; 100) {
+    data[i + 3] = 0; // set alpha to 0 (transparent)
+  }
+}
+
+// 4. Put modified frame back
+ctx.putImageData(frame, 0, 0);
+
+// 5. Composite over your desired background
+// (render your background color/image on a layer behind the canvas)</code></pre>
+
+        <p>For production use, consider a WebGL shader instead of per-pixel canvas manipulation &mdash; it offloads the work to the GPU and handles edge anti-aliasing more gracefully. The HeyGen <code>bg-removal-demo</code> app uses this approach.</p>
+
+        <p><strong>To run the official demo locally:</strong></p>
+
+        <span class="code-label">Terminal</span>
+<pre><code>git clone https://github.com/heygen-com/liveavatar-web-sdk.git
+cd liveavatar-web-sdk
+pnpm install
+pnpm demo:bg-removal    # starts on port 3002</code></pre>
+
+        <!-- Section 5: Hex Color Reference -->
+        <h2 id="hex-reference">Common Hex Color Values for HeyGen Backgrounds</h2>
+
+        <p>Whether you are using the Studio Video API (where you pass the hex directly) or a chroma-key replacement (where you render the hex on your background layer), these are the most-used values:</p>
+
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Color</th>
+                    <th>Hex</th>
+                    <th>Use Case</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>White</td>
+                    <td><code>#FFFFFF</code></td>
+                    <td>Clean corporate look, training videos</td>
+                </tr>
+                <tr>
+                    <td>Off-White / Light Gray</td>
+                    <td><code>#FAFAFA</code></td>
+                    <td>Softer than pure white, reduces glare on screen</td>
+                </tr>
+                <tr>
+                    <td>Dark Navy</td>
+                    <td><code>#1a1a2e</code></td>
+                    <td>Professional dark mode, SaaS product demos</td>
+                </tr>
+                <tr>
+                    <td>Brand Blue</td>
+                    <td><code>#155DFC</code></td>
+                    <td>Branded backgrounds, CTAs</td>
+                </tr>
+                <tr>
+                    <td>Green Screen</td>
+                    <td><code>#008000</code></td>
+                    <td>Default streaming avatar output (for post-processing)</td>
+                </tr>
+                <tr>
+                    <td>Black</td>
+                    <td><code>#000000</code></td>
+                    <td>Cinematic, keynote-style presentations</td>
+                </tr>
+                <tr>
+                    <td>Warm Gray</td>
+                    <td><code>#F5F5F5</code></td>
+                    <td>Neutral background for e-learning</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <p>The hex format for HeyGen's Studio Video API requires the <code>#</code> prefix followed by six hexadecimal digits (e.g., <code>#FAFAFA</code>). Three-digit shorthand (<code>#FFF</code>) is not documented as supported &mdash; always use the full six-digit format.</p>
+
+        <!-- CTA 2 (end-article) -->
+        <div class="cta-box">
+            <h3>Start Building with HeyGen</h3>
+            <p>HeyGen offers 200+ avatars and Avatar V &mdash; the most realistic AI avatar available in 2026. API credits are pay-as-you-go (from $5). Free plan available for testing.</p>
+            <a href="/go/heygen/" target="_blank" rel="nofollow sponsored" class="cta-button">Try HeyGen Free &rarr;</a>
+            <a href="heygen-pricing-2026.html" class="cta-button secondary">See Pricing Breakdown</a>
+        </div>
+
+        <!-- FAQ Section -->
+        <h2 id="faq">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Does the HeyGen Streaming Avatar API support custom background colors via NewSessionRequest?</h3>
+            <p>No. As of May 2026, the <code>background</code> parameter with <code>type: "color"</code> and a hex value does NOT work in the Streaming Avatar or LiveAvatar API. The parameter is accepted only in the Studio Video API (<code>/v2/video/generate</code>). Streaming avatars render on a green screen (<code>#008000</code>) by default. You must remove the green screen client-side using chroma-key compositing.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why does my background parameter return an error in createStartAvatar?</h3>
+            <p>The <code>background</code> object (<code>{ type: "color", value: "#000" }</code>) is a Studio Video API parameter. It does not apply to the Streaming Avatar SDK (<code>createStartAvatar</code>) or the LiveAvatar Web SDK. HeyGen's team <a href="https://docs.heygen.com/discuss/66c628cc34f093004cb00b4c" target="_blank" rel="nofollow noopener">confirmed this in their developer forums</a>. The streaming session always outputs a green-screen feed regardless of what you pass in the background field.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I get a transparent or custom background in HeyGen LiveAvatar?</h3>
+            <p>Use client-side chroma-key removal. HeyGen's official <a href="https://github.com/heygen-com/liveavatar-web-sdk" target="_blank" rel="nofollow noopener">liveavatar-web-sdk</a> repository includes a <code>bg-removal-demo</code> app that performs canvas-based green-screen removal on the video stream. It lets you swap the background to any color, image, or video URL without restarting the session.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What hex color is the HeyGen streaming avatar green screen?</h3>
+            <p>The approximate hex value is <code>#008000</code>. Your chroma-key implementation should target this hue range. The exact shade may vary slightly between avatar models, so use a tolerance threshold (e.g., HSL hue 100&ndash;140, saturation &gt; 40%) rather than an exact pixel match.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What happened to the HeyGen Interactive Avatar API?</h3>
+            <p>HeyGen's Interactive Avatar API (the <code>@heygen/streaming-avatar</code> npm package) was sunset on March 31, 2026. It has been replaced by the <a href="https://www.liveavatar.com/" target="_blank" rel="nofollow noopener">LiveAvatar API</a> with the <code>@heygen/liveavatar-web-sdk</code> package. All new integrations should use LiveAvatar. The LiveAvatar API uses credits at 1&ndash;2 credits/minute depending on mode (LITE vs FULL).</p>
+        </div>
+
+        <!-- Internal Links -->
+        <h2 id="related">Related Guides</h2>
+        <ul>
+            <li><a href="heygen-review-2026.html">HeyGen Review 2026: 30+ Features Tested</a> &mdash; full platform review including Avatar V, Interactive Avatars, and API features</li>
+            <li><a href="best-ai-talking-head-tools-2026.html">Best AI Talking Head Tools 2026</a> &mdash; how HeyGen compares to Synthesia, D-ID, and others for avatar video</li>
+            <li><a href="heygen-pricing-2026.html">HeyGen Pricing 2026: Plans &amp; Cost Per Minute</a> &mdash; API credit costs, plan breakdowns, and per-minute economics</li>
+            <li><a href="best-ai-video-tools-2026.html">Best AI Video Tools 2026 (Top 10 Ranked)</a> &mdash; the definitive ranking of all AI video platforms</li>
+        </ul>
+
+        <p style="font-size:0.85rem;color:#888;margin-top:32px;">Last updated: May 21, 2026. Pricing and API behavior verified against HeyGen documentation and developer forum responses.</p>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 AI Video Picks. All rights reserved.</p>
+    <p><a href="../legal/disclosure.html">Affiliate Disclosure</a> &middot; <a href="../legal/privacy.html">Privacy Policy</a> &middot; <a href="../contact.html">Contact</a></p>
+    <p style="margin-top:8px;font-size:0.8rem;">This site contains affiliate links. We may earn a commission at no extra cost to you.</p>
+</footer>
+
+</body>
+</html>

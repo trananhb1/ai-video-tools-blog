@@ -340,6 +340,10 @@
         .card-thumb.thumb-copy-ai { background-image: url('/assets/images/copy-ai-review-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-jasper { background-image: url('/assets/images/jasper-review-thumbnail.png'); background-size: cover; background-position: center; }
         .card-thumb.thumb-translation-tools { background-image: url('/assets/images/best-ai-video-translation-tools-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-image-to-video-generators { background-image: url('/assets/images/best-ai-image-to-video-generators-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-free-ai-youtube { background-image: url('/assets/images/free-ai-video-generators-youtube-2026-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-heygen-streaming-api { background-image: url('/assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png'); background-size: cover; background-position: center; }
+        .card-thumb.thumb-elai-review { background-image: url('/assets/images/elai-review-2026-thumbnail.png'); background-size: cover; background-position: center; }
 
         /* Latest Articles Featured Section */
         .featured-section {
