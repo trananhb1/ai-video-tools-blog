@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 51 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 52 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -81,7 +81,7 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (51 live articles + 34 noindex redirects)
+## Content Inventory (53 live articles + 34 noindex redirects)
 
 ### Reviews (27)
 - movavi-review-2026.html
@@ -131,7 +131,11 @@ When this project is opened, run through these items:
 - best-free-ai-video-generators-2026.html
 - sora-alternatives-2026.html
 
-### Guides & Tutorials (12)
+### Guides & Tutorials (16)
+- how-to-use-heygen-avatar-v-2026.html
+- how-to-turn-blog-into-video-fliki-2026.html
+- how-to-create-ai-ugc-ads-2026.html
+- how-to-make-youtube-videos-invideo-ai-2026.html
 - google-vids-veo-free-2026.html
 - heygen-pricing-2026.html
 - ai-video-pricing-compared-2026.html
