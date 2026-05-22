@@ -227,12 +227,18 @@ def send_personalized(html_template: str, subject: str, test_email: str = None):
         headers={
             "Authorization": f"Bearer {ADMIN_TOKEN}",
             "Content-Type": "application/json",
+            "User-Agent": "AIVideoPicksNewsletter/1.0",
         },
         method="POST"
     )
-    with urllib.request.urlopen(req) as resp:
-        result = json.loads(resp.read())
-        print(f"Personalized send: {result}")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            result = json.loads(resp.read())
+            print(f"Personalized send: {result}")
+    except urllib.request.HTTPError as e:
+        error_body = e.read().decode() if e.fp else "no body"
+        print(f"HTTP {e.code}: {error_body}")
+        raise
 
 
 def send_direct(html: str, subject: str):
