@@ -744,5 +744,27 @@
 </div>
 <link rel="stylesheet" href="/assets/css/ai-tools-youtube-creators-2026-extra1.css">
 
+<script>
+(function(){
+  var W='https://aivideopicks-newsletter.trananhb1.workers.dev';
+  document.querySelectorAll('form[data-newsletter]').forEach(function(form){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var btn=form.querySelector('button[type="submit"]');
+      var ei=form.querySelector('input[name="email"]');
+      var ni=form.querySelector('input[name="first_name"]');
+      if(!ei||!ei.value)return;
+      var ot=btn.textContent;btn.disabled=true;btn.textContent='...';
+      fetch(W+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:ei.value,first_name:ni?ni.value:'',source:window.location.pathname})
+      }).then(function(r){return r.json()}).then(function(d){
+        if(d.success){form.innerHTML='<p style="color:#155DFC;font-weight:600;margin:8px 0;">You\'re in! Check your inbox.</p>';
+          if(typeof gtag==='function')gtag('event','newsletter_subscribe',{method:'resend'});
+        }else{btn.disabled=false;btn.textContent=ot;}
+      }).catch(function(){btn.disabled=false;btn.textContent=ot;});
+    });
+  });
+})();
+</script>
 </body>
 </html>
