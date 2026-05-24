@@ -519,4 +519,12 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- HeyGen vs Elai 2026 (new 2026-05-24) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-elai-2026.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
