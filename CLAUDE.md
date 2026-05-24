@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 52 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 55 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -42,7 +42,7 @@ When this project is opened, run through these items:
 | Arcads AI | `https://arcads.ai/?via=aivideopicks` | Active | Best AI UGC ads pick (25% recurring 12 months, 30-day cookie) |
 | MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (30% per paid referral, 30-day cookie) |
 | Synthesia | `https://www.synthesia.io/?via=aivideopicks` | Active | 15+ articles — slug standardized 2026-04-19 (was tuan-tran) |
-| HeyGen | `https://www.heygen.com/?via=aivideopicks` | **Active & Earning** | Top earner: $121.10 lifetime (3 conversions). 35% recurring. Avatar V is killer feature. |
+| HeyGen | `https://www.heygen.com/?via=aivideopicks` | **⚠️ SHUTTING DOWN JUNE 22, 2026** | Top earner: $121.10 lifetime (3 conversions). Program sunsets June 22 — links deactivated, final payouts by Sept. New "Social Creator Program" (video on Instagram/TikTok/YouTube). Draft reply sent 2026-05-24 to affiliates@heygen.com + CC randy.lao@heygen.com asking about Impact.com alt + direct partner deal. ACTION: Migrate 127 /go/heygen/ links to heygen.com (no tag) by June 22 unless new deal secured. |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
 | Zebracat | `https://studio.zebracat.ai/?via=aivideopicks` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) — slug standardized 2026-04-19 (was d98eb9) |
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
@@ -50,14 +50,15 @@ When this project is opened, run through these items:
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
 | InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
-| Pika | `https://pika.style/?via=aivideopicks` | Active | 30% recurring via Rewardful. Note: pika.style is a screenshot/mockup tool, NOT pika.art (AI video generator). The Pika 2.5 review covers pika.art but the affiliate is with pika.style — different products. |
+| Pika | `https://pika.style/?via=aivideopicks` | Active (pika.style only) | 30% recurring via Rewardful. pika.style is a screenshot/mockup tool. /go/pika/ redirect updated 2026-05-24 to pika.art (no affiliate) — all site content references pika.art (AI video gen), not pika.style. Investigate pika.art affiliate program. pika.style link only valid if site adds a pika.style-specific screenshot tool article. |
 | Kommodo | `https://kommodo.ai/?via=aivideopicks` | **Active** | 50% lifetime via Rewardful. Approved 2026-05-10. |
 | Quso | `https://quso.ai?via=aivideopicks` | **Active** | 40% via Rewardful. Approved 2026-05-10. Shorts article. |
 | Vidyo.ai | `https://vidyo.ai?via=aivideopicks` | **Active** | Via Rewardful. Approved 2026-05-10. (Quso was formerly Vidyo.ai) |
 | Elai | `https://elai.io/?via=aivideopicks` | **Active** | 25% recurring 12mo via Rewardful. Approved 2026-05-10. D-ID vs Elai comparison. |
-| Runway | `?via=aivideopicks` | **AWAITING REPLY** | NOT on Awin (Awin 85317 = Runway Catalog fashion, unrelated). Portal: affiliates.runwayml.com (invite-only). Email sent to partnerships@runwayml.com on 2026-05-13 (Resend ID 5e8f46c1). Response window by May 20. Current `?via=` is NOT valid. |
+| Runway | `?via=aivideopicks` | **AWAITING REPLY (OVERDUE)** | NOT on Awin. Portal: affiliates.runwayml.com (invite-only). Email sent to partnerships@runwayml.com 2026-05-13, response window May 20 — NO REPLY RECEIVED. /go/runway/ correctly redirects to runwayml.com (no tag). Consider follow-up or RESEND. Current `?via=` still NOT valid. |
 | PixVerse | `https://motivaiprivatelimited.sjv.io/aivideopicks` | **Active** | Via Impact.com (MOTIVAI). Approved 2026-05-11. Redirect: /go/pixverse/ |
-| Kling | `?via=aivideopicks` | **APPLY VIA IMPACT** | Initially rejected by Impact.com. Kling replied May 12 with self-service signup: `app.impact.com/campaign-promo-signup/Lohas-Games-Pte-Ltd.brand`. 4-5 week review. Tom should apply. Current `?via=` is NOT valid until approved. |
+| Kling | `?via=aivideopicks` | **APPLY VIA IMPACT** | Initially rejected by Impact.com. Kling replied May 12 with self-service signup: `app.impact.com/campaign-promo-signup/Lohas-Games-Pte-Ltd.brand`. 4-5 week review. Tom should apply. /go/kling/ correctly redirects to klingai.com (no tag). Current `?via=` is NOT valid until approved. Fixed invalid ?ref=aivideopicks links in kling-vs-veo-vs-runway.html on 2026-05-24. |
+| Opus Clip | (pending) | **AWAITING APPROVAL** | Applied ~2026-05-10 via opus.pro/affiliate. AI support bot only; affiliate team hasn't replied. Draft follow-up email created 2026-05-24 to affiliates@opus.pro. /go/opus-clip/ redirects to opus.pro (no tag) until approved. |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
