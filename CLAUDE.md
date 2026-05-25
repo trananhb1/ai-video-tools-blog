@@ -40,7 +40,7 @@ When this project is opened, run through these items:
 | Submagic | `https://submagic.co/?via=aivideopicks` | Active | Review, 6 cross-linked articles (30% recurring) — slug standardized 2026-04-19 |
 | Fliki | `https://fliki.ai/?via=aivideopicks` | Active | Fliki review, pricing (30% lifetime + bonuses @25/50/100 refs) |
 | Arcads AI | `https://arcads.ai/?via=aivideopicks` | Active | Best AI UGC ads pick (25% recurring 12 months, 30-day cookie) |
-| MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (30% per paid referral, 30-day cookie) |
+| MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (**50% per paid referral**, 30-day cookie) — rate increased from 30% on 2026-05-25 |
 | Synthesia | `https://www.synthesia.io/?via=aivideopicks` | Active | 15+ articles — slug standardized 2026-04-19 (was tuan-tran) |
 | HeyGen | `https://www.heygen.com/?via=aivideopicks` | **⚠️ SHUTTING DOWN JUNE 22, 2026** | Top earner: $121.10 lifetime (3 conversions). Program sunsets June 22 — links deactivated, final payouts by Sept. New "Social Creator Program" (video on Instagram/TikTok/YouTube). Draft reply sent 2026-05-24 to affiliates@heygen.com + CC randy.lao@heygen.com asking about Impact.com alt + direct partner deal. ACTION: Migrate 127 /go/heygen/ links to heygen.com (no tag) by June 22 unless new deal secured. |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
