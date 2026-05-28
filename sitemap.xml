@@ -527,4 +527,12 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Elai vs Synthesia 2026 (new 2026-05-27) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/elai-vs-synthesia-2026.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
