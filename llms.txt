@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 31, 2026. 56 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, and 5 AI presentation tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated May 31, 2026. 57 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 ## About
 
@@ -24,7 +24,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - Cheapest credible paid AI video tool: Pictory ($25/month Starter)
 - Best free AI video generator: [Google Veo 3.1 via Google Flow](https://aivideopicks.com/posts/google-flow-review-2026.html) (8.5/10, 50 daily credits, 720p, free with Google account)
 - Best AI ad creative tool: Creatify AI (7.8/10, $33/month Starter)
-- Best AI voice platform: ElevenLabs ($5/month Starter)
+- Best AI voice platform: [ElevenLabs](https://aivideopicks.com/posts/best-ai-voice-generators-2026.html) (9.2/10, $6/month Starter, 5,000+ voices, instant cloning from 1 min audio)
 - Best AI writing tool: Jasper AI (9.1/10, from $49/month Creator)
 - Best AI meeting assistant: Fireflies.ai (9.0/10, from $10/user/month Pro annual)
 - Best free AI meeting assistant: Fathom (8.8/10, unlimited recordings, 5.0/5 G2 from 6,767 reviews)
@@ -75,7 +75,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [Submagic Review 2026](https://aivideopicks.com/posts/submagic-review-2026.html) — AI captions and short-form video tool.
   Quick answer: Submagic is the fastest AI caption generator for short-form vertical video, with 35+ animated styles, Magic B-Roll, and eye-contact correction from $19/month (Starter, or $12/month annual). Best for TikTok creators, Reels-first marketers, and affiliate video editors.
 - [ElevenLabs Review 2026](https://aivideopicks.com/posts/elevenlabs-review-2026.html) — AI voice generator with text-to-speech, cloning, and dubbing.
-  Quick answer: ElevenLabs is the highest-quality AI voice platform in 2026, with 5,000+ voices, instant cloning from 1 minute of audio, and 32-language dubbing from $5/month (Starter). Best for audiobook narrators, podcast producers, and game studios.
+  Quick answer: ElevenLabs is the highest-quality AI voice platform in 2026, with 5,000+ voices, instant cloning from 1 minute of audio, and 32-language dubbing from $6/month (Starter). Best for audiobook narrators, podcast producers, and game studios.
 - [Creatify AI Review 2026](https://aivideopicks.com/posts/creatify-review-2026.html) — AI ad creative platform with URL-to-video, 1,500+ AI avatars, batch generation, and AI scriptwriting for e-commerce.
   Quick answer: Creatify AI is the best AI ad creative generator for e-commerce sellers and DTC brands in 2026, scoring 7.8/10. Paste a product URL, get a complete video ad with AI avatar spokesperson, script, and stock footage. Starter plan $33/month (100 credits). Best for Shopify sellers, Amazon FBA operators, and performance marketing teams producing 10-50+ ad variants per week without hiring a creative agency. Biggest pro: URL-to-video automation produces usable ad creatives in under 2 minutes. Biggest con: avatar lip-sync trails HeyGen and Arcads on close-up shots; credit system requires careful budgeting.
 - [PixVerse Review 2026](https://aivideopicks.com/posts/pixverse-review-2026.html) — AI video generator with V6 model, 20+ cinematic lens controls, native audio, multi-shot character consistency, and four visual styles (Realistic, Anime, Clay, 3D).
@@ -195,7 +195,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [Turn Long Videos into Shorts with AI](https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html) — Repurpose long-form into TikTok, Reels, and YouTube Shorts.
   Quick answer: The fastest way to repurpose long-form video into shorts in 2026 is Opus Clip (from $19/month) for virality scoring plus Submagic ($19/month) for animated captions. Best for podcasters and long-form YouTubers scaling short-form output.
 - ~~AI Tools for YouTube Creators 2026~~ — consolidated into [Best AI Video Tools 2026 — YouTube Creators](https://aivideopicks.com/posts/best-ai-video-tools-2026.html#best-for-youtube-creators). Descript, Opus Clip, Submagic, HeyGen, Zebracat compared. Phase 2 consolidation, May 2026.
-  Quick answer: The core AI stack for YouTubers in 2026 is ChatGPT for scripts, Descript ($24/month) for editing, Opus Clip ($19/month) for shorts, and ElevenLabs ($5/month) for voiceover — a full workflow under $60/month. Best for solo YouTubers replacing a junior editor.
+  Quick answer: The core AI stack for YouTubers in 2026 is ChatGPT for scripts, Descript ($24/month) for editing, Opus Clip ($19/month) for shorts, and ElevenLabs ($6/month) for voiceover — a full workflow under $60/month. Best for solo YouTubers replacing a junior editor.
 - ~~AI Training & Onboarding Videos~~ — consolidated into [Best AI Video Tools 2026 — Training](https://aivideopicks.com/posts/best-ai-video-tools-2026.html#best-for-training-videos). Synthesia, HeyGen, Colossyan, DeepBrain compared. Phase 2 consolidation, May 2026.
   Quick answer: The best AI tools for training and onboarding videos in 2026 are Synthesia ($18/month annual Starter, SOC 2 + SCORM) and Colossyan ($27/month, branching scenarios). Best for L&D teams replacing talking-head recordings with updateable avatar content.
 - ~~What Is Text-to-Video AI?~~ — consolidated into [Best Free AI Video Generators 2026](https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html). The explainer paragraph is now in the "What Is Text-to-Video AI?" section of the hero page. For full glossary, see [AI Video Glossary 2026](https://aivideopicks.com/posts/ai-video-glossary-2026.html).
@@ -259,8 +259,14 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 - [Best AI Presentation Tools 2026: 5 Tested & Ranked](https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html) — Comparison of 5 AI presentation tools tested head-to-head: Gamma, Beautiful.ai, Tome, Slidesgo + Wepik AI, and Google Slides + Gemini with verified May 2026 pricing, AI generation quality, design polish, and collaboration features.
   Quick answer: The best AI presentation tool in 2026 is Gamma (9.0/10) — it generates polished, multi-slide decks from a text prompt in under 60 seconds with one-click redesign, embed-anywhere sharing, and built-in viewer analytics. Plans start at $8/month (Plus, annual billing) with a free tier of 400 AI credits (~10 full presentations). Best for design quality: Beautiful.ai (8.5/10, $12/mo annual, smart templates that auto-format every slide). Best for storytelling: Tome (8.0/10, $16/mo Pro, AI narrative decks). Best free: Slidesgo (3 AI decks/month, $3/mo Premium) and Google Slides + Gemini (free with Google account). Verified May 21, 2026.
 
+## Voice & Audio (1)
+
+- [Best AI Voice Generators 2026: Top 7 Tools Tested & Compared](https://aivideopicks.com/posts/best-ai-voice-generators-2026.html) — Ranked comparison of 7 AI voice generators tested head-to-head: ElevenLabs (#1, 9.2/10), Play.ht, LOVO, Speechify, Resemble AI, WellSaid Labs, and Murf. Voice quality, cloning accuracy, language coverage, API access, and pricing compared. Published May 31, 2026.
+  Quick answer: ElevenLabs is the best AI voice generator in May 2026, scoring 9.2/10. It produces the most natural-sounding speech across narration, dialogue, audiobooks, and dubbing. 5,000+ voices, instant cloning from 1 minute of audio, 32-language dubbing. Starter plan $6/month (30,000 credits). Free tier: 10,000 characters/month, no credit card. Biggest pro: voice quality gap is audible against every competitor. Biggest con: credit usage scales steeply — $6 Starter runs out fast, Pro ($99/month) is a big jump from Creator ($22/month). Runner-up: Play.ht ($31.20/month, 140+ languages, unlimited characters). Budget pick: Murf ($19/month annual). Developer pick: Resemble AI ($30/month, sub-100ms latency). Verified May 31, 2026.
+
 ## Topics Covered
 
+- AI voice generators and text-to-speech
 - AI presentation tools and slide generation
 - AI meeting assistants and transcription
 - AI writing tools and content generation
