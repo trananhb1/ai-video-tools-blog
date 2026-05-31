@@ -2,7 +2,53 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
+
+/* AVP_AI_REFERRAL_TRACKER_v1 (2026-05-31)
+ * Detects traffic from AI assistants (ChatGPT, Claude, Perplexity, Copilot,
+ * Gemini, You.com) via document.referrer. Fires a custom 'ai_referral' event
+ * and sets a custom dimension on the GA4 config so the source appears in
+ * standard reports once the dimension is registered in GA4 admin.
+ */
+(function(){
+  var defined = [
+    { pattern: 'chatgpt.com',           source: 'chatgpt' },
+    { pattern: 'chat.openai.com',       source: 'chatgpt' },
+    { pattern: 'claude.ai',             source: 'claude' },
+    { pattern: 'perplexity.ai',         source: 'perplexity' },
+    { pattern: 'copilot.microsoft.com', source: 'copilot' },
+    { pattern: 'bing.com/chat',         source: 'copilot' },
+    { pattern: 'gemini.google.com',     source: 'gemini' },
+    { pattern: 'you.com',               source: 'you' }
+  ];
+
+  var ref = (document.referrer || '').toLowerCase();
+  var detected = null;
+
+  for (var i = 0; i < defined.length; i++) {
+    if (ref.indexOf(defined[i].pattern) !== -1) {
+      detected = defined[i].source;
+      break;
+    }
+  }
+
+  if (detected) {
+    // Set custom dimension on GA4 config so it flows into all subsequent events
+    window.__avp_ai_source = detected;
+    gtag('config', 'G-M5NLTFV6FL', {
+      'send_page_view': true,
+      'ai_referral_source': detected
+    });
+
+    // Fire dedicated event for easy reporting in GA4
+    gtag('event', 'ai_referral', {
+      ai_source: detected,
+      landing_page: location.pathname
+    });
+  } else {
+    // No AI referral — standard config
+    gtag('config', 'G-M5NLTFV6FL', { 'send_page_view': true });
+  }
+})();
 
 /* AVP_OUTBOUND_TRACKER_v2 (2026-04-25)
  * - affiliate_click ONLY fires for /go/<slug>/ links (or absolute https://aivideopicks.com/go/...).
