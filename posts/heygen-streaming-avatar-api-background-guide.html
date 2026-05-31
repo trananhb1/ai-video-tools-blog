@@ -56,6 +56,53 @@
     }
     </script>
 
+    <!-- HowTo Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Set a Custom Background Color on a HeyGen Streaming Avatar",
+        "description": "Set a custom background on HeyGen's LiveAvatar streaming sessions using client-side chroma-key removal, since the background parameter only works in the Studio Video API.",
+        "totalTime": "PT15M",
+        "tool": [
+            { "@type": "HowToTool", "name": "HeyGen LiveAvatar Web SDK (@heygen/liveavatar-web-sdk)" },
+            { "@type": "HowToTool", "name": "Node.js and pnpm" }
+        ],
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Determine which HeyGen API you need",
+                "text": "If you are generating pre-rendered avatar videos, use the Studio Video API (/v2/video/generate) which accepts the background parameter with type 'color' and a hex value directly. If you need real-time streaming, proceed to the chroma-key workaround below because the background parameter does NOT work in streaming sessions."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Clone the LiveAvatar Web SDK repository",
+                "text": "Run: git clone https://github.com/heygen-com/liveavatar-web-sdk.git and cd into the directory. This repository includes the official bg-removal-demo app that demonstrates client-side chroma-key on the streaming avatar feed."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Install dependencies and run the background removal demo",
+                "text": "Run pnpm install followed by pnpm demo:bg-removal to start the demo on port 3002. This reference app performs canvas-based green-screen removal on the video stream and lets you swap the background to any color, image, or video URL."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Implement client-side chroma-key in your application",
+                "text": "Capture each video frame onto a hidden canvas, read pixel data, replace green pixels (targeting hex #008000, HSL hue 100-140, saturation above 40%) with transparent, then composite the modified frame over your desired background color or image. For production, use a WebGL shader instead of per-pixel canvas manipulation for GPU-accelerated performance."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Set your desired background hex color",
+                "text": "Render your chosen hex color (e.g., #FAFAFA for off-white, #1a1a2e for dark navy, #000000 for black) on a layer behind the chroma-keyed avatar canvas. The background can be changed at any time without restarting the streaming session."
+            }
+        ]
+    }
+    </script>
+
     <!-- FAQ Schema -->
     <script type="application/ld+json">
     {
