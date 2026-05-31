@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 55 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 60 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -42,13 +42,13 @@ When this project is opened, run through these items:
 | Arcads AI | `https://arcads.ai/?via=aivideopicks` | Active | Best AI UGC ads pick (25% recurring 12 months, 30-day cookie) |
 | MakeUGC | `https://www.makeugc.ai/?via=aivideopicks` | Active | Budget AI UGC pick (**50% per paid referral**, 30-day cookie) — rate increased from 30% on 2026-05-25 |
 | Synthesia | `https://www.synthesia.io/?via=aivideopicks` | Active | 15+ articles — slug standardized 2026-04-19 (was tuan-tran) |
-| HeyGen | `https://www.heygen.com/?via=aivideopicks` | **⚠️ SHUTTING DOWN JUNE 22, 2026** | Top earner: $121.10 lifetime (3 conversions). Program sunsets June 22 — links deactivated, final payouts by Sept. New "Social Creator Program" (video on Instagram/TikTok/YouTube). Draft reply sent 2026-05-24 to affiliates@heygen.com + CC randy.lao@heygen.com asking about Impact.com alt + direct partner deal. ACTION: Migrate 127 /go/heygen/ links to heygen.com (no tag) by June 22 unless new deal secured. |
+| HeyGen | `https://www.heygen.com/?via=aivideopicks` | **⚠️ SHUTTING DOWN JUNE 22, 2026** | Top earner: $121.10 lifetime + 5 more commissions in May (35% via Rewardful). Program sunsets June 22 — links deactivated, final payouts by Sept. New "Social Creator Program" (video on Instagram/TikTok/YouTube). Draft reply sent 2026-05-24 to affiliates@heygen.com + CC randy.lao@heygen.com asking about Impact.com alt + direct partner deal. **ACTION: Keep /go/heygen/ redirect active until June 21 (still earning). Migrate to heygen.com (no tag) on June 22.** |
 | Pictory | `https://pictory.ai?ref=aivideopicks` | Active | Review, pricing, comparisons |
 | Zebracat | `https://studio.zebracat.ai/?via=aivideopicks` | Active | Best tools, comparisons (code: 6YAZM9V5 15% off) — slug standardized 2026-04-19 (was d98eb9) |
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
 | Descript | `https://get.descript.com/aivideopicks` | **Active** | 7+ articles — via Impact/Descript direct program, approved 2026-05-12 |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
-| InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. |
+| InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. ⚠️ Contract terms changed 2026-05-13 — review Impact.com dashboard for updated rates. |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
 | Pika | `https://pika.style/?via=aivideopicks` | Active (pika.style only) | 30% recurring via Rewardful. pika.style is a screenshot/mockup tool. /go/pika/ redirect updated 2026-05-24 to pika.art (no affiliate) — all site content references pika.art (AI video gen), not pika.style. Investigate pika.art affiliate program. pika.style link only valid if site adds a pika.style-specific screenshot tool article. |
 | Kommodo | `https://kommodo.ai/?via=aivideopicks` | **Active** | 50% lifetime via Rewardful. Approved 2026-05-10. |
@@ -59,6 +59,11 @@ When this project is opened, run through these items:
 | PixVerse | `https://motivaiprivatelimited.sjv.io/aivideopicks` | **Active** | Via Impact.com (MOTIVAI). Approved 2026-05-11. Redirect: /go/pixverse/ |
 | Kling | `?via=aivideopicks` | **APPLY VIA IMPACT** | Initially rejected by Impact.com. Kling replied May 12 with self-service signup: `app.impact.com/campaign-promo-signup/Lohas-Games-Pte-Ltd.brand`. 4-5 week review. Tom should apply. /go/kling/ correctly redirects to klingai.com (no tag). Current `?via=` is NOT valid until approved. Fixed invalid ?ref=aivideopicks links in kling-vs-veo-vs-runway.html on 2026-05-24. |
 | Opus Clip | (pending) | **AWAITING APPROVAL** | Applied ~2026-05-10 via opus.pro/affiliate. AI support bot only; affiliate team hasn't replied. Draft follow-up email created 2026-05-24 to affiliates@opus.pro. /go/opus-clip/ redirects to opus.pro (no tag) until approved. |
+| Fireflies.ai | `https://app.fireflies.ai/?via=aivideopicks` | **Active** | Via Rewardful. Welcome email received 2026-05-20. Confirm email at fireflies.getrewardful.com. Best-of article: best-ai-meeting-assistants-2026.html |
+| tl;dv | `https://tldv.io/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status via tldv.io. Used in meeting assistants article. |
+| Otter.ai | `https://otter.ai/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status. Used in meeting assistants article. |
+| Krisp | `https://krisp.ai/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status. Used in meeting assistants article. |
+| ElevenLabs | `https://elevenlabs.io/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status via ElevenLabs. Used in voice generators article. |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
@@ -82,9 +87,9 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (53 live articles + 34 noindex redirects)
+## Content Inventory (60 live articles + 34 noindex redirects)
 
-### Reviews (27)
+### Reviews (28)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
 - deepbrain-ai-review-2026.html
@@ -112,8 +117,9 @@ When this project is opened, run through these items:
 - kommodo-review-2026.html
 - quso-ai-review-2026.html
 - arcads-ai-review-2026.html
+- pika-review-2026.html
 
-### Comparisons (17)
+### Comparisons (31)
 - best-ai-ugc-video-generators-2026.html
 - invideo-vs-canva-video-2026.html
 - invideo-vs-pictory-2026.html
@@ -131,8 +137,22 @@ When this project is opened, run through these items:
 - d-id-vs-elai-vs-hourone.html
 - best-free-ai-video-generators-2026.html
 - sora-alternatives-2026.html
+- arcads-vs-creatify-vs-makeugc.html
+- best-ai-image-to-video-generators-2026.html
+- best-ai-meeting-assistants-2026.html
+- best-ai-presentation-tools-2026.html
+- best-ai-video-translation-tools-2026.html
+- best-ai-voice-generators-2026.html
+- best-ai-writing-tools-2026.html
+- elai-vs-synthesia-2026.html
+- heygen-vs-creatify-2026.html
+- heygen-vs-elai-2026.html
+- heygen-vs-vidnoz-2026.html
+- synthesia-vs-arcads-2026.html
+- synthesia-vs-fliki-2026.html
+- synthesia-vs-submagic-2026.html
 
-### Guides & Tutorials (16)
+### Guides & Tutorials (19)
 - how-to-use-heygen-avatar-v-2026.html
 - how-to-turn-blog-into-video-fliki-2026.html
 - how-to-create-ai-ugc-ads-2026.html
@@ -149,6 +169,9 @@ When this project is opened, run through these items:
 - how-to-add-viral-captions-tiktok-submagic.html
 - how-to-make-faceless-youtube-heygen-submagic.html
 - heygen-streaming-avatar-api-background-guide.html
+- free-ai-video-generators-youtube-2026.html
+- heygen-alternatives-2026.html
+- how-to-export-sora-videos-before-shutdown.html
 
 ### Use Cases & Other (7)
 - ai-video-for-ecommerce.html
