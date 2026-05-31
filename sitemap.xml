@@ -8,6 +8,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- HeyGen vs Vidnoz 2026 (new 2026-05-31) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-vidnoz-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- How to Create AI UGC Ads for Meta & TikTok (new 2026-05-21) -->
   <url>
     <loc>https://aivideopicks.com/posts/how-to-create-ai-ugc-ads-2026.html</loc>
