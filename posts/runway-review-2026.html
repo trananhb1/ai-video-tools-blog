@@ -284,6 +284,9 @@
 
         <h3>Gen-4 and Gen-4.5 (2025-2026): The Current State of the Art</h3>
         <p>Gen-4 refined everything Gen-3 introduced, with particular improvements to facial rendering, multi-subject scenes, and prompt fidelity. Gen-4.5, released in February 2026, is the current flagship model and represents the most capable AI video generation available from any provider. The improvements that matter most are character consistency across multiple generations, dramatically better human rendering including realistic facial expressions, improved understanding of complex prompts involving multiple subjects and actions, and cinematic lighting and camera work that responds to directional prompts like "slow dolly in" or "handheld close-up."</p>
+        <div style="background:#eef4ff;border-left:4px solid #155DFC;border-radius:6px;padding:12px 16px;margin:16px 0;font-size:14px;line-height:1.6;">
+            <strong>May 2026 update:</strong> Runway added native audio generation to Gen-4 — synchronized lip sync and environmental SFX generated in the same pass as video. The update also ships pre-built social-media templates (vertical crop, subtitle-ready) and new API hooks for hybrid production pipelines.
+        </div>
         <p>The gap between Gen-2 and Gen-4.5 is staggering. What took four seconds of distorted, obviously-AI footage in 2023 now produces 10-second clips that, in the right conditions, can pass for professionally shot footage. We are not talking about perfection. AI video artifacts still exist. But the quality floor has risen to the point where the output is genuinely usable in professional contexts, not just as a novelty.</p>
 
         <h2 id="hands-on-testing-what-using-runway-actually-feels-like">Hands-On Testing: What Using Runway Actually Feels Like</h2>
@@ -468,7 +471,7 @@
                     <li>Credit system makes heavy use expensive, especially with Gen-4.5 at 25 credits/second</li>
                     <li>Iteration is costly: refining a single clip across multiple generations burns credits fast</li>
                     <li>Complex multi-step actions in a single generation remain unreliable</li>
-                    <li>No built-in audio: generated clips are silent, requiring separate audio tools</li>
+                    <li>Native audio (lip sync + SFX) added May 2026 — verify plan availability; heavier audio generation may require additional credits</li>
                     <li>Hands and fingers, while improved, still produce artifacts in certain poses</li>
                     <li>Maximum clip length of 10 seconds means extensive editing to assemble longer content</li>
                     <li>Free tier is too limited for any real evaluation beyond a single test clip</li>
@@ -572,7 +575,7 @@
                     </tr>
                     <tr>
                         <td><strong>Audio</strong></td>
-                        <td>No built-in audio</td>
+                        <td>Native audio (May 2026)</td>
                         <td>Sound effects</td>
                         <td>No built-in audio</td>
                         <td>Full voiceover</td>
@@ -627,7 +630,7 @@
         <p><strong>Text in video is unreliable.</strong> Do not expect Runway to generate readable text on signs, screens, or objects within the video. The model will produce text-like shapes, but they will almost never be legible English. Add any text in post-production.</p>
         <p><strong>Physics breaks under pressure.</strong> Simple physics like flowing water, blowing leaves, or fabric movement looks natural. But complex interactions, such as objects colliding, liquids pouring, or mechanical movements, still frequently violate physical expectations. The model understands aesthetics better than it understands physics.</p>
         <p><strong>10-second limit constrains storytelling.</strong> Every clip is a maximum of 10 seconds. While you can extend clips, the quality degrades with each extension. For any project longer than 30 seconds, you are assembling multiple separate generations in an external editor. This is a fundamentally different workflow from shooting continuous footage, and it requires adapting your creative approach to work within this constraint.</p>
-        <p><strong>No audio generation.</strong> Runway generates silent video only. For music, sound effects, voiceover, or ambient audio, you need separate tools. This is not necessarily a flaw, as audio generation is a different problem domain, but it means Runway is not a complete solution for finished content. Factor in the time and cost of audio production when planning your workflow.</p>
+        <p><strong>Audio generation added in May 2026.</strong> Runway's Gen-4 update added native audio — synchronized lip sync and environmental SFX generated alongside the video. For voiceover and background music, you still need separate tools (ElevenLabs for voice, Suno or Udio for music). Factor this into your workflow: Runway now handles ambient audio and dialogue lip sync natively, but is not a complete audio production suite.</p>
 
         <h2 id="final-verdict-should-you-use-runway-in-2026">Final Verdict: Should You Use Runway in 2026?</h2>
         <p>Runway Gen-4.5 earns a <strong>8.5 out of 10</strong> rating from us. It is the most technically impressive AI video generation tool available in 2026, and for the right use cases, it delivers genuinely transformative creative capabilities.</p>
