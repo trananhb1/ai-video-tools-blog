@@ -66,7 +66,7 @@ AI Video Picks
 
 [Twitter/X: @aivideopicks](https://twitter.com/aivideopicks) | [Visit aivideopicks.com](https://aivideopicks.com)
 
-*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here](#) — no hard feelings.*
+*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here]({{{unsubscribe_url}}}) — no hard feelings.*
 
 ---
 ---
@@ -143,7 +143,7 @@ AI Video Picks
 
 [Twitter/X: @aivideopicks](https://twitter.com/aivideopicks) | [Visit aivideopicks.com](https://aivideopicks.com)
 
-*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here](#) — no hard feelings.*
+*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here]({{{unsubscribe_url}}}) — no hard feelings.*
 
 ---
 ---
@@ -221,7 +221,7 @@ AI Video Picks
 
 [Twitter/X: @aivideopicks](https://twitter.com/aivideopicks) | [Visit aivideopicks.com](https://aivideopicks.com)
 
-*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here](#) — no hard feelings.*
+*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here]({{{unsubscribe_url}}}) — no hard feelings.*
 
 ---
 ---
@@ -318,4 +318,4 @@ AI Video Picks
 
 [Twitter/X: @aivideopicks](https://twitter.com/aivideopicks) | [Visit aivideopicks.com](https://aivideopicks.com)
 
-*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here](#) — no hard feelings.*
+*You're receiving this because you signed up at aivideopicks.com. Not your thing? [Unsubscribe here]({{{unsubscribe_url}}}) — no hard feelings.*
