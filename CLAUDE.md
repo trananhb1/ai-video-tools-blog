@@ -48,7 +48,7 @@ When this project is opened, run through these items:
 | Vidnoz | `https://www.vidnoz.com/?a_aid=69cc4240db2e7` | Active | 50-70% commission. Slug NOT customizable on Post Affiliate Pro. |
 | Descript | `https://get.descript.com/aivideopicks` | **Active** | 7+ articles — via Impact/Descript direct program, approved 2026-05-12 |
 | Colossyan | `?via=aivideopicks` | Declined (reapply with traffic) | Reviews, training |
-| InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. ⚠️ Contract terms changed 2026-05-13 — review Impact.com dashboard for updated rates. |
+| InVideo | `https://invideo.sjv.io/aivideopicks` | **Active** | 50% monthly / 25% annual via Impact.com. Approved 2026-05-01. ⚠️ Contract terms changed 2026-05-13 — review Impact.com dashboard for updated rates. Tracking break May 13–June 12 now resolved — retroactive commissions credited (June 26 email). **Agent One** launched June 2026: promote for higher-tier conversions (same 25-50% CPA). |
 | Creatify AI | `https://app.creatify.ai/?via=Aivideopicks` | **Active** | 25% recurring via Rewardful. Approved 2026-04-30. $49 off first-month code for audience. No paid brand keyword bidding. |
 | Pika | `https://pika.style/?via=aivideopicks` | Active (pika.style only) | 30% recurring via Rewardful. pika.style is a screenshot/mockup tool. /go/pika/ redirect updated 2026-05-24 to pika.art (no affiliate) — all site content references pika.art (AI video gen), not pika.style. Investigate pika.art affiliate program. pika.style link only valid if site adds a pika.style-specific screenshot tool article. |
 | Kommodo | `https://kommodo.ai/?via=aivideopicks` | **Active** | 50% lifetime via Rewardful. Approved 2026-05-10. |
