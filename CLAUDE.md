@@ -64,6 +64,7 @@ When this project is opened, run through these items:
 | Otter.ai | `https://otter.ai/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status. Used in meeting assistants article. |
 | Krisp | `https://krisp.ai/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status. Used in meeting assistants article. |
 | ElevenLabs | `https://elevenlabs.io/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status via ElevenLabs. Used in voice generators article. |
+| DeeVid AI | `https://deevid.ai?fpr=tuan32` | **Active (joined 2026-07-12)** | 30% per subscription via FirstPromoter. Platform: FirstPromoter. Contact: ella@deevid.ai. Cookie duration TBD. TODO: Write review or add to best-ai-video-tools-2026.html / best-free-ai-video-generators-2026.html. |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
