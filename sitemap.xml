@@ -221,7 +221,7 @@
   <!-- Arcads vs Creatify vs MakeUGC (new 2026-05-11) -->
   <url>
     <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -261,7 +261,7 @@
   <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -414,6 +414,14 @@
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Pictory Annual Plan (new 2026-07-16) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/pictory-annual-plan-2026.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Gear Guide (priority 0.8) -->
