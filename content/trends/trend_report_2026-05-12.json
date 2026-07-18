@@ -1,0 +1,49 @@
+{
+  "generated": "2026-05-12",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 3,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "315 upvotes, 9775 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "I built a site to create free AI videos using LTX 2.3 running on my own GPUs",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 57,
+      "growth": "155 upvotes, 121 comments",
+      "region": "global",
+      "category": "pricing",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1t9juoy/i_built_a_site_to_create_free_ai_videos_using_ltx/",
+      "final_score": 65
+    },
+    {
+      "topic": "Upcoming Leaked Gemini Omni VS Nearly Shutting Down Sora 2",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 54,
+      "growth": "162 upvotes, 63 comments",
+      "region": "global",
+      "category": "comparison",
+      "url": "https://reddit.com/r/singularity/comments/1ta99ss/upcoming_leaked_gemini_omni_vs_nearly_shutting/",
+      "final_score": 64
+    }
+  ],
+  "categories": {
+    "general": 1,
+    "pricing": 1,
+    "comparison": 1
+  }
+}

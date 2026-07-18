@@ -1,0 +1,26 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-05-27T01:00:02Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:03 [INFO] === Source 1: Google Trends ===
+03:00:34 [INFO] Google Trends: scanning 22 seed terms...
+03:00:40 [WARNING] Google Trends batch 0 error: The request failed: Google returned a response with code 429
+03:00:48 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:01:12 [INFO] Google Trends: found 9 unique topics
+03:01:12 [INFO] === Source 2: Reddit ===
+03:01:12 [INFO] Reddit: scanning 8 subreddits...
+03:01:39 [INFO] Reddit: found 2 relevant topics
+03:01:39 [INFO] Total unique topics: 11
+03:01:39 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-27.json
+03:01:39 [INFO] Added 5 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+03:01:39 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-27.json
+03:01:39 [INFO] Top 5 topics:
+03:01:39 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+03:01:39 [INFO]   2. [89] kling ai video (general)
+03:01:39 [INFO]   3. [77] kling ai free (pricing)
+03:01:39 [INFO]   4. [75] ai video (general)
+03:01:39 [INFO]   5. [74] kling ai image to video (general)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-05-27T01:01:41Z

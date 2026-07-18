@@ -1,0 +1,44 @@
+=== AI Video Picks weekly blog writer ===
+Started: 2026-05-20T02:00:02Z
+Host: vmi3238899
+------------------------------------------
+
+--- Step 1: Full Trend Discovery (all sources) ---
+04:00:04 [INFO] === Source 1: Google Trends ===
+04:00:19 [INFO] Google Trends: scanning 22 seed terms...
+04:00:25 [WARNING] Google Trends batch 0 error: The request failed: Google returned a response with code 429
+04:00:34 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+04:00:45 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+04:00:50 [INFO] Google Trends: found 0 unique topics
+04:00:50 [INFO] === Source 2: Reddit ===
+04:00:50 [INFO] Reddit: scanning 8 subreddits...
+04:01:13 [INFO] Reddit: found 3 relevant topics
+04:01:13 [INFO] === Source 3: Content Gap Analysis ===
+04:01:13 [INFO] Content gap analysis: 72 existing articles
+04:01:13 [INFO] Content gaps: found 74 opportunities
+04:01:13 [INFO] Total unique topics: 77
+04:01:13 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-20.json
+04:01:13 [INFO] Added 15 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+04:01:13 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-20.json
+04:01:13 [INFO] Top 5 topics:
+04:01:13 [INFO]   1. [100] Heygen vs Zebracat 2026 (comparison)
+04:01:13 [INFO]   2. [100] Heygen vs Vidnoz 2026 (comparison)
+04:01:13 [INFO]   3. [100] Heygen vs Kling 2026 (comparison)
+04:01:13 [INFO]   4. [100] Synthesia vs Makeugc 2026 (comparison)
+04:01:13 [INFO]   5. [100] Synthesia vs Zebracat 2026 (comparison)
+Trend discovery exit code: 0
+
+--- Step 2: Blog Post Generation (up to 3 posts) ---
+04:01:15 [INFO] Loaded 50 topics from backlog
+04:01:15 [INFO] 46 candidates after dedup
+04:01:15 [INFO] Written: synthesia-vs-makeugc-2026 (1112 words)
+04:01:15 [INFO] Written: synthesia-vs-zebracat-2026 (1112 words)
+04:01:15 [INFO] Written: synthesia-vs-kling-2026 (1119 words)
+04:01:15 [INFO] Done. Wrote 3 blog post drafts in /home/tom/ai-video-tools-blog/content/drafts
+Blog writer exit code: 0
+
+--- Step 3: Draft inventory ---
+Total blog drafts available: 14
+Total published posts: 72
+------------------------------------------
+Finished: 2026-05-20T02:01:15Z

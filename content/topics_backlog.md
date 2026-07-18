@@ -477,3 +477,633 @@
 - **Score**: 49 | **Monetizable**: No
 - **Status**: QUEUED
 
+
+
+## Auto-Discovered (2026-05-17)
+
+### 1. Wanted to know how much we had on our tipjar. Took a pic of all the coins laid out and asked how much to all the AIs on my phone.
+- **Added**: 2026-05-17 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 52 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. This little girl used AI to generate an image and create a virtual avatar, garnering 16 million views on X. But I want to talk about AI education for children.
+- **Added**: 2026-05-17 (auto-discovered)
+- **Source**: reddit | **Category**: tutorial
+- **Score**: 51 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. google veo 3
+- **Added**: 2026-05-17 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 4. Playing with Anima Base 1.0 + Flux.2 Klein 9b + Wan 2.2 (No Audio)
+- **Added**: 2026-05-17 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-18)
+
+### 1. In memory of Sora
+- **Added**: 2026-05-18 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 59 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. Want to know what your AI girlfriend really looks like, here ya go!
+- **Added**: 2026-05-18 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 53 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-19)
+
+### 1. Realistic results using ChatGPT Image 2.0 &amp; Seedance 2.0 - Prompts included
+- **Added**: 2026-05-19 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 53 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-20)
+
+### 1. Sarah Connor judging your AI addiction
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 66 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. VAULT 13 - MY FIRST AI VIDEO :D
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-20)
+
+### 1. Synthesia Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. Fliki Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 3. Submagic Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 4. Arcads Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 5. Makeugc Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 6. Pictory Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 7. Zebracat Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 8. Kling Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 100 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 9. Synthesia vs Vidnoz 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 99 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 10. Fliki vs Vidnoz 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 99 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 11. Submagic vs Arcads 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 98 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 12. Submagic vs Kling 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 98 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 13. Arcads vs Kling 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 98 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 14. Vidnoz Pricing 2026: Plans, Costs, Free Tier
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: pricing
+- **Score**: 98 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 15. Submagic vs Makeugc 2026
+- **Added**: 2026-05-20 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 97 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-23)
+
+### 1. ai free video generator
+- **Added**: 2026-05-23 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. online ai video editor
+- **Added**: 2026-05-23 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 84 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. ai video generator for free
+- **Added**: 2026-05-23 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 53 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-24)
+
+### 1. Generative AI (Kling) is now used in actual tv shows and movies.
+- **Added**: 2026-05-24 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 65 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. Exclusive: Departing Meta staffer posts biting anti-AI video internally amid mass layoffs
+- **Added**: 2026-05-24 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 53 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-25)
+
+### 1. LongCat-Video-Avatar 1.5 Release
+- **Added**: 2026-05-25 (auto-discovered)
+- **Source**: reddit | **Category**: news
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. gemini video generator
+- **Added**: 2026-05-25 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 45 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-27)
+
+### 1. kling ai image to video
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 74 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. 90% of the Chinese public are optimistic about AI advancements, only 10% are worried about AI destroying jobs
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: reddit | **Category**: general
+- **Score**: 58 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. runway gen-3
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 4. runway gen-4
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 5. luma
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-27)
+
+### 1. Submagic vs Pictory 2026
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 97 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. Submagic vs Zebracat 2026
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 97 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 3. Arcads vs Pictory 2026
+- **Added**: 2026-05-27 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 97 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-05-31)
+
+### 1. free video ai generator
+- **Added**: 2026-05-31 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. ai video editor online
+- **Added**: 2026-05-31 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 84 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. ai editor rsp editing video
+- **Added**: 2026-05-31 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 61 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-03)
+
+### 1. Arcads vs Zebracat 2026
+- **Added**: 2026-06-03 (auto-discovered)
+- **Source**: content_gap | **Category**: comparison
+- **Score**: 97 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-07)
+
+### 1. heygen ai
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 95 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 2. video generator ai free
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. synthesia ai
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 91 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 4. synthesia video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 84 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 5. heygen video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 76 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 6. synthesia ai video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 75 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 7. pika labs
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 75 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 8. pika ai video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 74 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 9. heygen ai video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 73 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 10. kling
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 72 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 11. synthesia free
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 67 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 12. heygen free
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 66 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 13. rent the runway
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 65 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 14. heygen
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 63 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 15. runway video
+- **Added**: 2026-06-07 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 61 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-09)
+
+### 1. google video generator ai
+- **Added**: 2026-06-09 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 48 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-11)
+
+### 1. ai video editor free
+- **Added**: 2026-06-11 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-17)
+
+### 1. veed io
+- **Added**: 2026-06-17 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 51 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-20)
+
+### 1. text to video free
+- **Added**: 2026-06-20 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 93 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. text to video generator
+- **Added**: 2026-06-20 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 72 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. text to video ai generator
+- **Added**: 2026-06-20 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 72 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 4. free text to video generator
+- **Added**: 2026-06-20 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 67 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 5. viewmax ai video generator
+- **Added**: 2026-06-20 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 60 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-21)
+
+### 1. best text to video ai
+- **Added**: 2026-06-21 (auto-discovered)
+- **Source**: google_trends | **Category**: roundup
+- **Score**: 60 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-24)
+
+### 1. free ai video generator with no restrictions
+- **Added**: 2026-06-24 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 68 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-28)
+
+### 1. ai video editor anup sagar
+- **Added**: 2026-06-28 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 60 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. google ai video generator
+- **Added**: 2026-06-28 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 47 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-06-29)
+
+### 1. ai video generator free
+- **Added**: 2026-06-29 (auto-discovered)
+- **Source**: google_trends | **Category**: pricing
+- **Score**: 68 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-07-02)
+
+### 1. ai video generator text to video
+- **Added**: 2026-07-02 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 76 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-07-03)
+
+### 1. hailuo ai video generator
+- **Added**: 2026-07-03 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 60 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. hailuo ai
+- **Added**: 2026-07-03 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 50 | **Monetizable**: No
+- **Status**: QUEUED
+
+
+
+## Auto-Discovered (2026-07-11)
+
+### 1. project runway 22 for season 22
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 78 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 2. pika ai
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 75 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 3. project runway episode 2
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 64 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 4. what channel is project runway on
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 64 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 5. heygen avatar
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 63 | **Monetizable**: Yes
+- **Status**: QUEUED
+
+### 6. how to watch project runway
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: tutorial
+- **Score**: 63 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 7. where to watch project runway season 22
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 63 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 8. project runway season 22
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 63 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 9. where can i watch project runway
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 62 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 10. project runway 22
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 62 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 11. project runway season 22 cast
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 62 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 12. where to watch project runway
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 62 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 13. project runway s22
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 61 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 14. new project runway
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: news
+- **Score**: 61 | **Monetizable**: No
+- **Status**: QUEUED
+
+### 15. project runway season 21
+- **Added**: 2026-07-11 (auto-discovered)
+- **Source**: google_trends | **Category**: general
+- **Score**: 61 | **Monetizable**: No
+- **Status**: QUEUED
+

@@ -1,0 +1,26 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-05-17T01:00:03Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:06 [INFO] === Source 1: Google Trends ===
+03:00:23 [INFO] Google Trends: scanning 22 seed terms...
+03:00:44 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:00:52 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+03:00:57 [INFO] Google Trends: found 10 unique topics
+03:00:58 [INFO] === Source 2: Reddit ===
+03:00:58 [INFO] Reddit: scanning 8 subreddits...
+03:01:37 [INFO] Reddit: found 6 relevant topics
+03:01:37 [INFO] Total unique topics: 16
+03:01:37 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-17.json
+03:01:37 [INFO] Added 4 new topics to /home/tom/ai-video-tools-blog/content/topics_backlog.md
+03:01:37 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-17.json
+03:01:37 [INFO] Top 5 topics:
+03:01:37 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+03:01:37 [INFO]   2. [93] free video generator (pricing)
+03:01:37 [INFO]   3. [93] text to video generator free (pricing)
+03:01:37 [INFO]   4. [93] free ai video editor (pricing)
+03:01:37 [INFO]   5. [77] Replaced (Made with ChatGPT Image 2.0 &amp; Seedan (alternatives)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-05-17T01:01:37Z

@@ -1,0 +1,126 @@
+{
+  "generated": "2026-06-20",
+  "sources_checked": [
+    "google_trends"
+  ],
+  "total_topics": 11,
+  "high_score_topics": 5,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "top query (value: 65)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 72
+    },
+    {
+      "topic": "ai video generator",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "top query (value: 65)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 72
+    },
+    {
+      "topic": "text to video ai generator",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "top query (value: 65)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 72
+    },
+    {
+      "topic": "free text to video generator",
+      "source": "google_trends",
+      "trend_score": 59,
+      "growth": "top query (value: 39)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 67
+    },
+    {
+      "topic": "viewmax ai video generator",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "50% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 60
+    },
+    {
+      "topic": "online ai video editor",
+      "source": "google_trends",
+      "trend_score": 56,
+      "growth": "top query (value: 33)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 56
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 50,
+      "growth": "top query (value: 20)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 50
+    },
+    {
+      "topic": "ai image to video generator",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    },
+    {
+      "topic": "google video generator ai",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    }
+  ],
+  "categories": {
+    "pricing": 3,
+    "general": 7,
+    "roundup": 1
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "generated": "2026-06-07",
+  "sources_checked": [
+    "google_trends"
+  ],
+  "total_topics": 28,
+  "high_score_topics": 17,
+  "monetizable_topics": 12,
+  "trending_topics": [
+    {
+      "topic": "heygen ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 95
+    },
+    {
+      "topic": "video generator ai free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "synthesia ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 91
+    },
+    {
+      "topic": "kling ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI avatar video",
+      "monetizable": true,
+      "final_score": 89
+    },
+    {
+      "topic": "ai video editor online",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 99)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 96)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "synthesia video",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 56)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 84
+    },
+    {
+      "topic": "capcut ai video editor",
+      "source": "google_trends",
+      "trend_score": 76,
+      "growth": "top query (value: 73)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 76
+    },
+    {
+      "topic": "heygen video",
+      "source": "google_trends",
+      "trend_score": 66,
+      "growth": "top query (value: 52)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 76
+    },
+    {
+      "topic": "synthesia ai video",
+      "source": "google_trends",
+      "trend_score": 59,
+      "growth": "top query (value: 39)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 75
+    },
+    {
+      "topic": "runway ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 75
+    },
+    {
+      "topic": "pika labs",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 75
+    },
+    {
+      "topic": "pika ai video",
+      "source": "google_trends",
+      "trend_score": 84,
+      "growth": "top query (value: 88)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 74
+    },
+    {
+      "topic": "heygen ai video",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 27)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 73
+    },
+    {
+      "topic": "kling",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 56)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "monetizable": true,
+      "final_score": 72
+    },
+    {
+      "topic": "synthesia free",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 26)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 67
+    },
+    {
+      "topic": "heygen free",
+      "source": "google_trends",
+      "trend_score": 48,
+      "growth": "top query (value: 17)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 66
+    },
+    {
+      "topic": "runway",
+      "source": "google_trends",
+      "trend_score": 76,
+      "growth": "top query (value: 73)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 66
+    },
+    {
+      "topic": "rent the runway",
+      "source": "google_trends",
+      "trend_score": 65,
+      "growth": "top query (value: 51)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 65
+    },
+    {
+      "topic": "heygen",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 27)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 63
+    },
+    {
+      "topic": "runway video",
+      "source": "google_trends",
+      "trend_score": 71,
+      "growth": "top query (value: 63)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "heygen avatar",
+      "source": "google_trends",
+      "trend_score": 50,
+      "growth": "top query (value: 21)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 60
+    },
+    {
+      "topic": "airport runway",
+      "source": "google_trends",
+      "trend_score": 67,
+      "growth": "top query (value: 55)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 57
+    },
+    {
+      "topic": "project runway",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "top query (value: 43)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 51
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 50,
+      "growth": "top query (value: 20)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 50
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 48,
+      "growth": "top query (value: 16)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 48
+    }
+  ],
+  "categories": {
+    "general": 21,
+    "pricing": 5,
+    "roundup": 2
+  }
+}

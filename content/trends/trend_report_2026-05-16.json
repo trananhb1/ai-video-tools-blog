@@ -1,0 +1,188 @@
+{
+  "generated": "2026-05-16",
+  "sources_checked": [
+    "reddit",
+    "google_trends"
+  ],
+  "total_topics": 16,
+  "high_score_topics": 6,
+  "monetizable_topics": 2,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "321 upvotes, 9778 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "free ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video editor",
+      "final_score": 93
+    },
+    {
+      "topic": "kling ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI avatar video",
+      "monetizable": true,
+      "final_score": 89
+    },
+    {
+      "topic": "text to video ai for free",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "top query (value: 45)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 70
+    },
+    {
+      "topic": "Wan 2.2 Remix is the best for uncensored video or is there something better ?",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 59,
+      "growth": "483 upvotes, 113 comments",
+      "region": "global",
+      "category": "comparison",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1tdhm3j/wan_22_remix_is_the_best_for_uncensored_video_or/",
+      "final_score": 69
+    },
+    {
+      "topic": "kling ai video",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "40% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "monetizable": true,
+      "final_score": 64
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "top query (value: 43)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 61
+    },
+    {
+      "topic": "Recent poll shows that 70% of Americans don't want AI data centers being built in their local area",
+      "source": "reddit",
+      "subreddit": "artificial",
+      "trend_score": 57,
+      "growth": "234 upvotes, 100 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/artificial/comments/1tdw8if/recent_poll_shows_that_70_of_americans_dont_want/",
+      "final_score": 57
+    },
+    {
+      "topic": "ai video generator",
+      "source": "google_trends",
+      "trend_score": 55,
+      "growth": "top query (value: 30)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 55
+    },
+    {
+      "topic": "Replaced (Made with ChatGPT Image 2.0 &amp; Seedance 2.0)",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 55,
+      "growth": "187 upvotes, 85 comments",
+      "region": "global",
+      "category": "alternatives",
+      "url": "https://reddit.com/r/ChatGPT/comments/1tec3bq/replaced_made_with_chatgpt_image_20_seedance_20/",
+      "final_score": 55
+    },
+    {
+      "topic": "A third-grade girl used GPT to generate an image and then created a virtual avatar, garnering 16 million views on X",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 52,
+      "growth": "166 upvotes, 31 comments",
+      "region": "global",
+      "category": "tutorial",
+      "url": "https://reddit.com/r/ChatGPT/comments/1tdrym0/a_thirdgrade_girl_used_gpt_to_generate_an_image/",
+      "final_score": 52
+    },
+    {
+      "topic": "What 'little secret' made your life easier when using your AI tools?",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 52,
+      "growth": "51 upvotes, 48 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/ChatGPT/comments/1tdwk9y/what_little_secret_made_your_life_easier_when/",
+      "final_score": 52
+    },
+    {
+      "topic": "best ai video generator",
+      "source": "google_trends",
+      "trend_score": 49,
+      "growth": "top query (value: 19)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 49
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    }
+  ],
+  "categories": {
+    "general": 7,
+    "pricing": 4,
+    "comparison": 1,
+    "roundup": 2,
+    "alternatives": 1,
+    "tutorial": 1
+  }
+}

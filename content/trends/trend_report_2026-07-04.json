@@ -1,0 +1,106 @@
+{
+  "generated": "2026-07-04",
+  "sources_checked": [
+    "google_trends"
+  ],
+  "total_topics": 9,
+  "high_score_topics": 4,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "online ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "text to video generator",
+      "source": "google_trends",
+      "trend_score": 73,
+      "growth": "top query (value: 67)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 73
+    },
+    {
+      "topic": "free ai video generator with no restrictions",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "50% rising",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 68
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "top query (value: 40)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 68
+    },
+    {
+      "topic": "best ai video generator",
+      "source": "google_trends",
+      "trend_score": 49,
+      "growth": "top query (value: 18)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 49
+    },
+    {
+      "topic": "google video generator ai",
+      "source": "google_trends",
+      "trend_score": 48,
+      "growth": "top query (value: 17)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 48
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    }
+  ],
+  "categories": {
+    "pricing": 4,
+    "general": 4,
+    "roundup": 1
+  }
+}

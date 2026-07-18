@@ -1,0 +1,52 @@
+=== AI Video Picks weekly blog writer ===
+Started: 2026-07-01T02:00:02Z
+Host: vmi3238899
+------------------------------------------
+
+--- Step 1: Full Trend Discovery (all sources) ---
+04:00:03 [INFO] === Source 1: Google Trends ===
+04:00:18 [INFO] Google Trends: scanning 22 seed terms...
+04:00:27 [WARNING] Google Trends batch 0 error: The request failed: Google returned a response with code 429
+04:00:35 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+04:00:44 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+04:00:49 [INFO] Google Trends: found 0 unique topics
+04:00:49 [INFO] === Source 2: Reddit ===
+04:00:49 [INFO] Reddit: scanning 8 subreddits...
+04:00:49 [WARNING] Reddit r/aivideo error: HTTP Error 403: Blocked
+04:00:52 [WARNING] Reddit r/artificial error: HTTP Error 403: Blocked
+04:00:53 [WARNING] Reddit r/ChatGPT error: HTTP Error 403: Blocked
+04:00:55 [WARNING] Reddit r/StableDiffusion error: HTTP Error 403: Blocked
+04:00:57 [WARNING] Reddit r/singularity error: HTTP Error 403: Blocked
+04:01:00 [WARNING] Reddit r/OpenAI error: HTTP Error 403: Blocked
+04:01:03 [WARNING] Reddit r/DefunctMedia error: HTTP Error 403: Blocked
+04:01:04 [WARNING] Reddit r/VideoEditing error: HTTP Error 403: Blocked
+04:01:06 [INFO] Reddit: found 0 relevant topics
+04:01:06 [INFO] === Source 3: Content Gap Analysis ===
+04:01:06 [INFO] Content gap analysis: 94 existing articles
+04:01:06 [INFO] Content gaps: found 72 opportunities
+04:01:06 [INFO] Total unique topics: 72
+04:01:06 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-07-01.json
+04:01:06 [INFO] No new topics to add to backlog
+04:01:06 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-07-01.json
+04:01:06 [INFO] Top 5 topics:
+04:01:06 [INFO]   1. [100] Heygen vs Zebracat 2026 (comparison)
+04:01:06 [INFO]   2. [100] Heygen vs Kling 2026 (comparison)
+04:01:06 [INFO]   3. [100] Synthesia vs Makeugc 2026 (comparison)
+04:01:06 [INFO]   4. [100] Synthesia vs Zebracat 2026 (comparison)
+04:01:06 [INFO]   5. [100] Synthesia vs Kling 2026 (comparison)
+Trend discovery exit code: 0
+
+--- Step 2: Blog Post Generation (up to 3 posts) ---
+04:01:06 [INFO] Loaded 50 topics from backlog
+04:01:06 [INFO] 30 candidates after dedup
+04:01:06 [INFO] Written: fliki-vs-vidnoz-2026 (1112 words)
+04:01:06 [INFO] Written: submagic-vs-arcads-2026 (1117 words)
+04:01:06 [INFO] Written: submagic-vs-kling-2026 (1119 words)
+04:01:06 [INFO] Done. Wrote 3 blog post drafts in /home/tom/ai-video-tools-blog/content/drafts
+Blog writer exit code: 0
+
+--- Step 3: Draft inventory ---
+Total blog drafts available: 32
+Total published posts: 94
+------------------------------------------
+Finished: 2026-07-01T02:01:07Z

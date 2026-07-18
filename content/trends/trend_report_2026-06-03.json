@@ -1,0 +1,761 @@
+{
+  "generated": "2026-06-03",
+  "sources_checked": [
+    "content_gap"
+  ],
+  "total_topics": 72,
+  "high_score_topics": 61,
+  "monetizable_topics": 45,
+  "trending_topics": [
+    {
+      "topic": "Heygen vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 76,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "heygen",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Heygen vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 77,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "heygen",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Synthesia vs Makeugc 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "synthesia",
+        "makeugc"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Synthesia vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "synthesia",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Synthesia vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 75,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "synthesia",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Submagic 2026",
+      "source": "content_gap",
+      "trend_score": 75,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "submagic"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Arcads 2026",
+      "source": "content_gap",
+      "trend_score": 75,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "arcads"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Makeugc 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "makeugc"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Pictory 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "pictory"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 75,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Synthesia Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 83,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "synthesia",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Fliki Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 83,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "fliki",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Submagic Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 82,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "submagic",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Arcads Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 82,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "arcads",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Makeugc Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 81,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "makeugc",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Pictory Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 81,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "pictory",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Zebracat Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 81,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "zebracat",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Kling Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 82,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "kling",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 100
+    },
+    {
+      "topic": "Synthesia vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "synthesia",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 99
+    },
+    {
+      "topic": "Fliki vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "fliki",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 99
+    },
+    {
+      "topic": "Submagic vs Arcads 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "arcads"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 98
+    },
+    {
+      "topic": "Submagic vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 98
+    },
+    {
+      "topic": "Arcads vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 74,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "arcads",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 98
+    },
+    {
+      "topic": "Vidnoz Pricing 2026: Plans, Costs, Free Tier",
+      "source": "content_gap",
+      "trend_score": 80,
+      "growth": "missing pricing page",
+      "region": "global",
+      "category": "pricing",
+      "gap_type": "missing_pricing",
+      "tool": "vidnoz",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 98
+    },
+    {
+      "topic": "Submagic vs Makeugc 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "makeugc"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 97
+    },
+    {
+      "topic": "Submagic vs Pictory 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "pictory"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 97
+    },
+    {
+      "topic": "Submagic vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 97
+    },
+    {
+      "topic": "Arcads vs Pictory 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "arcads",
+        "pictory"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 97
+    },
+    {
+      "topic": "Arcads vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "arcads",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 97
+    },
+    {
+      "topic": "Kling Review 2026",
+      "source": "content_gap",
+      "trend_score": 77,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "kling",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 96
+    },
+    {
+      "topic": "Arcads Review 2026",
+      "source": "content_gap",
+      "trend_score": 77,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "arcads",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 96
+    },
+    {
+      "topic": "Submagic vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "submagic",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 96
+    },
+    {
+      "topic": "Arcads vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "arcads",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 96
+    },
+    {
+      "topic": "Makeugc vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "makeugc",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 95
+    },
+    {
+      "topic": "Pictory vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "pictory",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 95
+    },
+    {
+      "topic": "Zebracat vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 73,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "zebracat",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 95
+    },
+    {
+      "topic": "Makeugc vs Pictory 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "makeugc",
+        "pictory"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 94
+    },
+    {
+      "topic": "Makeugc vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "makeugc",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 94
+    },
+    {
+      "topic": "Pictory vs Zebracat 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "pictory",
+        "zebracat"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 94
+    },
+    {
+      "topic": "Makeugc Review 2026",
+      "source": "content_gap",
+      "trend_score": 76,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "makeugc",
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 93
+    },
+    {
+      "topic": "Makeugc vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 71,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "makeugc",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 93
+    },
+    {
+      "topic": "Pictory vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 71,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "pictory",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 93
+    },
+    {
+      "topic": "Zebracat vs Vidnoz 2026",
+      "source": "content_gap",
+      "trend_score": 71,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "zebracat",
+        "vidnoz"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 93
+    },
+    {
+      "topic": "Vidnoz vs Kling 2026",
+      "source": "content_gap",
+      "trend_score": 72,
+      "growth": "missing comparison",
+      "region": "global",
+      "category": "comparison",
+      "gap_type": "missing_comparison",
+      "tools": [
+        "vidnoz",
+        "kling"
+      ],
+      "has_affiliate": true,
+      "monetizable": true,
+      "final_score": 92
+    },
+    {
+      "topic": "Veo Review 2026",
+      "source": "content_gap",
+      "trend_score": 70,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "veo",
+      "has_affiliate": false,
+      "final_score": 75
+    },
+    {
+      "topic": "Sora Review 2026",
+      "source": "content_gap",
+      "trend_score": 70,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "sora",
+      "has_affiliate": false,
+      "final_score": 75
+    },
+    {
+      "topic": "Murf Review 2026",
+      "source": "content_gap",
+      "trend_score": 70,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "murf",
+      "has_affiliate": false,
+      "final_score": 75
+    },
+    {
+      "topic": "D-Id Review 2026",
+      "source": "content_gap",
+      "trend_score": 70,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "d-id",
+      "has_affiliate": false,
+      "final_score": 75
+    },
+    {
+      "topic": "Hourone Review 2026",
+      "source": "content_gap",
+      "trend_score": 70,
+      "growth": "missing review",
+      "region": "global",
+      "category": "review",
+      "gap_type": "missing_review",
+      "tool": "hourone",
+      "has_affiliate": false,
+      "final_score": 75
+    }
+  ],
+  "categories": {
+    "comparison": 33,
+    "pricing": 9,
+    "review": 19,
+    "guide": 11
+  }
+}

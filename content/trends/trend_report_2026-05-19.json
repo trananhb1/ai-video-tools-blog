@@ -1,0 +1,47 @@
+{
+  "generated": "2026-05-19",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 3,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "312 upvotes, 9778 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "In memory of Sora",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 63,
+      "growth": "952 upvotes, 87 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1tfrj4r/in_memory_of_sora/",
+      "final_score": 63
+    },
+    {
+      "topic": "Realistic results using ChatGPT Image 2.0 &amp; Seedance 2.0 - Prompts included",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 53,
+      "growth": "246 upvotes, 20 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/ChatGPT/comments/1tgw0px/realistic_results_using_chatgpt_image_20_seedance/",
+      "final_score": 53
+    }
+  ],
+  "categories": {
+    "general": 3
+  }
+}

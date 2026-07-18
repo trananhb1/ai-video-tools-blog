@@ -1,0 +1,30 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-07-06T01:00:02Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:02 [INFO] === Source 1: Google Trends ===
+03:00:06 [INFO] Google Trends: scanning 22 seed terms...
+03:00:40 [WARNING] Google Trends batch 0 error: HTTPSConnectionPool(host='trends.google.com', port=443): Read timed out. (read timeout=25)
+03:01:24 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:01:35 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+03:01:40 [INFO] Google Trends: found 0 unique topics
+03:01:40 [INFO] === Source 2: Reddit ===
+03:01:40 [INFO] Reddit: scanning 8 subreddits...
+03:01:41 [WARNING] Reddit r/aivideo error: HTTP Error 403: Blocked
+03:01:42 [WARNING] Reddit r/artificial error: HTTP Error 403: Blocked
+03:01:43 [WARNING] Reddit r/ChatGPT error: HTTP Error 403: Blocked
+03:01:46 [WARNING] Reddit r/StableDiffusion error: HTTP Error 403: Blocked
+03:01:49 [WARNING] Reddit r/singularity error: HTTP Error 403: Blocked
+03:01:50 [WARNING] Reddit r/OpenAI error: HTTP Error 403: Blocked
+03:01:52 [WARNING] Reddit r/DefunctMedia error: HTTP Error 403: Blocked
+03:01:54 [WARNING] Reddit r/VideoEditing error: HTTP Error 403: Blocked
+03:01:56 [INFO] Reddit: found 0 relevant topics
+03:01:56 [INFO] Total unique topics: 0
+03:01:56 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-07-06.json
+03:01:56 [INFO] No new topics to add to backlog
+03:01:56 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-07-06.json
+03:01:56 [INFO] Top 5 topics:
+--------------------------------------------
+Exit code: 0
+Finished: 2026-07-06T01:01:56Z

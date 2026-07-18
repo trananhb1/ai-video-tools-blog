@@ -1,0 +1,25 @@
+{
+  "generated": "2026-05-28",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 1,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "320 upvotes, 9775 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    }
+  ],
+  "categories": {
+    "general": 1
+  }
+}

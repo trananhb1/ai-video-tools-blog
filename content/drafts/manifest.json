@@ -1,4 +1,74 @@
 {
+  "arcads-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-17T04:00:51.716222",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Arcads Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "arcads-vs-kling-2026": {
+    "category": "comparison",
+    "generated": "2026-07-08T04:01:07.394996",
+    "source_score": 98,
+    "status": "draft",
+    "title": "Arcads vs Kling 2026"
+  },
+  "fliki-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-10T04:00:54.444258",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "fliki-vs-arcads-2026": {
+    "category": "comparison",
+    "generated": "2026-05-27T04:01:22.559939",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Arcads 2026"
+  },
+  "fliki-vs-kling-2026": {
+    "category": "comparison",
+    "generated": "2026-06-03T04:01:08.183341",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Kling 2026"
+  },
+  "fliki-vs-makeugc-2026": {
+    "category": "comparison",
+    "generated": "2026-05-27T04:01:22.566696",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Makeugc 2026"
+  },
+  "fliki-vs-pictory-2026": {
+    "category": "comparison",
+    "generated": "2026-06-03T04:01:08.131205",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Pictory 2026"
+  },
+  "fliki-vs-submagic-2026": {
+    "category": "comparison",
+    "generated": "2026-05-27T04:01:22.558425",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Submagic 2026"
+  },
+  "fliki-vs-vidnoz-2026": {
+    "category": "comparison",
+    "generated": "2026-07-01T04:01:06.925374",
+    "source_score": 99,
+    "status": "draft",
+    "title": "Fliki vs Vidnoz 2026"
+  },
+  "fliki-vs-zebracat-2026": {
+    "category": "comparison",
+    "generated": "2026-06-03T04:01:08.134026",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Fliki vs Zebracat 2026"
+  },
   "heygen-vs-kling-2026": {
     "category": "comparison",
     "generated": "2026-05-06T04:01:06.462011",
@@ -20,6 +90,27 @@
     "status": "draft",
     "title": "Heygen vs Zebracat 2026"
   },
+  "kling-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-24T04:01:03.018991",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Kling Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "makeugc-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-17T04:00:51.718551",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Makeugc Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "pictory-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-17T04:00:51.719670",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Pictory Pricing 2026: Plans, Costs, Free Tier"
+  },
   "sora-2-megathread-part-3": {
     "category": "general",
     "generated": "2026-04-25T19:22:02.931748",
@@ -27,11 +118,88 @@
     "status": "draft",
     "title": "Sora 2 megathread (part 3)"
   },
+  "submagic-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-10T04:00:54.445424",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Submagic Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "submagic-vs-arcads-2026": {
+    "category": "comparison",
+    "generated": "2026-07-01T04:01:06.938451",
+    "source_score": 98,
+    "status": "draft",
+    "title": "Submagic vs Arcads 2026"
+  },
+  "submagic-vs-kling-2026": {
+    "category": "comparison",
+    "generated": "2026-07-01T04:01:06.944139",
+    "source_score": 98,
+    "status": "draft",
+    "title": "Submagic vs Kling 2026"
+  },
+  "submagic-vs-makeugc-2026": {
+    "category": "comparison",
+    "generated": "2026-07-08T04:01:07.463915",
+    "source_score": 97,
+    "status": "draft",
+    "title": "Submagic vs Makeugc 2026"
+  },
+  "synthesia-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-10T04:00:54.438813",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Synthesia Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "synthesia-vs-kling-2026": {
+    "category": "comparison",
+    "generated": "2026-05-20T04:01:15.599779",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Synthesia vs Kling 2026"
+  },
+  "synthesia-vs-makeugc-2026": {
+    "category": "comparison",
+    "generated": "2026-05-20T04:01:15.576114",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Synthesia vs Makeugc 2026"
+  },
+  "synthesia-vs-vidnoz-2026": {
+    "category": "comparison",
+    "generated": "2026-06-24T04:01:03.022608",
+    "source_score": 99,
+    "status": "draft",
+    "title": "Synthesia vs Vidnoz 2026"
+  },
+  "synthesia-vs-zebracat-2026": {
+    "category": "comparison",
+    "generated": "2026-05-20T04:01:15.587491",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Synthesia vs Zebracat 2026"
+  },
   "video-ai-generator-free": {
     "category": "pricing",
     "generated": "2026-04-25T19:22:02.932942",
     "source_score": 93,
     "status": "draft",
     "title": "video ai generator free"
+  },
+  "vidnoz-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-07-08T04:01:07.462607",
+    "source_score": 98,
+    "status": "draft",
+    "title": "Vidnoz Pricing 2026: Plans, Costs, Free Tier"
+  },
+  "zebracat-pricing-2026-plans-costs-free-tier": {
+    "category": "pricing",
+    "generated": "2026-06-24T04:01:03.015710",
+    "source_score": 100,
+    "status": "draft",
+    "title": "Zebracat Pricing 2026: Plans, Costs, Free Tier"
   }
 }

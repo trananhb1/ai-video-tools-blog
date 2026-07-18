@@ -1,0 +1,58 @@
+{
+  "generated": "2026-05-18",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 4,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "317 upvotes, 9778 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "Recent poll shows that 70% of Americans don't want AI data centers being built in their local area",
+      "source": "reddit",
+      "subreddit": "artificial",
+      "trend_score": 62,
+      "growth": "516 upvotes, 140 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/artificial/comments/1tdw8if/recent_poll_shows_that_70_of_americans_dont_want/",
+      "final_score": 62
+    },
+    {
+      "topic": "In memory of Sora",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 59,
+      "growth": "603 upvotes, 67 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1tfrj4r/in_memory_of_sora/",
+      "final_score": 59
+    },
+    {
+      "topic": "Want to know what your AI girlfriend really looks like, here ya go!",
+      "source": "reddit",
+      "subreddit": "ChatGPT",
+      "trend_score": 53,
+      "growth": "144 upvotes, 40 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/ChatGPT/comments/1tflyrl/want_to_know_what_your_ai_girlfriend_really_looks/",
+      "final_score": 53
+    }
+  ],
+  "categories": {
+    "general": 4
+  }
+}

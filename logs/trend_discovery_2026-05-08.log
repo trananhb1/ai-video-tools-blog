@@ -1,0 +1,24 @@
+=== AI Video Picks daily trend discovery ===
+Started: 2026-05-08T01:00:01Z
+Host: vmi3238899
+Mode: --quick (Google Trends + Reddit)
+--------------------------------------------
+03:00:02 [INFO] === Source 1: Google Trends ===
+03:00:08 [INFO] Google Trends: scanning 22 seed terms...
+03:00:12 [WARNING] Google Trends batch 0 error: The request failed: Google returned a response with code 429
+03:00:21 [WARNING] Google Trends batch 5 error: The request failed: Google returned a response with code 429
+03:00:29 [WARNING] Google Trends batch 10 error: The request failed: Google returned a response with code 429
+03:00:34 [INFO] Google Trends: found 0 unique topics
+03:00:34 [INFO] === Source 2: Reddit ===
+03:00:34 [INFO] Reddit: scanning 8 subreddits...
+03:01:09 [INFO] Reddit: found 2 relevant topics
+03:01:09 [INFO] Total unique topics: 2
+03:01:09 [INFO] Report written: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-08.json
+03:01:09 [INFO] No new topics to add to backlog
+03:01:09 [INFO] Done. Report: /home/tom/ai-video-tools-blog/content/trends/trend_report_2026-05-08.json
+03:01:09 [INFO] Top 5 topics:
+03:01:09 [INFO]   1. [95] Sora 2 megathread (part 3) (general)
+03:01:09 [INFO]   2. [66] Patrick starwalker vs Sponge wan by SpongeWars (comparison)
+--------------------------------------------
+Exit code: 0
+Finished: 2026-05-08T01:01:09Z

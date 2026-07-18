@@ -1,0 +1,36 @@
+{
+  "generated": "2026-05-09",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 2,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "313 upvotes, 9778 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "Revisiting WAN 2.2 for real-person realism, consented LoRA, retuned settings",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 51,
+      "growth": "98 upvotes, 32 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1t7cnaj/revisiting_wan_22_for_realperson_realism/",
+      "final_score": 51
+    }
+  ],
+  "categories": {
+    "general": 2
+  }
+}

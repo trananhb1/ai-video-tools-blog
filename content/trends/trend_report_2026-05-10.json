@@ -1,0 +1,58 @@
+{
+  "generated": "2026-05-10",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 4,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "309 upvotes, 9776 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "Wan SCAIL Pose Control Workflow",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 50,
+      "growth": "52 upvotes, 4 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1t7p7pz/wan_scail_pose_control_workflow/",
+      "final_score": 50
+    },
+    {
+      "topic": "What other robots from popular media do you want in real life?",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 50,
+      "growth": "73 upvotes, 14 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1t8d24m/what_other_robots_from_popular_media_do_you_want/",
+      "final_score": 50
+    },
+    {
+      "topic": "Post-human choreographic studies on Seedance 2.0",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 50,
+      "growth": "77 upvotes, 11 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1t86bbg/posthuman_choreographic_studies_on_seedance_20/",
+      "final_score": 50
+    }
+  ],
+  "categories": {
+    "general": 4
+  }
+}

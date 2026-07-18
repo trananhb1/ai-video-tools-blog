@@ -1,0 +1,48 @@
+{
+  "generated": "2026-05-24",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 3,
+  "high_score_topics": 1,
+  "monetizable_topics": 1,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "314 upvotes, 9775 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "Generative AI (Kling) is now used in actual tv shows and movies.",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 51,
+      "growth": "75 upvotes, 27 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1tlu4gv/generative_ai_kling_is_now_used_in_actual_tv/",
+      "monetizable": true,
+      "final_score": 65
+    },
+    {
+      "topic": "Exclusive: Departing Meta staffer posts biting anti-AI video internally amid mass layoffs",
+      "source": "reddit",
+      "subreddit": "artificial",
+      "trend_score": 53,
+      "growth": "151 upvotes, 43 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/artificial/comments/1tlcscq/exclusive_departing_meta_staffer_posts_biting/",
+      "final_score": 53
+    }
+  ],
+  "categories": {
+    "general": 3
+  }
+}

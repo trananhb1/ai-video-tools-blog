@@ -1,0 +1,117 @@
+{
+  "generated": "2026-05-31",
+  "sources_checked": [
+    "google_trends"
+  ],
+  "total_topics": 10,
+  "high_score_topics": 6,
+  "monetizable_topics": 1,
+  "trending_topics": [
+    {
+      "topic": "free video ai generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 96)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 93
+    },
+    {
+      "topic": "kling ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI avatar video",
+      "monetizable": true,
+      "final_score": 89
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "ai video editor online",
+      "source": "google_trends",
+      "trend_score": 84,
+      "growth": "top query (value: 88)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 84
+    },
+    {
+      "topic": "ai editor rsp editing video",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "160% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 61
+    },
+    {
+      "topic": "ai editor rsp editing",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "150% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 61
+    },
+    {
+      "topic": "best video generator ai",
+      "source": "google_trends",
+      "trend_score": 49,
+      "growth": "top query (value: 19)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 49
+    },
+    {
+      "topic": "image to video ai generator",
+      "source": "google_trends",
+      "trend_score": 48,
+      "growth": "top query (value: 16)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 48
+    }
+  ],
+  "categories": {
+    "pricing": 3,
+    "general": 5,
+    "roundup": 2
+  }
+}

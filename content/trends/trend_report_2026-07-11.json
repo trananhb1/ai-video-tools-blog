@@ -1,0 +1,489 @@
+{
+  "generated": "2026-07-11",
+  "sources_checked": [
+    "google_trends"
+  ],
+  "total_topics": 46,
+  "high_score_topics": 13,
+  "monetizable_topics": 11,
+  "trending_topics": [
+    {
+      "topic": "heygen ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 95
+    },
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "synthesia ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 91
+    },
+    {
+      "topic": "synthesia video",
+      "source": "google_trends",
+      "trend_score": 72,
+      "growth": "top query (value: 64)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 88
+    },
+    {
+      "topic": "ai video generator text to video",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 85
+    },
+    {
+      "topic": "ai text to video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 97)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 85
+    },
+    {
+      "topic": "text to video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 96)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "text to video AI",
+      "final_score": 85
+    },
+    {
+      "topic": "heygen video",
+      "source": "google_trends",
+      "trend_score": 69,
+      "growth": "top query (value: 58)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 79
+    },
+    {
+      "topic": "synthesia ai video",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "top query (value: 44)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 78
+    },
+    {
+      "topic": "project runway 22 for season 22",
+      "source": "google_trends",
+      "trend_score": 78,
+      "growth": "1850% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 78
+    },
+    {
+      "topic": "text to video generator free",
+      "source": "google_trends",
+      "trend_score": 68,
+      "growth": "top query (value: 57)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 76
+    },
+    {
+      "topic": "heygen ai video",
+      "source": "google_trends",
+      "trend_score": 55,
+      "growth": "top query (value: 31)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 75
+    },
+    {
+      "topic": "pika ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 75
+    },
+    {
+      "topic": "synthesia free",
+      "source": "google_trends",
+      "trend_score": 55,
+      "growth": "top query (value: 30)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 69
+    },
+    {
+      "topic": "runway ai",
+      "source": "google_trends",
+      "trend_score": 79,
+      "growth": "top query (value: 78)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 69
+    },
+    {
+      "topic": "heygen free",
+      "source": "google_trends",
+      "trend_score": 50,
+      "growth": "top query (value: 21)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 68
+    },
+    {
+      "topic": "heygen",
+      "source": "google_trends",
+      "trend_score": 55,
+      "growth": "top query (value: 31)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Synthesia",
+      "monetizable": true,
+      "final_score": 65
+    },
+    {
+      "topic": "project runway episode 2",
+      "source": "google_trends",
+      "trend_score": 64,
+      "growth": "450% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 64
+    },
+    {
+      "topic": "what channel is project runway on",
+      "source": "google_trends",
+      "trend_score": 64,
+      "growth": "400% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 64
+    },
+    {
+      "topic": "heygen avatar",
+      "source": "google_trends",
+      "trend_score": 53,
+      "growth": "top query (value: 27)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "HeyGen",
+      "monetizable": true,
+      "final_score": 63
+    },
+    {
+      "topic": "how to watch project runway",
+      "source": "google_trends",
+      "trend_score": 63,
+      "growth": "350% rising",
+      "region": "global",
+      "category": "tutorial",
+      "seed_term": "Runway",
+      "final_score": 63
+    },
+    {
+      "topic": "where to watch project runway season 22",
+      "source": "google_trends",
+      "trend_score": 63,
+      "growth": "300% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 63
+    },
+    {
+      "topic": "project runway season 22",
+      "source": "google_trends",
+      "trend_score": 63,
+      "growth": "300% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 63
+    },
+    {
+      "topic": "where can i watch project runway",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "250% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 62
+    },
+    {
+      "topic": "project runway 22",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "250% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 62
+    },
+    {
+      "topic": "project runway season 22 cast",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "250% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 62
+    },
+    {
+      "topic": "where to watch project runway",
+      "source": "google_trends",
+      "trend_score": 62,
+      "growth": "250% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 62
+    },
+    {
+      "topic": "project runway s22",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "150% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "new project runway",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "140% rising",
+      "region": "global",
+      "category": "news",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "project runway season 21",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "130% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "project runway 2026",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "130% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "project runway season 22 spoilers",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "120% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 61
+    },
+    {
+      "topic": "gio pika \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u043e \u043a\u0430\u0437\u0451\u043d\u043d\u043e\u0435",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "50% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 60
+    },
+    {
+      "topic": "ai video editor online",
+      "source": "google_trends",
+      "trend_score": 57,
+      "growth": "top query (value: 34)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video editor",
+      "final_score": 57
+    },
+    {
+      "topic": "runway ai video",
+      "source": "google_trends",
+      "trend_score": 56,
+      "growth": "top query (value: 33)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 56
+    },
+    {
+      "topic": "kling",
+      "source": "google_trends",
+      "trend_score": 51,
+      "growth": "top query (value: 23)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "monetizable": true,
+      "final_score": 55
+    },
+    {
+      "topic": "project runway",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "100% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 51
+    },
+    {
+      "topic": "rent the runway",
+      "source": "google_trends",
+      "trend_score": 51,
+      "growth": "top query (value: 23)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Runway",
+      "final_score": 51
+    },
+    {
+      "topic": "pogi a pika",
+      "source": "google_trends",
+      "trend_score": 61,
+      "growth": "150% rising",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 51
+    },
+    {
+      "topic": "pika ai video",
+      "source": "google_trends",
+      "trend_score": 60,
+      "growth": "top query (value: 41)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 50
+    },
+    {
+      "topic": "best ai video generator",
+      "source": "google_trends",
+      "trend_score": 49,
+      "growth": "top query (value: 18)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video generator",
+      "final_score": 49
+    },
+    {
+      "topic": "google ai video generator",
+      "source": "google_trends",
+      "trend_score": 49,
+      "growth": "top query (value: 18)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 49
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    },
+    {
+      "topic": "image to video ai generator",
+      "source": "google_trends",
+      "trend_score": 47,
+      "growth": "top query (value: 15)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 47
+    },
+    {
+      "topic": "runway",
+      "source": "google_trends",
+      "trend_score": 56,
+      "growth": "top query (value: 33)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 46
+    },
+    {
+      "topic": "pika labs",
+      "source": "google_trends",
+      "trend_score": 54,
+      "growth": "top query (value: 28)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "Pika",
+      "final_score": 44
+    }
+  ],
+  "categories": {
+    "general": 39,
+    "pricing": 4,
+    "tutorial": 1,
+    "news": 1,
+    "roundup": 1
+  }
+}

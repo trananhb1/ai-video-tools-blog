@@ -1,0 +1,47 @@
+{
+  "generated": "2026-05-14",
+  "sources_checked": [
+    "reddit"
+  ],
+  "total_topics": 3,
+  "high_score_topics": 1,
+  "monetizable_topics": 0,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "319 upvotes, 9773 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "This is one of the craziest ai video I've seen",
+      "source": "reddit",
+      "subreddit": "aivideo",
+      "trend_score": 69,
+      "growth": "1366 upvotes, 122 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/aivideo/comments/1tbv1m5/this_is_one_of_the_craziest_ai_video_ive_seen/",
+      "final_score": 69
+    },
+    {
+      "topic": "Sam Altman testimony: Musk wanted 'total control' of OpenAI to pass to his children",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 65,
+      "growth": "1002 upvotes, 118 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1tb7r0d/sam_altman_testimony_musk_wanted_total_control_of/",
+      "final_score": 65
+    }
+  ],
+  "categories": {
+    "general": 3
+  }
+}

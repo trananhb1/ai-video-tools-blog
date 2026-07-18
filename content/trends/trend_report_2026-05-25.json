@@ -1,0 +1,134 @@
+{
+  "generated": "2026-05-25",
+  "sources_checked": [
+    "google_trends",
+    "reddit"
+  ],
+  "total_topics": 11,
+  "high_score_topics": 6,
+  "monetizable_topics": 2,
+  "trending_topics": [
+    {
+      "topic": "Sora 2 megathread (part 3)",
+      "source": "reddit",
+      "subreddit": "OpenAI",
+      "trend_score": 95,
+      "growth": "317 upvotes, 9775 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+      "final_score": 95
+    },
+    {
+      "topic": "free video generator",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 93
+    },
+    {
+      "topic": "kling ai",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI avatar video",
+      "monetizable": true,
+      "final_score": 89
+    },
+    {
+      "topic": "best ai video editor",
+      "source": "google_trends",
+      "trend_score": 85,
+      "growth": "top query (value: 100)",
+      "region": "global",
+      "category": "roundup",
+      "seed_term": "AI video editor",
+      "final_score": 85
+    },
+    {
+      "topic": "text to video ai for free",
+      "source": "google_trends",
+      "trend_score": 67,
+      "growth": "top query (value: 54)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "text to video AI",
+      "final_score": 75
+    },
+    {
+      "topic": "Generative AI (Kling) is now used in actual tv shows and movies.",
+      "source": "reddit",
+      "subreddit": "singularity",
+      "trend_score": 58,
+      "growth": "406 upvotes, 92 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/singularity/comments/1tlu4gv/generative_ai_kling_is_now_used_in_actual_tv/",
+      "monetizable": true,
+      "final_score": 72
+    },
+    {
+      "topic": "Exclusive: Departing Meta staffer posts biting anti-AI video internally amid mass layoffs",
+      "source": "reddit",
+      "subreddit": "artificial",
+      "trend_score": 55,
+      "growth": "226 upvotes, 60 comments",
+      "region": "global",
+      "category": "general",
+      "url": "https://reddit.com/r/artificial/comments/1tlcscq/exclusive_departing_meta_staffer_posts_biting/",
+      "final_score": 55
+    },
+    {
+      "topic": "ai video generator for free",
+      "source": "google_trends",
+      "trend_score": 46,
+      "growth": "top query (value: 12)",
+      "region": "global",
+      "category": "pricing",
+      "seed_term": "AI video generator",
+      "final_score": 54
+    },
+    {
+      "topic": "LongCat-Video-Avatar 1.5 Release",
+      "source": "reddit",
+      "subreddit": "StableDiffusion",
+      "trend_score": 50,
+      "growth": "68 upvotes, 19 comments",
+      "region": "global",
+      "category": "news",
+      "url": "https://reddit.com/r/StableDiffusion/comments/1tm5oxh/longcatvideoavatar_15_release/",
+      "final_score": 50
+    },
+    {
+      "topic": "image to video ai",
+      "source": "google_trends",
+      "trend_score": 48,
+      "growth": "top query (value: 16)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 48
+    },
+    {
+      "topic": "gemini video generator",
+      "source": "google_trends",
+      "trend_score": 45,
+      "growth": "top query (value: 10)",
+      "region": "global",
+      "category": "general",
+      "seed_term": "AI video generator",
+      "final_score": 45
+    }
+  ],
+  "categories": {
+    "general": 6,
+    "pricing": 3,
+    "roundup": 1,
+    "news": 1
+  }
+}
