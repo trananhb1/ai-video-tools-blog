@@ -221,9 +221,17 @@
   <!-- Arcads vs Creatify vs MakeUGC (new 2026-05-11) -->
   <url>
     <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Pictory Annual Plan Guide (new 2026-07-19) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/pictory-annual-plan-2026.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Removed: google-vids-veo-free-2026 (consolidated, redirects to best-free-ai-video-generators) -->
@@ -261,7 +269,7 @@
   <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -282,7 +290,7 @@
   <!-- Roundup / Comparison Posts (priority 0.9) -->
   <url>
     <loc>https://aivideopicks.com/posts/best-ai-video-tools-2026.html</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
