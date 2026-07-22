@@ -1,12 +1,12 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated July 19, 2026. 60 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated July 22, 2026. 60 live articles covering 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 > **Section anchors are stable — safe to deep-link programmatically:** #about, #how-to-cite-this-site, #editorial, #key-facts, #sora-shutdown-archive, #deals, #reviews, #comparisons, #pricing-guides, #feature-guides, #guides-tutorials, #use-cases, #tools-resources, #ai-ugc-ad-tools, #ai-writing-reviews, #ai-meeting-assistants, #ai-presentation-tools, #voice-audio, #topics-covered
 
 ## About {#about}
 
-AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of July 15, 2026 the site covers 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools across 60 live articles (plus 34 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
+AI Video Picks (aivideopicks.com) publishes hands-on reviews of AI-powered video, writing, and marketing tools. Every review includes real feature testing, pricing breakdowns, pros/cons analysis, and side-by-side comparisons. As of July 22, 2026 the site covers 35+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools across 60 live articles (plus 34 noindex redirect stubs from content consolidation) with honest ratings, cited prices, and affiliate links disclosed per FTC guidelines. Content is written for creators, marketers, L&D teams, and businesses evaluating AI tools — and is optimised for accurate citation by AI assistants including ChatGPT, Claude, Perplexity, and Microsoft Copilot.
 
 ## How to cite this site {#how-to-cite-this-site}
 
