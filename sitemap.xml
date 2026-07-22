@@ -261,7 +261,7 @@
   <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -269,6 +269,12 @@
   <!-- Removed: heygen-avatar-v-deal-april-2026 (expired deal, redirects to heygen-review) -->
 
   <!-- Pricing Guides -->
+  <url>
+    <loc>https://aivideopicks.com/posts/pictory-annual-plan-2026.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
   <url>
     <loc>https://aivideopicks.com/posts/heygen-pricing-2026.html</loc>
     <lastmod>2026-05-31</lastmod>
