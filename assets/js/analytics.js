@@ -1,3 +1,19 @@
+/* AVP_CLS_FIX_v1 (2026-07-26)
+ * AdSense auto-ads insert <ins class="adsbygoogle"> dynamically, causing CLS
+ * (0.07 measured Jul 12-18, 17% poor sessions). Pre-reserve 280px so layout
+ * shift on ad insertion is zero. analytics.js loads sync in <head> before the
+ * async adsbygoogle.js callback fires, so this rule is in place first.
+ */
+(function(){
+  var s = document.createElement('style');
+  s.textContent = 'ins.adsbygoogle{display:block;min-height:280px}';
+  if (document.head) {
+    document.head.insertBefore(s, document.head.firstChild);
+  } else {
+    document.write('<style>ins.adsbygoogle{display:block;min-height:280px}</style>');
+  }
+})();
+
 // Google Analytics GA4 — G-M5NLTFV6FL
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
