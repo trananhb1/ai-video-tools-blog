@@ -420,6 +420,8 @@ async function handleAdminSendPersonalized(request, env) {
     const emails = [];
     for (const contact of contacts) {
       const hash = await hashEmail(contact.email);
+      // Ensure profile exists with email (covers migrated contacts + refreshes TTL)
+      await upsertProfile(env, hash, { email: contact.email });
       const profile = await getProfile(env, hash);
       const picks = pickAffiliatesForProfile(profile);
 
@@ -626,6 +628,8 @@ async function handleAdminSend(request, env) {
     const emails = [];
     for (const c of active) {
       const hash = await hashEmail(c.email);
+      // Ensure profile exists with email (covers migrated contacts + refreshes TTL)
+      await upsertProfile(env, hash, { email: c.email });
       const unsubUrl = `${origin}/unsubscribe?h=${hash}`;
       const contactHtml = html.replace(/\{\{RESEND_UNSUBSCRIBE_URL\}\}/g, unsubUrl);
       emails.push({
