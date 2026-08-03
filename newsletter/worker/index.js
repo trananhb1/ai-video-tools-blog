@@ -175,6 +175,11 @@ export default {
       return handleClickTrack(url, env, ctx);
     }
 
+    // Unsubscribe (public, GET for page + POST for one-click)
+    if (url.pathname === '/unsubscribe') {
+      return handleUnsubscribe(request, url, env);
+    }
+
     // Admin routes
     if (url.pathname.startsWith('/admin/')) {
       if (!verifyAdmin(request, env)) {
@@ -238,6 +243,98 @@ async function handleClickTrack(url, env, ctx) {
   }
 
   return Response.redirect(decodedUrl, 302);
+}
+
+// ── Unsubscribe ───────────────────────────────────────────────────────────
+async function handleUnsubscribe(request, url, env) {
+  const hash = url.searchParams.get('h') || '';
+
+  // POST = one-click unsubscribe (RFC 8058 / Gmail requirement)
+  if (request.method === 'POST') {
+    if (!hash) return jsonResponse({ error: 'Missing hash' }, 400);
+    const profile = await getProfile(env, hash);
+    if (!profile || !profile.email) {
+      return jsonResponse({ error: 'Unknown subscriber' }, 404);
+    }
+    const ok = await unsubscribeContact(profile.email, env);
+    if (ok) {
+      return new Response('Unsubscribed', { status: 200, headers: { 'Content-Type': 'text/plain' } });
+    }
+    return jsonResponse({ error: 'Unsubscribe failed' }, 500);
+  }
+
+  // GET = show confirmation page, then unsubscribe
+  if (request.method !== 'GET') {
+    return jsonResponse({ error: 'Method not allowed' }, 405);
+  }
+
+  if (!hash) {
+    return new Response(unsubPageHtml('Missing subscriber identifier.', false), {
+      status: 400, headers: { 'Content-Type': 'text/html;charset=utf-8' },
+    });
+  }
+
+  const profile = await getProfile(env, hash);
+  if (!profile || !profile.email) {
+    return new Response(unsubPageHtml('We could not find that subscription. You may already be unsubscribed.', false), {
+      status: 404, headers: { 'Content-Type': 'text/html;charset=utf-8' },
+    });
+  }
+
+  const ok = await unsubscribeContact(profile.email, env);
+  const msg = ok
+    ? 'You have been unsubscribed from AI Video Picks. You will no longer receive our newsletter.'
+    : 'Something went wrong. Please email contact@aivideopicks.com to be removed.';
+
+  return new Response(unsubPageHtml(msg, ok), {
+    status: ok ? 200 : 500,
+    headers: { 'Content-Type': 'text/html;charset=utf-8' },
+  });
+}
+
+async function unsubscribeContact(email, env) {
+  try {
+    const res = await fetch(
+      `https://api.resend.com/audiences/${env.AUDIENCE_ID}/contacts/${encodeURIComponent(email)}`,
+      {
+        method: 'PATCH',
+        headers: {
+          Authorization: `Bearer ${env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ unsubscribed: true }),
+      }
+    );
+    return res.ok;
+  } catch (err) {
+    console.error('Unsubscribe error:', err);
+    return false;
+  }
+}
+
+function unsubPageHtml(message, success) {
+  const icon = success ? '&#10003;' : '&#10007;';
+  const color = success ? '#00B894' : '#D63031';
+  return `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unsubscribe — AI Video Picks</title></head>
+<body style="margin:0;padding:0;background:#f0f2f5;font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="min-height:100vh;">
+<tr><td align="center" valign="middle" style="padding:40px 20px;">
+  <table width="480" cellpadding="0" cellspacing="0" style="max-width:480px;width:100%;background:#ffffff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    <tr><td style="background:linear-gradient(135deg,#155DFC 0%,#1a1a2e 100%);padding:24px;border-radius:12px 12px 0 0;text-align:center;">
+      <h1 style="color:#ffffff;font-size:20px;font-weight:800;margin:0;">AI Video <span style="color:#60a5fa;">Picks</span></h1>
+    </td></tr>
+    <tr><td style="padding:32px 24px;text-align:center;">
+      <div style="font-size:48px;color:${color};margin-bottom:16px;">${icon}</div>
+      <p style="color:#1a1a2e;font-size:16px;line-height:1.6;margin:0;">${message}</p>
+      <p style="margin-top:24px;"><a href="${SITE_URL}" style="color:#155DFC;font-size:14px;text-decoration:none;">Return to AI Video Picks</a></p>
+    </td></tr>
+  </table>
+</td></tr>
+</table>
+</body></html>`;
 }
 
 // ── Admin: profiles ────────────────────────────────────────────────────────
@@ -346,12 +443,22 @@ async function handleAdminSendPersonalized(request, env) {
       const name = contact.first_name || 'there';
       personalizedHtml = personalizedHtml.replace(/\{\{NAME\}\}/g, name);
 
+      // Replace unsubscribe URL placeholder (MUST run after href-tracking regex
+      // so the unsubscribe link doesn't get wrapped in a /t/ click-tracker)
+      const origin = new URL(request.url).origin;
+      const unsubUrl = `${origin}/unsubscribe?h=${hash}`;
+      personalizedHtml = personalizedHtml.replace(/\{\{RESEND_UNSUBSCRIBE_URL\}\}/g, unsubUrl);
+
       emails.push({
         from: FROM_EMAIL,
         to: [contact.email],
         reply_to: REPLY_TO,
         subject,
         html: personalizedHtml,
+        headers: {
+          'List-Unsubscribe': `<${unsubUrl}>`,
+          'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+        },
       });
     }
 
@@ -515,13 +622,24 @@ async function handleAdminSend(request, env) {
       if (!active.length) return jsonResponse({ error: 'No active subscribers' }, 400);
     }
 
-    const emails = active.map(c => ({
-      from: FROM_EMAIL,
-      to: [c.email],
-      reply_to: REPLY_TO,
-      subject,
-      html,
-    }));
+    const origin = new URL(request.url).origin;
+    const emails = [];
+    for (const c of active) {
+      const hash = await hashEmail(c.email);
+      const unsubUrl = `${origin}/unsubscribe?h=${hash}`;
+      const contactHtml = html.replace(/\{\{RESEND_UNSUBSCRIBE_URL\}\}/g, unsubUrl);
+      emails.push({
+        from: FROM_EMAIL,
+        to: [c.email],
+        reply_to: REPLY_TO,
+        subject,
+        html: contactHtml,
+        headers: {
+          'List-Unsubscribe': `<${unsubUrl}>`,
+          'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+        },
+      });
+    }
 
     const results = [];
     for (let i = 0; i < emails.length; i += 100) {
@@ -602,7 +720,7 @@ async function handleSubscribe(request, env) {
       interests: sourceInterests,
     });
 
-    sendWelcomeEmail(email, firstName, env).catch(console.error);
+    sendWelcomeEmail(email, firstName, hash, env).catch(console.error);
 
     return jsonResponse({ success: true, message: 'Subscribed!' });
   } catch (err) {
@@ -612,8 +730,9 @@ async function handleSubscribe(request, env) {
 }
 
 // ── Welcome email ──────────────────────────────────────────────────────────
-async function sendWelcomeEmail(email, firstName, env) {
+async function sendWelcomeEmail(email, firstName, hash, env) {
   const name = firstName || 'there';
+  const unsubUrl = `https://aivideopicks-newsletter.trananhb1.workers.dev/unsubscribe?h=${hash}`;
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -637,7 +756,8 @@ async function sendWelcomeEmail(email, firstName, env) {
     <p style="color:#1a1a2e;font-size:14px;margin:24px 0 0;">Talk soon,<br><strong>Tom</strong><br><span style="color:#7a7a96;">AI Video Picks</span></p>
   </td></tr>
   <tr><td style="background:#1a1a2e;padding:20px 24px;border-radius:0 0 12px 12px;text-align:center;">
-    <p style="color:#94a3b8;font-size:12px;margin:0;"><a href="${SITE_URL}" style="color:#60a5fa;">aivideopicks.com</a></p>
+    <p style="color:#94a3b8;font-size:12px;line-height:1.6;margin:0;"><a href="${SITE_URL}" style="color:#60a5fa;">aivideopicks.com</a></p>
+    <p style="color:#94a3b8;font-size:12px;margin:8px 0 0;"><a href="${unsubUrl}" style="color:#60a5fa;">Unsubscribe</a> · <a href="${SITE_URL}/legal/privacy.html" style="color:#60a5fa;">Privacy</a></p>
   </td></tr>
 </table>
 </td></tr>
@@ -657,6 +777,10 @@ async function sendWelcomeEmail(email, firstName, env) {
       reply_to: REPLY_TO,
       subject: 'Welcome to AI Video Picks — here\'s your first win',
       html,
+      headers: {
+        'List-Unsubscribe': `<${unsubUrl}>`,
+        'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+      },
     }),
   });
 }
