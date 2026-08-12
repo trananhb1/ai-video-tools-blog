@@ -170,6 +170,14 @@
 
   <!-- Pika 2.5 Review (new 2026-05-16) - placed near top for highest crawl priority -->
 
+  <!-- DeeVid AI Review (new 2026-08-12) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/deevid-ai-review-2026.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Pika 2.5 Review (new 2026-05-16) -->
   <url>
     <loc>https://aivideopicks.com/posts/pika-review-2026.html</loc>
@@ -261,7 +269,7 @@
   <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -387,7 +395,7 @@
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/synthesia-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -552,7 +560,7 @@
   <!-- Elai vs Synthesia 2026 (new 2026-05-27) -->
   <url>
     <loc>https://aivideopicks.com/posts/elai-vs-synthesia-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
