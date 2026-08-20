@@ -46,7 +46,7 @@
             }
         },
         "datePublished": "2026-04-22T00:00:00+00:00",
-        "dateModified": "2026-05-31T00:00:00+00:00",
+        "dateModified": "2026-08-19T00:00:00+00:00",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html",
@@ -119,7 +119,7 @@
                 "name": "When does Sora shut down?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The Sora consumer app and web interface (sora.chatgpt.com) shut down on April 26, 2026. The Sora API for developers continues running until September 24, 2026. After April 26, all stored Sora generations on OpenAI's servers will be permanently deleted unless exported."
+                    "text": "The Sora consumer app and web interface (sora.chatgpt.com) shut down on April 26, 2026. All stored consumer Sora generations on OpenAI's servers were permanently deleted after that date. The Sora API for developers continues running until September 24, 2026 (36 days remaining as of August 2026) — after which no new API keys will be issued and existing integrations will stop working."
                 }
             },
             {
@@ -135,7 +135,7 @@
                 "name": "Will I lose my Sora videos if I don't export?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Any Sora video that exists only on OpenAI's servers is permanently deleted on April 26, 2026. Videos already downloaded to your computer or saved to other platforms remain yours under your existing license. Request the data export at sora.chatgpt.com/exports/me before the deadline."
+                    "text": "Yes. Any Sora video that existed only on OpenAI's servers was permanently deleted after April 26, 2026. Videos already downloaded to your computer or saved to other platforms remain yours under your existing license. The export deadline has passed — if you did not export before April 26, those cloud-hosted videos are gone."
                 }
             },
             {
@@ -159,7 +159,7 @@
                 "name": "Will the Sora API still work after April 26?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. The Sora API continues until September 24, 2026 — five months after the consumer app shuts down. No new API keys are being issued, but existing integrations keep working. This gives engineering teams a longer migration runway to Runway, Kling, or Veo 3.1."
+                    "text": "Yes, but only until September 24, 2026 — now approximately 36 days away (as of August 2026). No new API keys are being issued. Existing integrations keep working until the API endpoint closes. Engineering teams still using the Sora API should prioritize migrating to Runway, Kling AI, or Veo 3 before the deadline."
                 }
             },
             {
@@ -275,7 +275,8 @@
             <strong style="font-size: 22px; line-height:1.2;">Sora Shut Down on April 26, 2026</strong>
         </div>
         <p style="margin:0 0 10px;font-size:16px;"><strong>The Sora consumer app and export tool are permanently offline.</strong> All videos stored on OpenAI's servers have been deleted. If you downloaded your archive before the deadline, those files remain yours.</p>
-        <p style="margin:0;font-size:14px;opacity:0.95;"><strong>API users:</strong> The Sora API continues until September 24, 2026. Use the <code>/v1/sora/generations</code> endpoint to pull assets. The steps below are archived for reference.</p>
+        <p style="margin:0 0 10px;font-size:14px;opacity:0.95;"><strong>API users:</strong> The Sora API continues until September 24, 2026. Use the <code>/v1/sora/generations</code> endpoint to pull assets. The steps below are archived for reference.</p>
+        <p style="margin:0;font-size:14px;background:rgba(185,28,28,0.2);border-radius:6px;padding:8px 12px;opacity:1;"><strong>⚠️ API DEADLINE WARNING:</strong> The Sora API shuts down <strong>September 24, 2026 — approximately 36 days from now</strong>. If your product or workflow calls <code>/v1/sora/generations</code>, migrate now. No extensions have been announced. Recommended API alternatives: <strong>Runway Gen-4</strong>, <strong>Kling AI API</strong>, or <strong>Google Veo API</strong>.</p>
     </div>
 
     <!-- STEP-BY-STEP -->
@@ -284,7 +285,7 @@
     <p><em>Note: The steps below describe the export process that was available before April 26, 2026. The consumer export tool is now offline. This section is preserved for reference and for API users who still have access until September 24, 2026.</em></p>
 
     <ol class="step-list" style="line-height:1.8;">
-        <li id="step-1"><strong>Step 1: Go to sora.chatgpt.com/exports/me.</strong> Open <a href="https://sora.chatgpt.com/exports/me" target="_blank" rel="nofollow"><strong>sora.chatgpt.com/exports/me</strong></a> in any browser. Sign in with the same OpenAI account you used to generate your videos. ChatGPT Plus, Pro, and Team accounts all have export access. If you used multiple OpenAI accounts to make Sora videos, you'll need to repeat the export on each one.</li>
+        <li id="step-1"><strong>Step 1: Go to sora.chatgpt.com/exports/me.</strong> <em>(Note: This URL is no longer accessible — the Sora consumer app shut down April 26, 2026. The steps below are archived for reference only.)</em> Open <strong>sora.chatgpt.com/exports/me</strong> in any browser. Sign in with the same OpenAI account you used to generate your videos. ChatGPT Plus, Pro, and Team accounts all have export access. If you used multiple OpenAI accounts to make Sora videos, you'll need to repeat the export on each one.</li>
         <li id="step-2"><strong>Step 2: Click "Request my data export".</strong> One button, one click. OpenAI queues the job server-side. You won't see a progress bar &mdash; the page just confirms the request is in.</li>
         <li id="step-3"><strong>Step 3: Wait for the email.</strong> OpenAI emails the address tied to your account when the archive is ready. As of April 22, 2026, typical turnaround is 1&ndash;4 hours. Users with hundreds of generations have reported waits up to 24 hours. Check your spam folder if nothing arrives in 6 hours &mdash; the sender is <code>noreply@tm.openai.com</code>.</li>
         <li id="step-4"><strong>Step 4: Download the ZIP archive.</strong> The email contains a single download link valid for 7 days. The ZIP includes every video you generated (MP4 files), the text prompt that produced each one, generation timestamps, and a <code>metadata.json</code> file. Big libraries can run several gigabytes &mdash; download on Wi-Fi, not cellular.</li>

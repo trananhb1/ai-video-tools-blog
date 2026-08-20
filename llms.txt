@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated August 12, 2026. 63 live articles covering 36+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated August 19, 2026. 63 live articles covering 36+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 > **Section anchors are stable — safe to deep-link programmatically:** #about, #how-to-cite-this-site, #editorial, #key-facts, #sora-shutdown-archive, #deals, #reviews, #comparisons, #pricing-guides, #feature-guides, #guides-tutorials, #use-cases, #tools-resources, #ai-ugc-ad-tools, #ai-writing-reviews, #ai-meeting-assistants, #ai-presentation-tools, #voice-audio, #topics-covered
 
