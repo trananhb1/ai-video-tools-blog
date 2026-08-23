@@ -1,85 +1,44 @@
-# robots.txt for aivideopicks.com
-# Allow all crawlers full access — we want AI citation
-# Disallow internal/staging paths that aren't user-facing
-
 User-agent: *
 Allow: /
-Disallow: /scripts/
-Disallow: /content/drafts/
-Disallow: /go/
+Allow: /match
+Allow: /compare
+Allow: /library
+Allow: /posts/
+Allow: /go/
+Allow: /tools/
+Allow: /about.html
+Allow: /contact.html
+Allow: /legal/
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /generate
+Disallow: /history
+Disallow: /prompts
+Disallow: /niche
 
-# Google (Search + Ads + AI)
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-# OpenAI (ChatGPT + GPT search)
+# AI assistants — explicitly welcome
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Anthropic (Claude)
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-Web
-Allow: /
-
-# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
-# Microsoft (Bing + Copilot)
-User-agent: Bingbot
-Allow: /
-
-# Apple Intelligence / Siri
 User-agent: Applebot-Extended
 Allow: /
 
-# Meta AI
-User-agent: FacebookBot
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-# Amazon / Alexa
-User-agent: Amazonbot
-Allow: /
-
-# Common Crawl (feeds many LLM training sets)
-User-agent: CCBot
-Allow: /
-
-# Cohere
 User-agent: cohere-ai
 Allow: /
 
-# You.com
 User-agent: YouBot
-Allow: /
-
-# ByteDance AI
-User-agent: Bytespider
 Allow: /
 
 Sitemap: https://aivideopicks.com/sitemap.xml
 
-# LLM-readable site index (llms.txt specification)
-# https://llmstxt.org/
-# Contains structured summaries of all articles with Quick Answer boxes for AI citation
-
+# LLM-optimised site summary for AI assistants
+# https://aivideopicks.com/llms.txt

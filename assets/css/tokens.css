@@ -1,0 +1,490 @@
+/* ==========================================================================
+   AI Video Picks — shared design tokens
+   Single source of truth for palette, type, elevation and radius.
+
+   Loaded before every page stylesheet. Page CSS should reference these
+   variables rather than hard-coding values, so a brand change is a one-file
+   edit instead of a sweep across 53 stylesheets.
+
+   The dark palette here is also the palette the Next.js app uses, so the
+   blog in dark mode and the product UI read as one product.
+   ========================================================================== */
+
+:root {
+  /* Brand ---------------------------------------------------------------- */
+  --navy: #1a1a2e;
+  --navy-light: #16213e;
+  --accent: #155DFC;
+  --accent-hover: #1249d6;
+  --accent-light: #e8efff;
+
+  /* Text ----------------------------------------------------------------- */
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a68;
+  /* Was #7a7a96 (~4.0:1) — just under AA for the small text it's used on. */
+  --text-muted: #6b6b87;
+
+  /* Surfaces ------------------------------------------------------------- */
+  --surface: #ffffff;
+  --surface-alt: #f8f9fc;
+  --border: #e2e4eb;
+
+  /* Elevation ------------------------------------------------------------ */
+  --shadow-sm: 0 1px 3px rgba(26, 26, 46, 0.06), 0 1px 2px rgba(26, 26, 46, 0.04);
+  --shadow-md: 0 4px 12px rgba(26, 26, 46, 0.08), 0 2px 4px rgba(26, 26, 46, 0.04);
+  --shadow-lg: 0 12px 32px rgba(26, 26, 46, 0.12), 0 4px 8px rgba(26, 26, 46, 0.06);
+
+  /* Status --------------------------------------------------------------- */
+  /* gold = star ratings, green = pros, red = cons.
+     Previous values (#f59e0b / #10b981 / #ef4444) were tuned for dark UI and
+     failed contrast on white: green sat at 2.5:1 despite being used for the
+     .pros heading text, and the rating stars missed even the 3:1 bar for
+     meaningful non-text content. Darkened one step, same hue family. */
+  --gold: #c2740a;
+  --green: #047857;
+  --red: #dc2626;
+
+  /* Geometry ------------------------------------------------------------- */
+  --radius: 10px;
+  --radius-lg: 16px;
+
+  /* Type ----------------------------------------------------------------- */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   Brand mark
+
+   Inline SVG traced from assets/logo.png. The page stylesheets previously
+   sized a `.logo-icon` box (a rounded square holding a Unicode play glyph);
+   that box is gone, so the mark is sized here instead. Height is set in `em`
+   so it tracks the wordmark it sits beside.
+   -------------------------------------------------------------------------- */
+.logo-mark {
+  height: 1.15em;
+  width: auto;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: -0.14em;
+  margin-right: 0.5em;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* --------------------------------------------------------------------------
+   Base: header navigation
+
+   The stylesheets style `.nav-links a`, but only 6 of 73 pages actually carry
+   that class — the other 67 use a bare <nav>, so their links fell through to
+   the browser default #0000EE on the dark navy header (~1.3:1, effectively
+   invisible). This restores the intended treatment for unclassed navs.
+
+   Selector weight is deliberately low (0,0,2) so the existing `.nav-links a`
+   rules (0,1,1) still win wherever they apply.
+
+   The header is dark in both themes, so these values sit outside :root.
+   -------------------------------------------------------------------------- */
+.header nav a,
+header nav a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.header nav a:hover,
+header nav a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] {
+  --navy: #0d0d1a;
+  --navy-light: #0a0f1e;
+  --accent: #4d8aff;
+  --accent-hover: #3a75e8;
+  --accent-light: #1a2a4e;
+
+  --text-primary: #e4e4e8;
+  --text-secondary: #a0a0b8;
+  /* #6a6a86 only reached ~3.2:1 on --surface, failing WCAG AA for the small
+     text this is used on. Lightened to clear 4.5:1 on every dark surface. */
+  --text-muted: #8a8aa8;
+
+  --surface: #1a1a2e;
+  --surface-alt: #16213e;
+  --border: #2a2a4e;
+
+  /* Status colours are lightened one step for dark surfaces. The light-mode
+     values fall below 4.5:1 against --surface; these clear AA as text. */
+  --gold: #fbbf24;
+  --green: #34d399;
+  --red: #f87171;
+
+  /* Shadows carry less weight on dark surfaces; deepen them so elevation
+     still reads without turning into a visible grey halo. */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.28), 0 1px 2px rgba(0, 0, 0, 0.20);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.34), 0 2px 4px rgba(0, 0, 0, 0.22);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.42), 0 4px 8px rgba(0, 0, 0, 0.26);
+}
+
+/* --------------------------------------------------------------------------
+   Dark mode: components with hard-coded light backgrounds
+
+   The page stylesheets set literal #fff / #f9fafb on tables, the table of
+   contents and the callout boxes, so those stayed bright white when the theme
+   flipped — comparison tables are the main content of a review post, and they
+   were rendering as a glaring white slab on a dark page.
+
+   Each selector is prefixed with [data-theme="dark"] purely to outweigh the
+   page rule: tokens.css loads first, so on equal specificity the page CSS
+   would win. Light mode is untouched.
+   -------------------------------------------------------------------------- */
+
+[data-theme="dark"] table,
+[data-theme="dark"] .comparison-table,
+[data-theme="dark"] .pricing-table {
+  background: var(--surface);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .comparison-table thead,
+[data-theme="dark"] .pricing-table th,
+[data-theme="dark"] table th {
+  background: var(--surface-alt);
+  color: var(--text-primary);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] table td,
+[data-theme="dark"] .comparison-table tbody td,
+[data-theme="dark"] .comparison-table tbody td:first-child,
+[data-theme="dark"] .pricing-table td {
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+/* Zebra striping: lift alternate rows instead of dropping them to white. */
+[data-theme="dark"] .comparison-table tbody tr:nth-child(even),
+[data-theme="dark"] .pricing-table tr:nth-child(even),
+[data-theme="dark"] table tbody tr:nth-child(even) {
+  background: var(--surface-alt);
+}
+
+[data-theme="dark"] .comparison-table tbody tr:hover,
+[data-theme="dark"] .comparison-table tbody tr:hover td,
+[data-theme="dark"] .comparison-table tbody tr:hover td:first-child,
+[data-theme="dark"] .pricing-table .highlight-row {
+  background: var(--accent-light);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .toc {
+  background: var(--surface-alt);
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
+
+/* Callouts keep their semantic hue but as a low-alpha tint over the dark
+   surface, rather than the original near-white pastel fill. */
+[data-theme="dark"] .ftc-disclosure,
+[data-theme="dark"] .disclosure,
+[data-theme="dark"] .disclosure-box {
+  background: rgba(251, 191, 36, 0.10);
+  border-color: rgba(251, 191, 36, 0.35);
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .promo-code {
+  background: rgba(52, 211, 153, 0.12);
+  border-color: rgba(52, 211, 153, 0.35);
+  color: var(--text-primary);
+}
+
+/* Some tables carry their fill as an inline style attribute, which outranks
+   every selector above. Attribute matching plus !important is the only way to
+   reach them short of rewriting the markup in 7 files; the match is pinned to
+   table elements and to `background:` specifically, so an element that merely
+   sets `color:#fff` is not caught. */
+[data-theme="dark"] table[style*="background:#fff"],
+[data-theme="dark"] table[style*="background: #fff"],
+[data-theme="dark"] tr[style*="background:#fff"],
+[data-theme="dark"] td[style*="background:#fff"],
+[data-theme="dark"] th[style*="background:#fff"] {
+  background-color: var(--surface) !important;
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] tr[style*="background:#f9fafb"],
+[data-theme="dark"] tr[style*="background:#f8fafc"],
+[data-theme="dark"] tr[style*="background:#f8f9fa"],
+[data-theme="dark"] td[style*="background:#f9fafb"],
+[data-theme="dark"] th[style*="background:#f9fafb"] {
+  background-color: var(--surface-alt) !important;
+  color: var(--text-secondary) !important;
+}
+
+/* Inline pastel callout fills -> low-alpha tints of the same hue. */
+[data-theme="dark"] [style*="background:#e8fde8"],
+[data-theme="dark"] [style*="background:#f0fff4"],
+[data-theme="dark"] [style*="background:#f0fdf4"] {
+  background-color: rgba(52, 211, 153, 0.12) !important;
+}
+
+[data-theme="dark"] [style*="background:#f0f4ff"] {
+  background-color: var(--accent-light) !important;
+}
+
+[data-theme="dark"] [style*="background:#fffbe6"],
+[data-theme="dark"] [style*="background:#fff8f0"],
+[data-theme="dark"] [style*="background:#fffbeb"] {
+  background-color: rgba(251, 191, 36, 0.10) !important;
+}
+
+/* Card-style components. These are declared with a literal white fill in the
+   page stylesheets; enumerated here so they follow the theme. Selector list
+   was derived by scanning every stylesheet for single-class rules setting a
+   light background, so it covers the set rather than the few that happened to
+   be visible on one page. */
+[data-theme="dark"] .pricing-card,
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .faq-item,
+[data-theme="dark"] .faq-question,
+[data-theme="dark"] .internal-links,
+[data-theme="dark"] .score-item,
+[data-theme="dark"] .glossary-entry,
+[data-theme="dark"] .card,
+[data-theme="dark"] .tool-rec,
+[data-theme="dark"] .tool-cta-card,
+[data-theme="dark"] .gear-item,
+[data-theme="dark"] .result-card,
+[data-theme="dark"] .related-box,
+[data-theme="dark"] .email-box,
+[data-theme="dark"] .ftc-banner {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
+
+/* Pros/cons keep their semantic tint, dropped to a dark-appropriate alpha. */
+[data-theme="dark"] .pros {
+  background: rgba(52, 211, 153, 0.10);
+  border-color: rgba(52, 211, 153, 0.30);
+}
+
+[data-theme="dark"] .cons {
+  background: rgba(248, 113, 113, 0.10);
+  border-color: rgba(248, 113, 113, 0.30);
+}
+
+[data-theme="dark"] .pros li,
+[data-theme="dark"] .cons li,
+[data-theme="dark"] .pricing-card li,
+[data-theme="dark"] .feature-card p,
+[data-theme="dark"] .faq-item p {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .pricing-card h3,
+[data-theme="dark"] .feature-card h3,
+[data-theme="dark"] .faq-question,
+[data-theme="dark"] .related-box h3,
+[data-theme="dark"] .email-box h3,
+[data-theme="dark"] .card h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .related-box p,
+[data-theme="dark"] .email-box p,
+[data-theme="dark"] .related-box li {
+  color: var(--text-secondary);
+}
+
+/* Dark-on-light text inside those recoloured blocks would now be unreadable. */
+[data-theme="dark"] table[style*="background:#fff"] td,
+[data-theme="dark"] tr[style*="background:#f9fafb"] td,
+[data-theme="dark"] [style*="background:#e8fde8"] *,
+[data-theme="dark"] [style*="background:#f0f4ff"] *,
+[data-theme="dark"] [style*="background:#fffbe6"] * {
+  color: var(--text-secondary);
+}
+
+/* == BEGIN generated: inline light backgrounds (gen-dark-inline.py) == */
+/* Regenerate with scripts/gen-dark-inline.py — do not edit by hand. */
+[data-theme="dark"] [style*="background:#f5c518"],
+[data-theme="dark"] [style*="background: #f5c518"],
+[data-theme="dark"] [style*="background:#fef9c3"],
+[data-theme="dark"] [style*="background: #fef9c3"],
+[data-theme="dark"] [style*="background:#fef9f0"],
+[data-theme="dark"] [style*="background: #fef9f0"],
+[data-theme="dark"] [style*="background:#fff3e0"],
+[data-theme="dark"] [style*="background: #fff3e0"],
+[data-theme="dark"] [style*="background:#fff7ed"],
+[data-theme="dark"] [style*="background: #fff7ed"],
+[data-theme="dark"] [style*="background:#fff8e1"],
+[data-theme="dark"] [style*="background: #fff8e1"],
+[data-theme="dark"] [style*="background:#fff8f0"],
+[data-theme="dark"] [style*="background: #fff8f0"],
+[data-theme="dark"] [style*="background:#fff8f5"],
+[data-theme="dark"] [style*="background: #fff8f5"],
+[data-theme="dark"] [style*="background:#fffbe6"],
+[data-theme="dark"] [style*="background: #fffbe6"],
+[data-theme="dark"] [style*="background:#fffbea"],
+[data-theme="dark"] [style*="background: #fffbea"] {
+  background-color: rgba(251, 191, 36, 0.12) !important;
+  border-color: var(--border) !important;
+}
+[data-theme="dark"] [style*="background:#f5c518"] *,
+[data-theme="dark"] [style*="background: #f5c518"] *,
+[data-theme="dark"] [style*="background:#fef9c3"] *,
+[data-theme="dark"] [style*="background: #fef9c3"] *,
+[data-theme="dark"] [style*="background:#fef9f0"] *,
+[data-theme="dark"] [style*="background: #fef9f0"] *,
+[data-theme="dark"] [style*="background:#fff3e0"] *,
+[data-theme="dark"] [style*="background: #fff3e0"] *,
+[data-theme="dark"] [style*="background:#fff7ed"] *,
+[data-theme="dark"] [style*="background: #fff7ed"] *,
+[data-theme="dark"] [style*="background:#fff8e1"] *,
+[data-theme="dark"] [style*="background: #fff8e1"] *,
+[data-theme="dark"] [style*="background:#fff8f0"] *,
+[data-theme="dark"] [style*="background: #fff8f0"] *,
+[data-theme="dark"] [style*="background:#fff8f5"] *,
+[data-theme="dark"] [style*="background: #fff8f5"] *,
+[data-theme="dark"] [style*="background:#fffbe6"] *,
+[data-theme="dark"] [style*="background: #fffbe6"] *,
+[data-theme="dark"] [style*="background:#fffbea"] *,
+[data-theme="dark"] [style*="background: #fffbea"] * {
+  color: var(--text-secondary) !important;
+}
+[data-theme="dark"] [style*="background:#e0e7ff"],
+[data-theme="dark"] [style*="background: #e0e7ff"],
+[data-theme="dark"] [style*="background:#e2e4eb"],
+[data-theme="dark"] [style*="background: #e2e4eb"],
+[data-theme="dark"] [style*="background:#e8f0fe"],
+[data-theme="dark"] [style*="background: #e8f0fe"],
+[data-theme="dark"] [style*="background:#eef4ff"],
+[data-theme="dark"] [style*="background: #eef4ff"],
+[data-theme="dark"] [style*="background:#f0f4ff"],
+[data-theme="dark"] [style*="background: #f0f4ff"],
+[data-theme="dark"] [style*="background:#f0f7ff"],
+[data-theme="dark"] [style*="background: #f0f7ff"],
+[data-theme="dark"] [style*="background:#f0f9ff"],
+[data-theme="dark"] [style*="background: #f0f9ff"],
+[data-theme="dark"] [style*="background:#f1f5f9"],
+[data-theme="dark"] [style*="background: #f1f5f9"] {
+  background-color: var(--accent-light) !important;
+  border-color: var(--border) !important;
+}
+[data-theme="dark"] [style*="background:#e0e7ff"] *,
+[data-theme="dark"] [style*="background: #e0e7ff"] *,
+[data-theme="dark"] [style*="background:#e2e4eb"] *,
+[data-theme="dark"] [style*="background: #e2e4eb"] *,
+[data-theme="dark"] [style*="background:#e8f0fe"] *,
+[data-theme="dark"] [style*="background: #e8f0fe"] *,
+[data-theme="dark"] [style*="background:#eef4ff"] *,
+[data-theme="dark"] [style*="background: #eef4ff"] *,
+[data-theme="dark"] [style*="background:#f0f4ff"] *,
+[data-theme="dark"] [style*="background: #f0f4ff"] *,
+[data-theme="dark"] [style*="background:#f0f7ff"] *,
+[data-theme="dark"] [style*="background: #f0f7ff"] *,
+[data-theme="dark"] [style*="background:#f0f9ff"] *,
+[data-theme="dark"] [style*="background: #f0f9ff"] *,
+[data-theme="dark"] [style*="background:#f1f5f9"] *,
+[data-theme="dark"] [style*="background: #f1f5f9"] * {
+  color: var(--text-secondary) !important;
+}
+[data-theme="dark"] [style*="background:#dcfce7"],
+[data-theme="dark"] [style*="background: #dcfce7"],
+[data-theme="dark"] [style*="background:#e8fde8"],
+[data-theme="dark"] [style*="background: #e8fde8"],
+[data-theme="dark"] [style*="background:#ecfdf5"],
+[data-theme="dark"] [style*="background: #ecfdf5"],
+[data-theme="dark"] [style*="background:#f0faf0"],
+[data-theme="dark"] [style*="background: #f0faf0"],
+[data-theme="dark"] [style*="background:#f0fdf4"],
+[data-theme="dark"] [style*="background: #f0fdf4"],
+[data-theme="dark"] [style*="background:#f0fff4"],
+[data-theme="dark"] [style*="background: #f0fff4"] {
+  background-color: rgba(52, 211, 153, 0.12) !important;
+  border-color: var(--border) !important;
+}
+[data-theme="dark"] [style*="background:#dcfce7"] *,
+[data-theme="dark"] [style*="background: #dcfce7"] *,
+[data-theme="dark"] [style*="background:#e8fde8"] *,
+[data-theme="dark"] [style*="background: #e8fde8"] *,
+[data-theme="dark"] [style*="background:#ecfdf5"] *,
+[data-theme="dark"] [style*="background: #ecfdf5"] *,
+[data-theme="dark"] [style*="background:#f0faf0"] *,
+[data-theme="dark"] [style*="background: #f0faf0"] *,
+[data-theme="dark"] [style*="background:#f0fdf4"] *,
+[data-theme="dark"] [style*="background: #f0fdf4"] *,
+[data-theme="dark"] [style*="background:#f0fff4"] *,
+[data-theme="dark"] [style*="background: #f0fff4"] * {
+  color: var(--text-secondary) !important;
+}
+[data-theme="dark"] [style*="background:#f8f9fa"],
+[data-theme="dark"] [style*="background: #f8f9fa"],
+[data-theme="dark"] [style*="background:#f8f9fb"],
+[data-theme="dark"] [style*="background: #f8f9fb"],
+[data-theme="dark"] [style*="background:#f8f9fc"],
+[data-theme="dark"] [style*="background: #f8f9fc"],
+[data-theme="dark"] [style*="background:#f8faf8"],
+[data-theme="dark"] [style*="background: #f8faf8"],
+[data-theme="dark"] [style*="background:#f8fafc"],
+[data-theme="dark"] [style*="background: #f8fafc"],
+[data-theme="dark"] [style*="background:#f8faff"],
+[data-theme="dark"] [style*="background: #f8faff"],
+[data-theme="dark"] [style*="background:#f9f9f9"],
+[data-theme="dark"] [style*="background: #f9f9f9"],
+[data-theme="dark"] [style*="background:#f9fafb"],
+[data-theme="dark"] [style*="background: #f9fafb"],
+[data-theme="dark"] [style*="background:#f9fafc"],
+[data-theme="dark"] [style*="background: #f9fafc"],
+[data-theme="dark"] [style*="background:#fafafa"],
+[data-theme="dark"] [style*="background: #fafafa"],
+[data-theme="dark"] [style*="background:#fff"],
+[data-theme="dark"] [style*="background: #fff"] {
+  background-color: var(--surface) !important;
+  border-color: var(--border) !important;
+}
+[data-theme="dark"] [style*="background:#f8f9fa"] *,
+[data-theme="dark"] [style*="background: #f8f9fa"] *,
+[data-theme="dark"] [style*="background:#f8f9fb"] *,
+[data-theme="dark"] [style*="background: #f8f9fb"] *,
+[data-theme="dark"] [style*="background:#f8f9fc"] *,
+[data-theme="dark"] [style*="background: #f8f9fc"] *,
+[data-theme="dark"] [style*="background:#f8faf8"] *,
+[data-theme="dark"] [style*="background: #f8faf8"] *,
+[data-theme="dark"] [style*="background:#f8fafc"] *,
+[data-theme="dark"] [style*="background: #f8fafc"] *,
+[data-theme="dark"] [style*="background:#f8faff"] *,
+[data-theme="dark"] [style*="background: #f8faff"] *,
+[data-theme="dark"] [style*="background:#f9f9f9"] *,
+[data-theme="dark"] [style*="background: #f9f9f9"] *,
+[data-theme="dark"] [style*="background:#f9fafb"] *,
+[data-theme="dark"] [style*="background: #f9fafb"] *,
+[data-theme="dark"] [style*="background:#f9fafc"] *,
+[data-theme="dark"] [style*="background: #f9fafc"] *,
+[data-theme="dark"] [style*="background:#fafafa"] *,
+[data-theme="dark"] [style*="background: #fafafa"] *,
+[data-theme="dark"] [style*="background:#fff"] *,
+[data-theme="dark"] [style*="background: #fff"] * {
+  color: var(--text-secondary) !important;
+}
+[data-theme="dark"] [style*="background:#fef2f2"],
+[data-theme="dark"] [style*="background: #fef2f2"] {
+  background-color: rgba(248, 113, 113, 0.12) !important;
+  border-color: var(--border) !important;
+}
+[data-theme="dark"] [style*="background:#fef2f2"] *,
+[data-theme="dark"] [style*="background: #fef2f2"] * {
+  color: var(--text-secondary) !important;
+}
+/* == END generated == */

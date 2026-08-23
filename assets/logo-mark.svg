@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="AI Video Picks">
+  <!--
+    AI Video Picks brand mark.
+    Play triangle (video) with a checkmark knocked out (curated pick).
+    Single path, nonzero fill-rule: the outer triangle is wound clockwise and
+    the check counter-clockwise, so the check reads as a true hole on any
+    background. The check is clipped to sit fully inside the triangle with
+    ~0.9 units of clearance — otherwise the overhang renders as a stray blob.
+    Geometry and #4fc3f7 carried over from the original assets/logo.png.
+  -->
+  <path fill="#4fc3f7" d="M3.00 30.20L30.20 16.00L3.00 1.80ZM6.02 18.96L5.60 18.39L5.36 17.73L5.36 16.79L5.60 16.13L6.02 15.56L6.59 15.14L7.25 14.90L7.72 14.86L8.42 14.96L9.24 15.40L10.91 17.06L16.28 11.28L17.13 10.88L17.83 10.82L18.52 10.96L19.32 11.45L19.87 12.20L20.07 12.88L20.02 13.81L19.75 14.46L12.75 22.15L11.98 22.71L11.04 22.93L10.09 22.75L9.29 22.22Z"/>
+</svg>
