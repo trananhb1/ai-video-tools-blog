@@ -1,568 +1,548 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://aivideopicks.com/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
-  <!-- Best AI Voice Generators 2026 (new 2026-05-31) -->
   <url>
-    <loc>https://aivideopicks.com/posts/best-ai-voice-generators-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://aivideopicks.com/blog.html</loc>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
-  <!-- HeyGen vs Vidnoz 2026 (new 2026-05-31) -->
   <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-vidnoz-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://aivideopicks.com/match</loc>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
-  <!-- How to Create AI UGC Ads for Meta & TikTok (new 2026-05-21) -->
   <url>
-    <loc>https://aivideopicks.com/posts/how-to-create-ai-ugc-ads-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/compare</loc>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
-  <!-- How to Make YouTube Videos with InVideo AI (new 2026-05-21) -->
   <url>
-    <loc>https://aivideopicks.com/posts/how-to-make-youtube-videos-invideo-ai-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/library</loc>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
-  <!-- How to Turn Blog Posts Into Videos with Fliki AI (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-turn-blog-into-video-fliki-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- How to Use HeyGen Avatar V 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-use-heygen-avatar-v-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Best AI UGC Video Generators 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-ugc-video-generators-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Arcads AI Review 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/arcads-ai-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Quso AI Review 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/quso-ai-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Kommodo Review 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/kommodo-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- InVideo vs Canva Video 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/invideo-vs-canva-video-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- InVideo vs Fliki 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/invideo-vs-fliki-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Free AI Video Generators for YouTube 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/free-ai-video-generators-youtube-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Best AI Image-to-Video Generators 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-image-to-video-generators-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- HeyGen Streaming Avatar API Background Guide (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Elai Review (new 2026-05-20) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/elai-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Best AI Meeting Assistants 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-meeting-assistants-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Best AI Presentation Tools 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Google Flow Review (new 2026-05-17) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/google-flow-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Grok Imagine Video Review (new 2026-05-17) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/grok-imagine-video-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Pika 2.5 Review (new 2026-05-16) - placed near top for highest crawl priority -->
-
-  <!-- Pika 2.5 Review (new 2026-05-16) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/pika-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Synthesia vs Arcads 2026 (new 2026-05-16) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/synthesia-vs-arcads-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Synthesia vs Submagic 2026 (new 2026-05-16) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/synthesia-vs-submagic-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Synthesia vs Fliki 2026 (new 2026-05-16) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/synthesia-vs-fliki-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Best AI Video Translation Tools 2026 (new 2026-05-15) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-translation-tools-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- PixVerse Review (new 2026-05-11) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/pixverse-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Arcads vs Creatify vs MakeUGC (new 2026-05-11) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Removed: google-vids-veo-free-2026 (consolidated, redirects to best-free-ai-video-generators) -->
-
-  <!-- Removed: ai-video-cost-per-minute-2026 (consolidated into ai-video-pricing-compared-2026) -->
-
-  <!-- AI Writing Hub (cornerstone, new category expansion) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-writing-tools-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Removed: copy-ai-review-2026, jasper-review-2026, writesonic-review-2026 (consolidated into best-ai-writing-tools-2026) -->
-
-  <!-- HeyGen cluster: alternatives (expanded 2026-04-30, consolidated 3 vs pages) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-alternatives-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sora export how-to (archived — shutdown happened Apr 26, 2026) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <!-- Removed: happyhorse-1-0-explained (consolidated, redirects to best-free-ai-video-generators) -->
-
-  <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
     <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- Removed: save-15-percent-movavi-april-2026 (expired deal, redirects to movavi-review) -->
-  <!-- Removed: heygen-avatar-v-deal-april-2026 (expired deal, redirects to heygen-review) -->
-
-  <!-- Pricing Guides -->
-  <url>
-    <loc>https://aivideopicks.com/posts/pictory-annual-plan-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.82</priority>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/deals-coupons-thumbnail.png</image:loc>
+      <image:title>AI Video Deals &amp; Coupons July 2026: Active Discounts on Top AI Tools</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/heygen-pricing-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Removed: heygen-descript-opus-clip-solo-creators-2026 (consolidated into heygen-alternatives-2026) -->
-  <!-- Removed: heygen-vs-colossyan-vs-synthesia-training-2026 (consolidated into heygen-alternatives-2026) -->
-  <!-- Removed: cheapest-ai-video-generator-2026 (consolidated into best-free-ai-video-generators-2026) -->
-  <!-- Roundup / Comparison Posts (priority 0.9) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-video-tools-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- Removed: heygen-vs-synthesia-vs-pictory (consolidated into heygen-alternatives-2026) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <!-- Removed: veed-vs-kapwing-vs-descript (consolidated into best-ai-video-tools-2026) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-ai-talking-head-tools-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <loc>https://aivideopicks.com/posts/ai-video-glossary-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/ai-video-glossary-thumbnail.png</image:loc>
+      <image:title>AI Video Glossary: 50 Key Terms Explained (2026)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-pricing-compared-2026.html</loc>
     <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <!-- Removed: sora-alternatives-2026 (consolidated, redirects to best-free-ai-video-generators) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Removed: heygen-avatar-v-guide-2026 (consolidated into heygen-review-2026#avatar-v) -->
-
-  <!-- Individual Reviews (priority 0.8) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/movavi-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/pricing-compared-thumbnail.png</image:loc>
+      <image:title>AI Video Pricing 2026: 15+ Tools Compared (Honest)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/heygen-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/arcads-ai-review-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/arcads-ai-review-2026-thumbnail.png</image:loc>
+      <image:title>Arcads AI Review 2026: Best AI for Meta &amp; TikTok UGC Ads</image:title>
+    </image:image>
   </url>
-  <!-- Removed: deepbrain-ai-review (consolidated, redirects to best-free-ai-video-generators) -->
   <url>
-    <loc>https://aivideopicks.com/posts/zebracat-review-2026.html</loc>
+    <loc>https://aivideopicks.com/posts/arcads-vs-creatify-vs-makeugc.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/arcads-creatify-makeugc-thumbnail.png</image:loc>
+      <image:title>Arcads vs Creatify vs MakeUGC: Best AI UGC Ad Tool 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-image-to-video-generators-2026.html</loc>
     <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-image-to-video-generators-2026-thumbnail.png</image:loc>
+      <image:title>7 Best AI Image-to-Video Generators in 2026 (Free &amp; Paid)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-meeting-assistants-2026.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-meeting-assistants-2026-thumbnail.png</image:loc>
+      <image:title>Best AI Meeting Assistants 2026: 5 Tested &amp; Ranked</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-presentation-tools-2026.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-presentation-tools-2026-thumbnail.png</image:loc>
+      <image:title>Best AI Presentation Tools 2026: 5 Tested &amp; Ranked</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-talking-head-tools-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/talking-head-tools-thumbnail.png</image:loc>
+      <image:title>AI Talking Head Tools: Create Presenter Videos in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-ugc-video-generators-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-ugc-video-generators-2026-thumbnail.png</image:loc>
+      <image:title>5 Best AI UGC Video Generators 2026 (Ranked &amp; Tested)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-video-tools-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/top10-thumbnail.png</image:loc>
+      <image:title>Best AI Video Tools 2026: 10 Tested &amp; Ranked (Free + Paid)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-video-translation-tools-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-video-translation-tools-2026-thumbnail.png</image:loc>
+      <image:title>Best AI Video Translation Tools 2026: 6 Tested (Winner)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-voice-generators-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-voice-generators-2026-thumbnail.png</image:loc>
+      <image:title>Best AI Voice Generators 2026: Top 7 Tools Tested &amp; Compared</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-ai-writing-tools-2026.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/best-ai-writing-tools-2026-thumbnail.png</image:loc>
+      <image:title>Best AI Writing Tools 2026: 8 Tested &amp; Ranked by Use Case</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/free-ai-video-thumbnail.png</image:loc>
+      <image:title>14 Best Free AI Video Generators in 2026 (Tested &amp; Ranked)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/gear-guide-thumbnail.png</image:loc>
+      <image:title>Best Gear for AI Video Creators in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/creatify-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/creatify-review-thumbnail.png</image:loc>
+      <image:title>Creatify AI Review 2026: Best AI Ad Generator?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/d-id-vs-elai-vs-hourone.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/did-elai-hourone-thumbnail.png</image:loc>
+      <image:title>D-ID vs Elai vs HourOne: Best AI Avatar Maker 2026</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/descript-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/descript-review-thumbnail.png</image:loc>
+      <image:title>Descript Review 2026: Best AI Video Editor?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/invideo-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- Removed: colossyan-review-2026 (consolidated, redirects to heygen-alternatives-2026) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/runway-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/elai-review-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/elai-review-2026-thumbnail.png</image:loc>
+      <image:title>Elai Review 2026: Best AI Avatar Tool for Corporate Training?</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/fliki-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/opus-clip-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aivideopicks.com/posts/synthesia-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/elai-vs-synthesia-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-vs-synthesia-thumbnail.png</image:loc>
+      <image:title>Elai vs Synthesia 2026: Which L&amp;D Avatar Tool Wins Below Enterprise?</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/elevenlabs-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-06-09</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/elevenlabs-review-thumbnail.png</image:loc>
+      <image:title>ElevenLabs Review 2026: Best AI Voice for Video?</image:title>
+    </image:image>
   </url>
-  <!-- Removed: best-ai-video-tools-beginners-2026 (consolidated into best-ai-video-tools-2026#best-for-beginners, Phase 2) -->
-
-  <!-- Vidnoz Review (priority 0.8) -->
   <url>
-    <loc>https://aivideopicks.com/posts/vidnoz-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/fliki-review-2026.html</loc>
+    <lastmod>2026-07-05</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/fliki-review-thumbnail.png</image:loc>
+      <image:title>Fliki Review 2026: Text-to-Video in 80+ Languages</image:title>
+    </image:image>
   </url>
-
-  <!-- Submagic Review (priority 0.8) -->
   <url>
-    <loc>https://aivideopicks.com/posts/submagic-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/free-ai-video-generators-youtube-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/free-ai-video-generators-youtube-2026-thumbnail.png</image:loc>
+      <image:title>Best Free AI Video Generators for YouTube (2026)</image:title>
+    </image:image>
   </url>
-  <!-- Removed: murf-ai-review (consolidated, redirects to heygen-alternatives) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/google-flow-review-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/google-flow-review-2026-thumbnail.png</image:loc>
+      <image:title>Google Flow Review 2026: Free AI Video Studio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/grok-imagine-video-review-2026.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/grok-imagine-video-review-2026-thumbnail.png</image:loc>
+      <image:title>Grok Imagine Video Review 2026: Worth $30/mo?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-alternatives-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-alternatives-2026-thumbnail.png</image:loc>
+      <image:title>HeyGen Alternatives in 2026: 9 Tools Tested, Ranked by Use-Case</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-pricing-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-review-2026.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-review-thumbnail.png</image:loc>
+      <image:title>HeyGen Review 2026: 30+ Features Tested (Verdict)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-streaming-avatar-api-background-guide.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-streaming-avatar-api-background-guide-thumbnail.png</image:loc>
+      <image:title>HeyGen Streaming Avatar API Background Color (Hex Guide)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-creatify-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/creatify-review-thumbnail.png</image:loc>
+      <image:title>HeyGen vs Creatify 2026: Which AI Video Tool Is Better for Your Business?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-elai-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-vs-synthesia-thumbnail.png</image:loc>
+      <image:title>HeyGen vs Elai 2026: Marketing Video vs Training Video</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-synthesia-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-vs-synthesia-thumbnail.png</image:loc>
+      <image:title>HeyGen vs Synthesia 2026: Honest Test (Winner?)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/heygen-vs-vidnoz-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/heygen-vs-vidnoz-2026-thumbnail.png</image:loc>
+      <image:title>HeyGen vs Vidnoz 2026: Premium vs Budget AI Video — Which One Wins?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-create-ai-ugc-ads-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/how-to-create-ai-ugc-ads-2026-thumbnail.png</image:loc>
+      <image:title>How to Create AI UGC Ads for Meta &amp; TikTok (2026 Tutorial)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/how-to-export-sora-videos-before-shutdown-thumbnail.png</image:loc>
+      <image:title>How to Export Sora Videos — Sora Shut Down April 26, 2026 (Archive)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-make-youtube-videos-invideo-ai-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/how-to-make-youtube-videos-invideo-ai-2026-thumbnail.png</image:loc>
+      <image:title>How to Make YouTube Videos with InVideo AI (Beginner Tutorial 2026)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-turn-blog-into-video-fliki-2026.html</loc>
+    <lastmod>2026-07-05</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/how-to-turn-blog-into-video-fliki-2026-thumbnail.png</image:loc>
+      <image:title>How to Turn Blog Posts Into Videos with Fliki AI (2026 Guide)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/how-to-use-heygen-avatar-v-2026.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/how-to-use-heygen-avatar-v-2026-thumbnail.png</image:loc>
+      <image:title>How to Use HeyGen Avatar V: Step-by-Step Tutorial (2026)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-review-2026.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/invideo-review-thumbnail.png</image:loc>
+      <image:title>InVideo Review 2026: Best AI Video Maker?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-canva-video-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/invideo-vs-canva-video-2026-thumbnail.png</image:loc>
+      <image:title>InVideo vs Canva Video 2026: Which Free AI Video Maker Wins?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-fliki-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/invideo-vs-fliki-thumbnail.png</image:loc>
+      <image:title>InVideo vs Fliki 2026: Which AI Video Maker Wins? (Tested)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/invideo-vs-pictory-2026.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/invideo-vs-pictory-2026-thumbnail.png</image:loc>
+      <image:title>InVideo vs Pictory 2026: Best for Blog-to-Video?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/kling-vs-veo-vs-runway.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/kling-veo-runway-thumbnail.png</image:loc>
+      <image:title>Kling 3.0 vs Veo 3.1 vs Runway Gen-4.5 (2026)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/kommodo-review-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/kommodo-review-2026-thumbnail.png</image:loc>
+      <image:title>Kommodo Review 2026: AI Screen Recording That Writes Your SOPs</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/movavi-review-2026.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/movavi-review-thumbnail.png</image:loc>
+      <image:title>Movavi Video Editor Review 2026: Tested + Pricing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/opus-clip-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/opus-clip-review-thumbnail.png</image:loc>
+      <image:title>Opus Clip Review 2026: Best for Repurposing Video?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/pictory-annual-plan-2026.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/pictory-review-thumbnail.png</image:loc>
+      <image:title>Pictory Annual Plan 2026: Is Yearly Billing Worth It?</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://aivideopicks.com/posts/pictory-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-07-22</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/pictory-review-thumbnail.png</image:loc>
+      <image:title>Pictory Review 2026: Best for Content Repurposing?</image:title>
+    </image:image>
   </url>
-
-  <!-- Gear Guide (priority 0.8) -->
   <url>
-    <loc>https://aivideopicks.com/posts/best-gear-ai-video-creators-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/posts/pika-review-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/pika-review-2026-thumbnail.png</image:loc>
+      <image:title>Pika 2.5 Review 2026: Is Pikaffects Worth $8/mo? (Honest)</image:title>
+    </image:image>
   </url>
-
-  <!-- Removed: how-to-create-ai-videos-heygen (consolidated into heygen-review-2026#how-to-create) -->
-  <!-- Tutorials (priority 0.8) -->
+  <url>
+    <loc>https://aivideopicks.com/posts/pixverse-review-2026.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/pixverse-review-2026-thumbnail.png</image:loc>
+      <image:title>PixVerse Review 2026: Best AI Video Generator for Shorts?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/quso-ai-review-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/quso-ai-review-2026-thumbnail.png</image:loc>
+      <image:title>Quso AI Review 2026: Turn Long Videos Into Viral Shorts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/runway-review-2026.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/runway-review-thumbnail.png</image:loc>
+      <image:title>Runway Gen-4.5 Review 2026: Pricing &amp; Features</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/submagic-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/submagic-review-thumbnail.png</image:loc>
+      <image:title>Submagic Review 2026: Best AI Caption Generator?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/synthesia-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/synthesia-review-thumbnail.png</image:loc>
+      <image:title>Synthesia Review 2026: Enterprise AI Video Tested</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/synthesia-vs-arcads-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/synthesia-vs-arcads-2026-thumbnail.png</image:loc>
+      <image:title>Synthesia vs Arcads 2026: Training vs UGC Ads</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/synthesia-vs-fliki-2026.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/synthesia-vs-fliki-2026-thumbnail.png</image:loc>
+      <image:title>Synthesia vs Fliki 2026: Avatars vs Voiceover (Winner)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/synthesia-vs-submagic-2026.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/synthesia-vs-submagic-2026-thumbnail.png</image:loc>
+      <image:title>Synthesia vs Submagic 2026: Create vs Caption</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://aivideopicks.com/posts/turn-long-videos-into-shorts-ai.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/shorts-repurpose-thumbnail.png</image:loc>
+      <image:title>Turn Long Videos into Viral Shorts with AI (2026)</image:title>
+    </image:image>
   </url>
-  <!-- Removed: what-is-text-to-video-ai (consolidated, redirects to best-free-ai-video-generators) -->
-  <!-- Removed: how-to-add-viral-captions-tiktok-submagic (consolidated into submagic-review-2026) -->
-  <!-- Removed: how-to-make-faceless-youtube-heygen-submagic (consolidated into heygen-review-2026) -->
-
-  <!-- Removed: heygen-vs-arcads, heygen-vs-fliki, heygen-vs-makeugc, heygen-vs-elevenlabs (all consolidated into heygen-alternatives-2026) -->
-  <!-- Removed: submagic-vs-capcut-2026 (consolidated into submagic-review-2026) -->
-  <!-- Removed: best-ai-video-generators-marketing-teams-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
-
-  <!-- Guides & Tutorials — missing entries -->
-  <!-- Removed: ai-tools-youtube-creators-2026 (consolidated into best-ai-video-tools-2026#best-for-youtube-creators, Phase 2) -->
-  <!-- Removed: ai-training-onboarding-videos (consolidated into best-ai-video-tools-2026#best-for-training-videos, Phase 2) -->
-  <!-- Removed: ai-video-social-media-marketing-2026 (consolidated into best-ai-video-tools-2026#best-for-marketing-teams, Phase 2) -->
-
-  <!-- Use-Case Posts (priority 0.7) -->
-  <!-- Removed: ai-video-for-ecommerce (consolidated into best-ai-video-tools-2026#best-for-e-commerce, Phase 2) -->
-
-  <!-- Landing Pages -->
   <url>
-    <loc>https://aivideopicks.com/landing/starter-kit.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://aivideopicks.com/posts/vidnoz-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/vidnoz-review-thumbnail.png</image:loc>
+      <image:title>Vidnoz Review 2026: Best Free AI Avatar Video Platform?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/posts/zebracat-review-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <image:image>
+      <image:loc>https://aivideopicks.com/assets/images/zebracat-review-thumbnail.png</image:loc>
+      <image:title>Zebracat Review 2026: Best AI Video Ad Maker?</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://aivideopicks.com/tools/ai-video-cost-calculator.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
   <url>
     <loc>https://aivideopicks.com/tools/compare.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
-
   <url>
     <loc>https://aivideopicks.com/tools/script-generator.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
   <url>
-    <loc>https://aivideopicks.com/posts/ai-video-glossary-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://aivideopicks.com/landing/starter-kit.html</loc>
+    <lastmod>2026-04-08</lastmod>
   </url>
-
-  <!-- Site Pages -->
   <url>
     <loc>https://aivideopicks.com/about.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
   <url>
     <loc>https://aivideopicks.com/contact.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-08-05</lastmod>
   </url>
   <url>
-    <loc>https://aivideopicks.com/legal/privacy.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.3</priority>
+    <loc>https://aivideopicks.com/legal/methodology.html</loc>
+    <lastmod>2026-05-03</lastmod>
   </url>
   <url>
     <loc>https://aivideopicks.com/legal/disclosure.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-04-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivideopicks.com/legal/privacy.html</loc>
+    <lastmod>2026-04-08</lastmod>
   </url>
   <url>
     <loc>https://aivideopicks.com/legal/terms.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-04-08</lastmod>
   </url>
-  <!-- Editorial methodology (E-E-A-T trust page, new 2026-05-03) -->
-  <url>
-    <loc>https://aivideopicks.com/legal/methodology.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <!-- Creatify Review (active, self-canonical) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/creatify-review-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- InVideo vs Pictory 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/invideo-vs-pictory-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- HeyGen vs Elai 2026 (new 2026-05-24) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-elai-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Elai vs Synthesia 2026 (new 2026-05-27) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/elai-vs-synthesia-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- HeyGen vs Creatify 2026 (new 2026-05-31) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/heygen-vs-creatify-2026.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
 </urlset>
