@@ -243,7 +243,7 @@ Here's the **AI Video Creator Toolkit** — the core stack I recommend to anyone
 ### Your AI Video Toolkit Checklist
 
 - [ ] **AI Video Tool** — Your main platform for generating videos
-  Recommendations: [Synthesia](https://www.synthesia.io/?via=aivideopicks) (training/enterprise), [HeyGen](https://www.heygen.com/affiliate) [UPDATE WHEN APPROVED] (marketing), or [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) (social/ads)
+  Recommendations: [Synthesia](https://www.synthesia.io/?via=aivideopicks) (training/enterprise), [HeyGen](https://www.heygen.com/) (marketing), or [Zebracat](https://studio.zebracat.ai/signup/?via=aivideopicks) (social/ads)
 
 - [ ] **Graphics & Thumbnails** — For custom thumbnails, intros, and branded assets
   Recommendation: Canva (free tier is plenty to start)
