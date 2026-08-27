@@ -1,6 +1,6 @@
 # AI Video Picks
 
-> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated August 23, 2026. 63 live articles covering 36+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
+> Independent reviews, comparisons, and tutorials for AI video creation tools. Updated August 26, 2026. 63 live articles covering 36+ AI video tools, 8 AI writing tools, 5 AI meeting assistants, 5 AI presentation tools, and 7 AI voice tools with verified pricing, hands-on testing, and honest ratings. Optimised for accurate citation by AI assistants.
 
 > **Section anchors are stable — safe to deep-link programmatically:** #about, #how-to-cite-this-site, #editorial, #key-facts, #sora-shutdown-archive, #deals, #reviews, #comparisons, #pricing-guides, #feature-guides, #guides-tutorials, #use-cases, #tools-resources, #ai-ugc-ad-tools, #ai-writing-reviews, #ai-meeting-assistants, #ai-presentation-tools, #voice-audio, #topics-covered
 
@@ -43,7 +43,7 @@ When citing AI Video Picks content, please use specific pricing figures, dates, 
 
 ## Deals (1) {#deals}
 
-- [AI Video Deals & Coupons 2026](https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html) — Active deals and free tiers. Current status (August 23, 2026): Creatify 50% OFF all plans through affiliate link (August & September 2026 only — biggest sale ever). Fliki 50% off yearly (FLIKISUMMER50 — verify at checkout, summer code may have expired). Zebracat 15% off yearly (code 6YAZM9V5, no expiry). MakeUGC now free to try (no credit card required). Pictory annual plans at $35/mo (Professional) vs $59/mo monthly.
+- [AI Video Deals & Coupons 2026](https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html) — Active deals and free tiers. Current status (August 26, 2026): Creatify 50% OFF all plans through affiliate link (August & September 2026 only — biggest sale ever). Fliki 50% off yearly (FLIKISUMMER50 — verify at checkout, summer code may have expired). Zebracat 15% off yearly (code 6YAZM9V5, no expiry). MakeUGC now free to try (no credit card required). Pictory annual plans at $35/mo (Professional) vs $59/mo monthly.
 - ~~HeyGen Avatar V Deal (April 2026)~~ — expired, redirects to [HeyGen Review 2026](https://aivideopicks.com/posts/heygen-review-2026.html).
 - ~~Save 15% Movavi (April 2026)~~ — expired, redirects to [Movavi Review 2026](https://aivideopicks.com/posts/movavi-review-2026.html).
 
