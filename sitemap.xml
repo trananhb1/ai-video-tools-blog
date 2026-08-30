@@ -1,8 +1,8 @@
-Updated: best-ai-video-editing-tools-2026.html
-Updated: best-ai-image-to-video-generators-2026.html
+Updated: services/ai-ugc-ad-workflow-sprint.html
+Updated: how-to-export-sora-videos-before-shutdown.html
+Updated: ai-video-deals-coupons-2026.html
 Updated: best-ai-video-tools-2026.html
 Updated: best-free-ai-video-generators-2026.html
-Updated: descript-review-2026.html
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
@@ -272,7 +272,7 @@ Updated: descript-review-2026.html
   <!-- Sora export how-to (archived — shutdown happened Apr 26, 2026; API deadline Sep 24, 2026) -->
   <url>
     <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.3</priority>
   </url>
@@ -282,7 +282,7 @@ Updated: descript-review-2026.html
   <!-- Deals -->
   <url>
     <loc>https://aivideopicks.com/posts/ai-video-deals-coupons-2026.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -584,6 +584,14 @@ Updated: descript-review-2026.html
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Services: AI UGC Ad Workflow Sprint (new 2026-08-30) -->
+  <url>
+    <loc>https://aivideopicks.com/services/ai-ugc-ad-workflow-sprint.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
