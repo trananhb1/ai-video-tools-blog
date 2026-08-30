@@ -2,7 +2,7 @@
 
 All forms pre-researched. Use credentials:
 - **Email**: trananhb1@gmail.com
-- **Password**: AiVidPicks2026!
+- **Password**: Stored outside the repository; compromised by git history and must be rotated before use.
 - **Name**: Tom Tran
 - **Website**: https://aivideopicks.com
 - **Country**: Australia
