@@ -65,6 +65,7 @@ When this project is opened, run through these items:
 | Krisp | `https://krisp.ai/?via=aivideopicks` | **Unconfirmed** | Has ?via= tracking. Confirm affiliate status. Used in meeting assistants article. |
 | ElevenLabs | `https://elevenlabs.io/?via=aivideopicks` | **APPLY VIA PARTNERSTACK** | Program confirmed active Aug 2026: 22% recurring for 12 months, 90-day cookie, via PartnerStack (elevenlabs.io/affiliates). Current `?via=` link likely INVALID — PartnerStack uses different URL format. Application email sent 2026-08-26 to affiliates@elevenlabs.io. Once approved, replace /go/elevenlabs/ target with PartnerStack referral URL. |
 | DeeVid AI | `https://deevid.ai?fpr=tuan32` | **Active (joined 2026-07-12)** | 30% per subscription via FirstPromoter. Platform: FirstPromoter. Contact: ella@deevid.ai. Cookie duration TBD. Review published at posts/deevid-ai-review-2026.html (Aug 12, 2026). Honorable mention added to best-ai-video-tools-2026.html and best-ai-image-to-video-generators-2026.html. |
+| Jellypod | (pending approval) | **APPLY VIA DUB PARTNERS** | 30% recurring for 12 months via Dub Partners (partners.dub.co/jellypod). Tom signed up for Dub Partners 2026-08-31 (welcome email received). Profile setup incomplete — complete at ship.dub.co/partner-profile and apply to Jellypod marketplace. Covers Magic Video (long-form faceless) and Shorts. Good fit for a faceless YouTube workflow article vs InVideo/Fliki. Not yet in any article. |
 
 ### Amazon AU Associates
 - **Associate Tag:** `aivideopicks-22`
