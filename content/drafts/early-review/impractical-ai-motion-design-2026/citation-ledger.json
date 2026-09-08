@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.producthunt.com/products/impractical",
+      "title": "Impractical on Product Hunt",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://impractical.ai",
+      "title": "Impractical official site",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://impractical.ai/product",
+      "title": "Impractical product page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://impractical.ai/terms",
+      "title": "Impractical Terms of Service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://www.npmjs.com/package/@impractical-ai/motion",
+      "title": "@impractical-ai/motion on npm",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

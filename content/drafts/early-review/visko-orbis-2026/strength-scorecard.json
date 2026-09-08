@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Visko Orbis 1.0",
+  "date_assessed": "2026-09-09",
+  "verified_floor": 17,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 17,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 4,
+      "unresolved_points": 16,
+      "notes": "Official demo supports an image reference and product-showcase scenario; exact identity retention is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor technical report only; no AIVP output."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Real-time prompt switching and persistent state are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 3,
+      "unresolved_points": 12,
+      "notes": "Public interactive demo is documented, but export and end-to-end creator workflow are unknown."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Real-time/4K claims are vendor-authored and not verified on public infrastructure."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No official pricing or usage limits found."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Terms contemplate user commercialization but clear output ownership and monetized-use license were not established."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "No public API or MCP documentation found."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Creator/live-commerce use cases are documented; Australia-specific availability is not."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "High-intent emerging-model editorial topic; no affiliate program found."
+    }
+  ],
+  "analysis": "Differentiated continuous video system with image-reference and steering demos, but access, rights, cost, exportability and all hands-on outcomes remain unresolved.",
+  "confidence_notes": "Official pages and vendor technical report only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Not approved; exact product identity untested.",
+    "publication": "First Look only; monetized-output and media rights unclear.",
+    "integration": "No public API/MCP documentation."
+  }
+}

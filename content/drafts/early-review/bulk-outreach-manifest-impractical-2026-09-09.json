@@ -1,0 +1,15 @@
+{
+  "batch": "aivp-early-review-2026-09-09-impractical-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "Impractical",
+      "launch_materiality_score": 20,
+      "to": "team@impractical.ai",
+      "recipient_source": "https://impractical.ai/terms",
+      "subject": "Early review request: Impractical AI Motion Design — access, rights, and affiliate details",
+      "idempotency_key": "aivp-early-review-impractical-ai-motion-design-20260909-v1",
+      "body": "Hi Impractical team,\n\nI’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe found Impractical through its September 9 Product Hunt launch and are preparing an evidence-led, clearly labelled First Look. Please route technical, media-rights, and affiliate questions to the appropriate person.\n\nWe are requesting official documentation covering the public launch date, Australian availability, current free and paid plan limits, export formats and aspect ratios, MCP/API documentation, credit or render limits, data handling, and commercial-use terms.\n\nWe are requesting complimentary bounded review access sufficient for three controlled Tool Matcher launch-video runs, with an explicit duration, zero-cost or credit cap, expiry, and restricted-feature list. We will not incur charges or accept an unbounded trial.\n\nWe request approved media rights for official screenshots, demo clips, and logos reproduced in monetized editorial articles, YouTube videos, and social posts, plus written confirmation that generated outputs may be used in monetized editorial and affiliate content.\n\nWe request affiliate programme details, or the correct affiliate contact if a programme exists, including the signup URL, commission, cookie window, payout threshold and schedule, Australian eligibility, coupon policy, and brand-bidding restrictions.\n\nOur locked case study asks whether Impractical can turn a rights-cleared recording of AI Video Picks’ live Tool Matcher into an accurate, on-brand 12-second 1080p launch video in under 25 minutes at zero cost, without hallucinating or replacing the real interface, across three identical bounded runs.\n\nWe distinguish vendor claims from our own testing, disclose complimentary access and affiliate relationships, and report failures and limitations. Access does not guarantee positive coverage. Impractical receives no editorial approval right, precommitted rating, recommendation, or placement.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}

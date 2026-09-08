@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://visko.ai",
+      "title": "Visko official site",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://visko.ai/models",
+      "title": "Visko models page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://visko.ai/orbis",
+      "title": "Visko Orbis page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://visko.ai/terms",
+      "title": "Visko Terms of Service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://visko.ai/blog/papers/Visko_Orbis_1_0__A_Live_Model_for_Real_TimeInteractive_Long_Video_Generation.pdf",
+      "title": "Visko Orbis 1.0 technical report",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round",
+      "title": "The Robot Report on Orbis launch",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Impractical AI Motion Design",
+  "date_assessed": "2026-09-09",
+  "verified_floor": 36,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 36,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Official workflow accepts a real software screen recording and brand kit, but AIVP has not verified pixel-accurate identity or first-10-second visibility."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "1080p, watermark-free and post-ready are vendor claims; no saved AIVP output."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Four takes and plain-language revisions are documented but untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Official pages document prompt/screen-recording input, beat planning, four cuts, revisions and export."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "About twenty minutes is an unverified vendor estimate; no failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Free-to-start is stated, but limits and cost per accepted export are unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Terms grant ownership of generated videos; explicit monetized-publication and vendor-media permission still requested."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Published MCP package supports four coding agents; security and operational behavior remain unaudited."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Strong software-launch use case and web access; Australia-specific availability/billing not documented."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "High-intent launch-video/editorial topic; no affiliate program found, so points reflect AdSense/editorial relevance only."
+    }
+  ],
+  "analysis": "Differentiated agent-to-motion-canvas workflow with real screen-recording inputs and documented output ownership, but all performance-critical criteria remain untested.",
+  "confidence_notes": "Primary vendor pages, terms, Product Hunt listing and npm documentation only; no hands-on AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Not approved; no exact physical-product test.",
+    "publication": "First Look only; generated media publication permission still requested.",
+    "integration": "Blocked pending MCP package security audit and authorization."
+  }
+}

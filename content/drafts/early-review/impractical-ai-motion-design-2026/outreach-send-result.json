@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-09-impractical-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-08T22:23:32.174553+00:00",
+      "body_sha256": "44898a67cd64b61f3b58420a8098f184dc80f7af86784b1f325f412f4e36878f",
+      "created_at": "2026-09-08 22:23:32.512000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-impractical-ai-motion-design-20260909-v1",
+      "last_event": "bounced",
+      "message_id": "68c357bf-87f7-4e96-8f66-ecdf8ded4cf2",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Early review request: Impractical AI Motion Design — access, rights, and affiliate details",
+      "to": "team@impractical.ai",
+      "vendor": "Impractical"
+    }
+  ]
+}
