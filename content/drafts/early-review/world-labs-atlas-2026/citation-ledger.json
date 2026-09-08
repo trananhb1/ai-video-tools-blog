@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "title": "Atlas: A World Model for Spatial Intelligence",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 2,
+      "url": "https://www.producthunt.com/products/atlas-by-world-labs",
+      "title": "Atlas by World Labs on Product Hunt",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "url": "https://docs.worldlabs.ai/terms-of-service",
+      "title": "World Labs Terms of Service",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 4,
+      "url": "https://docs.worldlabs.ai/marble/support/account-billing",
+      "title": "World Labs Marble subscriptions and billing",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 5,
+      "url": "https://worldlabs.ai/blog/generating-worlds",
+      "title": "World Labs Generating Worlds",
+      "accessed": "2026-09-08"
+    }
+  ]
+}

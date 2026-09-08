@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "World Labs Atlas",
+  "date_assessed": "2026-09-08",
+  "verified_floor": 23,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 23,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Official documentation confirms one-to-six reference images and geometry-aware camera control; exact ASIN identity retention is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor demos only; no AIVP or independent artifact-backed run."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Native camera geometry is documented, but repeatability and reference drift are untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 7,
+      "unresolved_points": 8,
+      "notes": "Generation, reconstruction and explicit 3D outputs form a differentiated production workflow; Atlas remains selected-partner early access."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No public latency, queue, error-rate or SLA evidence found."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No Atlas pricing or measured cost per accepted output found."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "General free-account terms are non-commercial and pre-GA confidentiality may apply; Atlas-specific publication rights are unresolved."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "Atlas is not listed as a self-serve public API model in retrieved official materials."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator and SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Camera-controlled reference video is relevant to creators, but Australian availability and indie access are unconfirmed."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "High-intent First Look potential exists; no affiliate programme or tracked relationship found."
+    }
+  ],
+  "analysis": "Atlas is differentiated on reference-led camera geometry and explicit 3D workflow, but selected-partner access leaves quality, repeatability, cost, rights, API availability, and exact-product identity unresolved. General terms do not permit monetized use of free-account outputs and may impose pre-GA confidentiality.",
+  "confidence_notes": "Confidence C: primary vendor documents and Product Hunt listing only; no hands-on output.",
+  "case_study_plan": "case-study-plan.md",
+  "hard_gates": {
+    "product_specificity": "UNTESTED",
+    "commercial_rights": "BLOCKED_PENDING_ATLAS_SPECIFIC_WRITTEN_PERMISSION",
+    "cost": "BLOCKED_PENDING_NO_COST_ALLOWANCE"
+  }
+}
