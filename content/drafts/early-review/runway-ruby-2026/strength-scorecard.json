@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Runway Ruby",
+  "archetype": "native SDR-to-HDR video conversion and professional finishing",
+  "assessment_date": "2026-09-08",
+  "launch_materiality_score": 18,
+  "confidence": "C",
+  "confidence_reason": "Primary documentation/repository evidence only; no controlled AIVP run or saved output artifacts.",
+  "verified_floor": 36,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 36,
+  "classification": "Monitor only on verified evidence; specialist finishing pilot candidate",
+  "strongest_documented_capability": "Convert existing SDR footage to multiple true-HDR professional formats inside Sessions, Workflows, and Runway Dev.",
+  "weakest_or_unresolved_capability": "Measured HDR accuracy, exact-product colour fidelity, render reliability, accepted-output cost and Australian access.",
+  "hard_gates": {
+    "commercial_rights": "conditional; publication blocked until source/output use is documented",
+    "product_specificity": "unresolved; Ruby does not create the hero product",
+    "publication": "First Look only at confidence C"
+  },
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "evidence": "Works on existing uploaded footage; preservation of exact product appearance is untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "evidence": "No AIVP output inspected."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "evidence": "Output-format controls are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "evidence": "Sessions, Workflows, Dev, ACEScg and ProRes routes are documented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No measured runs."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "evidence": "20 credits/second is documented; cost per accepted output is unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "evidence": "Terms address Your Content and required permissions; source/output-specific clearance remains conditional."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "evidence": "Runway Dev and Workflow node paths are documented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "evidence": "Potential fit for advanced AU editors; plan and display requirements narrow reach."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "evidence": "Transactional plan intent exists; no verified AIVP affiliate route."
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Obtain bounded Runway Dev or Max access and run the locked three-source HDR fidelity test.",
+  "case_study_plan": "content/drafts/early-review/runway-ruby-2026/case-study-plan.md"
+}

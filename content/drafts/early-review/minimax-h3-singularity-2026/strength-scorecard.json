@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "WarmBloodAban Minimax-h3_Singularity",
+  "archetype": "community MiniMax H3 fusion/fine-tune for multimodal ComfyUI video",
+  "assessment_date": "2026-09-08",
+  "launch_materiality_score": 15,
+  "confidence": "C",
+  "confidence_reason": "Primary documentation/repository evidence only; no controlled AIVP run or saved output artifacts.",
+  "verified_floor": 19,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 19,
+  "classification": "Monitor only; product-specificity and rights gates unresolved",
+  "strongest_documented_capability": "Expose T2V, I2V, Ref2V and V2V H3 workflows in ComfyUI with a recommended acceleration LoRA.",
+  "weakest_or_unresolved_capability": "Reference fidelity, license compatibility, output quality, hardware cost, reliability, dataset provenance and commercial rights.",
+  "hard_gates": {
+    "commercial_rights": "unresolved/possible license conflict; blocks publication recommendation",
+    "product_specificity": "current evidence warning/fail; blocks product-affiliate recommendation",
+    "publication": "First Look only with explicit community-derivative and license caveats"
+  },
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 4,
+      "unresolved_points": 16,
+      "evidence": "Reference input exists, but a documented custom-product test showed identity overwrite."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "evidence": "No controlled AIVP artifact."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "evidence": "Multiple ComfyUI modes and LoRA strength guidance exist; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "evidence": "ComfyUI multimodal workflow is documented but setup is specialist and fragmented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No AIVP timings or failure rate."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "evidence": "Weights are downloadable; hardware and accepted-output cost are unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "Derivative Apache label conflicts with underlying H3 community-license obligations until resolved."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "evidence": "ComfyUI/local integration path is documented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "evidence": "Niche advanced creator fit; heavy local deployment likely."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "evidence": "Potential high-intent open-source tutorial demand; no affiliate route."
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Obtain author contact and written license/provenance clarification, then run a three-seed exact-product comparison against official H3.",
+  "case_study_plan": "content/drafts/early-review/minimax-h3-singularity-2026/case-study-plan.md"
+}

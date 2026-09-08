@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-08-synthesia-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-08T18:32:58.067935+00:00",
+      "body_sha256": "6c4954f50153b7bdc0f0753ad43b2defc1fb833219e8d93a9816945bc5afb5ed",
+      "created_at": "2026-09-08 18:32:58.361000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-synthesia-content-credentials-omni-presets-20260908-v1",
+      "last_event": "delivered",
+      "message_id": "37b955ce-7aeb-437c-906a-6ae50e35dbde",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Early review request: Synthesia Content Credentials, Omni preview, and AI Video Presets",
+      "to": "affiliates@synthesia.io",
+      "vendor": "Synthesia"
+    }
+  ]
+}

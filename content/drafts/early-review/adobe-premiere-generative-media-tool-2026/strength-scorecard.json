@@ -1,0 +1,93 @@
+{
+  "tool": "Adobe Premiere Generative Media Tool (beta)",
+  "archetype": "workflow-integrated multi-model generative video and audio editor",
+  "assessment_date": "2026-09-08",
+  "confidence": "C",
+  "confidence_reason": "Primary Adobe documentation only; no hands-on run or saved output artifacts.",
+  "verified_floor": 34,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 34,
+  "classification": "Monitor only on verified evidence; high-priority case-study candidate",
+  "strongest_documented_capability": "Generate editable video and audio within an existing Premiere timeline using project/reference frames and multiple supported models.",
+  "weakest_or_unresolved_capability": "Exact-product fidelity, usable-output rate, render reliability and cost per accepted clip are unknown.",
+  "hard_gates": {
+    "commercial_rights": "conditional-pass for Adobe Firefly; unresolved per partner model and input asset",
+    "product_specificity": "unresolved until controlled reference-based pilot",
+    "publication": "blocked from full Review language until confidence B or A"
+  },
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "evidence": "Reference frames/images/video are documented; exact product preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "evidence": "No generated output inspected."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "evidence": "Prompt, model selection and optional references are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "evidence": "In-timeline generation and editable clips are documented; real setup/import/export savings are unmeasured."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No queue, render or failure-rate measurements."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "evidence": "Plans, included credits and pre-generation estimate are documented; credits per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "evidence": "Adobe documents commercial safety for Firefly/audio; users must assess partner models and inputs."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 1,
+      "unresolved_points": 4,
+      "evidence": "Premiere workflow integration is clear; no candidate-specific API/MCP automation path verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "evidence": "Creator workflow is relevant; Australian model availability and checkout price are unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "evidence": "Public Adobe affiliate program exists; AIVP acceptance and eligible Premiere plans are unverified."
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Obtain bounded access and execute the locked three-run Premiere case study before upgrading classification or publishing Review language.",
+  "case_study_plan": "content/drafts/early-review/adobe-premiere-generative-media-tool-2026/case-study-plan.md"
+}

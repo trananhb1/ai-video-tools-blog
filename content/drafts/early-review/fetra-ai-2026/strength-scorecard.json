@@ -1,0 +1,85 @@
+{
+  "tool": "Fetra AI",
+  "archetype": "AI growth workspace combining product ingestion, video/image generation and multi-channel publishing",
+  "launch_materiality_score": 16,
+  "confidence": "C",
+  "verified_floor": 35,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 35,
+  "classification": "Monitor only on verified evidence; qualified for bounded product-workflow case study",
+  "strongest_documented_capability": "Turn a business/product link into branded video and social content, then distribute from one workspace.",
+  "main_unknowns": [
+    "exact-product fidelity",
+    "output quality",
+    "model provenance",
+    "pricing consistency",
+    "cost per accepted output",
+    "commercial output rights",
+    "publisher reliability"
+  ],
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Obtain review credits and run a rights-cleared product URL-to-campaign pilot before recommending the affiliate programme.",
+  "case_study_plan": "content/drafts/early-review/fetra-ai-2026/case-study-plan.md"
+}

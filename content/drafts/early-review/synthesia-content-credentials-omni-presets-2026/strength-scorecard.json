@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "tool": "Synthesia Content Credentials, Gemini Omni Flash preview, and AI Video Presets",
+  "assessment_date": "2026-09-08",
+  "launch_materiality_score": 20,
+  "verified_floor": 43,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 43,
+  "confidence": "C",
+  "classification": "Weak fit on current verified evidence; high-priority retest",
+  "case_study_plan": "content/drafts/early-review/synthesia-content-credentials-omni-presets-2026/case-study-plan.md",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Image reference input is documented; exact-product preservation is untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP output inspected."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "Omni, presets, avatar/space selection, and in-editor workflow are documented."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Preset and reference controls exist; repeated quality is untested."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No timed or failure-rate evidence."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "All-plan availability is documented; accepted-output credit cost is unknown."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Provenance and disclosure controls are documented; input/output/model-specific rights need confirmation."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Existing Synthesia platform/API fit is documented; this feature path is untested."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "All-plan web availability is documented with no observed AU exclusion."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Active affiliate path and advertiser-safety relevance are documented."
+    }
+  ],
+  "analysis": "Operationally important provenance release with useful reference and preset workflows, but exact-product fidelity and real cost remain untested.",
+  "decision": "RETEST",
+  "next_action": "Verify tracking, obtain bounded no-cost access, and execute the three-run product/provenance case study."
+}

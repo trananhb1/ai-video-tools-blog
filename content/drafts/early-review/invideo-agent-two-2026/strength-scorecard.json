@@ -1,0 +1,84 @@
+{
+  "tool": "InVideo Agent Two / AI video editor",
+  "archetype": "agentic end-to-end AI filmmaking, editing and multi-format workflow",
+  "launch_materiality_score": 17,
+  "confidence": "C",
+  "verified_floor": 40,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 40,
+  "classification": "Weak fit on current verified evidence; qualified for relationship-led case study",
+  "strongest_documented_capability": "Maintain project context while coordinating scripts, storyboards, models, edits and multi-format outputs through agents.",
+  "main_unknowns": [
+    "exact-product fidelity across shots",
+    "accepted-output quality",
+    "agent reliability",
+    "render time",
+    "actual model/agent cost",
+    "commercial rights by underlying model"
+  ],
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Use the existing affiliate relationship to request Agent Two review credits and run a locked product-consistency campaign test.",
+  "case_study_plan": "content/drafts/early-review/invideo-agent-two-2026/case-study-plan.md"
+}

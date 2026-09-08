@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://invideo.io/news/introducing-invideo-editor",
+      "title": "Introducing invideo Editor",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 2,
+      "url": "https://invideo.io/pricing",
+      "title": "InVideo pricing",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "url": "https://invideo.io/terms-and-conditions",
+      "title": "InVideo terms",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 4,
+      "url": "https://help-studio.invideo.io/en/articles/9405938-does-invideo-have-an-affiliate-program",
+      "title": "InVideo affiliate programme",
+      "accessed": "2026-09-08"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "batch": "aivp-early-review-2026-09-08-bulk-1",
+  "approved_by": "Tom",
+  "approved_date": "2026-09-08",
+  "max_messages": 5,
+  "cooldown_days": 30,
+  "messages": [
+    {
+      "vendor": "Camera Intelligence / Caira",
+      "launch_materiality_score": 12,
+      "to": "team@cameraintelligence.com",
+      "recipient_source": "https://cameraintelligence.com/pages/llms",
+      "subject": "Early review request: Caira Generative Video Editing — beta access and creator partnership",
+      "idempotency_key": "aivp-early-review-caira-generative-video-editing-20260908-v1",
+      "body": "Hi Camera Intelligence team,\n\nI’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe found your September 2 announcement for Caira Generative Video Editing and are preparing an early, evidence-led first look. We would like to run a controlled case study testing whether Relight, Reframe, Camera Motion and Set Extension preserve a real filmed product across a vertical creator workflow.\n\nCould you please share or confirm:\n\n1. Current Caira Studio documentation, supported models, generation limits, pricing and US/UK launch timing, plus the planned Australian availability.\n2. Complimentary bounded private-beta access, a remote review environment, or a vendor-supplied test package with source footage and outputs. Please specify limits and expiry; we do not accept editorial control or a positive-coverage requirement.\n3. Approved logos, screenshots, demo footage and written permission for their use in monetised articles, YouTube videos and social posts.\n4. Commercial-use rights for generated results, data handling, SynthID/Content Credentials behaviour and any restrictions applying to Google or Runway models.\n5. Whether Caira has an affiliate, ambassador or creator-referral programme, with the official signup route, commission/discount structure, attribution window, payout terms, geography and brand-bidding/coupon rules.\n6. A product contact who can fact-check technical details without approving our conclusions.\n\nOur coverage distinguishes vendor claims from our testing, discloses complimentary access and affiliate relationships, and may report limitations or recommend another workflow. Access or partnership approval does not guarantee positive coverage.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com\n"
+    },
+    {
+      "vendor": "Fetra AI",
+      "launch_materiality_score": 17,
+      "to": "support@fetra.ai",
+      "recipient_source": "https://fetra.ai/refer-and-earn",
+      "subject": "Early review request: Fetra AI product-to-campaign case study and affiliate access",
+      "idempotency_key": "aivp-early-review-fetra-ai-20260908-v1",
+      "body": "Hi Fetra AI team,\n\nI’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe found Fetra’s AI Director and product-to-content workflow while researching new AI-video tools. We are preparing an evidence-led first look and want to test whether Fetra can turn one rights-cleared product page and asset set into a factually accurate video and three-channel campaign without changing the product or inventing claims.\n\nCould you please share or confirm:\n\n1. Current product documentation, supported video/image models, plan limits, credit consumption, export formats, pricing and commercial-output terms.\n2. Complimentary bounded review access or credits, with the access period, expiry, limits and restricted features. We do not accept editorial control or a positive-coverage requirement.\n3. Approved logos, screenshots and demo assets, plus written permission for use in monetised articles, YouTube videos and social posts.\n4. The official affiliate signup route linked from https://fetra.ai/refer-and-earn and current commission, attribution/cookie window, payout threshold/schedule, eligible countries, coupon policy and brand-bidding restrictions.\n5. Clarification of the current pricing source of truth and whether generated videos can be used commercially when third-party models are involved.\n6. A factual product contact for questions arising from our controlled test.\n\nOur coverage distinguishes vendor claims from our testing, discloses complimentary access and affiliate relationships, and may report limitations or recommend another workflow. Access or affiliate approval does not guarantee positive coverage.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com\n"
+    },
+    {
+      "vendor": "InVideo",
+      "launch_materiality_score": 17,
+      "to": "kunal@invideo.io",
+      "recipient_source": "https://help-studio.invideo.io/en/articles/9405938-does-invideo-have-an-affiliate-program",
+      "subject": "Agent Two review case study — access, model terms and affiliate tracking",
+      "idempotency_key": "aivp-early-review-invideo-agent-two-20260908-v1",
+      "body": "Hi Kunal,\n\nI’m Tom Tran from AI Video Picks. We already cover InVideo and participate in the InVideo affiliate programme.\n\nWe are preparing an evidence-led update around Agent Two and the current AI video editor. Rather than repeat the feature page, we want to run a controlled case study: create one rights-cleared product campaign, preserve the exact product across a 30-second hero video, then adapt the approved result for YouTube Shorts, TikTok and Instagram Reels.\n\nCould you please share or confirm:\n\n1. Current Agent Two/editor documentation, supported models, plan and agent limits, model/agent credit pricing, export formats and commercial-output terms by underlying model.\n2. Complimentary bounded Agent Two review access or credits, including expiry, limits and restricted features. We do not accept editorial control or a positive-coverage requirement.\n3. Approved Agent Two logos, screenshots and demo assets, plus permission to reproduce them in monetised articles, YouTube videos and social posts.\n4. Whether AI Video Picks’ current Impact campaign remains active, the correct live tracking destination, and current commission, 120-day attribution, payout, coupon and brand-bidding terms.\n5. The public release date and Australian availability for the current Agent Two/editor experience.\n6. A product contact who can correct factual details without approving our conclusions.\n\nOur coverage will disclose access and affiliate relationships and may report limitations or recommend another workflow. Access or affiliate participation does not guarantee positive coverage.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com\n"
+    },
+    {
+      "vendor": "InVideo (support fallback after documented bounce)",
+      "launch_materiality_score": 17,
+      "to": "support@invideo.io",
+      "recipient_source": "https://invideo.io/llms.txt",
+      "subject": "Agent Two review case study — access, model terms and affiliate tracking",
+      "idempotency_key": "aivp-early-review-invideo-agent-two-20260908-fallback-v1",
+      "body": "Hi InVideo support team,\n\nI’m Tom Tran from AI Video Picks. We already cover InVideo and participate in the InVideo affiliate programme.\n\nWe are preparing an evidence-led update around Agent Two and the current AI video editor. Rather than repeat the feature page, we want to run a controlled case study: create one rights-cleared product campaign, preserve the exact product across a 30-second hero video, then adapt the approved result for YouTube Shorts, TikTok and Instagram Reels.\n\nCould you please share or confirm:\n\n1. Current Agent Two/editor documentation, supported models, plan and agent limits, model/agent credit pricing, export formats and commercial-output terms by underlying model.\n2. Complimentary bounded Agent Two review access or credits, including expiry, limits and restricted features. We do not accept editorial control or a positive-coverage requirement.\n3. Approved Agent Two logos, screenshots and demo assets, plus permission to reproduce them in monetised articles, YouTube videos and social posts.\n4. Whether AI Video Picks’ current Impact campaign remains active, the correct live tracking destination, and current commission, 120-day attribution, payout, coupon and brand-bidding terms.\n5. The public release date and Australian availability for the current Agent Two/editor experience.\n6. A product contact who can correct factual details without approving our conclusions.\n\nOur coverage will disclose access and affiliate relationships and may report limitations or recommend another workflow. Access or affiliate participation does not guarantee positive coverage.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com\n"
+    }
+  ]
+}

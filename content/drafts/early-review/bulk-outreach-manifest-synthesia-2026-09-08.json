@@ -1,0 +1,15 @@
+{
+  "batch": "aivp-early-review-2026-09-08-synthesia-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "Synthesia",
+      "launch_materiality_score": 20,
+      "to": "affiliates@synthesia.io",
+      "recipient_source": "https://www.synthesia.io/partners/affiliates",
+      "subject": "Early review request: Synthesia Content Credentials, Omni preview, and AI Video Presets",
+      "idempotency_key": "aivp-early-review-synthesia-content-credentials-omni-presets-20260908-v1",
+      "body": "Hi Synthesia affiliate team,\n\nI’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe are preparing an evidence-led First Look at Synthesia’s September 8 release of Content Credentials and visible AI labels, Gemini Omni Flash public preview, and AI Video Presets. Please route technical and approved-media questions to the appropriate product or press contact.\n\nWe are requesting official documentation covering release dates, Australian availability, plan and credit requirements, Omni model/version behavior, C2PA persistence after download and re-import, visible-label controls, and commercial output terms.\n\nWe are requesting complimentary bounded review access sufficient for three controlled product-reference runs, with an explicit duration, credit cap, expiry, and restricted-feature list. We will not incur paid credits or accept an unbounded trial.\n\nWe request approved media rights for official screenshots, demo clips, and logos reproduced in monetized editorial articles, YouTube videos, and social posts.\n\nWe request affiliate programme details and confirmation that AI Video Picks’ existing tracking applies to Starter and Creator conversions involving these new workflows, including the current commission, cookie, payout threshold and schedule, Australian eligibility, coupon policy, and brand-bidding restrictions.\n\nOur locked case study asks whether the new stack can preserve one rights-cleared red and blue LED face mask throughout the first 10 seconds of a 30-second vertical video while retaining C2PA provenance and the selected visible disclosure label across three identical bounded runs.\n\nWe distinguish vendor claims from our testing, disclose complimentary access and affiliate relationships, and report failures and limitations. Access does not guarantee positive coverage. Synthesia receives no editorial approval right, precommitted rating, recommendation, or placement.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}

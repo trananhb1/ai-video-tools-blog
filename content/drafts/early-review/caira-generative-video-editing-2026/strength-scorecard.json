@@ -1,0 +1,84 @@
+{
+  "tool": "Caira Generative Video Editing / Caira Studio",
+  "archetype": "AI-native camera plus scene-aware generative video editing",
+  "launch_materiality_score": 12,
+  "confidence": "C",
+  "verified_floor": 37,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 37,
+  "classification": "Monitor only on verified evidence; qualified for access-led case study",
+  "strongest_documented_capability": "Relight, reframe, camera motion and set extension applied near the point of capture while retaining originals.",
+  "main_unknowns": [
+    "output quality",
+    "cross-frame product fidelity",
+    "render speed and failure rate",
+    "commercial output rights",
+    "Australian Caira Studio availability",
+    "affiliate programme"
+  ],
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 15,
+      "unresolved_points": 5
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 1,
+      "unresolved_points": 4
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Request private beta/review access, rights clarification and a review-loan or supplied-footage pathway.",
+  "case_study_plan": "content/drafts/early-review/caira-generative-video-editing-2026/case-study-plan.md"
+}

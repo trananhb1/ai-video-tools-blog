@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.synthesia.io/updates/stay-compliant-with-content-credentials-and-ai-labels",
+      "title": "Synthesia Content Credentials and AI labels",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 2,
+      "url": "https://www.synthesia.io/updates/gemini-omni-in-public-preview",
+      "title": "Gemini Omni Flash in Synthesia",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "url": "https://www.synthesia.io/updates/generate-b-roll-with-ai-video-presets",
+      "title": "Synthesia AI video presets",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 4,
+      "url": "https://help.synthesia.io/en/articles/16046624-what-does-the-eu-ai-act-article-50-mean-for-my-synthesia-videos",
+      "title": "Synthesia AI transparency guidance",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 5,
+      "url": "https://www.synthesia.io/partners/affiliates",
+      "title": "Synthesia affiliate programme",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 6,
+      "url": "https://www.synthesia.io/post/synthesia-ai-press-officer",
+      "title": "Synthesia press contacts",
+      "accessed": "2026-09-08"
+    }
+  ]
+}

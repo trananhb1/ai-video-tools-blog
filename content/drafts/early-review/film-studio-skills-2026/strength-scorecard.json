@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "tool": "Film Studio Skills",
+  "archetype": "agent-skill preproduction and continuity workflow",
+  "assessment_date": "2026-09-08",
+  "launch_materiality_score": 12,
+  "verified_floor": 38,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 38,
+  "confidence": "C",
+  "classification": "Weak fit on verified evidence; promising workflow candidate",
+  "confidence_reason": "Primary repository and static audit only; no controlled end-to-end run or generated-media evidence.",
+  "case_study_plan": "content/drafts/early-review/film-studio-skills-2026/case-study-plan.md",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Passports and reference gates are documented; exact-product outcome untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No generated media; planning quality not benchmarked."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Seven-stage file workflow is documented and source-auditable."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Locked descriptors and stress gates are specified; repeatability untested."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No timed controlled runs."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Repository access is free; downstream model and agent costs unresolved."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No tracked LICENSE file at audited commit."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Markdown skills support Hermes and other agents but setup mutates instruction files."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Local text workflow has no observed geographic gate."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Relevant to production workflow; no affiliate programme."
+    }
+  ],
+  "analysis": "Useful continuity discipline, but absent licensing and no controlled runs block integration and recommendation.",
+  "decision": "RETEST",
+  "next_action": "Request license clarification if a verified contact appears, harden setup writes, then run the no-generation sandbox case study."
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://github.com/machina-exm/film-studio-skills",
+      "title": "Film Studio Skills repository",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/machina-exm/film-studio-skills/main/README.md",
+      "title": "Film Studio Skills README",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/machina-exm/film-studio-skills/commits/main",
+      "title": "Film Studio Skills commit history",
+      "accessed": "2026-09-08"
+    }
+  ]
+}

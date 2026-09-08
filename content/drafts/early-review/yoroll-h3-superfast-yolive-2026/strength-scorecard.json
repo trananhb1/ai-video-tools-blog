@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Yoroll H3 Superfast / YoLive",
+  "archetype": "real-time interactive and branching AI-video experience",
+  "assessment_date": "2026-09-08",
+  "launch_materiality_score": 15,
+  "confidence": "C",
+  "confidence_reason": "Primary documentation/repository evidence only; no controlled AIVP run or saved output artifacts.",
+  "verified_floor": 23,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 23,
+  "classification": "Monitor only; differentiated interactive-video pilot candidate",
+  "strongest_documented_capability": "Combine prompts, photos, clips, branching logic and audience direction into live or playable video experiences.",
+  "weakest_or_unresolved_capability": "H3 Superfast identity, speed/reliability, pricing, exports, commercial rights, API and product fidelity.",
+  "hard_gates": {
+    "commercial_rights": "unresolved and blocks publication/monetized use",
+    "product_specificity": "unresolved and blocks product-affiliate recommendation",
+    "publication": "First Look may be staged; recommendation blocked"
+  },
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "evidence": "Official product pages describe photo and clip inputs; exact-product preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "evidence": "No AIVP output inspected."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "evidence": "Branching and live direction are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "evidence": "Creation, branching logic and playable delivery are described as one workflow."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "evidence": "24 fps real-time claim is documented for Roll-01; H3 Superfast and reliability are unmeasured."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No verified creator pricing or accepted-output cost."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No explicit monetized output grant found."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 1,
+      "unresolved_points": 4,
+      "evidence": "Web app is available; no API/MCP/export path verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "evidence": "Potential creator-storytelling fit; AU availability is unknown."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "evidence": "No verified affiliate or partner economics."
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Obtain a validator-compatible official contact and written rights/pricing details before any bounded three-session pilot.",
+  "case_study_plan": "content/drafts/early-review/yoroll-h3-superfast-yolive-2026/case-study-plan.md"
+}
