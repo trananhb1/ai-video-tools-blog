@@ -1,0 +1,26 @@
+{
+  "schema_version":1,
+  "tool":"DevMotion v2",
+  "date_assessed":"2026-09-09",
+  "verified_floor":31,
+  "potential_ceiling":100,
+  "evidence_coverage_percent":31,
+  "confidence":"C",
+  "classification":"Monitor only",
+  "case_study_plan":"case-study-plan.md",
+  "criteria":[
+    {"id":"product_specificity","name":"Product specificity","weight":20,"verified_points":10,"unresolved_points":10,"notes":"Product URL, logo, colours and screenshots documented; exact UI identity and first-10-second visibility untested; no physical-ASIN test."},
+    {"id":"output_quality","name":"Output quality","weight":15,"verified_points":0,"unresolved_points":15,"notes":"No saved AIVP output."},
+    {"id":"control_consistency","name":"Control and consistency","weight":10,"verified_points":0,"unresolved_points":10,"notes":"Editable layers/keyframes documented; repeatability untested."},
+    {"id":"workflow_strength","name":"Workflow strength","weight":15,"verified_points":10,"unresolved_points":5,"notes":"Product-URL ingestion, script-to-timeline, audio, inspection and editable correction documented."},
+    {"id":"speed_reliability","name":"Speed and reliability","weight":10,"verified_points":0,"unresolved_points":10,"notes":"No AIVP timing or failure artifacts."},
+    {"id":"cost_efficiency","name":"Cost efficiency","weight":10,"verified_points":0,"unresolved_points":10,"notes":"Official pages conflict on free MP4 export; accepted-output cost unmeasured."},
+    {"id":"commercial_rights","name":"Commercial rights","weight":10,"verified_points":8,"unresolved_points":2,"notes":"User rights and commercial exports documented; third-party assets/vendor media unresolved."},
+    {"id":"automation_integration","name":"Automation and integration","weight":5,"verified_points":3,"unresolved_points":2,"notes":"First-party MCP/API/webhooks documented; security and paid-plan behavior unaudited."},
+    {"id":"audience_fit_au_smb","name":"AU creator/SMB fit","weight":3,"verified_points":0,"unresolved_points":3,"notes":"Australia-specific access/tax/billing not documented."},
+    {"id":"monetization_fit","name":"Monetization fit","weight":2,"verified_points":0,"unresolved_points":2,"notes":"No official affiliate programme/tracking found."}
+  ],
+  "analysis":"Differentiated self-inspecting editable workflow; critical performance and free-export facts unresolved.",
+  "confidence_notes":"Primary docs and Product Hunt only; no hands-on AIVP run.",
+  "hard_gates":{"product_affiliate":"Not approved; no exact physical-product test.","publication":"First Look only.","integration":"Held pending OAuth, security audit and no-cost export path."}
+}

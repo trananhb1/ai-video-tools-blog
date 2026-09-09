@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.producthunt.com/products/devmotion-ai-video-editor?launch=devmotion-v2",
+      "title": "DevMotion v2 on Product Hunt",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://devmotion.app",
+      "title": "DevMotion official product page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://devmotion.app/pricing",
+      "title": "DevMotion pricing",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://devmotion.app/terms",
+      "title": "DevMotion Terms of Service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://devmotion.app/developers",
+      "title": "DevMotion for developers",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://devmotion.app/docs/mcp/reference",
+      "title": "DevMotion MCP reference",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://devmotion.app/tools/generate-video/youtube",
+      "title": "DevMotion YouTube generator page",
+      "accessed": "2026-09-09"
+    }
+  ]
+}
