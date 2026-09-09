@@ -18,7 +18,11 @@ Checked the changed Google News/launch radar output, Product Hunt, GitHub, Huggi
 
 GroundSlate was discovered in a same-day vendor-issued release and then verified against COEY's official product page.[1][2]
 
-Pricing was checked separately.[3] Master and product-specific legal constraints were checked against both agreements.[4][5] Privacy claims were checked against the product supplement.[6]
+Pricing was checked separately.[3]
+
+Master and product-specific legal constraints were checked against both agreements.[4][5]
+
+Privacy claims were checked against the product supplement.[6]
 
 Coverage gap: COEY's contact page offers a web form but publishes no suitable press, partnership, or affiliate email; contact forms are forbidden by standing policy.[7] The release's author route is also a form, so no outreach was sent.[1]
 
