@@ -1,0 +1,11 @@
+{
+  "candidate": "COEY GroundSlate",
+  "status": "HELD_NO_COMPLIANT_CONTACT",
+  "assessed_at": "2026-09-09",
+  "recipient": null,
+  "recipient_source": "https://coey.com/contact",
+  "manifest": null,
+  "send_attempted": false,
+  "reason": "Official contact surface is form-only; purpose-limited legal/privacy/security/open-source emails are unsuitable under standing outreach policy.",
+  "next_action": "Recheck for a vendor-published press, partnerships, or affiliate email; no form submission and no guessed address."
+}

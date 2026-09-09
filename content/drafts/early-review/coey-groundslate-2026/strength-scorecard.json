@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "tool": "COEY GroundSlate",
+  "date_assessed": "2026-09-09",
+  "launch_materiality": {
+    "score": 10,
+    "decision": "QUALIFIED",
+    "breakdown": {
+      "relevance_to_ai_video_production": 3,
+      "differentiation": 3,
+      "launch_recency": 2,
+      "accessibility_to_au_creators": 2
+    },
+    "notes": "Same-day launch; free macOS tier is publicly available, but AIVP cannot run it on the current Linux host."
+  },
+  "verified_floor": 37,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 37,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Official page accepts a photo and documents local LTX 2.5 generation plus avatar/reference kits; exact-ASIN fidelity and first-10-second distinctiveness are untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP hands-on output or independent benchmark artifact."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Tool surface and repeat-generation claims are documented, but three-run consistency is untested."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Official product documentation describes ingest, local indexing, search, agent-directed editing, graphics, reframing and final rendering through one MCP-first workflow."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Vendor benchmark is not accepted as AIVP hands-on evidence; setup, render time and failure rate remain unknown."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Free tier and no per-generation credits are documented, but free renders carry a COEY mark and AI video requires high-end Apple hardware; cost per usable output is unmeasured."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Master terms permit lawful commercial output use, subject to third-party component terms; LTX eligibility and input/likeness obligations must be checked per run."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "GroundSlate is explicitly MCP-first and documents local tools plus export/render paths."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Online free access and USD pricing are documented; macOS 26/Apple-silicon requirements sharply narrow fit and AU-specific availability was not separately stated."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "High-intent new-tool coverage is plausible; no affiliate programme was found or verified."
+    }
+  ],
+  "analysis": "GroundSlate is a differentiated local, MCP-first editor and generation backend, but its strongest claims remain docs-only. The exact-product gate, output quality, consistency, render reliability and real cost are unresolved. The current AIVP Linux environment cannot execute the Mac-only pilot, and AI Video requires an M3-or-newer Max/Ultra Mac with 64 GB unified memory.",
+  "confidence_notes": "Confidence C: primary product, pricing, terms and privacy documents plus vendor-issued launch release; zero AIVP hands-on runs.",
+  "case_study_plan": "case-study-plan.md",
+  "hard_gates": {
+    "commercial_rights": "PARTIAL_PASS_SUBJECT_TO_THIRD_PARTY_TERMS",
+    "product_specificity": "UNTESTED",
+    "publication": "FIRST_LOOK_ONLY",
+    "paid_spend": "BLOCKED_WITHOUT_TOM_APPROVAL"
+  }
+}
