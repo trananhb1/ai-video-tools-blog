@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.producthunt.com/products/fotor",
+      "title": "Fotor on Product Hunt",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://www.fotor.com/video",
+      "title": "Fotor Video Agent",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://www.fotor.com/ai-video-generator/product-video",
+      "title": "Fotor AI Product Video Generator",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://www.fotor.com/termsofservice",
+      "title": "Fotor Terms of Service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://support.fotor.com/hc/en-us/articles/900006654446-Commercial-Use",
+      "title": "Fotor Commercial Use help article",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://www.fotor.com/pricing.html",
+      "title": "Fotor pricing",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://support.fotor.com/hc/en-us/articles/15793375212441-What-are-Credits",
+      "title": "Fotor credits documentation",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 8,
+      "url": "https://www.fotor.com/affiliates.html",
+      "title": "Fotor affiliate program",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 9,
+      "url": "https://www.fotor.com/en/contact-us",
+      "title": "Fotor official contacts",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 10,
+      "url": "https://aitoolly.com/producthunt-daily/2026-08-31",
+      "title": "Product Hunt daily archive for August 31, 2026",
+      "accessed": "2026-09-09"
+    }
+  ]
+}
