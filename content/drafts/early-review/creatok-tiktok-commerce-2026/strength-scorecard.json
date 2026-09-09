@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "CreatOK TikTok Commerce Video Platform",
+  "date_assessed": "2026-09-09",
+  "verified_floor": 41,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 41,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Official workflow accepts product images and product information and exposes reference/first/end-frame controls; exact ASIN identity across video is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No saved AIVP output or independent artifact-backed benchmark."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "First/end-frame, model choice, editing and reference-video analysis are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "Official pages document trend discovery, analysis, product generation, editing and TikTok API publishing in one commerce workflow."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled queue, render-time or failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Plan prices and rough output estimates are published, but no free video allowance or measured cost per accepted output is established."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Official product page claims watermark-free commercial use; complete provider, music, avatar and reference-output terms require confirmation."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "First-party CLI, API-key workflow and installable agent skills are documented; security and runtime quality remain separate deployment gates."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Browser/API commerce workflow fits indie sellers; Australia-specific billing and TikTok Shop availability are unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "High-intent topic, but no verified affiliate programme or AIVP tracking."
+    }
+  ],
+  "analysis": "Strong documented ecommerce workflow and automation path, but no hands-on output evidence, free test allowance or complete rights chain.",
+  "confidence_notes": "Primary vendor pages and first-party repository only; no controlled AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Not approved until exact LED-mask identity is distinctive in the first 10 seconds in all three runs.",
+    "publication": "First Look only; complete output/media rights unresolved.",
+    "integration": "CLI must pass code audit, npm audit, sandbox, egress and cost-gate review before API-key use."
+  }
+}

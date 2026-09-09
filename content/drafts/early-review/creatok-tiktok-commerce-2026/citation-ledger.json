@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://creatok.ai/en",
+      "title": "CreatOK official product page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://www.creatok.ai/pricing",
+      "title": "CreatOK pricing",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://www.creatok.ai/skills",
+      "title": "CreatOK official agent skills",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/EchoSell/creatok-skills",
+      "title": "CreatOK official GitHub skills repository",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://www.creatok.ai/about",
+      "title": "CreatOK about and contact",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://creatok.ai/terms-of-service",
+      "title": "CreatOK terms of service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://startupscrolls.com/projects/creatok",
+      "title": "Startup Scrolls CreatOK listing",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

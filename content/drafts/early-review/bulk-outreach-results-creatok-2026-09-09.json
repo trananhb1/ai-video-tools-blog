@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-09-creatok-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-09T14:28:52.915734+00:00",
+      "body_sha256": "852d128334fffb00e4a448a12e91e27c5604e8d460746db45a89a71ebc8b9f88",
+      "created_at": "2026-09-09 14:28:53.168000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-creatok-tiktok-commerce-20260909-v1",
+      "last_event": "delivered",
+      "message_id": "c087dd84-70ac-4d8c-b1e1-fa1bd72047a6",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Early review request: CreatOK product-video workflow — access, rights, and partner details",
+      "to": "support@creatok.ai",
+      "vendor": "CreatOK"
+    }
+  ]
+}

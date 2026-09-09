@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://pixparkle.com",
+      "title": "Pixparkle official product page",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://pixparkle.com/terms",
+      "title": "Pixparkle terms of service",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://pixparkle.com/privacy",
+      "title": "Pixparkle privacy policy",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://producthunt.com/products/pixparkle-chat-based-ai-image-maker",
+      "title": "Pixparkle Product Hunt listing",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://pixparkle.com/llms-full.txt",
+      "title": "Pixparkle launch history",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://startupscrolls.com/projects/pixparkle",
+      "title": "Startup Scrolls Pixparkle listing",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

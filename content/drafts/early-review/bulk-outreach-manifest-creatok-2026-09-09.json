@@ -1,0 +1,15 @@
+{
+  "batch": "aivp-early-review-2026-09-09-creatok-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "CreatOK",
+      "launch_materiality_score": 19,
+      "to": "support@creatok.ai",
+      "recipient_source": "https://www.creatok.ai/about",
+      "subject": "Early review request: CreatOK product-video workflow — access, rights, and partner details",
+      "idempotency_key": "aivp-early-review-creatok-tiktok-commerce-20260909-v1",
+      "body": "Hi CreatOK partnerships team,\n\nI am Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe discovered CreatOK through its commerce-video and agent workflow and are preparing an evidence-led, clearly labelled First Look. We are specifically evaluating its product-image-to-video, reference control, agent CLI/API and TikTok publishing workflow.\n\nWe are requesting official documentation covering the original public release date, Australian availability, supported product/reference inputs, output and export limits, current model routing, API/CLI documentation, pricing and credit costs, data handling, and complete commercial-use terms for generated video, audio, avatars and third-party model outputs.\n\nWe are requesting complimentary bounded review access sufficient for three controlled 30-second 1080×1920 product-video runs and exports, with an explicit zero-cost credit cap, access period, expiry and restricted-feature list. We will not incur charges or accept an unbounded trial.\n\nWe request approved media rights for official screenshots, demo clips and logos reproduced in monetized editorial articles, YouTube videos and social posts, plus written confirmation for complete generated outputs and included audio/media.\n\nWe request affiliate programme details and the official application/contact route, including commission structure, cookie window, payout threshold and schedule, Australian eligibility, coupon policy and brand-bidding restrictions. If no programme exists, please confirm that.\n\nOur locked case study asks whether CreatOK can turn rights-cleared reference images for LED face mask ASIN B0D2XTZN8V into a recognizable 30-second vertical commerce video, with the exact mask distinctive in the first 10 seconds, in under 10 minutes at zero cost across three bounded runs.\n\nWe distinguish vendor claims from our testing, disclose complimentary access and affiliate relationships, and report failures and limitations. Access does not guarantee positive coverage. CreatOK receives no editorial approval right, precommitted rating, recommendation or placement.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}
