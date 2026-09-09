@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Creatify Boreal",
+  "date_assessed": "2026-09-09",
+  "verified_floor": 24,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 24,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Official page documents image-to-video input, but no AIVP run verifies exact product identity or first-10-second distinctiveness."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor samples and claims are not hands-on AIVP evidence."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No repeatability, seed, camera-control or product-drift evidence was retrieved."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "Text-to-video and image-to-video via a claimed fal route are documented; the linked endpoint could not be independently retrieved and no end-to-end export was run."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Claims of seconds-level generation are unverified; no queue, render or failure artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Official page advertises about US$0.01 per generated second, but also contains launch-copy inconsistencies and no provider invoice or AIVP run confirms the rate."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Creatify terms grant compliant users limited commercial use of Community Assets; Boreal-on-fal output ownership, input treatment and complete monetized-video rights still require confirmation."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "Vendor says Boreal is available on fal, implying an API route; exact endpoint/schema and production accessibility were not retrieved."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Low-cost browser/API generation is relevant to AU creators, but Australia-specific access, billing and tax treatment are unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "AIVP already has verified active Creatify affiliate tracking; the official programme advertises 25% recurring commission."
+    }
+  ],
+  "analysis": "Boreal is a commercially interesting low-cost LTX-derived text/image-to-video model, but the launch is late-discovered, the fal endpoint was not independently retrievable, and every outcome criterion remains untested.",
+  "confidence_notes": "Primary vendor pages and terms only; no AIVP hands-on run.",
+  "hard_gates": {
+    "product_affiliate": "Not approved until all three runs preserve exact LED-mask identity in the first 10 seconds.",
+    "publication": "First Look draft only; Boreal/fal rights and availability require confirmation.",
+    "integration": "Not started; fal endpoint and no-cost allowance not verified."
+  }
+}
