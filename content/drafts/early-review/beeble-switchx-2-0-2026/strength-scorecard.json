@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "tool": "Beeble SwitchX 2.0",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 36,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 36,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Source, mask and reference workflow documented; exact product identity untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Hands-on evidence required."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Mask and tracking controls documented; repeatability untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "Video-to-video VFX and high-resolution finishing workflow documented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No AIVP timing or failure data."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Rates documented; accepted-output cost unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Paid plans claim commercial use; legal boundaries still apply."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Official API exists with prepaid billing and attribution."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Relevant web workflow; AU billing untested."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Official affiliate programme verified."
+    }
+  ],
+  "analysis": "Material video-to-video update with product-reference potential, but all quality, identity, reliability and accepted-output cost claims remain untested.",
+  "confidence_notes": "Retrieved vendor documents only; no AIVP run.",
+  "case_study_plan": "case-study-plan.md",
+  "product_affiliate_gate": "BLOCKED_PENDING_FIRST_10_SECONDS_TEST"
+}

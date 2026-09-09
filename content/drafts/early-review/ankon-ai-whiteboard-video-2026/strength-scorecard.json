@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "tool": "Ankon AI Whiteboard Video",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 35,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 35,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 7,
+      "unresolved_points": 13,
+      "notes": "Reference image grounding documented; exact identity untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Hands-on required."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "Input/orientation controls documented; consistency untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "End-to-end explainer pipeline documented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled data."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Rates documented; accepted-output cost unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Ownership limited by upstream terms."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "REST, API key and MCP/OAuth documented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Low-friction explainer fit; AU billing untested."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme found."
+    }
+  ],
+  "analysis": "Focused explainer workflow with immediate free access, but launch is late-discovered and outcomes are untested.",
+  "confidence_notes": "Vendor docs plus dated third-party listing only.",
+  "case_study_plan": "case-study-plan.md"
+}

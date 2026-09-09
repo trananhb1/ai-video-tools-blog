@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://beeble.ai/research/switchx-2-0",
+      "title": "Meet SwitchX 2.0 — 4K, 20s, 10-bit, Camera Tracking & Fast Motion",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://beeble.ai/pricing-cloud",
+      "title": "Beeble Cloud Pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://docs.beeble.ai/help/credit-policy",
+      "title": "Beeble Credit Policy",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://docs.beeble.ai/legal/terms-of-use",
+      "title": "Beeble Terms of Use",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://beeble.ai/affiliate-program",
+      "title": "Beeble Affiliate Program",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://developer.beeble.ai/docs/brand-attribution",
+      "title": "Beeble API Brand Attribution",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

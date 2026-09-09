@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.heyeddie.ai/blog/eddie-v4",
+      "title": "Eddie v4: The Most Powerful AI Assistant Editor in the World",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://www.heyeddie.ai/pricing",
+      "title": "Eddie AI Pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://www.heyeddie.ai/terms",
+      "title": "Eddie AI Terms & Conditions",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://www.heyeddie.ai/help/what-is-eddie",
+      "title": "What is Eddie AI?",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://www.heyeddie.ai/help/contact-support",
+      "title": "Contact Support — Eddie AI",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

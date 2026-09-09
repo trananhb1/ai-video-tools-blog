@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://ankonai.com",
+      "title": "Ankon AI — Whiteboard Explainer Video",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://ankonai.com/terms",
+      "title": "Ankon AI Terms of Service",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://ankonai.com/docs",
+      "title": "AnkonAI API Documentation",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://ankonai.com/privacy",
+      "title": "Ankon AI Privacy Policy",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://ankonai.com/contact",
+      "title": "Contact Ankon AI",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://peerpush.com/p/ankon-ai",
+      "title": "Ankon AI on PeerPush",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

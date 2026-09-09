@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "tool": "Eddie AI v4",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 40,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 40,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Can edit owned exact-product footage; preservation untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Hands-on required."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Prompt refinement and recipes documented; repeatability untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 13,
+      "unresolved_points": 2,
+      "notes": "Agent edit, native NLE handoff and MP4 workflow documented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled data."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Free credits documented; accepted-output burn unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 9,
+      "unresolved_points": 1,
+      "notes": "User ownership explicit; generated-media boundaries need confirmation."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "MCP/chat, API and NLE export paths."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Australian users addressed; practical access untested."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme found."
+    }
+  ],
+  "analysis": "High-workflow-potential editor, but no AIVP output, identity, reliability or accepted-cost evidence.",
+  "confidence_notes": "Vendor documents only.",
+  "case_study_plan": "case-study-plan.md",
+  "review_language": "BLOCKED_PENDING_CONFIDENCE_B"
+}
