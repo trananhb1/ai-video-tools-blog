@@ -14,7 +14,11 @@ Proceed to a bounded three-run pilot only when a compatible Mac is available at 
 
 ## Search strategy and coverage
 
-Checked the changed Google News/launch radar output, Product Hunt, GitHub, Hugging Face, broad launch search, and official COEY product, pricing, terms, GroundSlate schedule, privacy, and contact surfaces. The monitor delta also contained already known Adobe/Filmora/news items and new zero-download model mirrors/adapters; these were deduplicated or excluded as previously assessed. GroundSlate was discovered in a same-day vendor-issued release and then verified against COEY's official product page.[1][2] Pricing was checked separately.[3] Master and product-specific legal constraints were checked against both agreements.[4][5] Privacy claims were checked against the product supplement.[6]
+Checked the changed Google News/launch radar output, Product Hunt, GitHub, Hugging Face, broad launch search, and official COEY product, pricing, terms, GroundSlate schedule, privacy, and contact surfaces. The monitor delta also contained already known Adobe/Filmora/news items and new zero-download model mirrors/adapters; these were deduplicated or excluded as previously assessed.
+
+GroundSlate was discovered in a same-day vendor-issued release and then verified against COEY's official product page.[1][2]
+
+Pricing was checked separately.[3] Master and product-specific legal constraints were checked against both agreements.[4][5] Privacy claims were checked against the product supplement.[6]
 
 Coverage gap: COEY's contact page offers a web form but publishes no suitable press, partnership, or affiliate email; contact forms are forbidden by standing policy.[7] The release's author route is also a form, so no outreach was sent.[1]
 
@@ -38,7 +42,11 @@ The broader contract score is **22**: launch within 72 hours +3; new tool withou
 - **Confidence:** C — primary documents and vendor-issued release only
 - **Classification:** Monitor only
 
-Official documentation supports a broad agentic workflow and local MCP integration.[2] It also documents a free marked-output tier and commercial output use subject to third-party terms.[3][4][5] It does not verify AIVP output quality, first-10-second product identity, repeatability, render reliability, or cost per accepted output. GroundSlate's own page says local AI Video needs macOS 26, an M3-or-newer Max/Ultra chip, and 64 GB unified memory, which blocks testing on AIVP's current Linux host.[2]
+Official documentation supports a broad agentic workflow and local MCP integration.[2]
+
+It also documents a free marked-output tier and commercial output use subject to third-party terms.[3][4][5] It does not verify AIVP output quality, first-10-second product identity, repeatability, render reliability, or cost per accepted output.
+
+GroundSlate's own page says local AI Video needs macOS 26, an M3-or-newer Max/Ultra chip, and 64 GB unified memory, which blocks testing on AIVP's current Linux host.[2]
 
 ## Product and commercial facts
 
