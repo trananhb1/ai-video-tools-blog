@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "tool": "Runway Plugins for Premiere Pro & After Effects",
+  "archetype": "in-timeline multi-model generation and video editing plugin",
+  "assessment_date": "2026-09-10",
+  "launch_materiality_score": 19,
+  "gate_1_score": 9,
+  "confidence": "C",
+  "confidence_reason": "Primary Runway and Adobe documentation only; no controlled AIVP run or saved output artifacts.",
+  "verified_floor": 40,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 40,
+  "classification": "Weak fit on verified evidence; promising workflow specialist pending a controlled run",
+  "strongest_documented_capability": "Generate, edit, upscale and place results inside Premiere Pro and After Effects without browser round trips.",
+  "weakest_or_unresolved_capability": "Exact-product preservation, accepted-output quality, setup time, queue reliability, model-specific credit burn and partner-model rights in the plugin.",
+  "hard_gates": {
+    "commercial_rights": "conditional; general Runway output terms found, but partner-model treatment needs confirmation",
+    "product_specificity": "unresolved; no AIVP run has preserved an exact product through plugin edits",
+    "publication": "First Look only at confidence C",
+    "cost": "blocked; generation requires paid plan credits and no spend is approved"
+  },
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "evidence": "The plugin operates on selected timeline footage and supports video-to-video, but product identity preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "evidence": "No AIVP output inspected."
+    },
+    {
+      "id": "control_consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "evidence": "Model, duration, aspect ratio and resolution controls are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "weight": 15,
+      "verified_points": 13,
+      "unresolved_points": 2,
+      "evidence": "Direct panel generation, one-click placement, selected-clip editing and workspace switching are documented."
+    },
+    {
+      "id": "speed_reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "evidence": "No measured setup, queue, render or failure-rate artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "evidence": "Existing plan-credit consumption is documented; exact cost per accepted plugin output is unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "evidence": "Runway terms allow commercial output use subject to compliance; multi-model/plugin-specific rights remain to be confirmed."
+    },
+    {
+      "id": "automation_integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "evidence": "Native Adobe installation and workspace integration are documented; no API or MCP control of the plugin was found."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "evidence": "macOS/Windows creator workflow is relevant, but AU availability and total Adobe-plus-Runway cost were not explicitly verified."
+    },
+    {
+      "id": "monetization_fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "evidence": "High-intent Runway/Adobe workflow coverage is plausible; no verified AIVP Runway affiliate tracking route exists."
+    }
+  ],
+  "decision": "RETEST",
+  "next_action": "Use the already-open Runway outreach thread to obtain bounded no-cost plugin credits and model-specific rights clarification, then run the locked three-run Premiere comparison.",
+  "case_study_plan": "content/drafts/early-review/runway-adobe-plugins-2026/case-study-plan.md"
+}

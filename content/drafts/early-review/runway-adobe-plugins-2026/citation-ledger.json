@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://runway.com/news/company-news/runway-for-adobe",
+      "title": "Introducing Runway for Premiere Pro & After Effects",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://runway.com/plugins",
+      "title": "Runway Plugins",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://runwayml.com/pricing",
+      "title": "Runway pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://runwayml.com/terms-of-use",
+      "title": "Runway Terms of Use",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://help.runwayml.com/hc/en-us/articles/37464713358099-Runway-Resources",
+      "title": "Runway Resources",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://blog.adobe.com/en/publish/2026/09/08/generate-create-directly-in-your-timeline-with-new-ai-powered-innovations-in-premiere-after-effects",
+      "title": "Adobe Premiere and After Effects AI announcement",
+      "accessed": "2026-09-10"
+    }
+  ]
+}
