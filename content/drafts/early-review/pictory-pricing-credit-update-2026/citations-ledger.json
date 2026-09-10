@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://pictory.ai/pricing",
+      "title": "Pictory pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://pictory.ai?ref=aivideopicks",
+      "title": "Pictory product page through AIVP referral",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://pictory.ai/terms-of-service",
+      "title": "Pictory Terms of Service",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://partners.pictory.ai/signup/40690",
+      "title": "Pictory Affiliate Program",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://pictory.ai/partnernow",
+      "title": "Pictory partner page",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://pictory.ai/press-and-partners",
+      "title": "Pictory Press and Partners",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

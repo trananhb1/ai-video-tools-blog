@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "T8star VDN-MiniMax-H3 ComfyUI bundle",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 43,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 43,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Single/multiple-image, first/last-frame and reference-video routes are documented; exact ASIN preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Mechanical decode/compatibility results are not AIVP quality evidence."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "Multiple reference and deterministic workflow controls are documented; three-run visual consistency is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 8,
+      "unresolved_points": 7,
+      "notes": "Ready-to-place ComfyUI bundle and workflow library reduce setup, but require an 82\u201383GB model set and technical local environment."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Repository compatibility matrix and upstream 8\u00d7B200 timing exist; creator-hardware timing/failure rate is unverified."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "No per-render vendor charge, but hardware, storage, electricity and accepted-output cost are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Australia is in the applicable territory and MiniMax claims no output rights, but attribution and severe geographic use/output restrictions constrain publication."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "ComfyUI workflow/node integration exists; no hardened AIVP MCP/API integration."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Legally accessible in Australia, but 16GB-class GPU and 82\u201383GB storage requirements are high for SMB creators."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme and global-output license restrictions weaken sponsorship/AdSense fit."
+    }
+  ],
+  "analysis": "Differentiated local reference and audio workflows, but no AIVP output evidence, demanding hardware/storage and territory-restricted output use make it a weak production fit.",
+  "confidence_notes": "Primary repositories and license only; no AIVP hands-on run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending exact-product first-10-second success across three runs.",
+    "publication": "Blocked pending a defensible territory/distribution analysis and hands-on evidence.",
+    "integration": "Blocked on this host: insufficient storage and no NVIDIA GPU detected."
+  }
+}

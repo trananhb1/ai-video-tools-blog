@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-10-pictory-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-10T02:26:52.171933+00:00",
+      "body_sha256": "64338d9f1792e957525f21add43e63a759b7f855d715bf0fb4388136cde15d8f",
+      "created_at": "2026-09-10 02:26:52.442000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-pictory-pricing-credits-20260910-v1",
+      "last_event": "delivered",
+      "message_id": "eaf48dc4-d62f-4222-84bf-e6158aeebf01",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Pictory pricing audit — offer dates, AI credits, and affiliate terms",
+      "to": "partner@pictory.ai",
+      "vendor": "Pictory"
+    }
+  ]
+}

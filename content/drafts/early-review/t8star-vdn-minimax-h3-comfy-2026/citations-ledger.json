@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/t8star/Vdn-Minimax-H3-Comfy",
+      "title": "T8star OpenVDN MiniMax H3 ComfyUI bundle",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
+      "title": "MiniMax H3 Audio T8 ComfyUI node",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "title": "MiniMax H3 Community License",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
+      "title": "OpenVDN VDN-MiniMax-H3",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/T8mars",
+      "title": "T8mars GitHub profile",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/t8star",
+      "title": "T8star Hugging Face profile",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

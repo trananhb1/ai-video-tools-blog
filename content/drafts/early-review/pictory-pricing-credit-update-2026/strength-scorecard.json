@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Pictory pricing and AI-credit update",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 39,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 39,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 2,
+      "unresolved_points": 18,
+      "notes": "Pictory accepts images and now allocates AI-video credits, but exact ASIN identity and first-10-second visibility are untested under the current workflow."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No saved AIVP output from the current AI-credit workflow."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Scene editing and generated asset categories are documented; cross-run product consistency is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Current product page documents text, URL, PPT, image, screen, audio and existing-video inputs with automatic editing; exact-product correction burden is unmeasured."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No current timing, queue or failure artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Annual prices, video minutes, AI-credit pools and claimed maximum equivalents are explicit; cost per accepted product-specific output is unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Terms treat generated Pictoried Content as Customer Content and license included third-party digital materials within it, subject to restrictions; AI-provider-specific edge cases remain to confirm."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Pictory advertises API routes and has a browser workflow; current AI-credit feature parity and production automation are unverified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Browser access and creator plans fit Australian SMBs; AUD billing/tax and geography-specific offer terms are unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "AIVP has an active referral route and Pictory's current signup page documents 40% of the first payment; the extra reader coupon is unverified."
+    }
+  ],
+  "analysis": "The pricing and annual credit pool are well documented, but this does not establish exact-product performance or measured cost per usable affiliate video.",
+  "confidence_notes": "Primary vendor documents and live referral-route verification only; no controlled run of the current workflow.",
+  "hard_gates": {
+    "product_affiliate": "Not approved on the basis of pricing. Exact LED-mask identity must be distinctive in the first 10 seconds across three runs.",
+    "publication": "Current-state pricing alert only until effective dates and extra coupon status are confirmed.",
+    "integration": "No new integration work until the zero-cost pilot passes."
+  }
+}
