@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Marvis AI Studio",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 22,
+  "potential_ceiling": 80,
+  "evidence_coverage_percent": 42,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 0,
+      "notes": "Current public UI is text-only and exposes no image, video or product-URL reference input. Structural fail for product affiliate."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor demo and gallery do not substitute for saved AIVP outputs."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "Resolution and 2\u201310 second duration are selectable; seeds, references and repeatability are unverified."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 8,
+      "unresolved_points": 7,
+      "notes": "No-signup prompt-to-download flow is live, but it produces only short landscape clips and has no editor."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Builder publishes single-GPU timings and queue design; AIVP has no timing or failure artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Three free generations per IP per day are documented; paid redemption-code pricing and cost per accepted output are absent."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Service claims user ownership, but upstream H3 community-licence applicability and Australia-specific monetized use are unresolved."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "Client code exposes JSON generation/status endpoints, but no supported API contract, auth, webhook or SLA exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Public browser access needs no account or card; geographic reliability and rights for Australia remain unclear."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate or partner programme found; AdSense intent is possible but unproven."
+    }
+  ],
+  "analysis": "Marvis is a transparent, low-friction indie H3 service rather than a new model. The text-only interface structurally fails product-affiliate specificity; narrative usefulness and rights require testing and confirmation.",
+  "confidence_notes": "Primary service/model documents and a vendor-authored technical account only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "FAIL_CURRENT_UI_TEXT_ONLY",
+    "publication": "Blocked until Australia-specific MiniMax H3 derivative/output rights are confirmed.",
+    "integration": "Not started; undocumented endpoints require security and cost-gate audit before use."
+  }
+}

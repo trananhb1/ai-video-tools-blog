@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/erniou86/Marvis-AI-Studio",
+      "title": "Marvis AI Studio model card",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://ai.jxzhihi.com/intl",
+      "title": "Marvis AI Studio live service",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://dev.to/ernioiu8/i-put-a-paid-ai-video-generator-on-my-own-gaming-gpu-no-cloud-bill-24hk",
+      "title": "Builder account of Marvis AI Studio",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://www.minimax.io/news/minimax-h3-open-source",
+      "title": "MiniMax H3 open-source announcement",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "title": "MiniMax H3 model card and license route",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/erniou86/Marvis-AI-Studio",
+      "title": "Hugging Face API metadata for Marvis AI Studio",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

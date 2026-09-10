@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://creatify.ai/pricing",
+      "title": "Creatify pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://help.creatify.ai/en/articles/9945986-free-plan",
+      "title": "Creatify free plan",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://help.creatify.ai/en/articles/10468243-faqs",
+      "title": "Creatify FAQ",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://creatify.ai/affiliate",
+      "title": "Creatify affiliate programme",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://docs.creatify.ai/billing.md",
+      "title": "Creatify API billing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://creatify.ai/contact",
+      "title": "Creatify contact page",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

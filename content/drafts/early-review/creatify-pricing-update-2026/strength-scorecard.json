@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Creatify current pricing and credit economics",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 43,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 43,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Official FAQ supports Amazon/product links and uploaded product images/videos; exact identity in the first 10 seconds is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No saved AIVP output tied to the current plans."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Official FAQ documents a precise editor and revisions; cross-run product drift remains untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Product URL/media input, scripting, ad generation and editing are documented, but current-plan end-to-end friction is unmeasured."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No current queue, render-time or failure artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Plan prices and API/app credit schedules are published, but documentation conflicts by surface and cost per accepted output is unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "FAQ states user ownership, unrestricted channels and royalty-free stock; input rights and model-specific edge cases still apply."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Official API billing and pricing-page MCP listing establish integration paths; production credentials and cost gates are not audited here."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Browser-based free/creator plans fit SMB evaluation; AUD billing and tax are not documented."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "AIVP has active verified tracking and Creatify publicly advertises 25% recurring commission."
+    }
+  ],
+  "analysis": "Current pricing is material to buyers and AIVP affiliate content, but a pricing snapshot does not verify product quality. Conflicting app/API credit units make real cost per usable video a required test.",
+  "confidence_notes": "Primary pricing/help/API/affiliate documents only for this event; no controlled current-plan run.",
+  "hard_gates": {
+    "product_affiliate": "Not approved until all three runs preserve exact ASIN identity in the first 10 seconds.",
+    "publication": "Pricing facts may be corrected, but no quality/ranking uplift without hands-on evidence.",
+    "integration": "Existing tool only; no new MCP deployment without security and cost-gate audit."
+  }
+}
