@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "candidate": "Medeo VideoClaw",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "status": "HELD_NO_VERIFIED_PRESS_PARTNERSHIP_OR_AFFILIATE_CONTACT",
+  "sent": false,
+  "sender": "Tom Tran <contact@aivideopicks.com>",
+  "recipient": null,
+  "recipient_source": null,
+  "message_id": null,
+  "delivery_status": null,
+  "provider_read_back_verified": false,
+  "reason": "The only published address located is generic legal/support contact support@one2x.ai. No vendor-published press, partnerships or affiliate contact was found; standing policy forbids routing affiliate questions to generic support.",
+  "next_action": "Recheck official Medeo/One2X press, partnerships and affiliate surfaces. If a role-appropriate address is published, add it to a new validated manifest subject to the 30-day cooldown and domain cap.",
+  "checked_sources": [
+    "https://www.prnewswire.com/news-releases/medeo-ai-launches-videoclaw-bringing-real-time-trend-discovery-into-the-ai-video-creation-workflow-302875644.html",
+    "https://medeo.app/features/social-listening",
+    "https://medeo.app/features/viral-trend-finder",
+    "https://medeo.app/features/social-media-management",
+    "https://www.medeo.app/pricing",
+    "https://www.medeo.app/legal/terms-of-use",
+    "https://docs.prd.medeo.app/docs/",
+    "https://www.one2x.ai/"
+  ]
+}

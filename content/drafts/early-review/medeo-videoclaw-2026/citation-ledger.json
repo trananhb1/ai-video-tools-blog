@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.prnewswire.com/news-releases/medeo-ai-launches-videoclaw-bringing-real-time-trend-discovery-into-the-ai-video-creation-workflow-302875644.html",
+      "title": "Medeo AI launches VideoClaw",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://medeo.app/features/social-listening",
+      "title": "VideoClaw social listening",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://medeo.app/features/viral-trend-finder",
+      "title": "VideoClaw viral trend finder",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://medeo.app/features/social-media-management",
+      "title": "VideoClaw social media management",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://www.medeo.app/pricing",
+      "title": "Medeo pricing",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://www.medeo.app/legal/terms-of-use",
+      "title": "Medeo terms of use",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 7,
+      "url": "https://docs.prd.medeo.app/docs",
+      "title": "Medeo Developer API",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 8,
+      "url": "https://www.one2x.ai",
+      "title": "One2X product studio",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Medeo VideoClaw",
+  "date_assessed": "2026-09-10",
+  "verified_floor": 31,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 31,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Medeo documents URL media import and product-video workflows, but no AIVP artifact proves exact-ASIN preservation in the first ten seconds."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor demos and publish-ready claims are not hands-on AIVP evidence."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Editor and workflow controls are documented, but repeatability and product drift require saved runs."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Official pages document a differentiated trend-to-research-to-production-to-publishing loop; actual time savings and trend accuracy are untested."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No AIVP timing, queue, failure-rate or recovery artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "A free plan and model credit rates are published, but VideoClaw inclusion and cost per accepted output are not established."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Terms grant a worldwide lawful-use licence for complete outputs, but it is revocable and third-party elements/media permissions need clarification."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "Official OpenAPI documentation covers media import, recipes, video creation, rendering and polling, and links an OpenClaw-compatible skill; VideoClaw-specific endpoint scope still belongs in workflow unknowns."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Browser product and USD free tier target creators/SMBs globally; Australian payments, support and data-locality details are unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "The use case has transactional creator intent, but no affiliate programme or tracking was found."
+    }
+  ],
+  "analysis": "VideoClaw's documented trend-to-production loop is relevant and differentiated, with a practical API and explicit but qualified output-use rights. Exact trend accuracy, output quality, repeatability, speed, cost and product identity are untested, so the credible label is Monitor only at confidence C.",
+  "confidence_notes": "Primary vendor announcement, product, pricing, legal and API documents only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "UNVERIFIED_FIRST_10_SECONDS",
+    "publication": "Blocked pending hands-on evidence and launch-media/third-party rights clarification.",
+    "integration": "Not started; API key/account permissions, egress and cost gates require audit before use."
+  }
+}
