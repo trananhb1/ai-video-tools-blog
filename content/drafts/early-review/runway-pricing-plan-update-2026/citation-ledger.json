@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://runwayml.com/pricing",
+      "title": "Runway pricing",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 2,
+      "url": "https://runwayml.com/terms-of-use",
+      "title": "Runway Terms of Use",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 3,
+      "url": "https://aivideopicks.com/posts/runway-review-2026.html",
+      "title": "AI Video Picks Runway review",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 4,
+      "url": "https://help.runwayml.com/hc/en-us/articles/37464713358099-Runway-Resources",
+      "title": "Runway Resources",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 5,
+      "url": "https://affiliates.runwayml.com",
+      "title": "Runway Affiliate Portal",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 6,
+      "url": "https://runwayml.com/news",
+      "title": "Runway news",
+      "accessed": "2026-09-11"
+    }
+  ]
+}

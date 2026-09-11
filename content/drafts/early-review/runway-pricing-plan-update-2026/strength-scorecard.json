@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Runway current pricing and plan model",
+  "date_assessed": "2026-09-11",
+  "verified_floor": 26,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 26,
+  "confidence": "C",
+  "classification": "Monitor only pending a bounded current-plan run",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "No current-plan artifact verifies exact product preservation in the first 10 seconds."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Requires hands-on outputs."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Requires repeated artifact-backed runs."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 8,
+      "unresolved_points": 7,
+      "notes": "Official pricing documents self-serve web plans, model access, parallel generations, projects, storage and creative tooling; end-to-end usability remains untested."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No current-plan timing or failure evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Plan and credit rates are documented, but accepted-output cost requires hands-on retries and QC."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "Current terms do not restrict commercial use of compliant user outputs, subject to the agreement and input/third-party rights."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "Official pricing exposes Runway MCP on Pro/Max and a separate API route."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Self-serve creator plans are public; Australian checkout currency, tax and payment details were not verified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "High-intent pricing content and an official affiliate login portal exist, but AIVP programme acceptance and tracking are not verified."
+    }
+  ],
+  "analysis": "The live pricing and terms are useful buyer evidence, but all quality-critical criteria remain untested. The update qualifies editorially because it conflicts with AIVP's live credit-rate and top-tier claims, not because current tool strength has been demonstrated.",
+  "confidence_notes": "Primary vendor documents plus an existing AIVP article comparison only; no controlled current-plan run.",
+  "planned_case_study": "case-study-plan.md"
+}
