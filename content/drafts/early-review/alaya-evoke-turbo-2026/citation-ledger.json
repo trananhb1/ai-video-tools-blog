@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/AlayaLab/Evoke-Turbo",
+      "title": "AlayaLab Evoke-Turbo model card",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/AlayaLab/Evoke-Turbo",
+      "title": "Evoke-Turbo Hugging Face API metadata",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/AlayaLab/Evoke",
+      "title": "Official EVOKE implementation",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/AlayaLab/Evoke",
+      "title": "AlayaLab EVOKE base model card",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/pkqbajng/ViGeo",
+      "title": "ViGeo required depth backend model card",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 6,
+      "url": "https://evoke-world.github.io/Evoke",
+      "title": "Official EVOKE project page and contributor contacts",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 7,
+      "url": "https://github.com/AlayaLab/Evoke/commits/main",
+      "title": "EVOKE commit history",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/api/models/AlayaLab/Evoke/tree/main/evoke-base",
+      "title": "EVOKE base component tree",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/api/models/pkqbajng/ViGeo/tree/main",
+      "title": "ViGeo repository file tree",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/spaces/hugging-apps/evoke",
+      "title": "Community EVOKE Hugging Face Space status",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 11,
+      "url": "https://alayalab.ai",
+      "title": "Alaya Lab official website",
+      "accessed": "2026-09-11"
+    }
+  ]
+}

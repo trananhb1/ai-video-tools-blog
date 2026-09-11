@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Alaya-EVOKE-Turbo",
+  "date_assessed": "2026-09-11",
+  "verified_floor": 19,
+  "potential_ceiling": 90,
+  "evidence_coverage_percent": 29,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Official workflow supports first-frame image and reference-video conditioning plus camera pose; exact ASIN preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor WBench results and demos are not AIVP hands-on quality evidence; comparison uses different prompts/poses and selected seed."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Camera-motion and instruction adherence are the stated optimization target; three-run repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 4,
+      "unresolved_points": 11,
+      "notes": "CLI modes and settings are documented, but the workflow requires large separate weights, a depth backend and specialist accelerator setup."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No AIVP timing, creator-hardware render or failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Weights are publicly downloadable, but compatible compute, energy and cost per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 0,
+      "notes": "Resolved failure for monetized AIVP use: required ViGeo checkpoint is CC BY-NC 4.0 even though Turbo/base are Apache-2.0."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Deterministic shell launchers and modes are documented; no audited AIVP API/MCP integration exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Ungated files are geographically accessible, but roughly 79.7GiB minimum assets and specialist GPU requirements are poor indie-creator fit."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme found, and current required dependency blocks monetized output."
+    }
+  ],
+  "analysis": "A relevant control-focused model variant with public weights, but it is not a hosted creator tool. No AIVP run exists; exact-product quality, reliability and economics are unknown; and required ViGeo is noncommercial.",
+  "confidence_notes": "Primary official repository, model, dependency and project-page evidence only; no hands-on artifacts.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three-run first-10-seconds exact-product success.",
+    "publication": "Blocked because required ViGeo is CC BY-NC 4.0 and no hands-on evidence exists.",
+    "integration": "Blocked by storage, absent NVIDIA accelerator, unresolved commercial rights and unaudited runtime."
+  }
+}
