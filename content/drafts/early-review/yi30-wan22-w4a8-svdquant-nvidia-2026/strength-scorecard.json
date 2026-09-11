@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Yi30 Wan2.2 W4A8 SVDQuant NVIDIA artifacts",
+  "date_assessed": "2026-09-11",
+  "verified_floor": 32,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 32,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "The 5B base and packaged artifact support image-conditioned video; exact ASIN preservation and first-10-seconds identity are untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Publisher sample files and trajectory similarity are not AIVP hands-on visual-quality evidence."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Seed, steps, resolution and precomputed quantization artifacts are documented; three-run visual repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "notes": "Download and vLLM-Omni commands are documented, but the route requires a specialized CUDA environment and separate base components."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No AIVP timing, queue, error-rate or creator-hardware reliability artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No model fee is documented, but compute, electricity, setup and cost per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "Repository and referenced base model declare Apache-2.0."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "A deterministic CLI path through vLLM-Omni is documented; no audited AIVP MCP/API integration exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Public artifacts are geographically accessible, but 26.3GB measured minimum peak memory is outside common creator hardware."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme or proven high-intent creator buying path found."
+    }
+  ],
+  "analysis": "Technically relevant image-conditioned NVIDIA quantization artifacts, but not a new generation model and not executable on AIVP's current host. Exact-product fidelity, output quality, reliability and true cost remain unverified.",
+  "confidence_notes": "Primary repository, upstream model and implementation evidence only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three-run exact-product first-frame/first-10-seconds success.",
+    "publication": "First Look only; full Review blocked pending hands-on evidence.",
+    "integration": "Blocked: current host has no NVIDIA GPU and paid compute is not approved."
+  }
+}

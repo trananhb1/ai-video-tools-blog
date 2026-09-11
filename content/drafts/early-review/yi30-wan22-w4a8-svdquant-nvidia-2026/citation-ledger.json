@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/Yi30/wan2.2-ti2v-w4a8-svd-nvidia",
+      "title": "Wan2.2 W4A8 SVDQuant NVIDIA artifacts",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "title": "Wan2.2 TI2V 5B Diffusers base model",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/vllm-project/vllm-omni/pull/6527",
+      "title": "vLLM-Omni PR 6527: Quark W4A8 SVDQuant support",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/Yi30",
+      "title": "Yi Liu (Yi30) Hugging Face profile",
+      "accessed": "2026-09-11"
+    }
+  ]
+}
