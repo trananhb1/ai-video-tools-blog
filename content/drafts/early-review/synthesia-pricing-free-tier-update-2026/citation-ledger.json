@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.synthesia.io/pricing",
+      "title": "Synthesia pricing",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 2,
+      "url": "https://www.synthesia.io/updates",
+      "title": "Synthesia product updates",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 3,
+      "url": "https://www.synthesia.io/partners/affiliates",
+      "title": "Synthesia affiliate programme",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 4,
+      "url": "https://aivideopicks.com/posts/synthesia-review-2026.html",
+      "title": "AIVP Synthesia review",
+      "accessed": "2026-09-11"
+    }
+  ]
+}

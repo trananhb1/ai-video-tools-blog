@@ -1,0 +1,84 @@
+{
+  "tool": "Synthesia current pricing, credits and free tier",
+  "date_assessed": "2026-09-11",
+  "verified_floor": 41,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 41,
+  "confidence": "C",
+  "classification": "Weak fit pending current-plan testing",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 4,
+      "unresolved_points": 16,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Current vendor documentation supports only the awarded floor; hands-on current-plan evidence remains unresolved."
+    }
+  ],
+  "analysis": "Current pricing/workflow documentation is material, but no controlled artifact-backed run validates output quality, consistency, speed or exact-product preservation.",
+  "confidence_notes": "Primary documents and existing editorial context only.",
+  "planned_case_study": "case-study-plan.md"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.heygen.com/pricing",
+      "title": "HeyGen pricing",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 2,
+      "url": "https://www.heygen.com/affiliate-program",
+      "title": "HeyGen affiliate programme",
+      "accessed": "2026-09-11"
+    },
+    {
+      "id": 4,
+      "url": "https://aivideopicks.com/posts/heygen-pricing-2026.html",
+      "title": "AIVP HeyGen pricing guide",
+      "accessed": "2026-09-11"
+    }
+  ]
+}

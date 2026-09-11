@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-11-heygen-pricing-affiliate-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-11T10:28:44.727905+00:00",
+      "body_sha256": "3b37b6e800eaba14d8a73e132f9d0b9b47ad6ea769ce6c08f657ba564c477e99",
+      "created_at": "2026-09-11 10:28:44.975000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-heygen-pricing-affiliate-20260911-v1",
+      "last_event": "delivered",
+      "message_id": "050ff2e5-feff-4e16-a531-4ed9e905e41b",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Early review request: HeyGen current pricing, credits and affiliate programme",
+      "to": "affiliates@heygen.com",
+      "vendor": "HeyGen"
+    }
+  ]
+}
