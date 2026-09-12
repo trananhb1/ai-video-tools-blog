@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "tool": "OpenArt Director",
+  "event": "Physion ARC Anime 1.0 benchmark result",
+  "date_assessed": "2026-09-12",
+  "verified_floor": 55,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 55,
+  "confidence": "C",
+  "classification": "Promising/conditional",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 7,
+      "unresolved_points": 13,
+      "notes": "Official Director pages document product/reference assets, but the anime benchmark does not test exact ASIN preservation or the first-10-seconds gate.",
+      "sources": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "Independent Physion leaderboard reports 77.8 overall and 84.5 Production Quality across its anime evaluation; raw AIVP artifacts are absent.",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Conversational multi-scene workflow, timeline refinement and up-to-five-minute output are documented; AIVP setup friction is unmeasured.",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Physion reports strong identity/style/production metrics over a multi-prompt evaluation; exact repeatability under one frozen product brief is unknown.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "The benchmark establishes completed outputs but publishes no extracted render-time, timeout or failure-rate evidence.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Physion reports US$21.30 per benchmark video. Current plan video estimates explicitly exclude Director, preventing a reliable AIVP cost model.",
+      "sources": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Terms permit commercial use at Plus and above, subject to law and inputs; model-specific and transferred-client constraints require confirmation.",
+      "sources": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Official OAuth MCP and CLI support generation, references, result tracking and credit checks; integration has not been security-audited by AIVP.",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Web service and USD self-serve plans are documented; terms place compliance risk on users outside the US and AU billing/access were not tested.",
+      "sources": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Official affiliate programme offers 20% for 12 months after approval, but no CTA is allowed until acceptance and tracking verification.",
+      "sources": [
+        7,
+        9
+      ]
+    }
+  ],
+  "analysis": "The independent anime benchmark materially raises confidence in long-form narrative output, but its use case does not validate exact-product affiliate video. Cost evidence is currently incompatible with AIVP's <=US$2 usable-output target.",
+  "confidence_notes": "Independent benchmark plus vendor documentation; no AIVP-controlled artifact-backed run, so confidence remains C.",
+  "planned_case_study": "case-study-plan.md",
+  "outreach_record": "vendor-outreach-draft.md"
+}
