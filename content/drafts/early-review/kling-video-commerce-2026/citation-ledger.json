@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://klingai.com/document-api/updates/api",
+      "title": "Kling AI API update announcements",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 2,
+      "url": "https://klingai.com/document-api/guides/get-started/quick-start",
+      "title": "Kling API quick start",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 3,
+      "url": "https://klingai.com/global/dev/pricing",
+      "title": "Kling API pricing",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 4,
+      "url": "https://klingai.com/document-api/pricing/base/video",
+      "title": "Kling API video pricing table",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 5,
+      "url": "https://klingai.com/docs/payment-policy",
+      "title": "Kling AI paid-service terms",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 6,
+      "url": "https://klingai.com/docs/privacy-policy",
+      "title": "Kling AI privacy policy",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 7,
+      "url": "https://klingai.com/app/commission-share",
+      "title": "Kling AI Affiliate Program",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 8,
+      "url": "https://klingai.com/document-api/protocols/privacyPolicy",
+      "title": "Kling API privacy policy and contact",
+      "accessed": "2026-09-13"
+    }
+  ]
+}

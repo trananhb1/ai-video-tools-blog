@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "tool": "Kling Video Commerce",
+  "event": "Video Commerce API and Agent launch",
+  "date_assessed": "2026-09-13",
+  "verified_floor": 40,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 40,
+  "confidence": "C",
+  "classification": "Weak fit pending testing",
+  "criteria": [
+    {"id":"product_specificity","name":"Product specificity","weight":20,"verified_points":10,"unresolved_points":10,"notes":"Product inputs and close-ups documented; exact ASIN preservation untested.","sources":[1]},
+    {"id":"output_quality","name":"Output quality","weight":15,"verified_points":0,"unresolved_points":15,"notes":"No artifact-backed run.","sources":[1]},
+    {"id":"control_consistency","name":"Control & consistency","weight":10,"verified_points":4,"unresolved_points":6,"notes":"Controls documented; repeatability unknown.","sources":[1]},
+    {"id":"workflow_strength","name":"Workflow strength","weight":15,"verified_points":12,"unresolved_points":3,"notes":"Agent/API automates three product-presenter shot types.","sources":[1,2]},
+    {"id":"speed_reliability","name":"Speed & reliability","weight":10,"verified_points":1,"unresolved_points":9,"notes":"Task infrastructure exists; metrics absent.","sources":[2]},
+    {"id":"cost_efficiency","name":"Cost efficiency","weight":10,"verified_points":1,"unresolved_points":9,"notes":"General prices public; feature tariff unknown.","sources":[3,4]},
+    {"id":"commercial_rights","name":"Commercial rights","weight":10,"verified_points":6,"unresolved_points":4,"notes":"Paid consumer commercial grant documented; API scope unclear.","sources":[5]},
+    {"id":"automation_integration","name":"Automation & integration","weight":5,"verified_points":5,"unresolved_points":0,"notes":"Official API and no-code Agent routes.","sources":[1,2]},
+    {"id":"audience_fit_au_smb","name":"AU creator/SMB fit","weight":3,"verified_points":0,"unresolved_points":3,"notes":"AU eligibility/authentication unverified.","sources":[2,6]},
+    {"id":"monetization_fit","name":"Monetization fit","weight":2,"verified_points":1,"unresolved_points":1,"notes":"Official affiliate page exists; AIVP acceptance/tracking unverified.","sources":[7]}
+  ],
+  "analysis": "Strategically aligned with exact-product UGC video, but output claims and economics remain untested.",
+  "confidence_notes": "Primary vendor documentation only.",
+  "planned_case_study": "case-study-plan.md",
+  "outreach_record": "vendor-outreach-draft.md"
+}
