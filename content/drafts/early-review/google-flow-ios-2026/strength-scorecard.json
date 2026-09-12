@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Google Flow for iOS",
+  "date_assessed": "2026-09-12",
+  "verified_floor": 27,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 27,
+  "confidence": "C",
+  "classification": "Monitor only pending mobile testing",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 5,
+      "unresolved_points": 15,
+      "notes": "Official listing supports camera-roll and live-camera grounding; exact product preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Requires exported iPhone artifacts."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Create/refine and synced projects are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "Camera import, synced library, background jobs, notifications, download and sharing are documented."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled mobile timing or failure artifacts."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Free allowance and per-generation rates are documented; actual debit per accepted output is untested."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "General ownership language exists, but no Flow-specific explicit monetized-use grant was verified."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 1,
+      "unresolved_points": 4,
+      "notes": "Desktop/mobile library sync is documented; no iOS automation route is documented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "AU App Store and Google's supported-region list confirm access."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "Existing high-intent AIVP review can be updated; no affiliate programme is verified."
+    }
+  ],
+  "analysis": "The release materially improves mobile access, but only workflow and availability are documented. Quality-critical criteria remain untested.",
+  "confidence_notes": "Apple and Google primary documents only; no iPhone run artifacts.",
+  "planned_case_study": "case-study-plan.md"
+}
