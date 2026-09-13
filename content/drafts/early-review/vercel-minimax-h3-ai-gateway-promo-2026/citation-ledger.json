@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
+      "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 2,
+      "url": "https://vercel.com/ai-gateway/models/minimax-h3",
+      "title": "MiniMax H3 API, Pricing & Playground",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 3,
+      "url": "https://vercel.com/ai-gateway/models/minimax-h3-max",
+      "title": "MiniMax H3 Max API, Pricing & Playground",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 4,
+      "url": "https://vercel.com/legal/ai-product-terms",
+      "title": "Vercel AI Product Terms",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 5,
+      "url": "https://vercel.com/legal/affiliate-marketing-terms",
+      "title": "Vercel Affiliate Marketing Terms",
+      "accessed": "2026-09-13"
+    }
+  ]
+}

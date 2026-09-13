@@ -1,0 +1,26 @@
+{
+  "tool": "Vercel AI Gateway - MiniMax H3 and H3 Max",
+  "candidate_id": "vercel-minimax-h3-ai-gateway-promo-2026-08-30",
+  "date_assessed": "2026-09-13",
+  "verified_floor": 45,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 45,
+  "confidence": "C",
+  "classification": "Weak fit pending testing",
+  "criteria": [
+    {"name":"Product specificity","weight":20,"verified_points":8,"unresolved_points":12,"notes":"H3 supports image/video/audio references; exact ASIN preservation is untested."},
+    {"name":"Output quality","weight":15,"verified_points":4,"unresolved_points":11,"notes":"2K H3 and 480p/768p H3 Max are documented; no AIVP QC."},
+    {"name":"Workflow strength","weight":15,"verified_points":10,"unresolved_points":5,"notes":"Playground, AI SDK, async polling and download are documented."},
+    {"name":"Control & consistency","weight":10,"verified_points":5,"unresolved_points":5,"notes":"Aspect ratio, duration, keyframes and references documented; consistency untested."},
+    {"name":"Speed & reliability","weight":10,"verified_points":2,"unresolved_points":8,"notes":"Renders take minutes; no measured time or error rate."},
+    {"name":"Cost efficiency","weight":10,"verified_points":7,"unresolved_points":3,"notes":"Promotional rates and US$5 unpaid-user credits documented; usable-output economics untested."},
+    {"name":"Commercial rights","weight":10,"verified_points":2,"unresolved_points":8,"notes":"Output sharing allowed, but third-party terms and user-side commercial determination remain."},
+    {"name":"Automation & integration","weight":5,"verified_points":5,"unresolved_points":0,"notes":"Documented API key, AI SDK, polling, retries and file output."},
+    {"name":"AU creator/SMB fit","weight":3,"verified_points":2,"unresolved_points":1,"notes":"Public route and credits documented; AU signup and billing untested."},
+    {"name":"Monetization fit","weight":2,"verified_points":0,"unresolved_points":2,"notes":"No AIVP programme acceptance or tracked link."}
+  ],
+  "analysis": "Reference-conditioned H3 is relevant, but the discount expires, no controlled run exists, and commercial usability is unresolved.",
+  "confidence_notes": "Official documentation only; no authenticated generation or output artifact.",
+  "case_study_plan": "case-study-plan.md",
+  "sources": ["https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway","https://vercel.com/ai-gateway/models/minimax-h3","https://vercel.com/ai-gateway/models/minimax-h3-max","https://vercel.com/legal/ai-product-terms","https://vercel.com/legal/affiliate-marketing-terms"]
+}
