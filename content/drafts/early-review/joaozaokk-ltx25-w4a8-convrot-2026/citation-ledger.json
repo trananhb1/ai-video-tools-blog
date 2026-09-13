@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/JoaoZaokk/LTX-2.5-22B-distilled-W4A8-ConvRot",
+      "title": "JoaoZaokk LTX-2.5 22B distilled W4A8 ConvRot model card",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/JoaoZaokk/LTX-2.5-22B-distilled-W4A8-ConvRot/tree/main?recursive=true&expand=true",
+      "title": "Hugging Face model tree and file metadata",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/JoaoZaokk/LTX-2.5-22B-distilled-W4A8-ConvRot/blob/main/LICENSE_LTX_2x_COMMUNITY.txt",
+      "title": "LTX-2.x Community License Agreement",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "title": "Official Lightricks LTX-2.5 model card",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/JoaoZaokk/comfy-quant-bench",
+      "title": "JoaoZaokk comfy-quant-bench repository",
+      "accessed": "2026-09-13"
+    },
+    {
+      "id": 6,
+      "url": "https://api.github.com/users/JoaoZaokk",
+      "title": "Public GitHub profile metadata for JoaoZaokk",
+      "accessed": "2026-09-13"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "JoaoZaokk LTX-2.5 22B Distilled W4A8 ConvRot",
+  "date_assessed": "2026-09-13",
+  "verified_floor": 44,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 44,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Official LTX-2.5 supports image/video inputs and this is a transformer quantization; exact ASIN identity and first-10-seconds preservation are untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "notes": "Publisher benchmark reports all-frame MAE/PSNR and coherent motion for one 249-frame clip; no AIVP run, perceptual panel, product reference or audio decode."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Seed, sigmas, sampler, dimensions and frame count are documented; only one prompt/seed was tested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 7,
+      "unresolved_points": 8,
+      "notes": "Public ComfyUI transformer can fit a 24GB card, but additional encoder/VAE assets, exact workflow and specialist setup remain necessary."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "One matched publisher run reports 400.9 seconds versus 780.7 BF16 and 481.5 INT8; repeated timing and failure rate are unknown."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Weights are downloadable without a per-render fee, but compatible hardware, electricity, setup and cost per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "LTX-2.x terms explicitly cover production/commercial use below the stated entity-revenue threshold and say Lightricks claims no rights in outputs, subject to restrictions."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "ComfyUI and quantization tooling are documented; no audited AIVP API/MCP or production integration exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Public ungated artifact is geographically accessible, but the demonstrated 24GB GPU path is specialist hardware."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme or validated transactional demand was found."
+    }
+  ],
+  "analysis": "A differentiated, unusually transparent community quantization that makes the transformer resident on a 24GB RTX 3090, but it is not a complete creator product. One publisher benchmark supports a modest evidence floor; exact-product fidelity, audio, repeatability, security and real accepted-output economics remain unverified.",
+  "confidence_notes": "Publisher repository, benchmark and upstream primary documentation only; no AIVP hands-on run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three-run exact-product first-frame/first-10-seconds success.",
+    "publication": "First Look only; Review blocked pending controlled AIVP evidence.",
+    "integration": "Blocked: no NVIDIA GPU on current host, model scan incomplete, paid compute not approved."
+  }
+}
