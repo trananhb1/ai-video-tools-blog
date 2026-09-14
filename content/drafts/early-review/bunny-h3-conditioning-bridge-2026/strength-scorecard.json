@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "BUNNY H3 Conditioning Bridge V1",
+  "date_assessed": "2026-09-14",
+  "verified_floor": 17,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 17,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "No documented Ref2VA compatibility or exact-product test; the credited original bridge explicitly excludes Ref2VA."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Publisher comparison clips and approximate observations are not a formal benchmark; no AIVP hands-on run."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Alpha, magnitude matching and true bypass are documented and visible in source; multi-seed repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "Documented as a small ComfyUI conditioning-path insertion, but it depends on a complete specialist MiniMax H3 workflow."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No render timing, overhead measurement or failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "Adapter is publicly downloadable, but H3 hardware, electricity, setup and cost per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Metadata points to MiniMax's community licence and Australia is not excluded; candidate repository lacks visible LICENSE/NOTICE and derivative-package compliance is unresolved."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Public ComfyUI source provides bounded file discovery, safetensors loading, shape validation and no shell/network calls in nodes.py; full audit not completed."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Australia is inside the upstream licence territory, but a local 33B workflow is not ordinary creator access."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme or validated transactional demand found."
+    }
+  ],
+  "analysis": "A genuinely differentiated community conditioning component for complex action logic, but not a creator-ready tool. Its evidence is publisher-only, reference-product compatibility is undocumented, hardware feasibility is poor on the current host, and derivative-package compliance is unresolved.",
+  "confidence_notes": "Primary repository, source code and upstream documentation only; no AIVP generation run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three paired exact-product first-frame/first-10-seconds passes.",
+    "publication": "First Look only; Review blocked pending controlled artifact-backed AIVP evidence.",
+    "integration": "Blocked pending full security audit, compatible no-cost NVIDIA access and licence/package review."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/JOKER141/BUNNY_H3_Conditioning_Bridge",
+      "title": "BUNNY H3 Conditioning Bridge model card",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/JOKER141/BUNNY_H3_Conditioning_Bridge",
+      "title": "Hugging Face model metadata",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/aa335615543-ux/BUNNY_H3_Conditioning_Bridge",
+      "title": "BUNNY H3 Conditioning Bridge repository",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/aa335615543-ux/BUNNY_H3_Conditioning_Bridge/main/nodes.py",
+      "title": "BUNNY H3 Conditioning Bridge node source",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "title": "Official MiniMax H3 model card",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/LICENSE",
+      "title": "MiniMax H3 Community License Agreement",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/docs/QA-about-License.md",
+      "title": "MiniMax H3 license Q&A",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 8,
+      "url": "https://api.github.com/users/aa335615543-ux",
+      "title": "FourBunny public GitHub profile",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge",
+      "title": "Original MiniMax H3 Semantic Bridge model card",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/ToyBoyboos/Wan2.2-Lightning",
+      "title": "ToyBoyboos Wan2.2-Lightning duplicate model card",
+      "accessed": "2026-09-14"
+    }
+  ]
+}
