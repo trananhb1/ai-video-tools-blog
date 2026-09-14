@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "JoaoZaokk LTX-2.3 22B Distilled 1.1 W4A8 ConvRot",
+  "date_assessed": "2026-09-14",
+  "verified_floor": 49,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 49,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 5,
+      "unresolved_points": 15,
+      "notes": "The underlying audio-video model and a publisher product-LoRA clip establish relevance; exact ASIN reference conditioning and first-10-seconds identity are untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "Publisher supplies complete MP4/FLAC artifacts plus all-frame picture and audio-distance metrics for one 249-frame run; no AIVP run or human quality panel."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "Seed, dimensions, frames, steps, sigmas, sampler and saved-conditioning identity control are documented; multi-seed and three-run repeatability remain unknown."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 7,
+      "unresolved_points": 8,
+      "notes": "Single-file checkpoint and ComfyUI tooling are documented, but the encoder-conditioning workaround, large assets and specialist GPU setup add material friction."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Publisher separates 18-second sampling from 208-second whole-run time and documents six failed BF16 loading attempts; repeated W4A8 failure rate is unknown."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Weights are downloadable without per-render vendor fees; hardware, electricity, setup and cost per accepted output are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "LTX-2 terms grant use subject to restrictions, a US$10M entity-revenue threshold and generated-content disclosure; AIVP must archive current terms before use."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "ComfyUI, conversion, benchmark and conditioning-control tooling are public; no audited AIVP MCP or production integration exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Ungated weights are geographically accessible and the licence is worldwide, but the demonstrated multi-GPU setup is specialist hardware."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate programme or validated transactional demand was found."
+    }
+  ],
+  "analysis": "An unusually transparent W4A8 deployment derivative with synchronized audio-video files, conditioning controls and LoRA evidence. It is still a specialist component, not a turnkey creator tool; exact-product fidelity, vertical output, repeatability, security and accepted-output economics remain unverified.",
+  "confidence_notes": "Publisher repository, benchmark artifacts and upstream primary documentation only; no AIVP controlled run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three-run exact-product first-frame/first-10-seconds success.",
+    "publication": "First Look only; Review blocked pending controlled AIVP evidence.",
+    "integration": "Blocked: no NVIDIA GPU on current host, large-file security scans incomplete, paid compute not approved."
+  }
+}

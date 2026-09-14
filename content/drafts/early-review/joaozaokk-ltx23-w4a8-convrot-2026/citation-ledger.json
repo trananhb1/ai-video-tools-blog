@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/JoaoZaokk/LTX-2.3-22B-distilled-1.1-W4A8-ConvRot",
+      "title": "JoaoZaokk LTX-2.3 22B distilled 1.1 W4A8 ConvRot model card",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/JoaoZaokk/LTX-2.3-22B-distilled-1.1-W4A8-ConvRot/tree/main?recursive=true&expand=true",
+      "title": "Hugging Face model tree, hashes and security scan state",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/JoaoZaokk/LTX-2.3-22B-distilled-1.1-W4A8-ConvRot/blob/main/LICENSE_LTX_2_COMMUNITY.txt",
+      "title": "LTX-2 Community License Agreement",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "title": "Official Lightricks LTX-2.3 model card",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/JoaoZaokk/comfy-quant-bench",
+      "title": "JoaoZaokk comfy-quant-bench repository",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 6,
+      "url": "https://api.github.com/users/JoaoZaokk",
+      "title": "Public GitHub profile metadata for JoaoZaokk",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 7,
+      "url": "https://www.perfectcorp.com/consumer/blog/video-editing/video-filters-for-halloween-tiktok",
+      "title": "Perfect Corp YouCam Halloween filter article",
+      "accessed": "2026-09-14"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/Winnougan/INT4-Convrot-Comfy-Models/blob/main/ltx-2.3-22b-distilled-1.1_transformer_only-int4_convrot.safetensors",
+      "title": "Earlier LTX-2.3 INT4 ConvRot transformer artifact",
+      "accessed": "2026-09-14"
+    }
+  ]
+}
