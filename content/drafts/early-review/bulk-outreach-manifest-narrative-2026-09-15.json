@@ -1,0 +1,15 @@
+{
+  "batch": "aivp-early-review-2026-09-15-narrative-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "Narrative",
+      "launch_materiality_score": 17,
+      "to": "support@usenarrative.ai",
+      "recipient_source": "https://usenarrative.ai/",
+      "subject": "Early review request: Narrative AI Video Editor — access, rights and affiliate details",
+      "idempotency_key": "aivp-early-review-narrative-ai-video-editor-20260915-v1",
+      "body": "Hi Narrative team,\n\nI’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nWe found Narrative through its current Product Hunt listing and live self-serve editor launch. We are preparing an evidence-led, clearly labelled First Look and would appreciate routing to the appropriate product or partnerships contact.\n\nWe are requesting official documentation covering the public launch date, Australian availability, supported inputs and exports, model modes, project and storage limits, exact AI-credit consumption by edit operation, trial payment-card requirements, API or integration roadmap, footage retention/deletion, and commercial-use terms for monetized editorial and affiliate videos.\n\nWe are requesting complimentary bounded review access sufficient for three controlled edits of one rights-cleared 24-second product-video master, with an explicit access period, zero-cost credit cap, expiry and restricted-feature list. We will not incur charges, start a paid subscription or accept unbounded access.\n\nWe request approved media rights for official screenshots, demo clips and logos reproduced in monetized editorial articles, YouTube videos and social posts, plus written confirmation that complete Narrative outputs may be used in monetized editorial and affiliate content.\n\nWe request affiliate programme details, or the correct affiliate contact if a programme exists, including signup URL, commission, cookie window, payout threshold and schedule, Australian eligibility, coupon policy and brand-bidding restrictions.\n\nOur locked case study asks whether Narrative can turn a rights-cleared 24-second AIVP Revlon Plus 2.0 product-video master and source clips into a conversion-ready 21-second 9:16 cut in under 10 minutes at zero incremental cost, while retaining the exact product throughout the first 10 seconds, across three bounded runs.\n\nWe distinguish vendor claims from our testing, disclose complimentary access and affiliate relationships, and report failures and limitations. Access does not guarantee positive coverage. Narrative receives no editorial approval right, precommitted rating, recommendation or placement.\n\nThank you,\n\nTom Tran\nFounder, AI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}

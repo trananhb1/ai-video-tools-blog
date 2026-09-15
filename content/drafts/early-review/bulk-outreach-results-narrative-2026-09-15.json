@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-15-narrative-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-15T08:21:48.718587+00:00",
+      "body_sha256": "bda186da9c88f8c6f67048701c8e56b32e6ab7a252dc95b5a02dbcb198fa62c0",
+      "created_at": "2026-09-15 08:21:48.996000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-narrative-ai-video-editor-20260915-v1",
+      "last_event": "delivered",
+      "message_id": "87e9a923-a5ed-4eb4-9301-3445cc84979c",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "Early review request: Narrative AI Video Editor — access, rights and affiliate details",
+      "to": "support@usenarrative.ai",
+      "vendor": "Narrative"
+    }
+  ]
+}

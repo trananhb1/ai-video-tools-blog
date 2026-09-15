@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "Narrative AI Video Editor",
+  "date_assessed": "2026-09-15",
+  "verified_floor": 50,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 50,
+  "confidence": "C",
+  "classification": "Weak fit pending testing",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 12,
+      "unresolved_points": 8,
+      "notes": "Edits user-supplied footage and exposes manual timeline correction, making exact-product retention plausible; first-10-seconds retention and avoidance of substituted B-roll are untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 4,
+      "unresolved_points": 11,
+      "notes": "4K watermark-free rendering is documented on all paid plans; visual coherence and usable-edit rate are untested."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Editable timeline, turn-by-turn version history, three model tiers and four aspect ratios are documented; repeatability across identical briefs is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Conversational edit, transcript, captions, versions, reframing and editable timeline form a documented end-to-end rough-cut workflow; export interchange and long-project friction are unknown."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "The product demo displays a 12-second turn, but this is a vendor demo rather than controlled timing; queue and failure rate are unknown."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Monthly prices, project/storage limits and credit allocations are documented; per-operation credit burn, trial card requirement and accepted-output cost are unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Terms say uploads stay with the user and license processing only to provide the service; explicit monetized-output rights and third-party model/media rights were not found."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 1,
+      "unresolved_points": 4,
+      "notes": "Browser workflow is live; the older YC post describes editing/clipping APIs as future, and no current API, webhook or MCP route was verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Self-serve browser product, vertical output and low-entry monthly plan directly fit creator/SMB editing; Australia-specific tax/currency details remain operational rather than use-case uncertainty."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "Clear review/comparison search intent and creator workflow relevance; no affiliate programme or tracking route found."
+    }
+  ],
+  "analysis": "A differentiated conversational editor with a conventional editable timeline and promising exact-product source-footage fit, but docs-only evidence leaves quality, reliability, credit burn, commercial output rights and automation unresolved.",
+  "confidence_notes": "Official live product/pricing/terms evidence plus an earlier founder-authored YC launch; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "UNRESOLVED — test exact ASIN visibility in the first 10 seconds and prohibit substituted generic B-roll.",
+    "publication": "First Look only; monetized-output rights and AIVP output evidence missing.",
+    "integration": "BLOCKED — no current API/MCP route verified; browser account/payment/credit gates require review."
+  }
+}
