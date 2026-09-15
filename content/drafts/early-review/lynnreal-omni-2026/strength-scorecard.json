@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "LynnReal-Omni",
+  "date_assessed": "2026-09-15",
+  "verified_floor": 34,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 34,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Reference-image and multi-subject routes are documented, but no controlled exact-product run verifies first-10-seconds identity."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 3,
+      "unresolved_points": 12,
+      "notes": "Publisher samples and benchmark tables exist; AIVP has not inspected a controlled accepted output and the repository warns of inconsistent beta quality."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Reference, pose, structural, keyframe, seed and editing controls are documented; repeatability across identical runs is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 7,
+      "unresolved_points": 8,
+      "notes": "CLI and ComfyUI routes cover generation, control, editing and repair, but setup requires very large local packages and specialist hardware."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Single-H100 warm benchmarks are published; cold start, end-to-end render time and failure rate are unverified."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Weights are ungated, but suitable hardware, energy/provider cost and cost per accepted output are unresolved."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "The MiniMax H3 community licence applies in Australia and disclaims MiniMax ownership of outputs, subject to territorial, disclosure, attribution and acceptable-use restrictions; input rights remain separate."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "Scripted CLI and ComfyUI workflows exist; no hosted API, MCP or production monitoring path is verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Australia is inside the stated licence territory, but H100-class execution and package size are poor indie-creator fit."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate or partner programme was found and transactional demand is unmeasured."
+    }
+  ],
+  "analysis": "A materially differentiated unified multimodal video beta with real reference/control breadth, but no AIVP hands-on proof and impractical current local requirements.",
+  "confidence_notes": "Primary repository, model-package, paper and licence evidence only; no AIVP generation.",
+  "hard_gates": {
+    "product_affiliate": "UNRESOLVED — reference support is documented but exact-product retention is untested.",
+    "publication": "First Look only; commercial input rights and hands-on evidence are absent.",
+    "integration": "BLOCKED — security audit, suitable GPU, storage margin and cost route unresolved."
+  }
+}

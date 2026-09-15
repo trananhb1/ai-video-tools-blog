@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://github.com/LynnReal-AI/LynnReal-Omni",
+      "title": "LynnReal-Omni official repository and README",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://api.github.com/repos/LynnReal-AI/LynnReal-Omni",
+      "title": "GitHub repository metadata",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/stdstu123/LynnReal-Onmi-beta-0.1",
+      "title": "LynnReal Standard model metadata",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/stdstu123/LynnReal-Onmi-flash-beta-0.1",
+      "title": "LynnReal Flash model metadata",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/stdstu123/LynnReal-Onmi-light-vae",
+      "title": "LynnReal Lightweight Video VAE model card",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/LynnReal-AI/LynnReal-Omni/main/LICENSE",
+      "title": "MiniMax H3 Community License used by LynnReal-Omni",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 7,
+      "url": "https://api.github.com/orgs/LynnReal-AI",
+      "title": "LynnReal-AI GitHub organization metadata",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 8,
+      "url": "https://github.com/LynnReal-AI/LynnReal-Omni/blob/main/docs/LynnReal-Omni-Paper.pdf",
+      "title": "LynnReal-Omni technical report",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 9,
+      "url": "https://www.socialmediaexaminer.com/how-to-think-like-a-filmmaker-ai-video-with-seedance",
+      "title": "Social Media Examiner Seedance filmmaking tutorial",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 10,
+      "url": "https://dealroom.co/news/150573-visko-raises-10m-pre-seed-for-hour-long-4k-ai-video-model",
+      "title": "Dealroom Visko Orbis launch/funding item",
+      "accessed": "2026-09-15"
+    }
+  ]
+}
