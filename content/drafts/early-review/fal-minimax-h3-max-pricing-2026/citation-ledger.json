@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://fal.ai/models/minimax/h3-max/text-to-video",
+      "title": "MiniMax H3 Max Text to Video API on fal",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://fal.ai/models/minimax/h3-max-turbo/image-to-video",
+      "title": "H3 Max Turbo Image to Video API on fal",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://fal.ai/models/minimax/h3-max/reference-to-video",
+      "title": "H3 Max Reference to Video API on fal",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "title": "MiniMax Pay as You Go Pricing",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://blog.fal.ai/fal-and-aws-building-for-the-next-phase-of-generative-media",
+      "title": "fal and AWS — official press contact",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://startupfortune.com/minimaxs-h3-max-video-model-topped-sora-and-veo-then-its-price-quadrupled",
+      "title": "Startup Fortune report on H3 Max pricing",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 7,
+      "url": "https://www.socialmediaexaminer.com/how-to-think-like-a-filmmaker-ai-video-with-seedance",
+      "title": "How to Think Like a Filmmaker: AI Video With Seedance",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/aztro/ltx-2.5-iara-v2-lora",
+      "title": "LTX-2.5 Iara v2 LoRA",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/Yi30/Wan2.2-T2V-2layer",
+      "title": "Wan2.2 T2V 2layer",
+      "accessed": "2026-09-15"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "batch": "aivp-early-review-2026-09-15-fal-h3-pricing-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "fal",
+      "launch_materiality_score": 15,
+      "to": "press@fal.ai",
+      "recipient_source": "https://blog.fal.ai/fal-and-aws-building-for-the-next-phase-of-generative-media",
+      "subject": "Early review request: fal MiniMax H3 Max pricing and product-reference test",
+      "idempotency_key": "aivp-early-review-fal-h3-max-pricing-20260915-v1",
+      "body": "Hello fal team,\n\nI run AI Video Picks, an independent publication for creators and small businesses. We are preparing an evidence-led First Look at the MiniMax H3 Max launch-pricing expiry and a controlled test of product-reference fidelity.\n\nYour H3 Max and H3 Max Turbo pages state that 75% launch pricing ends September 14 and list rates after that date. The pages still display the launch amount beside the expired deadline, so we want to verify the effective billing timestamp and rate before reporting it.\n\nWe are requesting official documentation covering the effective H3 Max and H3 Max Turbo rates, model/version identifiers, reference-input billing, Australian availability, API limits, and current commercial-use terms.\n\nWe are requesting complimentary bounded review access: enough no-cost credit for three identical eight-second 768p reference-to-video runs, valid for 30 days. We will not initiate paid usage without separate approval.\n\nWe request approved media rights for official logos, endpoint screenshots and vendor-provided examples in monetised web and YouTube coverage, together with any required attribution or disclosure.\n\nWe request affiliate programme details and the official affiliate or partnerships contact, including Australian eligibility, commission, cookie duration, payout terms and brand-bidding restrictions. Because this message is going to your published press contact, please route this part to the proper programme owner.\n\nOur test asks whether H3 Max can keep the exact Revlon One-Step Volumiser Plus 2.0 visually distinctive throughout an eight-second 9:16 product clip. We will run the same rights-cleared reference, prompt and settings three times, save failures, record quoted and charged cost, and compare against our existing Google Flow control. Generated visuals will be disclosed as illustrative rather than physical product testing.\n\nAccess does not guarantee positive coverage. We retain editorial independence, do not offer editorial approval, and will disclose complimentary access, affiliate relationships, methodology and limitations.\n\nCould you also nominate a factual product contact for pre-publication technical questions?\n\nRegards,\nTom Tran\nAI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "tool": "fal MiniMax H3 Max and H3 Max Turbo",
+  "archetype": "hosted video-generation API with text, image and reference routes",
+  "assessment_date": "2026-09-15",
+  "launch_materiality_score": 15,
+  "gate_1_score": 9,
+  "confidence": "C",
+  "confidence_reason": "Primary API and pricing documents plus vendor samples only; no controlled AIVP run or billing read-back.",
+  "verified_floor": 47,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 47,
+  "classification": "Weak fit pending controlled testing",
+  "criteria": [
+    {"id":"product_specificity","weight":20,"verified_points":6,"unresolved_points":14,"notes":"Image-to-video and multi-reference routes exist; exact ASIN retention is untested."},
+    {"id":"output_quality","weight":15,"verified_points":3,"unresolved_points":12,"notes":"Vendor examples exist; no independent AIVP quality evidence."},
+    {"id":"workflow_strength","weight":15,"verified_points":10,"unresolved_points":5,"notes":"Playground, API schema, prompt expansion, duration, resolution and aspect-ratio controls are documented."},
+    {"id":"control_consistency","weight":10,"verified_points":5,"unresolved_points":5,"notes":"Reference routes and parameters are documented; seed-to-seed stability is unknown."},
+    {"id":"speed_reliability","weight":10,"verified_points":2,"unresolved_points":8,"notes":"Vendor result timing is shown, but independent latency and failure rate are unknown."},
+    {"id":"cost_efficiency","weight":10,"verified_points":7,"unresolved_points":3,"notes":"Promotional and scheduled standard rates are documented; actual post-deadline billing is not read back."},
+    {"id":"commercial_rights","weight":10,"verified_points":6,"unresolved_points":4,"notes":"Model pages say Commercial use; detailed monetised-output and input obligations need written confirmation."},
+    {"id":"automation_integration","weight":5,"verified_points":5,"unresolved_points":0,"notes":"Public HTTP API and machine-readable schema are available."},
+    {"id":"audience_fit_au_smb","weight":3,"verified_points":2,"unresolved_points":1,"notes":"Self-serve web/API access exists; AU billing and support were not independently confirmed."},
+    {"id":"monetization_fit","weight":2,"verified_points":1,"unresolved_points":1,"notes":"High-intent API pricing topic; no verified affiliate programme."}
+  ],
+  "hard_gates": {
+    "product_specificity": "BLOCKED until three-run first-10-seconds exact-product test passes",
+    "commercial_rights": "BLOCKED pending written monetised affiliate-use confirmation",
+    "cost": "BLOCKED; no paid generation without Tom approval or complimentary credits",
+    "publication": "First Look only"
+  },
+  "case_study_plan": "content/drafts/early-review/fal-minimax-h3-max-pricing-2026/case-study-plan.md",
+  "decision": "REQUEST_ACCESS_THEN_TEST"
+}
