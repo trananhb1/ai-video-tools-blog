@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "yniw/mmh3 + MiniMax-H3-mmh3",
+  "date_assessed": "2026-09-15",
+  "verified_floor": 28,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 28,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "Reference conditioning is explicitly not implemented; exact product identity cannot currently be tested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 4,
+      "unresolved_points": 11,
+      "notes": "Publisher supplies complete encoded runs and stage-level numerical comparisons, but AIVP has not inspected a controlled output."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Prompt, seed, sampler, attention, patch and LoRA controls are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 7,
+      "unresolved_points": 8,
+      "notes": "Three-command setup and native MP4/WebM output are documented; Blackwell-only setup and no HTTP server limit workflow fit."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "One publisher MP4 run took 86.29 seconds and one WebM run 90.88 seconds; no average or AIVP failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Code and weights are downloadable, but suitable hardware, energy and accepted-output cost are unresolved."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "Engine is MIT; model license applies in Australia and disclaims MiniMax rights over outputs, with territorial, attribution, disclosure and use restrictions."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "A reproducible CLI exists, but HTTP serving and MCP/API pathways are not implemented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Australia is not excluded by the model license, but Blackwell hardware and 55GB model storage are poor indie-creator fit."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate or partnership program found; editorial demand is unmeasured."
+    }
+  ],
+  "analysis": "A differentiated framework-free MiniMax H3 runtime with native media output and useful publisher benchmarks, but currently T2VA-only, Blackwell-bound and untested by AIVP.",
+  "confidence_notes": "Primary repository, model package and license evidence only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "FAIL CURRENTLY \u2014 reference conditioning is not implemented.",
+    "publication": "First Look only; no AIVP hands-on output.",
+    "integration": "BLOCKED \u2014 security audit, Blackwell hardware and storage margin unresolved."
+  }
+}

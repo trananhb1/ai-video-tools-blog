@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/yniw/MiniMax-H3-mmh3",
+      "title": "MiniMax H3 files for mmh3",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/niw/mmh3",
+      "title": "niw/mmh3 repository",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://api.github.com/repos/niw/mmh3",
+      "title": "GitHub repository metadata for niw/mmh3",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/yniw/MiniMax-H3-mmh3/raw/main/LICENSE",
+      "title": "MiniMax H3 Community License",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/niw/mmh3/blob/master/LICENSE",
+      "title": "mmh3 MIT License",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://api.github.com/users/niw",
+      "title": "GitHub public profile for niw",
+      "accessed": "2026-09-15"
+    }
+  ]
+}
