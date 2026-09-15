@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.prweb.com/releases/creatify-labs-launches-boreal-a-text-to-video-ai-model-that-matches-top-tier-quality-at-one-cent-per-second-and-up-to-40x-the-speed-302879156.html",
+      "title": "Creatify Boreal launch release",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://labs.creatify.ai/models/boreal",
+      "title": "Creatify Labs Boreal",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://creatify.ai/features/model-playground",
+      "title": "Creatify Model Playground",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://creatify.ai/terms",
+      "title": "Creatify terms",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://creatify.ai/affiliate",
+      "title": "Creatify affiliate programme",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://docs.creatify.ai/billing",
+      "title": "Creatify API billing",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 7,
+      "url": "https://docs.creatify.ai/faq",
+      "title": "Creatify API FAQ",
+      "accessed": "2026-09-15"
+    }
+  ]
+}

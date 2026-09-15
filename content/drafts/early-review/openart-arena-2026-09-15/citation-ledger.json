@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://openart.ai/arena",
+      "title": "OpenArt Arena",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://openart.ai/arena/methodology",
+      "title": "OpenArt Arena methodology",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORDRBNjQ4T1RiQ0RzLXVvWGV1Z1dlWkp6SENUVXNidFJKS3BGdl9sUlVWTVNrRWdFUjZOZmh3a1ZaZ1k3S2F2TGxmck1WaEtYOEstNExLTlFtbGprRDdzN0VGTzdHdXFvb0dWeWpnZm1tUVVhQXJwRnFTTkJMMkIwWTBVdzVuNUZUWTVzRVVpMUxwd09jdmd5ckVBNkZiWUJDWHB2aUc0S1lkY3RHTEg0SDZGNWpXNHRQWTNGcV9xMGp5U0FlbWZwWTJkTFpqOUxES0FGZ3NIUm5zWW5rLXV4MHBjTGNYMFFlM3ZrVUZodFBaWVJYVURDQzJpNXRsTWFWM0E?oc=5",
+      "title": "VentureBeat OpenArt Arena launch report",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://openart.ai/partners",
+      "title": "OpenArt partnerships",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://openart.ai/programs/affiliate",
+      "title": "OpenArt affiliate programme",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://openart.ai/terms",
+      "title": "OpenArt terms",
+      "accessed": "2026-09-15"
+    }
+  ]
+}

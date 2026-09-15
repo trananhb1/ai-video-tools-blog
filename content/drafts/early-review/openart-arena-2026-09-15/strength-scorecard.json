@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "tool": "OpenArt Arena",
+  "event": "Public launch",
+  "date_assessed": "2026-09-15",
+  "verified_floor": 44,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 44,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Ads board is job-specific and its stated framing includes product fidelity; no exact-ASIN validation."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Arena ranks outputs, but its recommendation quality has not been validated by AIVP."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Public job-specific boards materially narrow model selection; no export or routing integration."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "Same briefs, fixed output selection, blind pairs and randomized position are documented; raw prompts/votes are incomplete."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Public boards are available; refresh latency and operational uptime are unmeasured."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Public browsing incurred no cost, but cost-adjusted model scoring is explicitly not yet included."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Public informational access exists; chart-reproduction and downstream model-output rights require separate confirmation."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "No public Arena API, export or webhook was verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Public boards directly address model-selection friction for creators and SMBs."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "High-intent comparison content fit exists; affiliate application is not approved."
+    }
+  ],
+  "analysis": "Arena is useful as a job-specific model shortlist, but AIVP has not validated ranking predictive power, exact-product outcomes, cost-adjusted utility, raw benchmark reproducibility or automation.",
+  "confidence_notes": "Primary benchmark documentation plus launch reporting; no AIVP-controlled validation run.",
+  "planned_case_study": "case-study-plan.md",
+  "outreach_record": "vendor-outreach-draft.md"
+}
