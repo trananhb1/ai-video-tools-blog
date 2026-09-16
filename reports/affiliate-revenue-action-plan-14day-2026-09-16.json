@@ -1,0 +1,114 @@
+[
+  {
+    "rank": 1,
+    "action": "Apply (Tom only) to HeyGen Social Creator Program via form.typeform.com/to/xsSoW0GO \u2014 50% promo expires Oct 31 2026, was top earner ($121+ lifetime). Requires 5K+ followers on one platform. Once approved, reinstate /go/heygen/ tag and re-pin CTA in top 10 HeyGen articles (heygen-review-2026.html, heygen-alternatives-2026.html, heygen-vs-synthesia-2026.html, best-ai-video-tools-2026.html, heygen-pricing-2026.html).",
+    "effort_hours": 1.5,
+    "est_monthly_revenue_aud": 180,
+    "priority_reason": "Was site's top earner at 35-50% recurring. 50% promo window closes Oct 31 2026. 23 articles link /go/heygen/ \u2014 all currently converting with NO commission tag. Every month of delay is revenue lost on those 23 existing CTAs.",
+    "blocking_factor": "Tom must personally apply with social proof (60 published articles, follower count on YouTube/Instagram/TikTok). Cannot be done by agent. Program reviewed manually \u2014 approval not guaranteed."
+  },
+  {
+    "rank": 2,
+    "action": "Confirm ElevenLabs affiliate status: current /go/elevenlabs/ redirect uses ?via=aivideopicks which is UNCONFIRMED (ElevenLabs uses PartnerStack, not Rewardful). Verify via elevenlabs.io/app/home?affiliate=true that the ?via= token is valid OR obtain PartnerStack tracking link and update /go/elevenlabs/index.html. The elevenlabs-review-2026.html and best-ai-voice-generators-2026.html already send traffic to this broken tag.",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 60,
+    "priority_reason": "Highest-EPC unconfirmed slot: 22% recurring 12mo on ElevenLabs plans ($5-99/mo). /go/elevenlabs/ is live in 2 major articles with real traffic (best-ai-voice-generators ranks for intent queries). Zero cost to verify/fix.",
+    "blocking_factor": "Tom must log in to elevenlabs.io to confirm whether ?via=aivideopicks resolves to a valid PartnerStack account or needs re-registration. Takes 15 min."
+  },
+  {
+    "rank": 3,
+    "action": "Add Descript /go/descript/ CTAs to the 5 highest-traffic articles currently missing it: runway-review-2026.html, opus-clip-review-2026.html, heygen-review-2026.html, best-ai-voice-generators-2026.html, best-free-ai-video-generators-2026.html. Descript is mentioned in 40+ articles but /go/descript/ is absent from ~37 of them. Descript is ACTIVE via Impact ($25/sub or 30% tiered). Limit to 5 articles this sprint for speed.",
+    "effort_hours": 2.0,
+    "est_monthly_revenue_aud": 90,
+    "priority_reason": "Descript is the single biggest affiliate link gap: 40+ mentions, <10 linked articles. It's an approved program paying $25/conversion. Each article added is incremental commission at zero acquisition cost. 5-article sprint = ~2 hrs editing.",
+    "blocking_factor": "None. Descript is already active (Impact, approved 2026-05-12). Just HTML edits."
+  },
+  {
+    "rank": 4,
+    "action": "Apply (Tom only) to Runway affiliate program at runway.com/affiliate-program. Program is now public self-serve (was invite-only May 2026). Pays $15 flat per new subscriber (uncapped) + 25% discount for audience. Once approved, update /go/runway/index.html with unique tracking link. Update runway-review-2026.html, kling-vs-veo-vs-runway.html, best-ai-video-tools-2026.html.",
+    "effort_hours": 1.0,
+    "est_monthly_revenue_aud": 75,
+    "priority_reason": "Runway is in 4 articles with /go/runway/ CTA but redirect has NO affiliate tag (just runwayml.com/). Program went public since last attempt. $15 flat CPA is competitive; Runway has strong brand intent traffic. This is pure found revenue \u2014 articles already rank for Runway queries.",
+    "blocking_factor": "Tom must apply with Runway account + channel links. 3-month pilot structure \u2014 approval takes 1-2 weeks. Cannot apply as agent."
+  },
+  {
+    "rank": 5,
+    "action": "Confirm/fix tl;dv tracking: /go/tldv/ already uses tldv.io/?via=aivideopicks but status is UNCONFIRMED. tl;dv has public affiliate program at tldv.io/partner-programs/#affiliates paying 25% recurring. Verify ?via= is active OR register via their affiliate portal. Update CLAUDE.md status to confirmed. Article best-ai-meeting-assistants-2026.html already uses /go/tldv/ with real traffic.",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 35,
+    "priority_reason": "best-ai-meeting-assistants-2026.html is a high-intent buying-guide article with multiple unconfirmed links (tl;dv, Otter, Krisp). Confirming tl;dv (25% recurring) is a 30-min fix that could unlock earnings already being sent to the link.",
+    "blocking_factor": "Tom must log in to tldv.io affiliate portal to confirm. Quick check only."
+  },
+  {
+    "rank": 6,
+    "action": "Confirm Otter.ai and Krisp affiliate status: both /go/otter/ and /go/krisp/ already carry ?via=aivideopicks tags but are UNCONFIRMED. Both programs now confirmed on Impact.com (Otter: 15-20% first year via Impact; Krisp: up to 30% recurring 12mo via Impact at app.impact.com/campaign-campaign-info-v2/Krisp.brand). Apply or verify Impact.com accounts. Update best-ai-meeting-assistants-2026.html CTAs after confirmation.",
+    "effort_hours": 1.0,
+    "est_monthly_revenue_aud": 45,
+    "priority_reason": "Both tools appear in best-ai-meeting-assistants-2026.html which is a decision-stage article. Krisp pays 30% recurring \u2014 among highest rates in the meeting assistant category. Combined fix unlocks potentially 2 unconfirmed streams in 1 article.",
+    "blocking_factor": "Both require Tom to apply via Impact.com campaign pages. Agent cannot apply."
+  },
+  {
+    "rank": 7,
+    "action": "Apply (Tom only) to Kling AI affiliate at klingai.com/app/commission-share via Impact.com self-service (app.impact.com/campaign-promo-signup/Lohas-Games-Pte-Ltd.brand). Previous application rejected but self-service path confirmed. 4-5 week review. Update /go/kling/index.html with tracking link once approved. Articles: best-ai-image-to-video-generators-2026.html (7 existing CTAs), kling-vs-veo-vs-runway.html (3 CTAs).",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 55,
+    "priority_reason": "Kling has 10+ /go/kling/ CTAs across high-intent articles with NO tracking. best-ai-image-to-video-generators-2026.html alone has 7. Once approved, those existing CTAs immediately monetize with zero article edits.",
+    "blocking_factor": "4-5 week Impact review cycle. Tom must apply. Outcome not guaranteed."
+  },
+  {
+    "rank": 8,
+    "action": "Re-apply (Tom only) to Opus Clip affiliate at opus.pro/affiliate \u2014 25% recurring 1 year. Applied ~2026-05-10 but only got AI bot response. Program confirmed live and active. Follow-up email draft to affiliates@opus.pro already created 2026-05-24 \u2014 Tom sends it. Once approved, update /go/opus-clip/index.html. The opus-clip-review-2026.html currently has only 1 link (potentially untracked ?via=).",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 40,
+    "priority_reason": "opus-clip-review-2026.html sends traffic to opus.pro/?via=aivideopicks which may not be tracked. 25% recurring on Opus Pro plans ($15-29/mo). Email draft ready \u2014 just needs Tom to send.",
+    "blocking_factor": "Tom must send follow-up email and await approval. Previous ?via= tracking may or may not be live."
+  },
+  {
+    "rank": 9,
+    "action": "Add InVideo /go/invideo/ CTAs to 5 high-priority articles currently missing it: runway-review-2026.html, opus-clip-review-2026.html, heygen-review-2026.html, pictory-review-2026.html, synthesia-review-2026.html. InVideo pays 50% monthly / 25% annual via Impact (approved, active). Position as 'best alternative for long-form video' in comparison/alternative sections. 1-2 CTAs per article only.",
+    "effort_hours": 2.5,
+    "est_monthly_revenue_aud": 70,
+    "priority_reason": "InVideo has 50% monthly commission (highest in the stack) and is already approved/active. 20+ articles mention InVideo but lack /go/invideo/ CTA. heygen-review and runway-review are high-intent buyer articles where alternatives convert well.",
+    "blocking_factor": "None. HTML edits only."
+  },
+  {
+    "rank": 10,
+    "action": "Update Pictory articles to emphasise annual plan conversion: pictory-review-2026.html, pictory-annual-plan-2026.html, heygen-vs-synthesia-vs-pictory.html. Since 2026-06-01, Pictory pays 40% on first payment only (not recurring). Annual plan first payment = ~$336-420 \u2192 ~$134-168 AUD commission per referral. Add 'Best Value' urgency callout with /go/pictory-pricing/ CTA. Existing recurring commissions end Jan 2027.",
+    "effort_hours": 1.5,
+    "est_monthly_revenue_aud": 55,
+    "priority_reason": "Commission restructure makes annual plan the only high-value Pictory conversion. Each annual referral at 40% pays ~3x vs monthly. Easy edit \u2014 articles are written, just need annual-plan CTA emphasis. CEO action already flagged in CLAUDE.md.",
+    "blocking_factor": "None. Active link already exists (/go/pictory-pricing/)."
+  },
+  {
+    "rank": 11,
+    "action": "Add Synthesia /go/synthesia/ CTAs to 5 articles currently missing it: runway-review-2026.html, opus-clip-review-2026.html, heygen-review-2026.html, elevenlabs-review-2026.html, heygen-pricing-2026.html. Synthesia is active (25% recurring 12mo, 60d cookie). 38 articles mention Synthesia but only ~22 have /go/synthesia/ CTA. With HeyGen expired, Synthesia is the natural alternative to push.",
+    "effort_hours": 2.0,
+    "est_monthly_revenue_aud": 65,
+    "priority_reason": "heygen-review-2026.html has 69 HeyGen mentions and 0 Synthesia links \u2014 the top HeyGen alternative has no CTA despite 23 HeyGen articles generating traffic with no commission. Synthesia at 25% \u00d7 $18-64/mo is the highest-volume recurring program in the stack.",
+    "blocking_factor": "None. HTML edits only."
+  },
+  {
+    "rank": 12,
+    "action": "Interim: redirect /go/heygen/ to heygen-alternatives-2026.html until HeyGen Social Creator re-approved (Rank 1). All 23 articles linking /go/heygen/ currently generate clicks with zero commission. heygen-alternatives-2026.html has 33 active affiliate CTAs (Synthesia, Creatify, MakeUGC, Vidnoz, Fliki). This recovers conversion value from existing HeyGen CTA clicks immediately.",
+    "effort_hours": 1.0,
+    "est_monthly_revenue_aud": 45,
+    "priority_reason": "23 articles with /go/heygen/ CTAs generate clicks with NO commission. Interim redirect to alternatives page routes HeyGen intent to converting alternatives. Reversible in <5 min when HeyGen re-approved.",
+    "blocking_factor": "Reversible \u2014 do NOT implement if HeyGen approval arrives quickly (Rank 1). Check Rank 1 status first."
+  },
+  {
+    "rank": 13,
+    "action": "Verify DeeVid /go/deevid/ CTAs in best-ai-video-tools-2026.html and best-free-ai-video-generators-2026.html \u2014 content mentions DeeVid but href grep shows no /go/deevid/ link attached to the honorable mention section. If confirmed missing, add <a href='/go/deevid/' rel='nofollow sponsored'> beside the existing DeeVid write-up. Active since 2026-07-12 (30% per subscription via FirstPromoter, fpr=tuan32).",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 20,
+    "priority_reason": "DeeVid is already written up in both top-traffic articles. Affiliate link is active. Just needs the href attached to existing content \u2014 15-minute fix.",
+    "blocking_factor": "None."
+  },
+  {
+    "rank": 14,
+    "action": "Audit Fathom affiliate status: /go/fathom/ points to fathom.video/?via=aivideopicks and has 4 CTAs in best-ai-meeting-assistants-2026.html but Fathom is NOT in the CLAUDE.md affiliate table. Confirm whether ?via= tracking is live by checking if Fathom uses Rewardful or a similar platform that accepts ?via= params. Add to CLAUDE.md if confirmed active.",
+    "effort_hours": 0.5,
+    "est_monthly_revenue_aud": 15,
+    "priority_reason": "4 CTAs in a high-intent article with undocumented affiliate status. Quick 30-min audit. If live, update CLAUDE.md; if dead, remove/replace CTAs.",
+    "blocking_factor": "Tom must check Fathom affiliate dashboard. Fathom's referral program is primarily for SaaS customers (free plan referrals) \u2014 commission rate unclear."
+  }
+]
