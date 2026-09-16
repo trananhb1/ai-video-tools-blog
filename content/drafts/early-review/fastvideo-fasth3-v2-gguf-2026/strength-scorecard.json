@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "tool": "RealRebelAI FastH3 V2 Q4_K_M GGUF",
+  "event": "Public GGUF conversion of FastVideo FastH3 8-Step V2",
+  "date_assessed": "2026-09-16",
+  "verified_floor": 21,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 21,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "Upstream V2 is text-to-audio-video only; FL2VA and Ref2VA were not distilled, so no exact-product reference path is available."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP run or publisher artifact-backed quality comparison for this GGUF was found."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "The card specifies eight steps, Euler, Simple scheduler and denoise 1.0; repeatability and seed behavior remain untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "A single 19.84GB ComfyUI-GGUF transformer lowers storage versus the 147.84GB upstream package, but separate encoder and VAEs remain required."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "The upstream model uses eight transformer forwards, but no complete GGUF timing or failure-rate evidence was found."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "The artifact is publicly downloadable; compatible GPU, electricity and cost per accepted output remain unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "The inherited MiniMax licence grants use in Australia and says MiniMax claims no output rights, subject to territory, attribution, disclosure, acceptable-use and revenue-threshold terms."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "ComfyUI/ComfyUI-GGUF is documented; no audited AIVP API or MCP path exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Australia is within the licence territory, but local hardware and multi-component setup remain substantial barriers."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate or partner programme was verified; product-affiliate use currently fails the reference-input gate."
+    }
+  ],
+  "analysis": "A useful same-day local-deployment conversion, but it is a T2VA-only derivative with no controlled GGUF output, complete-runtime benchmark or exact-product pathway.",
+  "confidence_notes": "Primary model cards, repository metadata and licence only; no AIVP generation.",
+  "hard_gates": {
+    "product_affiliate": "FAIL CURRENTLY — no FL2VA or Ref2VA support in the distilled checkpoint.",
+    "publication": "First Look only; no AIVP hands-on evidence.",
+    "integration": "BLOCKED — no NVIDIA runtime on this host, supporting components are required, and security/runtime audit is incomplete."
+  }
+}

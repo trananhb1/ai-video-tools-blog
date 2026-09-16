@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/realrebelai/FastH3-V2_GGUFs",
+      "title": "RealRebelAI FastH3 V2 GGUFs",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/realrebelai/FastH3-V2_GGUFs",
+      "title": "Hugging Face metadata: FastH3 V2 GGUFs",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-8-Step-V2",
+      "title": "FastVideo FastH3 8-Step V2",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/FastVideo/FastVideo-FastH3-8-Step-V2/commits/main",
+      "title": "FastH3 8-Step V2 commit history",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "title": "MiniMax H3 Community License",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 6,
+      "url": "https://github.com/hao-ai-lab/FastVideo",
+      "title": "FastVideo repository",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/realrebelai/FastH3-V2_GGUFs/commits/main",
+      "title": "FastH3 V2 GGUF commit history",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/realrebelai",
+      "title": "Rebel AI Hugging Face profile",
+      "accessed": "2026-09-16"
+    },
+    {
+      "id": 9,
+      "url": "https://api.github.com/users/RealRebelAI",
+      "title": "RealRebelAI GitHub public profile metadata",
+      "accessed": "2026-09-16"
+    }
+  ]
+}
