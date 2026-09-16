@@ -1,4 +1,4 @@
-Updated 2026-09-13: pictory-review-2026.html, best-ai-image-to-video-generators-2026.html, how-to-export-sora-videos-before-shutdown.html, ai-video-deals-coupons-2026.html
+Updated 2026-09-16: best-free-ai-video-generators-2026.html (Wan 3.0, merge conflict fix), how-to-export-sora-videos-before-shutdown.html (countdown update)
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
@@ -276,7 +276,7 @@ Updated 2026-09-13: pictory-review-2026.html, best-ai-image-to-video-generators-
   <!-- Sora export how-to (archived — shutdown happened Apr 26, 2026; API deadline Sep 24, 2026) -->
   <url>
     <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.3</priority>
   </url>
@@ -339,7 +339,7 @@ Updated 2026-09-13: pictory-review-2026.html, best-ai-image-to-video-generators-
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
