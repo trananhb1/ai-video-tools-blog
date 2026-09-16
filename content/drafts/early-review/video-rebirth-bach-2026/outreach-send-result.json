@@ -1,0 +1,13 @@
+{
+  "vendor": "Video Rebirth",
+  "email": "pr@videorebirth.com",
+  "recipient_name": "Fay Wong",
+  "subject": "Early review request: Video Rebirth BACH — access, commercial rights and affiliate details",
+  "sent_at": "2026-09-16T14:23:40Z",
+  "resend_id": "b5ccde4b-0f9a-4d0b-8c3e-08f116d95b32",
+  "last_event": "delivered",
+  "provider_read_back_verified": true,
+  "idempotency_key": "aivp-early-review-video-rebirth-bach-20260916-v1",
+  "next_action": "AWAIT_RESPONSE",
+  "follow_up_if_no_reply_by": "2026-09-30"
+}

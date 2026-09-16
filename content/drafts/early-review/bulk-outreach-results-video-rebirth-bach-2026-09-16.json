@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-16-video-rebirth-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-16T14:23:35.535361+00:00",
+      "body_sha256": "0f4897036ddb97d306af28fa69c84e83c2009bb324ebace0ea85af80bae59a07",
+      "created_at": "2026-09-16 14:23:40.051000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-video-rebirth-bach-20260916-v1",
+      "last_event": "delivered",
+      "message_id": "b5ccde4b-0f9a-4d0b-8c3e-08f116d95b32",
+      "provider_read_back_verified": true,
+      "provider_read_back_method": "GET /emails list — race-condition 404 on direct GET; confirmed via list endpoint showing last_event=delivered",
+      "reply_to": ["contact@aivideopicks.com"],
+      "subject": "Early review request: Video Rebirth BACH — access, commercial rights and affiliate details",
+      "to": "pr@videorebirth.com",
+      "vendor": "Video Rebirth",
+      "resend_ses_message_id": "<010001a0aa9a1760-c83a3207-826d-4652-a27d-ed1742943c82-000000@email.amazonses.com>"
+    }
+  ]
+}

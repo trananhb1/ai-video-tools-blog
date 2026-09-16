@@ -1,0 +1,88 @@
+{
+  "tool": "Video Rebirth BACH (BACH 1.0 Pro / BACH 1.0 Preview)",
+  "vendor": "Video Rebirth",
+  "url": "https://www.bach.art",
+  "date_assessed": "2026-09-16",
+  "event": "BACH 1.0 Pro advances to #3 Artificial Analysis Image-to-Video leaderboard",
+  "verified_floor": 57,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 57,
+  "confidence": "C",
+  "classification": "Promising/conditional",
+  "classification_note": "Cannot call Strong Specialist or Category Leader below confidence B. Strong leaderboard signal warrants first look and outreach. Hands-on test required before upgrade.",
+  "criteria": [
+    {
+      "name": "Product specificity (solves a defined use case)",
+      "weight": 20,
+      "verified_points": 14,
+      "unresolved_points": 6,
+      "notes": "Multi-shot reference-guided generation (Element2Video, montage2video endpoints) directly solves product-specific affiliate clip use case. Reference image input confirmed in API docs. 6pts unresolved: whether product ASIN identity survives generation at AIVP standard (first-10s pass/fail) requires hands-on test."
+    },
+    {
+      "name": "Output quality (resolution, coherence, usability)",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "Native 1080p 30fps claim made in official press release and product page. #3 Artificial Analysis Image-to-Video Elo (unverified exact score for Pro version; Preview Elo ~1215 confirmed via crafiq.ai). 6pts unresolved: Pro quality improvement vs Preview unverified without direct AIVP test run."
+    },
+    {
+      "name": "Workflow strength (ease of input → output)",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "API documented with clear endpoints. Free credits on sign-up lowers barrier. Montage feature: upload reference images + text prompt → multi-shot output. 6pts unresolved: actual latency, UI friction, error rate, and reference-image workflow usability untested by AIVP."
+    },
+    {
+      "name": "Control & consistency (repeatable quality)",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Character lock across shots is architecture-first claim (PNA). Recursive Self-Improvement post-training methodology described. 5pts unresolved: cannot verify consistency across 3 identical runs without hands-on testing."
+    },
+    {
+      "name": "Speed & reliability (render time, error rate)",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No render timing data available. API region is 'na' endpoint; latency for AU creators unknown. Error rate unknown."
+    },
+    {
+      "name": "Cost efficiency (cost per usable output)",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Free sign-up credits confirmed (pr@videorebirth.com and product page). Pricing page 404 — per-video/per-second cost unknown. Cannot calculate cost per usable output until pricing is accessible."
+    },
+    {
+      "name": "Commercial rights (YouTube monetizable, reusable?)",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No commercial use terms or content license found on bach.art or videorebirth.com as of 2026-09-16. Press kit download requires agreement to 'legitimate press purposes only' — this is press kit terms, not generation output terms. Commercial rights not verified; critical for AIVP affiliate content and YouTube monetization."
+    },
+    {
+      "name": "Automation & integration (API, webhooks, MCP-ready?)",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "REST API documented with text2video, image2video, montage2video, element2video endpoints. Callback support documented. Auth via Bearer token. MCP integration feasible. Full marks on this criterion from documentation alone."
+    },
+    {
+      "name": "AU creator/SMB fit (accessible to Australian indie creators?)",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Singapore-based company; global access expected. Free credits on sign-up. API endpoint is 'api-gen-na' (North America) — AU latency and payment method unverified."
+    },
+    {
+      "name": "Monetization fit (works for affiliate/sponsorship/AdSense?)",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate program found on site. Not on any known network (Rewardful, Impact, PartnerStack, ShareASale). Affiliate details requested in outreach."
+    }
+  ],
+  "analysis": "BACH 1.0 Pro's advance to #3 on Artificial Analysis I2V leaderboard via Recursive Self-Improvement is a credible leaderboard signal. The multi-shot Montage feature with reference-image input directly maps to AIVP's product-specific affiliate video use case. The REST API is documented and integration-ready. Key unknowns are commercial output rights (critical, unverified) and pricing (page 404). Cannot call Strong Specialist or higher until AIVP completes at least one controlled hands-on run and confirms commercial use terms.",
+  "confidence_notes": "Confidence C: leaderboard benchmark data (independent third-party, credible), official press releases, product page, and API docs. No AIVP-run artifacts. BACH 1.0 Pro not yet live; scoring based on Preview + Pro announcement.",
+  "next_step": "Vendor outreach for commercial rights confirmation and trial access. Monitor end-of-September 2026 for Pro launch. Run case study on free credits."
+}
