@@ -1,4 +1,4 @@
-Updated 2026-09-16: ai-video-deals-coupons-2026.html (urgency), heygen-review-2026.html (Synthesia CTA), runway-review-2026.html (InVideo CTA)
+Updated 2026-09-16: deals urgency, heygen-review Synthesia CTA, runway-review InVideo CTA, best-free Wan 3.0 fix, sora countdown, deevid duplicate removed
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
@@ -66,14 +66,6 @@ Updated 2026-09-16: ai-video-deals-coupons-2026.html (urgency), heygen-review-20
   </url>
 
   <!-- Arcads AI Review 2026 (new 2026-05-21) -->
-  <url>
-    <loc>https://aivideopicks.com/posts/deevid-ai-review-2026.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <image:image>
-      <image:loc>https://aivideopicks.com/assets/images/deevid-ai-review-thumbnail.png</image:loc>
-      <image:title>DeeVid AI Review 2026: Best Multi-Model AI Video Bundler?</image:title>
-    </image:image>
-  </url>
   <url>
     <loc>https://aivideopicks.com/posts/arcads-ai-review-2026.html</loc>
     <lastmod>2026-08-03</lastmod>
@@ -276,7 +268,7 @@ Updated 2026-09-16: ai-video-deals-coupons-2026.html (urgency), heygen-review-20
   <!-- Sora export how-to (archived — shutdown happened Apr 26, 2026; API deadline Sep 24, 2026) -->
   <url>
     <loc>https://aivideopicks.com/posts/how-to-export-sora-videos-before-shutdown.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.3</priority>
   </url>
@@ -339,7 +331,7 @@ Updated 2026-09-16: ai-video-deals-coupons-2026.html (urgency), heygen-review-20
   </url>
   <url>
     <loc>https://aivideopicks.com/posts/best-free-ai-video-generators-2026.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
