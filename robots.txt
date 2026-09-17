@@ -24,17 +24,27 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-# OpenAI (ChatGPT + GPT search)
+# OpenAI (ChatGPT Search + user fetch + training)
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Anthropic (Claude)
+# Anthropic (Claude Search + user fetch + training)
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
 
+# Legacy Claude crawler token retained for compatibility
 User-agent: Claude-Web
 Allow: /
 
