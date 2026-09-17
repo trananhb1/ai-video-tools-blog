@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "changwangss Wan2.2 SVDQuant",
+  "date_assessed": "2026-09-17",
+  "verified_floor": 26,
+  "potential_ceiling": 80,
+  "evidence_coverage_percent": 33,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 0,
+      "notes": "Text-to-video artifact has no reference-image input; it fails exact-product affiliate specificity by architecture."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No independent or AIVP perceptual evaluation."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Calibration, rank, precision, resolution, frames and seed are recorded; repeated generation is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "Diffusers structure is packaged, but creator-hardware setup is undocumented."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Calibration timing is not inference performance; no render/error data."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "No model fee, but compute and accepted-output cost are unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "Artifact and upstream model declare Apache-2.0."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Diffusers pipeline and machine-readable run/export manifests support automation; no AIVP audit."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Ungated files, but hardware requirements for inference are not documented."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "No affiliate route and no evidence of conversion utility."
+    }
+  ],
+  "analysis": "A documented quantization artifact for narrative T2V workflows. It cannot meet exact-product specificity and lacks inference-quality, speed, reliability and cost evidence.",
+  "confidence_notes": "Primary repository manifests and upstream documentation only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Failed structurally: no reference-image input.",
+    "publication": "First Look only.",
+    "integration": "Blocked on audited no-cost NVIDIA access."
+  }
+}

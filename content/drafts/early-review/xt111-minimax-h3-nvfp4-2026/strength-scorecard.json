@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "tool": "xt111 MiniMax H3 NVFP4",
+  "date_assessed": "2026-09-17",
+  "verified_floor": 34,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 34,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "ref2va accepts up to nine references, but exact-ASIN preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Publisher retracts prior quality assurance; current single-pass builds lack controlled perceptual validation."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "ref2va/fl2va tasks and structured prompting are documented; three-run repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "notes": "ComfyUI route is documented but requires multiple components and Blackwell hardware."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Older-build speed and OOM boundaries are disclosed; current builds and fl2va are not fully benchmarked."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "No model fee; compatible hardware, electricity and accepted-output cost are unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Inherited community licence exists, but monetized-use and territorial conditions need review."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "ComfyUI artifacts and conversion scripts are available; no audited AIVP integration exists."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Ungated download, but native execution requires costly Blackwell hardware."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "Reference-driven product-video potential exists; no affiliate path or conversion evidence."
+    }
+  ],
+  "analysis": "A technically useful small-footprint Blackwell deployment artifact with reference inputs, but current quality, reliability, exact-product fidelity and commercial-use suitability are unresolved.",
+  "confidence_notes": "Primary repository and upstream documentation only; no AIVP run.",
+  "hard_gates": {
+    "product_affiliate": "Blocked pending three exact-product runs.",
+    "publication": "First Look only.",
+    "integration": "Blocked on audited no-cost Blackwell access and licence review."
+  }
+}
