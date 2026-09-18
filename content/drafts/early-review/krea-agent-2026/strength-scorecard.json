@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "tool": "Krea Agent",
+  "date_assessed": "2026-09-18",
+  "verified_floor": 46,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 46,
+  "confidence": "C",
+  "classification": "Promising/conditional",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Accepts reference images and website URLs to extract brand colors and product features; exact 10-second product visual retention across video outputs is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "notes": "Utilizes established foundation models (Krea 2, Seedance, MiniMax H3); consistency and artifact rates under automated agent direction are unverified."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Agent claims to review and edit frames before finalizing; three-run reproducibility from identical briefs remains unmeasured."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Strong multi-asset pipeline (stills + vertical video + context folder in one chat session) documented in official guides."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Cloud queue latency across chained multi-model generations is undocumented."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Compute units shared with standard generation tools; compute burn rate across iterative agent steps is unmeasured."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Commercial use included on paid subscription plans; enterprise zero-data-retention available."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "Slack integration and ChatGPT plugin advertised; REST API / MCP server integration available for workspaces."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "Audience fit for AU SMBs",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Web access readily available in Australia with international card billing; localized currency unconfirmed."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "Public affiliate program details unverified; outreach required to confirm partner terms."
+    }
+  ]
+}

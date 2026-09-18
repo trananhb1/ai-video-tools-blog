@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 4,
+      "url": "https://www.producthunt.com/products/powermove-2",
+      "title": "Powermove on Product Hunt",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/iterative-computer/powermove",
+      "title": "Powermove GitHub repository",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 9,
+      "url": "https://github.com/iterative-computer/powermove/releases/tag/v1.0.0",
+      "title": "Powermove 1.0.0 release",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 10,
+      "url": "https://trypowermove.com",
+      "title": "Powermove official site",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 11,
+      "url": "https://raw.githubusercontent.com/iterative-computer/powermove/main/package.json",
+      "title": "Powermove package metadata",
+      "accessed": "2026-09-18"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "tool": "Powermove",
+  "date_assessed": "2026-09-18",
+  "verified_floor": 35,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 35,
+  "confidence": "C",
+  "classification": "Promising/conditional",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Directly edits timeline, keyframes, and video frames; retention of precise commercial product assets across agent revisions is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "Uses standard video/canvas playback and FFmpeg export; rendering artifact rates under automated agent commands are unmeasured."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "All agent edits are undoable and pass through typed transactional tool commands; multi-pass consistency requires verification."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 6,
+      "unresolved_points": 9,
+      "notes": "Novel extension-based architecture and hot-reloading mod system; integration into commercial video workflows untested."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Frame rendering and local agent response times dependent on local Apple Silicon hardware and Claude/Codex API latency."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Desktop editor is 100% free and open-source; agent iterations consume the user's Claude Code or OpenAI API tokens."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "GPL-3.0 license permits commercial video creation; distribution of modified extensions subject to GPL copyleft terms."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "Agent hooks designed for interactive desktop usage; headless/batch automation capabilities undocumented."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "Audience fit for AU SMBs",
+      "weight": 3,
+      "verified_points": 0,
+      "unresolved_points": 3,
+      "notes": "Niche appeal: requires Apple Silicon Mac, terminal tooling (bun/Xcode), and developer AI subscriptions."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "Zero affiliate program or commercial referral monetization for AIVP; editorial value only."
+    }
+  ]
+}
