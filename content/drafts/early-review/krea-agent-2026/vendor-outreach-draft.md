@@ -10,16 +10,19 @@
 
 - Vendor: Krea AI
 - Official product route: https://www.krea.ai/agent
-- Published contact:  (verified on official press kit page ).
+- Published contact: press@krea.ai (verified on official press kit page https://krea.ai/press).
 - Contact forms: Prohibited by standing policy; email dispatch only.
 
-**OUTREACH_STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE SEND.**
+**OUTREACH_STATUS: HELD_BELOW_OUTREACH_THRESHOLD.**
 
-No email has been dispatched. Standing policy requires explicit review and approval before send.
+Gate 1 evaluated to 7/10 CONDITIONAL, which falls below the standing outreach policy requirement (`MIN_SCORE = 8` in `aivp_bulk_vendor_outreach.py`).
+Under standing policy, candidates scoring below 8 are held from automated outreach dispatch.
+No manifest entry was created, and no email was sent.
+No separate human approval blocker applies; this candidate is held strictly due to scoring below the outreach threshold.
 
 ---
 
-## Proposed Message Draft
+## Proposed Message Draft (Held — Not Dispatched)
 
 **From:** Tom Tran <contact@aivideopicks.com>  
 **Reply-To:** contact@aivideopicks.com  

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.krea.ai/docs/changelog",
+      "title": "Krea changelog",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 2,
+      "url": "https://www.krea.ai/docs/user-guide/agent/overview",
+      "title": "Krea Agent overview",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 3,
+      "url": "https://www.krea.ai/blog/ai-workflow-agent",
+      "title": "Krea Node Agent",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 6,
+      "url": "https://www.krea.ai/blog/what-is-krea-agent",
+      "title": "What is Krea Agent",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 7,
+      "url": "https://www.krea.ai/docs/user-guide/agent/plans-and-credits",
+      "title": "Krea Agent plans and credits",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 8,
+      "url": "https://www.krea.ai/pricing",
+      "title": "Krea pricing",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 12,
+      "url": "https://krea.ai/press",
+      "title": "Krea press kit",
+      "accessed": "2026-09-18"
+    },
+    {
+      "id": 13,
+      "url": "https://krea.ai/terms",
+      "title": "Krea terms",
+      "accessed": "2026-09-18"
+    }
+  ]
+}

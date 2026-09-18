@@ -23,7 +23,7 @@
       "weight": 15,
       "verified_points": 6,
       "unresolved_points": 9,
-      "notes": "Utilizes established foundation models (Krea 2, Seedance, MiniMax H3); consistency and artifact rates under automated agent direction are unverified."
+      "notes": "Utilizes established foundation models (Krea 2, Seedance 2.5, Nano Banana Pro, ChatGPT Image 2, Topaz); consistency and artifact rates under automated agent direction are unverified."
     },
     {
       "id": "control_consistency",
