@@ -4,42 +4,35 @@
 **Job ID:** `f7aa2568c535` (`aivp-early-review-desk`)
 **Repository:** `/home/tom/aivideopicks-worktrees/early-review-desk`
 **Branch:** `automation/early-review-desk`
-**Run Timestamp:** 2026-09-18T10:15:00+02:00
+**Run Timestamp:** 2026-09-18T12:15:00+02:00
 **Harness:** `task-transition-harness` (continuation; prior verified artifacts preserved)
 
----
-
 ## 1. Classification & Scope
-- **Classification:** Continuation of the existing scheduled Early Review Desk pipeline.
-- **Run Objective:** Evaluate only the supplied monitor delta; preserve all verified candidate work.
-- **Execution Boundary:** This worktree and the `aivideopicks` profile contract only.
-- **Worker:** Antigravity was invoked as required. Its research worker completed the two-model assessment; three repository-worker invocations failed or hung (CLI argument parsing, headless permission denial, then no-output hang), so direct execution was used under the named **AGY_BLOCKED** fallback and independently verified.
+- Existing scheduled Early Review Desk continuation; only the supplied monitor delta was evaluated.
+- Existing candidate artifacts and prior decisions were preserved.
+- Antigravity was invoked after the ledger update. Corrected attempts reached the worker, but headless permission denial and then a 180-second no-output timeout blocked a result; direct execution used the named **AGY_BLOCKED** fallback and was independently verified from stored snapshots.
 
-## 2. Preserved Prior Work
-- All existing candidate folders under `content/drafts/early-review/` were left untouched.
-- Product Hunt `Narrative` disappeared from the current feed; this is feed churn for the already staged `narrative-ai-video-editor-2026` candidate, not a new event.
-- Existing Google News, OpenAI, Google AI, GitHub and older Hugging Face items were not reprocessed.
+## 2. Exact Delta
+URL-keyed comparison of the prior cron snapshot with `monitor_last_output.txt` found **24 items before and 24 after, with 0 additions and 0 removals**. Only mutable counters changed:
+- `LynnReal-AI/LynnReal-Omni`: GitHub stars 183 → 189.
+- `vpakarinen/asmr-trigger-audio-h3-lora`: downloads 0 → 55.
+- `aztro/wan22-tessy-lora`: downloads 0 → 5.
+- `dsfdsferw43/Wan2.2-TI2V-5B-GGUF`: downloads 20 → 91.
+- `comatto/LTX-2.5-Distilled-GGUF`: downloads 32 → 72.
+- `concil859856/MiniMax-H3-Longvideos`: downloads 14 → 16.
 
-## 3. Delta Decisions
-1. **`evardragus/LTX-2.5-uncensored-v1.1-FP8` — 5/10, EXCLUDED**
-   - Relevance 1/3; differentiation 1/3; recency 1/2; AU accessibility 2/2.
-   - Community LTX-2.5 derivative/FP8 re-upload, not a new vendor tool, architecture, benchmark, or creator workflow.
-   - `NEXT_ACTION: MONITOR_ONLY_NO_OUTREACH`.
-2. **`SOLRICKS/LTX-2.5-BTS-Movie-Set` — 5/10, EXCLUDED**
-   - Relevance 1/3; differentiation 1/3; recency 2/2; AU accessibility 1/2.
-   - Community style LoRA adapter requiring the existing LTX-2.5 base model and local ComfyUI workflow.
-   - `NEXT_ACTION: MONITOR_ONLY_NO_OUTREACH`.
+These are popularity-metadata changes for already assessed/staged items, not new launches, capability changes, pricing/rights changes, or access changes. No Gate-1 candidate, artifact, outreach, test, affiliate application, or publication is warranted.
 
-## 4. Verification Checklist
-- [x] Continuation classified; prior ledger/history/artifacts inspected.
-- [x] Branch verified as `automation/early-review-desk`; unrelated dirty state absent.
-- [x] Primary Hugging Face pages inspected; community derivative/adapter status distinguished from a material launch.
-- [x] All six deterministic source statuses treated as successful; no source failures recorded.
-- [x] No candidate folders, First Looks, scorecards, case studies, outreach, affiliate applications, tests, paid actions, or publication created.
-- [x] Authoritative watch state atomically advanced to `tick-20260918T101500+0200`.
-- [x] Profile todo ledger updated atomically.
-- [x] JSON validity, state counts, git diff, commit, push, and clean status verified.
+## 3. Verification Checklist
+- [x] Continuation classified; prior TODO, git history/status, authoritative contract, and prior cron snapshot inspected.
+- [x] Correct branch/worktree confirmed; unrelated dirty state absent.
+- [x] Required Antigravity worker invoked; blocker recorded as `AGY_BLOCKED`.
+- [x] Exact semantic delta compared programmatically by source and URL.
+- [x] All six source statuses remained `ok`; no coverage gap.
+- [x] Authoritative contract and profile todo updated atomically.
+- [x] JSON validity, git diff scope, commit, push, and final clean status verified.
 
-## 5. Outcome
-- Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 2 | Published: 0 | Cost-blocked: 0
-- No material reportable launch; cron disposition: `[SILENT]`.
+## 4. Outcome
+Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 0 | Published: 0 | Cost-blocked: 0
+
+No material reportable event; cron disposition: `[SILENT]`.
