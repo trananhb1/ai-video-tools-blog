@@ -34,7 +34,7 @@ No new launches, capability changes, pricing/rights changes, or access changes o
 - [x] Exact semantic delta compared programmatically by source and URL across all 24 items.
 - [x] Primary sources verified for Hugging Face delta (`evardragus/LTX-2.5-uncensored-v1.1-FP8`, `SOLRICKS/LTX-2.5-BTS-Movie-Set`); confirmed below-threshold community derivative / adapter status.
 - [x] All six source statuses verified as `ok`; no coverage failures.
-- [x] Authoritative contract (`aivp-ai-video-market.json`) and profile todo (`f7aa2568c535.json`) updated atomically.
+- [x] Authoritative contract (`aivp-ai-video-market.json`: `last_successful_cutoff`, `last_run`, `source_coverage`) and profile todo (`f7aa2568c535.json`) updated atomically.
 - [x] JSON validity, git diff scope, commit, push, and final clean status verified.
 
 ## 4. Outcome
