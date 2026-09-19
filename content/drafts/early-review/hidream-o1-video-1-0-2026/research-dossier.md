@@ -79,10 +79,17 @@ Furthermore, no dedicated affiliate contact or programme exists on the platform.
 
 In accordance with desk instructions, outreach is held under `HOLD_NO_VERIFIED_CONTACT`. No email was sent, no trial credits were consumed, and no financial details were entered.
 
-**OUTREACH_STATUS:** HOLD_NO_VERIFIED_CONTACT  
-**AFFILIATE_STATUS:** NONE_FOUND  
-**PUBLICATION_STATUS:** STAGED_FIRST_LOOK_ONLY_NOT_PUBLISHED  
+**OUTREACH_STATUS:** HOLD_NO_VERIFIED_CONTACT
+**AFFILIATE_STATUS:** NONE_FOUND
+**PUBLICATION_STATUS:** STAGED_FIRST_LOOK_ONLY_NOT_PUBLISHED
 **NEXT_ACTION:** Hold outreach until an official root-domain contact or dedicated partnership route is verified; do not apply or consume paid credits.
+
+## Update — 2026-09-20 tick
+
+Monitor output on 2026-09-20 surfaced additional syndication links referencing the HiDream-O1-Video-1.0 launch (multiple publisher domains).[6]
+All items deduplicate to the September 15, 2026 foundational model launch already captured in this dossier.[1][5]
+No new primary source, capability update, pricing disclosure, or access change was detected.
+Deduplication verdict: SAME_CANDIDATE — publisher/URL churn only. All gates remain on HOLD as recorded above.
 
 ## Sources
 

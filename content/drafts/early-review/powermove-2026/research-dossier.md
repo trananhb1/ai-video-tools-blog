@@ -67,6 +67,10 @@ No manifest entry was created and no email was sent.
 **PUBLICATION_STATUS:** STAGED_FIRST_LOOK_ONLY_NOT_PUBLISHED
 **NEXT_ACTION:** Hold hands-on testing pending Apple Silicon hardware allocation; hold outreach pending published official-domain contact.
 
+## Update — 2026-09-20 tick
+
+Powermove v1.0.1 released (verified via GitHub releases page on 2026-09-20).[12]\nChanges are editor/UX fixes: saving progress feedback, GIF/video preview scrubbing, font hot-reload, agent attachment UX, panel compatibility warnings.\nA new `npx powermove serve` remote-host mode was added — allows accessing the editor from a browser over LAN/tailnet.\nAll underlying constraints are unchanged: macOS Apple Silicon only, GPL-3.0-or-later, no official-domain contact published.\nThe Product Hunt listing resurfaced in monitor output as "launched this week" due to the v1.0.1 associated activity — this is a version bump, not a new launch event.\nDeduplication verdict: SAME_CANDIDATE — no new underlying event. All gates remain HELD as recorded above.
+
 ## Sources
 
 [4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt
@@ -74,3 +78,4 @@ No manifest entry was created and no email was sent.
 [9] https://github.com/iterative-computer/powermove/releases/tag/v1.0.0 — Powermove 1.0.0 release
 [10] https://trypowermove.com — Powermove official site
 [11] https://raw.githubusercontent.com/iterative-computer/powermove/main/package.json — Powermove package metadata
+[12] https://github.com/iterative-computer/powermove/releases — Powermove releases list (v1.0.1 confirmed 2026-09-20)
