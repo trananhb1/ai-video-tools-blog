@@ -1,0 +1,85 @@
+{
+  "tool": "Pika creative apps — Product Ad, Video Studio, Camera Director, Relight Media",
+  "date_assessed": "2026-09-19",
+  "verified_floor": 30,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 30,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Official Product Ad and Video Studio pages accept product images/references.[1][2][3] Exact identity in the first 10 seconds is untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP-controlled render or artifact-backed benchmark."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No three-run consistency evidence; vendor demos are not independent measurements."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 8,
+      "unresolved_points": 7,
+      "notes": "Brief-to-ad, referenced multi-shot generation, and alternate-angle workflows are documented.[1][3][5] Setup friction is unmeasured."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No measured queue time, render duration, retry rate, or failure rate."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Official plan pricing is public, but new-app credit consumption and cost per accepted output are not.[7]"
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 10,
+      "unresolved_points": 0,
+      "notes": "Official pricing states commercial use and watermark-free downloads on every listed plan.[7] Input/media rights remain the user’s responsibility under the terms.[8]"
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "A separate Pika API Club and broad model catalog are live.[9] No endpoint for these new apps was verified."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "The browser workflow and free plan lower access friction, but Australian login/payment availability was not tested.[7]"
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 0,
+      "unresolved_points": 2,
+      "notes": "Pika.art affiliate acceptance and tracking are unverified; Pika.style is a different product."
+    }
+  ],
+  "analysis": "The event qualifies for intake because the workflows are current, primary-source-confirmed, and highly relevant to product video. The verified docs-only floor is 30/100, which is Monitor only under the authoritative score bands. Do not recommend or rank before a controlled run.",
+  "confidence_notes": "C: official documents and vendor posts only; no AIVP-controlled output, timing, cost, or QC artifact.",
+  "case_study_plan": "case-study-plan.md",
+  "outreach_status": "HELD_NO_VERIFIED_CONTACT"
+}

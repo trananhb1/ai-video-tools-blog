@@ -1,0 +1,26 @@
+[
+  {
+    "tweet_id": "2101011164520198452",
+    "request_url": "https://publish.twitter.com/oembed?omit_script=1&url=https://twitter.com/pika_labs/status/2101011164520198452",
+    "canonical_url": "https://x.com/pika_labs/status/2101011164520198452",
+    "author_name": "Pika",
+    "provider_name": "X",
+    "rendered_text": "We created the Product Ad app for those moments when you need a high-end video for your product, but can’t afford the high-priced production. It takes your strategic brief and brand assets, and works with you to align on a script/shotlist. The result is a market-ready video. https://t.co/w6AC3e1b2b pic.twitter.com/WhaweSH1w9 — Pika (@pika_labs) September 18, 2026"
+  },
+  {
+    "tweet_id": "2101116373607100506",
+    "request_url": "https://publish.twitter.com/oembed?omit_script=1&url=https://twitter.com/pika_labs/status/2101116373607100506",
+    "canonical_url": "https://x.com/pika_labs/status/2101116373607100506",
+    "author_name": "Pika",
+    "provider_name": "X",
+    "rendered_text": "The new Pika lets you reshoot any scene from multiple angles, with the Camera Director app. Just upload a clip, and it will generate a full suite of alternate options that maintain the motion and performance of the original scene. https://t.co/w6AC3e1b2b pic.twitter.com/5RMrh8cU6I — Pika (@pika_labs) September 19, 2026"
+  },
+  {
+    "tweet_id": "2101131963021308163",
+    "request_url": "https://publish.twitter.com/oembed?omit_script=1&url=https://twitter.com/pika_labs/status/2101131963021308163",
+    "canonical_url": "https://x.com/pika_labs/status/2101131963021308163",
+    "author_name": "Pika",
+    "provider_name": "X",
+    "rendered_text": "This example from our Relight Media app illustrates how you can change more than just the time of day in your video; you can adjust the color, intensity, and direction of light. Try it on the new Pika. https://t.co/w6AC3e1b2b pic.twitter.com/CPNqpkqHtj — Pika (@pika_labs) September 19, 2026"
+  }
+]
