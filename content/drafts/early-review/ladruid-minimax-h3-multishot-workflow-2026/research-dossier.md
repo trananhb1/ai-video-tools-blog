@@ -42,6 +42,6 @@ Duplicate exclusion applied at Gate 1. No scorecard, case study, or outreach art
 
 ## Sources
 
-[1] https://huggingface.co/LaDruid/MiniMax-H3-Multishot-Workflow — LaDruid HuggingFace mirror (verified 2026-09-20)
-[2] https://huggingface.co/joeygambino/MiniMax-H3-Multishot-Workflow — Primary HuggingFace distribution
-[3] https://github.com/jlucasmcrell/ComfyUI-H3-Multishot — Primary GitHub repository
+[1] https://huggingface.co/LaDruid/MiniMax-H3-Multishot-Workflow — LaDruid Hugging Face duplicate
+[2] https://huggingface.co/joeygambino/MiniMax-H3-Multishot-Workflow — Canonical Hugging Face distribution
+[3] https://github.com/jlucasmcrell/ComfyUI-H3-Multishot — Canonical GitHub repository

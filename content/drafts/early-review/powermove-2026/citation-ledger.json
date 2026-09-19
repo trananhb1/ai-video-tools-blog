@@ -30,6 +30,12 @@
       "url": "https://raw.githubusercontent.com/iterative-computer/powermove/main/package.json",
       "title": "Powermove package metadata",
       "accessed": "2026-09-18"
+    },
+    {
+      "id": 6,
+      "url": "https://github.com/iterative-computer/powermove/releases",
+      "title": "Powermove releases list",
+      "accessed": "2026-09-20"
     }
   ]
 }

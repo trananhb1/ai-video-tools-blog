@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/LaDruid/MiniMax-H3-Multishot-Workflow",
+      "title": "LaDruid Hugging Face duplicate",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/joeygambino/MiniMax-H3-Multishot-Workflow",
+      "title": "Canonical Hugging Face distribution",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/jlucasmcrell/ComfyUI-H3-Multishot",
+      "title": "Canonical GitHub repository",
+      "accessed": "2026-09-20"
+    }
+  ]
+}

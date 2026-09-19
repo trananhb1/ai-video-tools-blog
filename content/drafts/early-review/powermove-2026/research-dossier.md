@@ -69,13 +69,19 @@ No manifest entry was created and no email was sent.
 
 ## Update — 2026-09-20 tick
 
-Powermove v1.0.1 released (verified via GitHub releases page on 2026-09-20).[12]\nChanges are editor/UX fixes: saving progress feedback, GIF/video preview scrubbing, font hot-reload, agent attachment UX, panel compatibility warnings.\nA new `npx powermove serve` remote-host mode was added — allows accessing the editor from a browser over LAN/tailnet.\nAll underlying constraints are unchanged: macOS Apple Silicon only, GPL-3.0-or-later, no official-domain contact published.\nThe Product Hunt listing resurfaced in monitor output as "launched this week" due to the v1.0.1 associated activity — this is a version bump, not a new launch event.\nDeduplication verdict: SAME_CANDIDATE — no new underlying event. All gates remain HELD as recorded above.
+Powermove v1.0.1 was released September 19, 2026, and verified from the GitHub releases page on September 20.[6]
+
+The release adds editor and UX fixes including save-progress feedback, GIF/video preview scrubbing, font hot-reload, agent attachment improvements, and panel compatibility warnings.[6]
+
+It also adds a new `npx powermove serve` remote-host mode for accessing the editor from a browser over LAN or a tailnet.[6]
+
+The macOS Apple Silicon constraint, GPL-3.0-or-later licensing, and absence of a published official-domain contact are unchanged. The Product Hunt listing resurfacing and v1.0.1 activity are a version bump to the same candidate, not a separate launch. All existing testing and outreach holds remain in force.
 
 ## Sources
 
 [4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt
 [5] https://github.com/iterative-computer/powermove — Powermove GitHub repository
+[6] https://github.com/iterative-computer/powermove/releases — Powermove releases list
 [9] https://github.com/iterative-computer/powermove/releases/tag/v1.0.0 — Powermove 1.0.0 release
 [10] https://trypowermove.com — Powermove official site
 [11] https://raw.githubusercontent.com/iterative-computer/powermove/main/package.json — Powermove package metadata
-[12] https://github.com/iterative-computer/powermove/releases — Powermove releases list (v1.0.1 confirmed 2026-09-20)
