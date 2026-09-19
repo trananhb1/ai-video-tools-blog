@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://higgsfield.ai/gpt-astra",
+      "title": "Higgsfield ChatGPT Astra skills and presets",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 2,
+      "url": "https://higgsfield.ai/chatgpt-plugin",
+      "title": "Higgsfield Plugin for ChatGPT",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 3,
+      "url": "https://higgsfield.ai/gpt-astra/ad-hooks",
+      "title": "Higgsfield Hook Multiplier",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 4,
+      "url": "https://higgsfield.ai/gpt-astra/performance-marketing-operator",
+      "title": "Higgsfield Campaign Analyst",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 5,
+      "url": "https://higgsfield.ai/blog/mcp-for-marketers",
+      "title": "Higgsfield MCP for Marketers",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 6,
+      "url": "https://higgsfield.ai/terms-of-use-agreement",
+      "title": "Higgsfield Terms of Use",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 7,
+      "url": "https://higgsfield.ai/affiliate",
+      "title": "Higgsfield Affiliate Program",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 8,
+      "url": "https://higgsfield.ai/creator-hub/help-center/business-and-partners/how-do-i-join-a-partnership-or-creator-program",
+      "title": "Higgsfield partnership help",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 9,
+      "url": "https://www.instagram.com/reel/DdbrMmoiZXs",
+      "title": "Higgsfield paid ads launch post",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/tengxusun/Wan2.1-T2V-1.3B-test",
+      "title": "Wan2.1 T2V test repository",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 11,
+      "url": "https://huggingface.co/api/models/tengxusun/Wan2.1-T2V-1.3B-test",
+      "title": "Wan2.1 test metadata",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 12,
+      "url": "https://huggingface.co/api/models/tengxusun/Wan2.1-T2V-1.3B-test/commits/main",
+      "title": "Wan2.1 test commit history",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 13,
+      "url": "https://huggingface.co/api/models/tengxusun/Wan2.1-T2V-1.3B-test/tree/main?recursive=true&expand=false",
+      "title": "Wan2.1 test file tree",
+      "accessed": "2026-09-19"
+    }
+  ]
+}

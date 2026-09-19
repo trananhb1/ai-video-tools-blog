@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "tool": "Higgsfield GPT-6 Astra Paid Ads Bundle",
+  "date_assessed": "2026-09-19",
+  "verified_floor": 37,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 37,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 10,
+      "unresolved_points": 10,
+      "notes": "Reference/product workflows documented; first-10-second identity untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No controlled AIVP output."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control and consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Preserve-remainder claim documented; reproducibility unmeasured."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "notes": "Research, creation, localization, variant generation and analysis in ChatGPT."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed and reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No timing or failure-rate evidence."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "Standard credits documented; exact burn unknown."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "User-content position documented; upstream model, watermark and monetized output unresolved."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation and integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "Official plugin and MCP route."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "Audience fit for AU SMBs",
+      "weight": 3,
+      "verified_points": 2,
+      "unresolved_points": 1,
+      "notes": "Strong SMB use case; AU account/billing unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Official affiliate programme; AIVP acceptance/tracking unverified."
+    }
+  ]
+}

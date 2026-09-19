@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-19-higgsfield-paid-ads-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-19T10:28:05.823656+00:00",
+      "body_sha256": "bd48730398e921b3344c35c841fd597e944d8023025158e119d14f3394761963",
+      "created_at": "2026-09-19 10:28:06.094000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-higgsfield-paid-ads-20260919-v1",
+      "last_event": "delivered",
+      "message_id": "01a0b935-7eac-7040-a917-c350f0532f54",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "AI Video Picks controlled review access request - Higgsfield Paid Ads Bundle",
+      "to": "marketing@higgsfield.ai",
+      "vendor": "Higgsfield"
+    }
+  ]
+}

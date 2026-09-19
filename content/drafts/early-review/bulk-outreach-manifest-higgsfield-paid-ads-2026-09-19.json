@@ -1,0 +1,16 @@
+{
+  "batch": "aivp-early-review-2026-09-19-higgsfield-paid-ads-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "Higgsfield",
+      "launch_materiality_score": 9,
+      "to": "marketing@higgsfield.ai",
+      "recipient_name": "Higgsfield Partnerships Team",
+      "recipient_source": "https://higgsfield.ai/creator-hub/help-center/business-and-partners/how-do-i-join-a-partnership-or-creator-program",
+      "subject": "AI Video Picks controlled review access request - Higgsfield Paid Ads Bundle",
+      "idempotency_key": "aivp-early-review-higgsfield-paid-ads-20260919-v1",
+      "body": "Hi Higgsfield Team,\n\nI'm Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nYour newly launched GPT-6 Astra Paid Ads bundle is relevant because it combines market research, ad creation, video hook variants, localization, resizing, and campaign analysis inside ChatGPT. We plan a controlled three-run product-reference case study.\n\nWe are requesting official documentation, including launch notes, exact current pricing and credit-consumption tables, supported regions/plans, API/MCP/plugin documentation, recommended settings, known limitations, watermark rules, data handling, and commercial-use terms.\n\nWe are requesting complimentary bounded review access for 60 days, sufficient for three identical runs plus two failure/retry runs.\n\nWe are requesting complimentary rendering or API credits solely for controlled evaluation outputs, not ongoing production.\n\nWe are requesting access to your prompt library, workflow templates, examples, recommended settings, API documentation, and known limitations.\n\nWe request approved media rights for press-kit assets, logos, screenshots, and demo clips in monetized editorial articles and videos.\n\nWe request affiliate programme details, including signup/approval, commission tiers, attribution conditions, payout schedule/minimum, Australian eligibility, coupon rules, and paid-search/brand-bidding restrictions.\n\nPlease provide a technical contact for reproducible failures and confirm Australian availability.\n\nAccess does not guarantee positive coverage. Access or credits do not guarantee coverage, a positive verdict, or ranking placement. AI Video Picks does not trade ranking placement for backlinks or inclusion elsewhere. Findings will be labelled as vendor-provided, free-trial, complimentary-access, or paid evidence as applicable. Affiliate eligibility never changes our evidence threshold.\n\nBest,\nTom\nAI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}
