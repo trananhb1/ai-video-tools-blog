@@ -22,7 +22,7 @@
 - [x] Publisher-label reversion deduplicated to the existing out-of-scope political commentary event.
 - [x] Authoritative contract and task ledger updated atomically.
 - [x] Pre-commit JSON, diff-scope, and whitespace checks passed.
-- [ ] Commit and push verification.
+- [x] Commit and push verified: `7ec57af` pushed to `origin/automation/early-review-desk`.
 
 ## Outcome
 Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 0 | Published: 0 | Cost-blocked: 0
