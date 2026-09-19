@@ -33,7 +33,7 @@
 - [x] GitHub source retried successfully after the injected snapshot failure.
 - [x] Authoritative contract updated atomically and read back by exact run ID, cutoff, and candidate ID.
 - [x] Citation ledger created from retrieved URLs and draft citations verified.
-- [pending] Git diff/whitespace validation, commit, push, and clean-state verification.
+- [x] Diff/whitespace checks passed; tick artifacts committed and pushed as `9322f85`.
 
 ## Outcome
 Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 1 | Published: 0 | Cost-blocked: 0
