@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "tick": "20260920T0415",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints",
+      "title": "weihang44/Causal-Forcing-Memory-Checkpoints — Hugging Face",
+      "accessed": "2026-09-20",
+      "verdict": "EXCLUDE — academic checkpoint archive for video-compress research project; not a creator tool; 721 GB weights for a-little-hoof/video-compress; Gate 1 score 4/10 MONITOR_ONLY"
+    },
+    {
+      "id": 2,
+      "url": "https://www.warrington-worldwide.co.uk/2026/09/18/how-ai-video-and-design-tools-are-scaling-warrington-small-businesses-2/",
+      "title": "How AI video and design tools are scaling Warrington small businesses — Warrington Worldwide",
+      "accessed": "2026-09-20",
+      "verdict": "EXCLUDE — secondary content marketing syndication for Pollo AI Creative Studio; primary event is May 29 2026 Marketing Studio PR Newswire release already outside 72h recency window; no new capability or primary source"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints",
+      "title": "HiDream URL churn — syndication of September 15 HiDream-O1-Video-1.0 launch",
+      "accessed": "2026-09-20",
+      "verdict": "ALREADY_TRIAGED — recorded in hidream-o1-video-1-0-2026 dossier under 2026-09-20 tick update; deduplication verdict SAME_CANDIDATE"
+    },
+    {
+      "id": 4,
+      "url": "https://www.producthunt.com/products/powermove-2",
+      "title": "Powermove on Product Hunt — confirmed live 2026-09-20",
+      "accessed": "2026-09-20",
+      "verdict": "FALSE_SIGNAL — listing confirmed live at #35 day rank, 66 upvotes; no disappearance detected; Powermove dossier updated"
+    },
+    {
+      "id": 5,
+      "url": "https://itnewsonline.com/PRNewswire/Pollo-AI-Launches-Marketing-Studio-with-Five-Workflows-for-AI-Video-Ads/1128814",
+      "title": "Pollo AI Launches Marketing Studio with Five Workflows for AI Video Ads — PR Newswire via IT News Online",
+      "accessed": "2026-09-20",
+      "verdict": "REFERENCE — primary event for Pollo AI Marketing Studio; May 29 2026; not current delta"
+    }
+  ],
+  "delta_summary": {
+    "new_candidates": 0,
+    "excluded": 2,
+    "already_triaged": 1,
+    "false_signals": 1,
+    "qualified": 0,
+    "staged": 0,
+    "outreach_sent": 0
+  }
+}

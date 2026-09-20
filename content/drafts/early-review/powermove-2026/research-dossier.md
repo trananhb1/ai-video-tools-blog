@@ -77,9 +77,16 @@ It also adds a new `npx powermove serve` remote-host mode for accessing the edit
 
 The macOS Apple Silicon constraint, GPL-3.0-or-later licensing, and absence of a published official-domain contact are unchanged. The Product Hunt listing resurfacing and v1.0.1 activity are a version bump to the same candidate, not a separate launch. All existing testing and outreach holds remain in force.
 
+## Update — 2026-09-20 04:15 CEST tick
+
+Monitor signal: "Product Hunt Powermove disappearance." Resolved as FALSE SIGNAL.
+Direct inspection of the Product Hunt listing confirmed the page remains live at #35 day rank, 66 upvotes, "launched this week" on the same URL.[4]
+No deletion, delisting, or takedown was detected.
+All existing gates, holds, and classifications unchanged.
+
 ## Sources
 
-[4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt
+[4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt (confirmed live 2026-09-20)
 [5] https://github.com/iterative-computer/powermove — Powermove GitHub repository
 [6] https://github.com/iterative-computer/powermove/releases — Powermove releases list
 [9] https://github.com/iterative-computer/powermove/releases/tag/v1.0.0 — Powermove 1.0.0 release
