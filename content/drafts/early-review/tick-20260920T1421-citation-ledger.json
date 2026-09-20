@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.raindance.org/invideo-vs-creatify-which-ai-video-platform-should-you-use",
+      "title": "invideo vs. Creatify: Which AI Video Platform Should You Use?",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://www.brut.media/in/videos/india/politics/akhilesh-yadav-turns-angry-young-man-in-this-new-ai-video",
+      "title": "Akhilesh Yadav turns angry young man in this new AI video",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://www.producthunt.com/products/powermove-2",
+      "title": "Powermove: The video editor that rewrites itself around your work",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/iterative-computer/powermove/releases/tag/v1.0.1",
+      "title": "Powermove 1.0.1 release",
+      "accessed": "2026-09-20"
+    }
+  ]
+}
