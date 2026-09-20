@@ -1,10 +1,10 @@
 # Research Dossier: Powermove
 
-**Status:** QUALIFIED — First Look only; public repository and release artifacts, local execution held on Linux host  
-**Release date:** 2026-09-18  
-**Discovery date:** 2026-09-18  
-**Contract materiality score:** 15  
-**Gate 1 score:** 9/10 — QUALIFIED  
+**Status:** QUALIFIED — First Look only; public repository and release artifacts, local execution held on Linux host
+**Release date:** 2026-09-18
+**Discovery date:** 2026-09-18
+**Contract materiality score:** 15
+**Gate 1 score:** 9/10 — QUALIFIED
 
 ## Search strategy and deduplication
 
@@ -56,16 +56,15 @@ A structured case-study protocol is defined for execution when Apple Silicon tes
 
 ## Gate 4 — Outreach and affiliate
 
-Inspection of the GitHub repository, package metadata, and official website found no published official-domain email address.[5][10][11]
-Standing policy mandates that outreach may only be directed to an email address published on the vendor's official domain.
-Git commit author addresses and guessed aliases are prohibited under standing policy.
-Therefore, outreach is held under `HELD_NO_VERIFIED_OFFICIAL_DOMAIN_PUBLISHED_CONTACT`.
-No manifest entry was created and no email was sent.
+The official Iterative Computer company site identifies Powermove as its video editor and publishes `hello[at]iterative[dot]computer` under Contact.[8]
+The rendered Powermove product-site HTML and the official repository's merged contact-update PR corroborate `hello@iterative.computer`.[7][10]
+A one-domain standing-policy manifest passed validation and was sent through Resend.
+Provider read-back matched the exact recipient, sender, and subject; message ID `01a0bd0e-3f3b-71fd-8d32-6e264d5221e4` currently has event `delivered`.
 
-**OUTREACH_STATUS:** HELD_NO_VERIFIED_OFFICIAL_DOMAIN_PUBLISHED_CONTACT
+**OUTREACH_STATUS:** DELIVERED_PROVIDER_READBACK_VERIFIED
 **AFFILIATE_STATUS:** NONE_FOUND
 **PUBLICATION_STATUS:** STAGED_FIRST_LOOK_ONLY_NOT_PUBLISHED
-**NEXT_ACTION:** Hold hands-on testing pending Apple Silicon hardware allocation; hold outreach pending published official-domain contact.
+**NEXT_ACTION:** AWAIT_RESPONSE; recheck delivery status and follow up once after five business days if unanswered. Hands-on testing remains held pending Apple Silicon access.
 
 ## Update — 2026-09-20 tick
 
@@ -75,7 +74,7 @@ The release adds editor and UX fixes including save-progress feedback, GIF/video
 
 It also adds a new `npx powermove serve` remote-host mode for accessing the editor from a browser over LAN or a tailnet.[6]
 
-The macOS Apple Silicon constraint, GPL-3.0-or-later licensing, and absence of a published official-domain contact are unchanged. The Product Hunt listing resurfacing and v1.0.1 activity are a version bump to the same candidate, not a separate launch. All existing testing and outreach holds remain in force.
+The macOS Apple Silicon constraint and GPL-3.0-or-later licensing are unchanged. The Product Hunt listing resurfacing and v1.0.1 activity are a version bump to the same candidate, not a separate launch. The testing hold remains; the prior contact hold was later resolved from Iterative Computer’s official contact page.[8]
 
 ## Update — 2026-09-20 04:15 CEST tick
 
@@ -84,11 +83,22 @@ Direct inspection confirmed the Product Hunt product page remains live on the sa
 No deletion, delisting, or takedown was detected.
 All existing gates, holds, and classifications unchanged.
 
+## Update — 2026-09-20 06:15 CEST tick
+
+The deterministic monitor resurfaced the existing Product Hunt listing. Direct extraction confirmed the same canonical Powermove product page remains live, so this is not a new vendor event and Gate 1 remains 9/10.[4]
+
+Contact verification changed materially: Iterative Computer's official company site identifies Powermove as its video editor and publishes `hello[at]iterative[dot]computer` under Contact.[8]
+The Powermove product site's rendered HTML and merged repository PR #53 corroborate `hello@iterative.computer`.[7][10]
+
+The prior `HELD_NO_VERIFIED_OFFICIAL_DOMAIN_PUBLISHED_CONTACT` finding is superseded. Outreach was sent under the standing policy with Resend provider read-back. Hands-on testing remains held pending compatible Apple Silicon access; strength remains Promising/conditional, 35/100, confidence C.
+
 ## Sources
 
-[4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt (confirmed live 2026-09-20)
+[4] https://www.producthunt.com/products/powermove-2 — Powermove on Product Hunt
 [5] https://github.com/iterative-computer/powermove — Powermove GitHub repository
 [6] https://github.com/iterative-computer/powermove/releases — Powermove releases list
+[7] https://github.com/iterative-computer/powermove/pull/53 — Powermove PR 53 contact email update
+[8] https://iterative.computer — Iterative Computer official contact page
 [9] https://github.com/iterative-computer/powermove/releases/tag/v1.0.0 — Powermove 1.0.0 release
 [10] https://trypowermove.com — Powermove official site
 [11] https://raw.githubusercontent.com/iterative-computer/powermove/main/package.json — Powermove package metadata

@@ -1,0 +1,16 @@
+{
+  "batch": "aivp-early-review-2026-09-20-powermove-1",
+  "policy_id": "aivp-qualified-launch-outreach-v1",
+  "messages": [
+    {
+      "vendor": "Iterative Computer / Powermove",
+      "launch_materiality_score": 9,
+      "to": "hello@iterative.computer",
+      "recipient_name": "Iterative Computer Team",
+      "recipient_source": "https://iterative.computer/",
+      "subject": "AI Video Picks controlled review access request - Powermove",
+      "idempotency_key": "aivp-early-review-powermove-20260920-v1",
+      "body": "Hi Iterative Computer Team,\n\nI'm Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.\n\nPowermove is relevant because its agent-in-the-loop, extension-based motion editor can render frames, make undoable timeline edits, and rewrite editor panels while the project remains editable. We have staged a controlled three-run case study, but our current Linux host cannot execute the Apple Silicon macOS build.\n\nWe are requesting official documentation, including current macOS and hardware requirements, Codex CLI and Claude Code integration details, remote-host guidance, exact current pricing and credit-consumption tables for any hosted services, supported regions, recommended settings, known limitations, watermark rules, data handling, and commercial-use terms.\n\nWe are requesting complimentary bounded review access for 60 days, ideally including a supervised or remote Apple Silicon test environment sufficient for three identical runs plus two failure/retry runs.\n\nWe are requesting complimentary rendering or API credits solely for controlled evaluation outputs, not ongoing production. If Powermove itself does not provide credits, please confirm which agent or rendering costs testers must supply.\n\nWe are requesting access to your prompt library, workflow templates, examples, recommended settings, API documentation, and known limitations.\n\nWe request approved media rights for press-kit assets, logos, screenshots, and demo clips in monetized editorial articles and videos.\n\nWe request affiliate programme details, if relevant, including signup/approval, commission, attribution, payout, Australian eligibility, and paid-search or brand-bidding restrictions.\n\nPlease provide a technical contact for reproducible failures and confirm whether Australian creators can use every advertised feature.\n\nAccess does not guarantee positive coverage. Access or credits do not guarantee coverage, a positive verdict, or ranking placement. AI Video Picks does not trade ranking placement for backlinks or inclusion elsewhere. Findings will be labelled as vendor-provided, free-trial, complimentary-access, or paid evidence as applicable. Affiliate eligibility never changes our evidence threshold.\n\nBest,\nTom\nAI Video Picks\nhttps://aivideopicks.com\ncontact@aivideopicks.com"
+    }
+  ]
+}

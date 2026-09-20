@@ -1,0 +1,21 @@
+{
+  "batch": "aivp-early-review-2026-09-20-powermove-1",
+  "messages": [
+    {
+      "attempted_at": "2026-09-20T04:23:42.531252+00:00",
+      "body_sha256": "1978b23377aa2a451e6d695a5d3fe81a5445d7c56a005cf274e77266612a9950",
+      "created_at": "2026-09-20 04:23:42.811000+00",
+      "from": "Tom Tran <contact@aivideopicks.com>",
+      "idempotency_key": "aivp-early-review-powermove-20260920-v1",
+      "last_event": "delivered",
+      "message_id": "01a0bd0e-3f3b-71fd-8d32-6e264d5221e4",
+      "provider_read_back_verified": true,
+      "reply_to": [
+        "contact@aivideopicks.com"
+      ],
+      "subject": "AI Video Picks controlled review access request - Powermove",
+      "to": "hello@iterative.computer",
+      "vendor": "Iterative Computer / Powermove"
+    }
+  ]
+}
