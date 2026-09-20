@@ -80,7 +80,7 @@ The macOS Apple Silicon constraint, GPL-3.0-or-later licensing, and absence of a
 ## Update — 2026-09-20 04:15 CEST tick
 
 Monitor signal: "Product Hunt Powermove disappearance." Resolved as FALSE SIGNAL.
-Direct inspection of the Product Hunt listing confirmed the page remains live at #35 day rank, 66 upvotes, "launched this week" on the same URL.[4]
+Direct inspection confirmed the Product Hunt product page remains live on the same canonical URL.[4]
 No deletion, delisting, or takedown was detected.
 All existing gates, holds, and classifications unchanged.
 

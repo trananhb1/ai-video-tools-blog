@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints",
+      "title": "Causal Forcing Memory Checkpoints model page",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints/raw/main/README.md",
+      "title": "Causal Forcing Memory Checkpoints README",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints/raw/main/NOTICE.md",
+      "title": "Causal Forcing Memory Checkpoints component notice",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/weihang44/Causal-Forcing-Memory-Checkpoints",
+      "title": "Hugging Face repository metadata",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/weihang44/Causal-Forcing-Memory-Checkpoints/commits/main",
+      "title": "Hugging Face commit history",
+      "accessed": "2026-09-20"
+    }
+  ]
+}

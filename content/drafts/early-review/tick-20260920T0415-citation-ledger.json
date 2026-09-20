@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints",
       "title": "weihang44/Causal-Forcing-Memory-Checkpoints — Hugging Face",
       "accessed": "2026-09-20",
-      "verdict": "EXCLUDE — academic checkpoint archive for video-compress research project; not a creator tool; 721 GB weights for a-little-hoof/video-compress; Gate 1 score 4/10 MONITOR_ONLY"
+      "verdict": "EXCLUDE — research checkpoint archive for an existing Causal Forcing memory-compression experiment; no creator workflow; approximately 721.6 GB of raw checkpoints plus a 5.68 GB generator; Gate 1 4/10 and contract score 2."
     },
     {
       "id": 2,
@@ -18,8 +18,8 @@
     },
     {
       "id": 3,
-      "url": "https://huggingface.co/weihang44/Causal-Forcing-Memory-Checkpoints",
-      "title": "HiDream URL churn — syndication of September 15 HiDream-O1-Video-1.0 launch",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQck9pRkZQS2FnOWo0bTB5TnIwUVM3aDlHTkNJZXl0bXBLRlRYMDNkY0FCUlViTUhLNkpMRWFWVTI5azJFWXFpMnpieVdTVGNZdlpaRG1nSDhqa3o2eHB4amd0YmUyZC1aaDduOTU4bm52bktzQVVaenNHUW9nVHcwc1FIYmZ2Q0I2NlNoNF9OeUQ5MnRnMkJVLTl2WnpMMVcwMTZEb2l6SF9VWUhVSmdHdTB4SjMwMEtEMVNnRDVoSEE1V2sySmptS2pTNFJkSnBxU3dFM0loQ1VSalFnNlk5M09Yb2lPMXc?oc=5",
+      "title": "HiDream-O1-Video-1.0 iHarare syndication listing",
       "accessed": "2026-09-20",
       "verdict": "ALREADY_TRIAGED — recorded in hidream-o1-video-1-0-2026 dossier under 2026-09-20 tick update; deduplication verdict SAME_CANDIDATE"
     },
@@ -28,7 +28,7 @@
       "url": "https://www.producthunt.com/products/powermove-2",
       "title": "Powermove on Product Hunt — confirmed live 2026-09-20",
       "accessed": "2026-09-20",
-      "verdict": "FALSE_SIGNAL — listing confirmed live at #35 day rank, 66 upvotes; no disappearance detected; Powermove dossier updated"
+      "verdict": "FALSE_SIGNAL — the canonical Powermove product page remains live; removal from the rolling monitor result set is not a product deletion or material event."
     },
     {
       "id": 5,
@@ -39,12 +39,13 @@
     }
   ],
   "delta_summary": {
-    "new_candidates": 0,
-    "excluded": 2,
+    "new_candidates": 1,
+    "excluded": 1,
     "already_triaged": 1,
     "false_signals": 1,
     "qualified": 0,
     "staged": 0,
-    "outreach_sent": 0
+    "outreach_sent": 0,
+    "metadata_or_existing_event_items": 3
   }
 }
