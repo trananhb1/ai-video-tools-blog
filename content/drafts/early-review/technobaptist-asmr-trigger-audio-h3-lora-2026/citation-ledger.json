@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/TechnoBaptist/asmr-trigger-audio-h3-lora",
+      "title": "TechnoBaptist duplicate model page",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/vpakarinen/asmr-trigger-audio-h3-lora",
+      "title": "Canonical upstream model page",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/TechnoBaptist/asmr-trigger-audio-h3-lora/commits/main",
+      "title": "Hugging Face duplicate commit record",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/TechnoBaptist/asmr-trigger-audio-h3-lora",
+      "title": "Hugging Face duplicate repository metadata",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 5,
+      "url": "https://www.krea.ai/docs/changelog",
+      "title": "Krea official changelog",
+      "accessed": "2026-09-20"
+    }
+  ]
+}
