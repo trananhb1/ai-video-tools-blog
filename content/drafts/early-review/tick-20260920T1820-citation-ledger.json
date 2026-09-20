@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/davidedeprezzo/PrismVideo",
+      "title": "davidedeprezzo/PrismVideo model card",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/davidedeprezzo/PrismVideo",
+      "title": "Hugging Face PrismVideo API metadata",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/davidedeprezzo/PrismVideo/tree/main?recursive=true&expand=false",
+      "title": "Hugging Face PrismVideo repository tree",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "url": "https://www.contentgrip.com/google-ads-ai-dubbing",
+      "title": "Google Ads puts AI dubbing for 33 languages inside Asset Studio",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 5,
+      "url": "https://support.google.com/google-ads/answer/16456563?hl=en",
+      "title": "About Asset studio - Google Ads Help",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 6,
+      "url": "https://www.raindance.org/invideo-vs-creatify-which-ai-video-platform-should-you-use",
+      "title": "invideo vs. Creatify: Which AI Video Platform Should You Use?",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 7,
+      "url": "https://www.gamemeca.com/en/view.php?gid=1780757",
+      "title": "SHIFT UP AI video experiment apology report",
+      "accessed": "2026-09-20"
+    }
+  ]
+}
