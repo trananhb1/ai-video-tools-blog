@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.contentgrip.com/google-ads-ai-dubbing",
+      "title": "Google Ads puts AI dubbing for 33 languages inside Asset Studio",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 2,
+      "url": "https://support.google.com/google-ads/answer/16456563?hl=en",
+      "title": "About Asset studio - Google Ads Help",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "url": "https://business.google.com/us/think/search-and-video/winning-ramadan-marketing-strategy",
+      "title": "Winning Ramadan 2025 - Think with Google APAC",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/RunningHubAI/rh-iclight-sd15-fc.safetensors-unet",
+      "title": "RunningHubAI rh-iclight model card",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/lllyasviel/IC-Light",
+      "title": "Official IC-Light repository",
+      "accessed": "2026-09-20"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/memset0/vsqa-test-1.3b",
+      "title": "memset0 VSQA test checkpoint model card",
+      "accessed": "2026-09-20"
+    }
+  ]
+}
