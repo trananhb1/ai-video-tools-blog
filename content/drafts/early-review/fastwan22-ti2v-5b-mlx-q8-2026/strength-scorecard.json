@@ -1,0 +1,84 @@
+{
+  "tool": "FastWan2.2-TI2V-5B-MLX-q8",
+  "date_assessed": "2026-09-21",
+  "verified_floor": 36,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 36,
+  "confidence": "C",
+  "classification": "Weak fit pending controlled testing",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 3,
+      "unresolved_points": 17,
+      "notes": "Image-conditioned base workflow is documented; exact-product identity is untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP or independent output benchmark."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 4,
+      "unresolved_points": 11,
+      "notes": "Self-contained weights/tokenizer are documented, but the compatible LocalLab runtime is not public."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Prompt and fixed three-step schedule are documented; three-run consistency is unknown."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 7,
+      "unresolved_points": 3,
+      "notes": "Author reports two complete M2 Max timings; no repeated-run failure data."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "No API fee and local execution documented; hardware/electricity cost per usable output unmeasured."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 8,
+      "unresolved_points": 2,
+      "notes": "Repository declares Apache-2.0; production must still confirm upstream/input/output rights."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "Machine-readable local package exists; public stock loader is explicitly incompatible with this encoder."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Ungated download is geographically accessible; requires capable Apple Silicon."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Potential local creator workflow, but no affiliate programme and no recommendation before testing."
+    }
+  ],
+  "analysis": "A meaningful Apple-Silicon memory reduction is documented, but no AIVP render, public compatible runtime, product-fidelity result or reliability sample exists.",
+  "confidence_notes": "Primary model documentation and author measurements only; no hands-on AIVP evidence.",
+  "case_study_plan": "case-study-plan.md"
+}

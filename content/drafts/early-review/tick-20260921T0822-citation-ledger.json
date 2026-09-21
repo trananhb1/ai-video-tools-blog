@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.capcut.com/resource/ai-editing-the-capcut-way",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://dreamina.capcut.com/ai-video/libtv-review",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/karrykkk/UniVideo-CI-VID-fullft-step1750",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/karrykkk/UniVideo-CI-VID-fullft-step1750",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/KlingTeam/UniVideo",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/jboone100/FastWan2.2-TI2V-5B-MLX-q8",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/api/models/jboone100/FastWan2.2-TI2V-5B-MLX-q8",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/lBroth/FastWan2.2-TI2V-5B-MLX",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/neph1/1950sScifiMinimaxH3",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 10,
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aLTBuX0wwWGhGcTZSNC1TS0I0Q3djaWdzdU9UVENwZUstVHR3T1VmWHVEdnM3MDRJUU9wTk5uREJNY04xVUZOaDFRNy1vZkN0VGJV?oc=5",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 11,
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaHlKaFQ0RzROZEFXd283UlNKUGluM1pDQTdzTmxEMWZ4VmIyN3ZZS0dEcEFwbHVKaE1MV2RlclppaFljUGxlZnlGTHdXWDJ1aEdPZDV6Yk5NazBwdXhNM3lyTDdfaTV3eXFWU1ZyZ1dQT2hzbjNSYjZ2MHMzWlVUZUR3Vm9CQkpFT0NoUC1KeTRDNjdLc1dHSlpSd0tZdlNLUU5lR3QxZDhFVkMybFc1NDB0TDBJb2ZNTW5OWlVocWpGNFp0UU9Ld3B30gHSAUFVX3lxTE1jeGVVNzdGVXRGVEFnb3otUFNLazZhZU5ydlZWaW14Y1BSZmpzUGxwUFkwUEloYk1NZUxVc21vWE4xN29wNHFHWTJfU0RBWmp0bGxoeEVURS0tV1F5eVZDbUg5OWJRR2JadHRWdDBCYzVkTUlkLS1nUG5vS2tsTE1jODViOVZFX2lQY1BLMHpqcnVRWHFxaDNSbGcwNHlqSkZXbVk3NThfTFZuUmpSTUZsMnd0YTZUb1F3aXdTa0RsYU1vRnFJSWY2TnhLOGNxYndEUQ?oc=5",
+      "title": "",
+      "accessed": "2026-09-21"
+    }
+  ]
+}

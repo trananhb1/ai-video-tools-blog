@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 6,
+      "url": "https://huggingface.co/jboone100/FastWan2.2-TI2V-5B-MLX-q8",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/api/models/jboone100/FastWan2.2-TI2V-5B-MLX-q8",
+      "title": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/lBroth/FastWan2.2-TI2V-5B-MLX",
+      "title": "",
+      "accessed": "2026-09-21"
+    }
+  ]
+}
