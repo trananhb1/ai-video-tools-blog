@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/api/models/LaDruid/MiniMax-H3-Multishot-Workflow",
+      "title": "Hugging Face API: LaDruid MiniMax-H3 Multishot Workflow",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/jlucasmcrell/ComfyUI-H3-Multishot",
+      "title": "Upstream ComfyUI-H3-Multishot repository",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://api.github.com/repos/LynnReal-AI/LynnReal-Omni",
+      "title": "GitHub API: LynnReal-Omni repository metadata",
+      "accessed": "2026-09-21"
+    }
+  ]
+}
