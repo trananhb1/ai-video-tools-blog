@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/api/models/jboone100/FastWan2.2-TI2V-5B-MLX-q8",
+      "title": "Hugging Face API: FastWan2.2 TI2V 5B MLX Q8 metadata",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://higgsfield.ai/gpt-astra",
+      "title": "Higgsfield GPT Astra Paid Ads workflow",
+      "accessed": "2026-09-21"
+    }
+  ]
+}

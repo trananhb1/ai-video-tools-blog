@@ -2,23 +2,23 @@
 
 **Task Type:** Continuation
 **Job ID:** `f7aa2568c535` (`aivp-early-review-desk`)
+**Kanban task:** `t_523ebe85`
 **Repository:** `/home/tom/aivideopicks-worktrees/early-review-desk`
 **Branch:** `automation/early-review-desk`
-**Run:** `tick-20260921T0822+0200`
+**Run:** `tick-20260921T1217+0200`
 **Harness:** `task-transition-harness` capability was not exposed; continuation was established from the existing ledger, previous-run output, git history, QMD search, authoritative contract, and clean branch state.
-**Worker blocker:** Antigravity returned HTTP 429 quota exhaustion (`a3d8c1ea-20b2-43a4-bb9c-ecc0bd393542-9`); `delegate_task` was unavailable. Named fallback: `AGY_QUOTA_AND_DELEGATE_UNAVAILABLE`.
+**Worker blocker:** the corrected Antigravity invocation returned HTTP 429 quota exhaustion; `delegate_task` was unavailable. Named fallback: `AGY_QUOTA_AND_NO_DELEGATE`.
 
 ## Completed continuation
 - [x] Inspect prior todo ledger, branch history, authoritative contract and in-progress artifacts.
 - [x] Invoke Antigravity and record the quota blocker before direct execution.
 - [x] Re-run deterministic monitoring; all six source groups returned `ok`.
-- [x] Verify new Google News and Hugging Face events against primary evidence.
-- [x] Stage the qualifying FastWan MLX Q8 docs-only dossier, 100-point scorecard, three-run case-study plan, held outreach record and noindex First Look.
-- [x] Deduplicate/exclude the UniVideo intermediate checkpoint, CapCut/LibTV old-feature comparison, NDTV viral story and MiniMax like-count churn.
-- [x] Update authoritative state atomically and validate citations, JSON invariants and repository scope.
-- [x] Commit and push verified artifacts; remote verification follows this commit.
+- [x] Deduplicate the removed Higgsfield syndication item as feed-window churn.
+- [x] Verify FastWan's download increase as metadata-only churn with no material capability change.
+- [x] Update the authoritative state atomically and validate citations, JSON invariants and repository scope.
+- [x] Commit and push the verified metadata-only tick; verify the remote branch.
 
 ## Outcome
-Qualified: 1 | Staged: 1 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 1 | Excluded: 3 | Published: 0 | Cost-blocked: 1
+Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 0 | Published: 0 | Cost-blocked: 0
 
 No generation, outreach, affiliate application, paid credit, publication or main-branch change occurred.
