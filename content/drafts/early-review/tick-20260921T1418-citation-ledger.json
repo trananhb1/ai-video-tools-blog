@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/evardragus/LTX-2.5-uncensored-v1.1-FP8",
+      "title": "evardragus/LTX-2.5-uncensored-v1.1-FP8 model card",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/evardragus/LTX-2.5-uncensored-v1.1-FP8",
+      "title": "Hugging Face API metadata: evardragus LTX-2.5-uncensored-v1.1-FP8",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/tengxusun/Wan2.1-T2V-1.3B-test",
+      "title": "tengxusun/Wan2.1-T2V-1.3B-test model card",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/tengxusun/Wan2.1-T2V-1.3B-test",
+      "title": "Hugging Face API metadata: tengxusun Wan2.1-T2V-1.3B-test",
+      "accessed": "2026-09-21"
+    }
+  ]
+}
