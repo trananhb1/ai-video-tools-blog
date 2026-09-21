@@ -1,8 +1,8 @@
 # Research Dossier: Yoroll H3 Superfast and YoLive
 
-**Status:** Primary-product-page evidence only; no controlled run  
-**Event date:** 2026-09-07  
-**Contract materiality score:** 15  
+**Status:** Primary-product-page evidence only; no controlled run
+**Event date:** 2026-09-07
+**Contract materiality score:** 15
 **Content type:** First Look only
 
 ## Decision
@@ -26,3 +26,17 @@ Yoroll's privacy policy says uploaded text, images, video and audio are processe
 ## Evidence gaps
 
 No verified creator pricing, credit model, export/download terms, API, affiliate programme, commercial output grant, queue metrics, session reliability, moderation limits, or artifact-backed quality evidence was found. The app page extraction failed, so app-only capabilities remain unknown rather than absent.
+
+## Material update — 2026-09-21 hosted Superfast preview
+
+YorollAI published a dedicated closed-weight Superfast Video model card and hosted evaluation interface. The documented surface generates 1344×768, 24 fps clips with audio at 5, 10 or 15 seconds, using text and seed controls; no weights or inference code are distributed.[22][23] The live configuration confirms asynchronous queueing and a downloadable result component, but the public generation action is not exposed as a documented API endpoint.[24]
+
+This update scores 9/10 at Gate 1 and raises the verified floor to **29/100**, with a 100/100 potential ceiling, 29% evidence coverage and confidence C. It does not establish output quality, speed, reliability or exact-product fidelity because no AIVP generation was completed. The text-only surface fails the product-reference prerequisite for an affiliate product case study.
+
+The model card restricts the public Space to evaluation/non-commercial testing and says commercial use is for eligible paid API customers under the applicable plan and terms.[22] Exact API pricing and plan terms remain unknown. The published `yoroll@support.ai` contact does not match a verified Yoroll/LinearGame official domain, so outreach remains held rather than guessed or sent.
+
+### Added sources
+
+[22] https://huggingface.co/YorollAI/Superfast-Video
+[23] https://huggingface.co/api/models/YorollAI/Superfast-Video
+[24] https://yorollai-superfast-video.hf.space/config

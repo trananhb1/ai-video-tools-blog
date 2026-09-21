@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/YorollAI/Superfast-Video",
+      "title": "YorollAI Superfast Video model card",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/YorollAI/Superfast-Video",
+      "title": "Hugging Face API: YorollAI Superfast Video metadata",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://yorollai-superfast-video.hf.space/config",
+      "title": "YorollAI Superfast Video hosted demo configuration",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "url": "https://docs.yoroll.ai/yoroll-terms-of-use/en",
+      "title": "Official Yoroll Terms of Use",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-triposplat-fp16.safetensors-unet",
+      "title": "Hugging Face API: RunningHub TripoSplat upload",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-triposplat-fp16.safetensors-unet/tree/main?recursive=true&expand=true",
+      "title": "Hugging Face API: RunningHub TripoSplat tree",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/api/models/VAST-AI/TripoSplat",
+      "title": "Hugging Face API: official VAST-AI TripoSplat metadata",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/api/models/VAST-AI/TripoSplat/tree/main?recursive=true&expand=true",
+      "title": "Hugging Face API: official VAST-AI TripoSplat tree",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 9,
+      "url": "https://github.com/VAST-AI-Research/TripoSplat",
+      "title": "Official TripoSplat inference repository",
+      "accessed": "2026-09-21"
+    }
+  ]
+}

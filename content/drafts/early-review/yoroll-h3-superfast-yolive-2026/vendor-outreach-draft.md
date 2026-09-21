@@ -1,25 +1,29 @@
-# Vendor Outreach — Yoroll H3 Superfast / YoLive
+# Vendor Outreach — Yoroll Superfast Video / YoLive
 
-**Status:** HELD — no sender-validator-compatible official-domain recipient proof  
-**Proposed sender:** Tom Tran <contact@aivideopicks.com>  
-**Candidate address:** support@lineargame.ai  
-**Published source:** https://docs.yoroll.ai/yoroll-privacy-policy/en  
-**Blocker:** recipient domain `lineargame.ai` does not match official source host `docs.yoroll.ai`; a differently sourced `support@yoroll.ai` address appears only on third-party release distribution. Do not send or guess.
+**Status:** HELD — no sender-validator-compatible official-domain recipient proof
+**Proposed sender:** Tom Tran <contact@aivideopicks.com>
+**Published candidates:** `support@lineargame.ai` on `docs.yoroll.ai`; `yoroll@support.ai` on the vendor-branded Hugging Face model card
+**Blocker:** neither recipient domain matches its published source host or a separately verified Yoroll/LinearGame official contact source. Do not send, guess, or use a contact form.
 
-**Subject:** Early review request: Yoroll H3 Superfast and YoLive — access, rights and creator partnership
+**Subject:** AI Video Picks controlled review access request — Yoroll Superfast Video
 
 Hi Yoroll team,
 
-I’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.
+Yoroll Superfast Video is relevant to our coverage because its new hosted preview documents 1344×768, 24 fps video with audio, while YoLive targets interactive and branching video experiences.
 
-We are evaluating Yoroll H3 Superfast and YoLive for an early, evidence-led first look and a controlled interactive buyer-education case study.
+For a controlled evaluation, could you provide:
 
-Could you please share official documentation, current pricing and limits, supported inputs/outputs and exports, API details, commercial output terms; complimentary bounded review access or credits with expiry and restrictions; approved media and monetised-reuse permission; the official affiliate route with commission, cookie, payout, geography, coupon and brand-bidding terms; launch availability/embargo details; and a factual product contact?
+- a bounded review/trial account for 30 days, sufficient for the documented three-run case study;
+- complimentary rendering or API credits sufficient for controlled evaluation outputs only, not ongoing production;
+- access to your prompt library/templates, recommended settings, API documentation, example requests and known limitations;
+- the exact current pricing and credit-consumption table, queue/rate limits, commercial-use and watermark rules;
+- approved media rights for any official screenshots or demos reproduced in monetized editorial content;
+- affiliate/partner programme details, including commission, cookie, payout, AU eligibility and brand-bidding rules; and
+- a technical contact for reproducible failures.
 
-We do not accept editorial control or a positive-coverage requirement. Our coverage distinguishes vendor claims from testing, discloses access and affiliate relationships, and may recommend another workflow. Access or affiliate approval does not guarantee positive coverage.
+We are requesting official documentation, complimentary bounded review access, approved media rights, and affiliate programme details. Access does not guarantee positive coverage, a verdict or ranking placement. AI Video Picks does not trade ranking placement for backlinks or inclusion elsewhere. Findings will be labelled as vendor-provided, free-trial or paid evidence, and affiliate eligibility never changes the evidence threshold.
 
-Thank you,
-Tom Tran
-Founder, AI Video Picks
+Best,
+Tom
+AI Video Picks
 https://aivideopicks.com
-contact@aivideopicks.com

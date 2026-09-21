@@ -2,19 +2,19 @@
   "schema_version": 1,
   "tool": "Yoroll H3 Superfast / YoLive",
   "archetype": "real-time interactive and branching AI-video experience",
-  "assessment_date": "2026-09-08",
+  "assessment_date": "2026-09-21",
   "launch_materiality_score": 15,
   "confidence": "C",
-  "confidence_reason": "Primary documentation/repository evidence only; no controlled AIVP run or saved output artifacts.",
-  "verified_floor": 23,
+  "confidence_reason": "Primary vendor model card, terms and live interface configuration inspected; no completed AIVP generation or saved output artifacts.",
+  "verified_floor": 29,
   "potential_ceiling": 100,
-  "evidence_coverage_percent": 23,
-  "classification": "Monitor only; differentiated interactive-video pilot candidate",
+  "evidence_coverage_percent": 29,
+  "classification": "Monitor only; qualified hosted-preview update pending controlled outputs",
   "strongest_documented_capability": "Combine prompts, photos, clips, branching logic and audience direction into live or playable video experiences.",
-  "weakest_or_unresolved_capability": "H3 Superfast identity, speed/reliability, pricing, exports, commercial rights, API and product fidelity.",
+  "weakest_or_unresolved_capability": "Output quality, queue/render speed, reliability, API pricing, public API documentation and exact-product fidelity.",
   "hard_gates": {
-    "commercial_rights": "unresolved and blocks publication/monetized use",
-    "product_specificity": "unresolved and blocks product-affiliate recommendation",
+    "commercial_rights": "public Space is non-commercial evaluation only; paid API plan terms and pricing unresolved",
+    "product_specificity": "hosted preview is text-and-seed only; exact-product affiliate recommendation fails",
     "publication": "First Look may be staged; recommendation blocked"
   },
   "criteria": [
@@ -42,9 +42,9 @@
     {
       "id": "workflow_strength",
       "weight": 15,
-      "verified_points": 10,
-      "unresolved_points": 5,
-      "evidence": "Creation, branching logic and playable delivery are described as one workflow."
+      "verified_points": 12,
+      "unresolved_points": 3,
+      "evidence": "Hosted preview exposes prompt, 5/10/15-second duration, seed, status, result video and download controls; no completed AIVP run."
     },
     {
       "id": "speed_reliability",
@@ -56,23 +56,23 @@
     {
       "id": "cost_efficiency",
       "weight": 10,
-      "verified_points": 0,
-      "unresolved_points": 10,
-      "evidence": "No verified creator pricing or accepted-output cost."
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "evidence": "Public evaluation surface is accessible without a displayed charge; commercial API pricing is absent."
     },
     {
       "id": "commercial_rights",
       "weight": 10,
-      "verified_points": 0,
-      "unresolved_points": 10,
-      "evidence": "No explicit monetized output grant found."
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "evidence": "Model card permits commercial use only for eligible paid API customers under plan terms; public Space is non-commercial evaluation only."
     },
     {
       "id": "automation_integration",
       "weight": 5,
-      "verified_points": 1,
-      "unresolved_points": 4,
-      "evidence": "Web app is available; no API/MCP/export path verified."
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "evidence": "Vendor documents a hosted API and asynchronous workflow, but no public API specification or AIVP integration run is available."
     },
     {
       "id": "audience_fit_au_smb",
@@ -90,6 +90,6 @@
     }
   ],
   "decision": "RETEST",
-  "next_action": "Obtain a validator-compatible official contact and written rights/pricing details before any bounded three-session pilot.",
+  "next_action": "Run the three bounded free UI tests when browser automation is available, or obtain bounded vendor access plus explicit commercial plan and API terms; do not use for product affiliate.",
   "case_study_plan": "content/drafts/early-review/yoroll-h3-superfast-yolive-2026/case-study-plan.md"
 }
