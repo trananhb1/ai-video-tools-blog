@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/rtgfreuui/CogVideoX-5b",
+      "title": "rtgfreuui/CogVideoX-5b model card",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/rtgfreuui/CogVideoX-5b",
+      "title": "Hugging Face API metadata: rtgfreuui/CogVideoX-5b",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/rtgfreuui/CogVideoX-5b/commits/main",
+      "title": "Hugging Face commit history: rtgfreuui/CogVideoX-5b",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/THUDM/CogVideoX-5b",
+      "title": "Hugging Face API metadata: upstream CogVideoX-5b",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2lNR0FWanBoSXZUb1lJUEw2RFdlVkxUZHk1YkpDRHNndDZqMjhsWVZaejFyTHprT0lOY1k4a3RVdG1VOU43UzBERHlhU19IY1IwbV9MeDR1ellzRjEyRTAxTEtxbmt1OXpnbGVMNWkwMWl0MGJNX1VmRGVDdkcycmpiTTlLLWxxVUlUdTU0cS1Bc19tUk1NMUUxOUZLZVMyejRjNGE5alppM2tZNXBZMGp0ME83c2ZYbXlkQXRZN3RpSWpSSGRSdnhHVjgyQdIB0wFBVV95cUxPX0pmTENGYUJBVTVHOHdDMnB0WnFnc1FuQjNsOEVJb3FMYVh6MU5ZbmhBcGRzOWtuNnJCVElUQ2VRblBLMlBscFJqUjNXLXljX3NIOXNGMm9JRVBHYmtBQjhWcTBJMFIxWFJBbUFqZ21iZFJYZmMwcmt6NFV5a0duTUhnd2lQcWVNd0t0bUZsWlhEenlSclBjakEwZjVtT1FzVmYzanpIZzZsME04dm4xR05ocm5QM24tYXlkeE00bWpoU3ZiNDd5d2VyTG9ub2VrSTYw?oc=5",
+      "title": "Google News: syndicated Coke-Mentos viral AI-video coverage",
+      "accessed": "2026-09-21"
+    }
+  ]
+}
