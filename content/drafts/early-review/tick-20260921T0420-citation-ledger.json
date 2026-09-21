@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-iclight-sd15-fcon.safetensors-unet",
+      "title": "Hugging Face API: RunningHubAI IC-Light FCON mirror",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-iclight-sd15-fbc.safetensors-unet",
+      "title": "Hugging Face API: RunningHubAI IC-Light FBC mirror",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/lllyasviel/ic-light/tree/main?recursive=true&expand=true",
+      "title": "Hugging Face API: official IC-Light upstream tree",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/lllyasviel/IC-Light",
+      "title": "Official IC-Light repository",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/LaDruid/MiniMax-H3-Multishot-Workflow",
+      "title": "Hugging Face API: LaDruid MiniMax H3 Multishot",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/neph1/1950sScifiMinimaxH3",
+      "title": "Hugging Face API: neph1 1950s Sci-Fi MiniMax H3",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/api/models/vpakarinen/asmr-trigger-audio-h3-lora",
+      "title": "Hugging Face API: vpakarinen ASMR H3 LoRA",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": 8,
+      "url": "https://api.github.com/repos/LynnReal-AI/LynnReal-Omni",
+      "title": "GitHub API: LynnReal-Omni repository metadata",
+      "accessed": "2026-09-21"
+    }
+  ]
+}
