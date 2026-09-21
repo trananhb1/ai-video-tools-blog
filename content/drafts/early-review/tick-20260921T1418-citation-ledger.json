@@ -24,6 +24,12 @@
       "url": "https://huggingface.co/api/models/tengxusun/Wan2.1-T2V-1.3B-test",
       "title": "Hugging Face API metadata: tengxusun Wan2.1-T2V-1.3B-test",
       "accessed": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/evardragus/LTX-2.5-uncensored-v1.1-FP8/commits/main",
+      "title": "Hugging Face commit history: evardragus LTX-2.5 uncensored duplicate",
+      "accessed": "2026-09-21"
     }
   ]
 }
