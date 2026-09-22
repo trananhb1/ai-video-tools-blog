@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Microsoft Clipchamp Video Super Resolution",
+  "date_assessed": "2026-09-22",
+  "verified_floor": 28,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 28,
+  "confidence": "C",
+  "classification": "Monitor only pending controlled upscaling tests",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 8,
+      "unresolved_points": 12,
+      "notes": "Defined clip-upscaling use case is documented; exact product-detail preservation is untested."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP export artifacts."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Resolution selection, restore-original and queue controls are documented; repeatability is untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Local, in-timeline, reversible multi-clip workflow is documented."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled timing/failure runs."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 3,
+      "unresolved_points": 7,
+      "notes": "Official post says no cloud tokens; tier requirements and cost per accepted export remain untested."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No feature-specific monetized-output rights record collected."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "No Clipchamp API/MCP route verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Windows creator workflow; Clipchamp was founded in Australia and is broadly available, but device compatibility must be checked."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "High-intent editing/upscaling coverage fit; no affiliate programme verified."
+    }
+  ],
+  "analysis": "Useful local editing capability, but all quality-critical claims remain untested and hardware coverage is device-dependent.",
+  "confidence_notes": "Official Clipchamp and Microsoft documents only; no AIVP run artifacts.",
+  "planned_case_study": "case-study-plan.md"
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://clipchamp.com/en/blog/how-to-upscale-video-windows/",
+      "title": "New! How to upscale a video on Windows (upto 4K)",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://support.microsoft.com/en-us/clipchamp/how-to-upscale-videos-with-video-super-resolution",
+      "title": "How to upscale videos with video super resolution",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://learn.microsoft.com/en-us/windows/ai/apis/video-super-resolution",
+      "title": "Get Started with AI Video Super Resolution",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "url": "https://clipchamp.com/en/company/",
+      "title": "About us: Microsoft Clipchamp",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/pepsibox2740/optima-tools-ai-medium",
+      "title": "Optima-Tools IA \u2014 profil moyen",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
