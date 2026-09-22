@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/cometa21/tessy-lora-ltx25",
+      "title": "cometa21 Tessy LoRA LTX-2.5 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/cometa21/tessy-lora-ltx25",
+      "title": "Hugging Face API metadata: cometa21 Tessy LoRA",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/cometa21/tessy-lora-ltx25/commits/main",
+      "title": "Hugging Face commit history: cometa21 Tessy LoRA",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "title": "OpenAI: What to know about the Sora discontinuation",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 5,
+      "url": "https://productnation.co/my/31752/sora-shutdown-ai-video-winner-malaysia-MNqj",
+      "title": "ProductNation: Sora Is Dead",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 6,
+      "url": "https://www.gamemeca.com/en/view.php?gid=1780757",
+      "title": "Gamemeca interview with Shift Up CEO Kim Hyung-tae",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
