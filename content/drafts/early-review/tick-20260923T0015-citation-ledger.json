@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/api/models/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Hugging Face API metadata: Alibaba PAI MiniMax H3 ControlNet Union 2.0",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
