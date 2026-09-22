@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/FanzCEO/FastVideo-FastH3-8-Step-V2",
+      "title": "FanzCEO FastVideo FastH3 8-Step V2 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/FanzCEO/FastVideo-FastH3-8-Step-V2/commits/main",
+      "title": "FanzCEO repository commit history",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/FanzCEO/FastVideo-FastH3-8-Step-V2/tree/main?recursive=true&expand=false",
+      "title": "FanzCEO repository file tree",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/FastVideo/FastVideo-FastH3-8-Step-V2/tree/main?recursive=true&expand=false",
+      "title": "FastVideo upstream repository file tree",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/FanzCEO/FastVideo-FastH3-8-Step-V2",
+      "title": "FanzCEO Hugging Face model metadata",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/FastVideo/FastVideo-FastH3-8-Step-V2",
+      "title": "FastVideo upstream Hugging Face model metadata",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
