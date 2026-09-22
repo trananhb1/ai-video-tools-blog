@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://www.adweek.com/dealroom/martin-sorrells-venture-fund-backs-ai-video-startup-higgsfield",
+      "title": "ADWEEK: Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZDlQaEFLd2R2QmpBZ3l3YUJYZ0R2R0JnRjVjcUJtRDNZMlV3UUJMMmdzZU1zOU0zZG5kTW9NczhLOEMyQjY3VjdrTDl1elVXVmUwVGROLTFWOVNqSnZ5eGJxMXg5MmNvNlc0NFNCUDh2WmtCOVV4Y0NYTlhRamRKZlRlMF8waERvLW43MjFfV0xBUlJWNGc?oc=5",
+      "title": "J-Wire: Eisenkot petitions election committee to remove Smotrich AI video",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
