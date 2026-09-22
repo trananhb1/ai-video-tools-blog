@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Hugging Face API metadata for Controlnet Union 2.0",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union v1 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0/raw/main/LICENSE",
+      "title": "MiniMax H3 Community License Agreement",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/aigc-apps/VideoX-Fun",
+      "title": "VideoX-Fun official repository",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 6,
+      "url": "https://www.alibabacloud.com/en/press-room/press-release?_p_lc=1",
+      "title": "Alibaba Cloud official press-room contacts",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
