@@ -17,9 +17,9 @@
 - [x] Update TODO ledger and commit/push.
 
 ## Current outcome
-Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 0 | Published: 0 | Cost-blocked: 0
+Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 1 | Published: 0 | Cost-blocked: 0
 
 No new material tool event, generation, paid credit, affiliate application, outreach, publication or main-branch change occurred.
 
 ## TBC watch note
-The Biological Computing Co. scored 5/10 at Gate 1 (MONITOR ONLY). Early access signup only; base model undisclosed; no AU pricing or access. Revisit when early access opens or base model/pricing disclosed.
+The Biological Computing Co. scored 8/10 at Gate 1 but 6/8 under the authoritative contract after the press-release-only/no-access penalty, so it remains MONITOR ONLY. Early access signup only; base model undisclosed; no AU pricing or access. Revisit when early access opens or base model/pricing is disclosed.
