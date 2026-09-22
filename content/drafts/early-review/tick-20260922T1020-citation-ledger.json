@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/cometa21/tessy-ltx25",
+      "title": "cometa21 Tessy LoRA - LTX-2.5 model card",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/cometa21/tessy-ltx25",
+      "title": "Hugging Face API metadata: cometa21/tessy-ltx25",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/cometa21/tessy-lora-ltx25",
+      "title": "Earlier cometa21 Tessy LoRA - LTX-2.5 repository",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/cometa21/tessy-lora-ltx25",
+      "title": "Hugging Face API metadata: earlier cometa21 Tessy LoRA repository",
+      "accessed": "2026-09-22"
+    }
+  ]
+}
