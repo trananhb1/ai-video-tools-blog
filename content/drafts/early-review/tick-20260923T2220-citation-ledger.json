@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+      "title": "Adobe completes acquisition of Topaz Labs",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://news.adobe.com/news/2026/06/adobe-to-acquire-topaz-labs",
+      "title": "Adobe to Acquire Topaz Labs",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "url": "https://www.adobe.com/products/firefly/partner-models/topaz.html",
+      "title": "Topaz Astra Video Upscaling in Firefly Boards",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 4,
+      "url": "https://www.forbes.com/sites/dbloom/2026/09/23/adobe-closes-topaz-labs-deal-adds-ai-video--image-enhancement-tools",
+      "title": "Adobe Closes Topaz Labs Deal, Adds AI Video-, Image-Enhancement Tools",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
