@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLWtvYjRneUkyMk5aSEpkbW4yS1ZQbzZaVnRzaGIyanliX2FPVUtkbnRVUG5PV1JxWEstNGdqdFJ4U3hCQTA3a2dkX0g4Q3hfYWM1MVlfRFFVZGx3SENxLTlxa29kNTJKM3BtZ3pSeEZvM2JlMVA5aHppY1JSak8yQndEdW1sQnU2QVhmSGFwVU94ZGZSeUFvdnB1Ynl5aE5hNTZBbjZmWGotZGE4RnpITWIxN2xmOThicF91SHVqQ3B5cF80WmZBTV9RODQ?oc=5",
+      "title": "Social News XYZ via Google News: David Warner reacts to AI video of him dancing to ‘Jailer 2’ song",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://ianslive.in/david-warner-reacts-to-ai-video-of-him-dancing-to-jailer-2-song-bollywood-dave-has-some-moves--20260923090332",
+      "title": "IANS: David Warner reacts to AI-generated dance video",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQelIyWVhhWEpQZU9OUVFaNWw2QkZZQkZMeHJIV2IzWWFDNllOZjNlQXhRVHIyUFhhWThJdEhEbXV5dHRud2tZWTEybWM0ajBqM25lTW1qS2JMaE1yS2tnbjNHX2dLZ2hWVFFGU3JmLXZfbjBMYU1telo0UWM0Z2NoQTJ0OFNMOEpnZ2h0VtIBkgFBVV95cUxNa3JCbDBtWmtCRWpUZzlrQW1Na3JSNm5IdHUtVFVyd0xCS0pFZmtzMkU1SHg1S2FOdHZJM2gwSklVUU9OSE03SkFUYk4zcVlnM2pfbU5UX0Ztd0dxa2dDZWFPQnJBR2ZWT2lOeVdaWXl1Z25VS0c1LWFRMGR4bHNrYTJGS0ltOHkySFB4ZWt0VEhCUQ?oc=5",
+      "title": "Tupaki English: David Warner Turns Bollywood Dave",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 4,
+      "url": "https://www.synthesia.io/post/introducing-dubbing-2-0",
+      "title": "Synthesia: Introducing Dubbing 2.0 (July 15, 2026)",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 5,
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV0JoMjM3eGR4bFVWWTRFV250UkdzZDQxbmtkYXo3MjRhejFVbjBXX2hiTk5BT2t1U2dKMENJTGRlNEw2Y1NpdXFkNFBhQXdtUnZTcEFWNVlpV1JFNUozcjl6eVJvV0RTNndyR0ZxSElQZWs5b1R2WGNTVTdLbElUeTZIbldIRmdaSVVrQmlHRFl4ZUU2ck1wSHFaVWVVTFVCVlljVkY0VWhPclFNejJnZVdmVHBKck1mbFhRS0QzM1U?oc=5",
+      "title": "technology.org via Google News: Synthesia AI video translator",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 6,
+      "url": "https://pulse2.com/the-biological-computing-partners-with-aws-to-launch-ai-video-model-with-5x-faster-generation-and-80-lower-costs",
+      "title": "Pulse 2.0: TBC AWS AI video model coverage",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
