@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.synthesia.io/post/introducing-dubbing-2-0",
+      "title": "Synthesia: Introducing Dubbing 2.0 (July 15, 2026)",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV0JoMjM3eGR4bFVWWTRFV250UkdzZDQxbmtkYXo3MjRhejFVbjBXX2hiTk5BT2t1U2dKMENJTGRlNEw2Y1NpdXFkNFBhQXdtUnZTcEFWNVlpV1JFNUozcjl6eVJvV0RTNndyR0ZxSElQZWs5b1R2WGNTVTdLbElUeTZIbldIRmdaSVVrQmlHRFl4ZUU2ck1wSHFaVWVVTFVCVlljVkY0VWhPclFNejJnZVdmVHBKck1mbFhRS0QzM1U?oc=5",
+      "title": "Technology Org via Google News: Synthesia AI video translator",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "url": "https://pulse2.com/the-biological-computing-partners-with-aws-to-launch-ai-video-model-with-5x-faster-generation-and-80-lower-costs",
+      "title": "Pulse 2.0 / pulse2.com: TBC AWS AI video model coverage",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 4,
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeFgzcmx6cmJDQkNBWUl5R2MwQkM0dGxreWRCTjdKLW91dVFOMmstYm1kcUJpS3NGOW5jZ0l1elNBTG9MazdiZ05TQ2dLX0E5eHhIa3ViRldqUEFvdFo4alh2dXJkcmtmNHVYaE5tVEM4SEd3ZGRFNmNxcE9iXzFaZkx4WkJYd1RMZGxueW8yNV9jRU9yRko5MWN6SS1xNTdyY2JQSXJLcmZaSmVkNFdpZ0ZudnViRWYtNlNJeW52d3lCVC1HUTNEYUJYbULSAdIBQVVfeXFMT0wxcGNGU2xra1pqUjNYa1h2bFhYNWpwWmtsUWNVRVYzVXVVZDFaQ29FOF9IY0NWUnpnd0VBaE1Uc292QURoWktOOGdjM3piNHFRdVVjcHZkU0lfbGs1OWpydVdwbDlYaVFiZTVQOGl3M29YVy1QRjYtTFFZQTc1NDBQYm5ka01URi1EcmtSNURyQ0p4X1hDdW9LOEZsNU1GTWVnNEc3R24yaEVxaFd6RUt2azQ5RnBlNXFDc2tXSEtSWGNmYlQwWXAzZEpWQlhIeFVB?oc=5",
+      "title": "Google News: TBC AWS article listing",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 5,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83ZjlPWklBNTA2U0JmRjdoWnZYOGdHQVpvOGQtQWNmVFFQekUwbHd3eUJ1VWhiTW9WQlNXTEpKZXZiRjNRSUpUX19GajYyWjZXUVlubm1NLWNHeml0anNXb2JtcW5CWEFOOHc?oc=5",
+      "title": "BetaNews: Microsoft Clipchamp AI video upscaling",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
