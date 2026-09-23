@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxON2RyLUVFRUw4T3lFMnE2YTh5WGNONmdLM0dyNW5xYUZna1FrLWV2OFdVQTd6Y3ZTa1RIa1V2SmJEUkk5dnBGSllXZFpGQ09qRXh3dUNqU1BHd3YyRW9SeWQySGJhS1pSbnhnWWhpVUpOSmVKY2o3M21PaXVHVW96Rm1sd3pXT0ZHZzdoQ0NYUmcxbndMVXl6ODBZZ0RjcUFnZEREWWR4NVVCUTQ3YkhoUDAzdW5TV040cm5ETGZqR0FEUkpfVEFjb3dfUWpZOUk1YlB6UTV1NFdyQjQ0M3g2OTZ0dEhhU0U?oc=5",
+      "title": "Operation Sports via Google News: Jake Paul mocks his critics by posting bizarre AI video of himself rapping with Donald Trump",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90aUl3S09oUGpYVUlMMGNqUk1XVUExS3JhZEo4bnh0MnlTRDYwNWd1MV91NE8zTmI1NWozMGd5Z3lUbTQ5WklRVDhOR05vZ0dDN0xORGo0NS13bXJDXzlqMDlsMlk4TWtTcWNqNDA5LVExdw?oc=5",
+      "title": "shattered.io via Google News: TBC Taps AWS for Neuron-Derived AI Video: 5x Faster (2026)",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "url": "https://shattered.io/tbc-aws-neuron-derived-ai-video-model-2026",
+      "title": "shattered.io: TBC Neuron-Derived AI Video Model on AWS (2026)",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 4,
+      "url": "https://press.aboutamazon.com/aws/2026/9/the-biological-computing-co-partners-with-aws-to-bring-worlds-first-neuron-derived-ai-video-model-to-market",
+      "title": "AWS: The Biological Computing Co. Partners with AWS to Bring World’s First Neuron-Derived AI Video Model to Market",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 model card",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+      "title": "Alibaba PAI MiniMax-H3-Fun-Controlnet-Union-2.0 API metadata",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/RunningHubAI/rh-krea2-turbo-fp8.safetensors-unet",
+      "title": "RunningHubAI rh-krea2-turbo-fp8.safetensors-unet model card",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/aztro/IATNAT-LORA",
+      "title": "aztro IATNAT-LORA model card",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/gurujack/splashspeed-FastH3-8-Step-V2",
+      "title": "gurujack splashspeed-FastH3-8-Step-V2 model card",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 10,
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLWtvYjRneUkyMk5aSEpkbW4yS1ZQbzZaVnRzaGIyanliX2FPVUtkbnRVUG5PV1JxWEstNGdqdFJ4U3hCQTA3a2dkX0g4Q3hfYWM1MVlfRFFVZGx3SENxLTlxa29kNTJKM3BtZ3pSeEZvM2JlMVA5aHppY1JSak8yQndEdW1sQnU2QVhmSGFwVU94ZGZSeUFvdnB1Ynl5aE5hNTZBbjZmWGotZGE4RnpITWIxN2xmOThicF91SHVqQ3B5cF80WmZBTV9RODQ?oc=5",
+      "title": "Social News XYZ via Google News: David Warner reacts to AI video of him dancing to ‘Jailer 2’ song",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 11,
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV0JoMjM3eGR4bFVWWTRFV250UkdzZDQxbmtkYXo3MjRhejFVbjBXX2hiTk5BT2t1U2dKMENJTGRlNEw2Y1NpdXFkNFBhQXdtUnZTcEFWNVlpV1JFNUozcjl6eVJvV0RTNndyR0ZxSElQZWs5b1R2WGNTVTdLbElUeTZIbldIRmdaSVVrQmlHRFl4ZUU2ck1wSHFaVWVVTFVCVlljVkY0VWhPclFNejJnZVdmVHBKck1mbFhRS0QzM1U?oc=5",
+      "title": "Technology Org via Google News: Synthesia AI video translator",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 12,
+      "url": "https://www.synthesia.io/post/introducing-dubbing-2-0",
+      "title": "Synthesia: Introducing Dubbing 2.0 (July 15, 2026)",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 13,
+      "url": "https://pulse2.com/the-biological-computing-partners-with-aws-to-launch-ai-video-model-with-5x-faster-generation-and-80-lower-costs",
+      "title": "Pulse 2.0: TBC AWS AI video model coverage",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 14,
+      "url": "https://clipchamp.com/en/blog/how-to-upscale-video-windows",
+      "title": "Microsoft Clipchamp: Video Super Resolution blog",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
