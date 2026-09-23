@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Google Vids Gemini Omni 1.1 Flash update",
+  "date_assessed": "2026-09-24",
+  "verified_floor": 29,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 29,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "planned_case_study": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "Ingredients accepts reference images and avatars, but product specificity must be 0/20 verified until exact AIVP affiliate portfolio product identity passes the first-10-seconds hands-on gate."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor claims 1080p full HD and improved extension quality with character/audio consistency; no independent AIVP output artifacts exist."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Exact duration controls and scene extension with visual/lighting/character continuity controls documented; three-run repeatability and prompt adherence untested."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Comprehensive timeline editor with multi-track layout, scene extension, 1080p timeline upscaling, voiceover sync, and Workspace collaboration; end-to-end friction untested."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled timing, queue latency, or failure rate measurements."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 6,
+      "unresolved_points": 4,
+      "notes": "50 free credits/month for Personal Google Accounts, included in Workspace business tiers, resetting monthly; exact credit debit per 1080p generation vs upscale requires verification."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Commercial rights must be 0/10 verified because no cited terms evidence was retrieved from primary sources for personal or Workspace accounts."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 3,
+      "unresolved_points": 2,
+      "notes": "Workspace Drive integration, Slides-to-Vids conversion, and standard MP4 export; direct consumer API/MCP route for Omni 1.1 Vids workflow not verified."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Globally available wherever Google Workspace is offered, including Australia; generous 50 credits/month free tier for personal Google accounts."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "High transactional search intent, direct impact on existing AIVP Google Vids and free AI video content, strong AdSense/organic traffic fit."
+    }
+  ],
+  "analysis": "Substantial upgrade with 1080p generation, duration controls, and scene extension with 7-image reference support, but product specificity, output quality, and commercial rights remain unverified pending controlled evidence.",
+  "confidence_notes": "Primary vendor documentation only; no AIVP render."
+}
