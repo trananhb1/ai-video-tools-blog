@@ -1,0 +1,84 @@
+{
+  "tool": "Synthesia Dubbing 2.0 for external video",
+  "date_assessed": "2026-09-23",
+  "verified_floor": 40,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 40,
+  "confidence": "C",
+  "classification": "Weak fit",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 12,
+      "unresolved_points": 8,
+      "notes": "Defined external-video localization use case is documented; exact product terminology and identity preservation remain untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor claims only; no AIVP output."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "Upload/YouTube, transcript review, bulk workflow, and export path documented; setup friction untested."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Duration modes, glossary, speaker reassignment, and transcript edits documented; three-run consistency unknown."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled render timing or error-rate evidence."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 5,
+      "unresolved_points": 5,
+      "notes": "Free route and plan allowances documented, but first-minute versus 10-minute presentation and lip-sync credit burn require account verification."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 1,
+      "unresolved_points": 9,
+      "notes": "Uploader must own source rights; explicit monetized-output grant not established."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 4,
+      "unresolved_points": 1,
+      "notes": "Official Dubbing API documented; authentication and rate limits untested."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 3,
+      "unresolved_points": 0,
+      "notes": "Free public route and English (Australia) locale documented."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Relevant to AIVP translation coverage and active affiliate relationship; economics do not alter evidence threshold."
+    }
+  ],
+  "analysis": "Useful documented external-video localization workflow, but quality, reliability, accepted-output cost, and monetized-output rights require controlled evidence.",
+  "confidence_notes": "Primary documents only; no AIVP render."
+}
