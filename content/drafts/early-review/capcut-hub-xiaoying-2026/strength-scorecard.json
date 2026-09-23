@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "tool": "Jianying Hub and Xiaoying",
+  "company": "CapCut / Jianying (ByteDance)",
+  "date_assessed": "2026-09-23",
+  "event_date": "2026-09-20",
+  "verified_floor": 32,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 32,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "case_study_plan": "case-study-plan.md",
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 12,
+      "unresolved_points": 8,
+      "notes": "Attributed launch reporting documents sentence/reference-video/document inputs and product-image marketing input; exact identity retention is untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP output artifact."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Multitrack editing and custom Skills are documented; three-run repeatability is untested."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 11,
+      "unresolved_points": 4,
+      "notes": "Infinite canvas, script planning, asset generation and multitrack editing are documented as one workflow."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No measured setup, queue, render or failure data."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "AI Ultra is named but no retrieved price or credit-consumption table establishes cost per accepted output."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Global terms document jurisdiction and asset variability; Hub-specific monetized-output rights remain unresolved."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 2,
+      "unresolved_points": 3,
+      "notes": "Custom Skills are documented; no public Hub API, webhook or MCP path was verified."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 0,
+      "unresolved_points": 3,
+      "notes": "Australian availability for this Chinese release is not documented."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "Official affiliate programme exists, but its published qualifying markets omit Australia."
+    }
+  ],
+  "analysis": "A differentiated full-cycle workspace is documented, including reference-led and product-image workflows, but all output-performance, cost, AU access and Hub-specific rights questions remain unresolved. Confidence C prevents a strong label.",
+  "confidence_notes": "Official product surface and attributed launch reporting only; no controlled AIVP run.",
+  "sources": [
+    "http://www.xinhuanet.com/tech/20260921/6742f6c1f32f41d4918105bc686fe907/c.html",
+    "https://www.capcut.cn/",
+    "https://www.capcut.com/clause/terms-of-service?lang=en",
+    "https://www.capcut.com/partners/affiliate-program"
+  ]
+}

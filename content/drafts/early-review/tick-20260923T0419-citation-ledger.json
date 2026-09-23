@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "http://www.xinhuanet.com/tech/20260921/6742f6c1f32f41d4918105bc686fe907/c.html",
+      "title": "Xinhua: Jianying launches new AI creation capabilities",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 2,
+      "url": "https://www.capcut.cn",
+      "title": "Jianying official product site",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "url": "https://www.capcut.com/clause/terms-of-service?lang=en",
+      "title": "CapCut Terms of Service",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 4,
+      "url": "https://www.capcut.com/partners/affiliate-program",
+      "title": "CapCut Affiliate Program",
+      "accessed": "2026-09-23"
+    },
+    {
+      "id": 5,
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aLTBuX0wwWGhGcTZSNC1TS0I0Q3djaWdzdU9UVENwZUstVHR3T1VmWHVEdnM3MDRJUU9wTk5uREJNY04xVUZOaDFRNy1vZkN0VGJV?oc=5",
+      "title": "Google News listing: CapCut enters AI video track",
+      "accessed": "2026-09-23"
+    }
+  ]
+}
