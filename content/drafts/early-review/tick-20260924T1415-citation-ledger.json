@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet",
+      "title": "RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet/raw/main/README.md",
+      "title": "RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet raw README.md",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/circlestone-labs/Anima",
+      "title": "circlestone-labs/Anima on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "url": "https://www.runninghub.ai",
+      "title": "RunningHub platform homepage",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/NVIDIA/Cosmos",
+      "title": "NVIDIA Cosmos repository on GitHub",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/RunningHubAI/rh-wan2.2-i2v-a14b-low-noise-scaled-fp8-e4m3-lightx2v-4step-comfyui-unet",
+      "title": "RunningHubAI/rh-wan2.2-i2v-a14b-low-noise-scaled-fp8-e4m3-lightx2v-4step-comfyui-unet on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/RunningHubAI/rh-anima-aesthetic-v1.1-unet",
+      "title": "RunningHubAI/rh-anima-aesthetic-v1.1-unet on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-200steps",
+      "title": "memset0/vsqa-preview-14b-200steps on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/stimi/ltx-video-api",
+      "title": "stimi/ltx-video-api on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.2-T2V-14B-480P-0.95Sparsity",
+      "title": "alibabagroup/SparkWan2.2-T2V-14B-480P-0.95Sparsity on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 11,
+      "url": "https://www.socialmediaexaminer.com/ai-execution-tips-professional-quality-ai-video-and-industry-news",
+      "title": "Social Media Examiner: AI Execution Tips, Professional Quality AI Video, and Industry News (September 24, 2026)",
+      "accessed": "2026-09-24"
+    }
+  ]
+}
