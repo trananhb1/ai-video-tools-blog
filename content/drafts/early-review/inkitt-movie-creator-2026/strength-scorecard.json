@@ -79,7 +79,7 @@
       "weight": 3,
       "verified_points": 1,
       "unresolved_points": 2,
-      "notes": "Web application is accessible in Australia via browser, but Australian creator rollout verification, regional performance, and local billing remain unverified."
+      "notes": "Scored 1 point only for browser-delivered public beta relevance; the public beta page is publicly reachable, but AU-specific signup, render, and payment access remains unverified."
     },
     {
       "id": "monetization_fit",

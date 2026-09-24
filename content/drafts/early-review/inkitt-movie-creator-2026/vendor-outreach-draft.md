@@ -1,35 +1,37 @@
-# Vendor Outreach Record — Inkitt Movie Creator
+# AI Video Picks — Early Review Vendor Outreach Record
 
-**Status:** HELD — no compliant consolidated affiliate, press, or creator partnership contact published  
+**Status:** HELD — DO NOT SEND (no compliant dedicated contact published)  
+**Delivery route:** Resend, verified `aivideopicks.com` domain (HELD)  
 **From:** Tom Tran <contact@aivideopicks.com>  
-**Potential recipient:** None compliant published (`support@inkitt.com` is published on Inkitt's imprint as generic customer support and must not be used for commercial affiliate or creator inquiries)  
+**Reply-To:** contact@aivideopicks.com  
+**To:** None compliant published (`support@inkitt.com` is generic customer support on imprint; held under desk policy)  
 **Recipient source:** https://www.inkitt.com/imprint  
-**Subject:** Early review inquiry: Inkitt Movie Creator — evaluation access, documentation, and creator partnership
+**Subject:** Review request: Inkitt Movie Creator — access, documentation and affiliate programme
 
-## Draft body — do not send
+---
 
-Hello Inkitt Product, Partnerships, and Communications Team,
+## Draft body — held / do not send
 
-AI Video Picks is preparing an evidence-led First Look and controlled technical evaluation of **Inkitt Movie Creator**, powered by the Cinematica orchestration harness, announced on September 24, 2026.
+Hi Inkitt Product and Partnerships Team,
 
-We are assessing the workflow impact for independent video creators, storytellers, and commercial video editors, specifically focusing on the 3-step script-to-movie pipeline, character and prop creation, multi-scene direction controls (Tone, Pace, Light, Score, Look), and multi-take rendering.
+I’m Tom Tran, founder of AI Video Picks, an independent publication covering AI-video tools for creators and small businesses.
 
-Could you please provide or route this request to the appropriate product or partnerships contacts:
+We found Inkitt Movie Creator through Google News launch monitoring and are evaluating it for an early, evidence-led First Look. The specific release we are covering is the Inkitt Movie Creator public beta, powered by the Cinematica orchestration harness, announced September 24, 2026.
 
-1. **Bounded review access:** A complimentary bounded review or evaluation account for 30 days, confirming feature activation for controlled technical testing in Australia.
-2. **Complimentary evaluation credits:** Complimentary evaluation-only rendering and generation credits allocated solely for controlled test runs (not for ongoing production).
-3. **Documentation & technical guidance:** Prompt library access, workflow templates, recommended direction slider settings, production examples, API documentation if planned, and documented known limitations or edge cases.
-4. **Pricing & credit tables:** Explicit pricing and credit-consumption tables across tiers, clarifying whether script processing, character/prop generation, scene takes, or finished video renders incur token debits, rate limits, or subscription fees, particularly addressing the $75 to $500 per finished minute generation cost estimate reported by VentureBeat.
-5. **Rights & watermark rules:** Explicit commercial-use terms for outputs created with Movie Creator, confirming Inkitt's public statement that 100% of rights and creative decisions stay with the storyteller, along with third-party foundation model licensing chains in Cinematica, and watermark/provenance metadata policies.
-6. **Affiliate & partner terms:** Details on the official creator affiliate or partner programme if available, including commission structures, attribution cookies, payout terms, eligible regions (including Australia), and approved tracking platforms.
-7. **Technical contact:** A direct technical contact for reporting and clarifying reproducible failure cases, character drift, multi-model sync issues, or scene latency bottlenecks observed during testing.
+Could you please share:
 
-### Editorial boundaries
+1. **Official documentation:** We are requesting official documentation, including current product documentation, changelog/release notes, pricing and plan limits, supported inputs/outputs, API documentation if applicable, and commercial-use terms.
+2. **Review access:** We are requesting complimentary bounded review access, such as a trial/review account or bounded review credits, including the access period, credit limits and any restricted features. We do not accept editorial control or a requirement for positive coverage.
+3. **Media rights:** We request approved media rights, including an official press/media kit, approved logos, screenshots, product footage or demo assets, plus written confirmation of what we may reproduce in monetised editorial articles, YouTube videos and social posts.
+4. **Affiliate programme:** We request affiliate programme details, including the official signup link and current terms, commission structure, attribution/cookie window, payout threshold and schedule, eligible countries, coupon policy, paid-search/brand-bidding restrictions, and the correct tracking platform.
+5. **Launch details & technical contact:** public release date, availability by country, any embargo, a product contact for factual questions, and the single capability you believe differentiates this release.
 
-- Access, trial accounts, or complimentary evaluation credits do not guarantee coverage, a positive verdict, or ranking placement.
-- AI Video Picks does not trade ranking placement for backlinks, sponsorships, or commercial incentives.
-- All published findings and evidence will be transparently labelled as vendor-provided, free-trial, or paid evidence.
-- Affiliate programme eligibility, commercial relationships, or commission rates never change our empirical evidence threshold or scoring criteria.
+### Editorial boundaries and policy commitments
+
+- Access does not guarantee positive coverage.
+- AI Video Picks does not trade ranking placement for backlinks or inclusion elsewhere.
+- Our coverage clearly distinguishes vendor claims from our own testing, discloses complimentary access and affiliate relationships, and may report limitations or recommend another product where the evidence supports that conclusion.
+- Commercial relationships or affiliate terms never influence our scoring criteria or empirical test results.
 
 Thank you,
 
@@ -40,6 +42,15 @@ contact@aivideopicks.com
 
 ---
 
-## Compliance decision
+## Pre-send checks & compliance decision
 
-Do not send. Standing desk policy dictates that outreach must be held when no dedicated official affiliate, press, or direct developer/creator partnership contact is published for the specific product. While `support@inkitt.com` is published on Inkitt's corporate imprint (Inkitt GmbH, Saarbrücker Strasse 36, 10405 Berlin, Germany), it is a generic customer support inbox and must not be used for affiliate or commercial inquiries. In strict compliance with desk rules, no message was dispatched, no vendor was contacted, no credits were consumed, and no external emails were sent.
+- [ ] Recipient address is published by the vendor or independently verified. (FAILED: only generic `support@inkitt.com` published on legal imprint)
+- [x] Product/release name and announcement date match the primary source exactly.
+- [x] First Look designation matches actual evidence; no claim of hands-on review before testing.
+- [x] No invented audience, traffic, ranking, conversion or revenue figures.
+- [x] No credential, payment, contract or spend commitment.
+- [ ] Exact subject, recipient and body approved by Tom.
+- [x] Resend payload uses `send: false` until approval.
+
+**Decision: HELD — DO NOT SEND.**
+Standing desk policy dictates that outreach must be held when no compliant dedicated contact (press, affiliate, developer relations, or creator partnership) is published. Generic customer support (`support@inkitt.com`) on the imprint must not be used for review or affiliate requests. In strict compliance with desk rules, outreach remains HELD, no message was dispatched, no vendor was contacted, and no email was sent.

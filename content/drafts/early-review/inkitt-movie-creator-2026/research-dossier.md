@@ -10,8 +10,8 @@
 
 The event was surfaced on September 24, 2026 via Google News launch radar from VentureBeat coverage.[1]
 Independent primary-source verification confirms that digital publisher Inkitt GmbH officially launched **Inkitt Movie Creator** in public beta on September 24, 2026.[1][2]
-The tool is publicly accessible through Inkitt's official web portal at `https://www.inkitt.com/video/script-to-video`.[1][2]
-This constitutes an accessible public AI-video creator product launch rather than solely an inaccessible internal studio setup.[1][2]
+The public beta page is publicly reachable through Inkitt's official web portal at `https://www.inkitt.com/video/script-to-video`.[1][2]
+This constitutes a publicly reachable AI-video creator product launch rather than solely an inaccessible internal studio setup.[1][2]
 
 ### Distinction between official Inkitt claims and VentureBeat reporting
 
@@ -44,7 +44,7 @@ This constitutes an accessible public AI-video creator product launch rather tha
 | AI-video production relevance | 3/3 | Direct script-to-movie AI video generator building multi-scene trailers, shows, and films with character and prop generation.[1][2] |
 | Differentiation | 3/3 | Custom orchestration harness (Cinematica) coordinating multiple foundation models with granular scene direction sliders and multi-take workflows.[1][2] |
 | Launch recency | 2/2 | Public beta launched September 24, 2026 (within 72-hour window).[1][2] |
-| AU accessibility | 1/2 | Public beta web interface is live globally and free to try, but Australian creator rollout, network latency, and payment rails remain unverified.[2][unverified] |
+| AU accessibility | 1/2 | The public beta page is publicly reachable and marked free to try, but AU-specific signup, render, and payment access remains unverified.[2][unverified] |
 | **Total** | **9/10** | **QUALIFIED (Threshold: 8/10)**[unverified] |
 
 ## Contract materiality scoring
@@ -55,7 +55,7 @@ This constitutes an accessible public AI-video creator product launch rather tha
 - Supports reference inputs: **+2** (script upload, bespoke character, prop, and scene creation).[2]
 - Likely reader impact: **+2** (high interest in script-to-film generation for indie storytellers and creators).[unverified]
 - Hands-on access available now: **+1** (public beta web interface accessible, marked free to try).[1][2]
-- Australian creator or SMB fit: **+1** (browser-based self-serve workflow accessible from Australia, though AU-specific performance is unverified).[2][unverified]
+- Australian creator or SMB fit: **+1** (browser-delivered public beta relevance, while AU-specific signup, render, and payment access remains unverified).[2][unverified]
 - Penalty: **0** (verified public product launch; not internal tooling without product access).[1][2]
 - **Total Contract Score: 14** (Contract threshold: 8).[unverified]
 
@@ -67,7 +67,7 @@ This constitutes an accessible public AI-video creator product launch rather tha
 - **Confidence:** C (primary vendor documentation and VentureBeat reporting only; no independent AIVP output artifacts)[unverified]
 - **Classification:** Monitor only[unverified]
 
-The conservative 14-point verified floor reflects verified workflow design directly documented on the portal (3-step script-to-video workflow, direction sliders, character/scene setup: 10 points), declared storyteller rights retention (2 points), global web availability (1 point), and transactional monetization relevance (1 point).[2][unverified]
+The conservative 14-point verified floor reflects verified workflow design directly documented on the portal (3-step script-to-video workflow, direction sliders, character/scene setup: 10 points), declared storyteller rights retention (2 points), browser-delivered public beta relevance (1 point), and transactional monetization relevance (1 point).[2][unverified]
 Product specificity is scored 0/20 verified until exact AIVP affiliate portfolio product identity passes the opening 10-second hands-on gate.[unverified]
 Output quality, control consistency, repeatable prompt adherence, speed/reliability, and true cost efficiency remain unresolved without empirical testing.[unverified]
 Per standing desk rules, output quality and repeatability remain unresolved, requiring Confidence C / Monitor only.[unverified]
