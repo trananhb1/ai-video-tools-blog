@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://venturebeat.com/technology/should-your-enterprise-build-a-custom-ai-harness-inkitt-did-for-ai-video-5-key-takeaways",
+      "title": "VentureBeat: Should your enterprise build a custom AI harness? Inkitt did for AI video — 5 key takeaways",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 2,
+      "url": "https://www.inkitt.com/video/script-to-video",
+      "title": "Inkitt Movie Creator: Script to Video Creation Platform",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "url": "https://www.inkitt.com/imprint",
+      "title": "Inkitt Legal Imprint",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "url": "https://www.inkitt.com/terms",
+      "title": "Inkitt Terms of Service",
+      "accessed": "2026-09-24"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
     {
       "id": 3,
       "url": "https://www.inkitt.com/video/script-to-video",
-      "title": "Inkitt: Script to Video Creation Platform",
+      "title": "Inkitt Movie Creator: Script to Video Creation Platform",
       "accessed": "2026-09-24"
     },
     {
@@ -47,6 +47,18 @@
       "id": 8,
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjlBcnhiT2dnVlc5NDUzejRQNXdTZ19qcjhuaV8yMEdCZm45dEk0NzcxUExaOG1xN0s0TjBLLTNFZWJ4Y3FPTG9zYzhYN2lmSUJVSHB6TTc1ODZVQVNMcmxLOFZ1WDhZSldaTk1JUGczaFBqVG9ELUJjZWF6RG9neVNxLV9vTmthT0ZGbjZzQkp5WGt3RVZ1dlAtMW5qNy1sdEMzaw?oc=5",
       "title": "Social Media Examiner AI Execution Tips on Google News",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 9,
+      "url": "https://www.inkitt.com/imprint",
+      "title": "Inkitt Legal Imprint",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 10,
+      "url": "https://www.inkitt.com/terms",
+      "title": "Inkitt Terms of Service",
       "accessed": "2026-09-24"
     }
   ]

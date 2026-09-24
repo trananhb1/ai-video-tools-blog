@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "Inkitt Movie Creator",
+  "date_assessed": "2026-09-24",
+  "verified_floor": 14,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 14,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "planned_case_study": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "Portal claims ability to create bespoke characters, props, and scenes from scripts, but preservation of exact affiliate portfolio product geometry and branding in the opening 10 seconds remains 0/20 verified until hands-on evaluation."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor claims cinematic AI-generated films and showcases example clips, but independent AIVP output artifacts do not exist; temporal consistency and motion quality remain unresolved."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Web interface features scene direction controls for tone, pace, light, score, and look with multi-take options, but repeatability across identical prompts and cut consistency remain unverified."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 10,
+      "unresolved_points": 5,
+      "notes": "Official 3-step self-serve workflow (upload script, configure characters/props/scenes, build trailers/shows/movies) is publicly documented on the portal; real-world friction and scene assembly latency remain unverified."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "VentureBeat reports film generation in minutes, but server queue latency, multi-model render duration, and failure rates are untested."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Portal states 'Free to try', but VentureBeat reported estimated generation costs of $75 to $500 per finished minute; debit limits and retail pricing tiers remain unresolved."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 2,
+      "unresolved_points": 8,
+      "notes": "Portal claims '100% of the rights and the creative decisions stay with the storyteller', but commercial terms across third-party underlying foundation models in Cinematica remain unverified."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "VentureBeat confirms no public API at launch and that Inkitt's MCP server is not yet connected to the Cinematica production tool."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Web application is accessible in Australia via browser, but Australian creator rollout verification, regional performance, and local billing remain unverified."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 1,
+      "unresolved_points": 1,
+      "notes": "Strong creator interest in AI script-to-movie generation; no verified affiliate program exists."
+    }
+  ],
+  "analysis": "Public beta launch of Inkitt Movie Creator powered by the Cinematica orchestration harness introduces a structured 3-step script-to-film creation flow with direction sliders. However, verified floor is held to 14/100 because output quality, prompt repeatability, exact-product preservation, and true credit economics remain unverified, with estimated compute costs of $75-$500/min blocking hands-on testing.",
+  "confidence_notes": "Primary vendor portal and VentureBeat reporting only; no AIVP output render; output quality and repeatability unresolved; Confidence C / Monitor only."
+}
