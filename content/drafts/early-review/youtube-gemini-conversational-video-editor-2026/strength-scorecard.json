@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "tool": "YouTube Gemini Conversational Video Editor",
+  "date_assessed": "2026-09-24",
+  "verified_floor": 12,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 12,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "planned_case_study": "case-study-plan.md",
+  "criteria": [
+    {
+      "id": "product_specificity",
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 0,
+      "unresolved_points": 20,
+      "notes": "Conversational editing assistant accepts prompt-based clip drafting and frame manipulation, but product specificity must remain 0/20 verified until exact AIVP affiliate portfolio product identity passes the first-10-seconds hands-on gate."
+    },
+    {
+      "id": "output_quality",
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "Vendor claims smooth iterative editing, prompt-based trimming, and beat-synchronized transitions; no independent AIVP output artifacts exist."
+    },
+    {
+      "id": "control_consistency",
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Bidirectional timeline handoff between AI chat and manual timeline is announced in official documentation, but actual control consistency, multi-turn prompt repeatability, and cut precision remain unverified without hands-on testing."
+    },
+    {
+      "id": "workflow_strength",
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 9,
+      "unresolved_points": 6,
+      "notes": "Official announcement directly documents conversational prompt drafting, automated pause removal, clip reordering, beat synchronization, and bidirectional manual timeline handoff; end-to-end friction and live feature rollout on creator accounts remain unverified."
+    },
+    {
+      "id": "speed_reliability",
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No controlled mobile processing speed, server round-trip latency, or conversational turn failure rate measurements."
+    },
+    {
+      "id": "cost_efficiency",
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Base YouTube Create app is free on mobile storefronts, but whether conversational AI editing features incur credit limits, token quotas, or future subscription tiering remains unresolved in official documentation."
+    },
+    {
+      "id": "commercial_rights",
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "YouTube general Terms of Service do not explicitly grant commercial rights specifically to conversational-editor outputs or off-platform use; rights remain 0/10 verified pending contractual clarification."
+    },
+    {
+      "id": "automation_integration",
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 0,
+      "unresolved_points": 5,
+      "notes": "Base app integrates with YouTube channel publishing and local mobile storage, but standalone developer API, MCP server, or batch automation routes remain unresolved."
+    },
+    {
+      "id": "audience_fit_au_smb",
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Base YouTube Create mobile app is available in Australia on iOS and Android storefronts, but rollout of the new conversational editing assistant to specific Australian creator accounts is not yet established."
+    },
+    {
+      "id": "monetization_fit",
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "High transactional search intent among YouTube creators; directly impacts existing AIVP YouTube creator guides and affiliate coverage for video creation."
+    }
+  ],
+  "analysis": "Major announced mobile workflow advancement bringing conversational multimodal editing into YouTube Shorts and YouTube Create, but verified floor is held to 12/100 because live feature rollout, actual output quality, exact product preservation, cost structure, and specific commercial rights remain unverified.",
+  "confidence_notes": "Primary vendor announcement and base app store listings only; conversational feature rollout to Australian accounts unverified; no AIVP render."
+}

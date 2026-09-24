@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey/",
+      "title": "YouTube Creator Tools 2026: Gemini AI & Studio Updates — New tools to power your creation journey from start to finish",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 2,
+      "url": "https://apps.apple.com/au/app/youtube-create-video-editor/id6476327393",
+      "title": "Apple App Store (AU): YouTube Create: Video editor",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.producer",
+      "title": "Google Play Store: YouTube Create: Video Editor",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "url": "https://www.youtube.com/t/terms",
+      "title": "YouTube Terms of Service",
+      "accessed": "2026-09-24"
+    }
+  ]
+}
