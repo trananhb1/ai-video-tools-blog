@@ -19,6 +19,8 @@
 - [x] Update authoritative contract state atomically (`aivp-ai-video-market.json`) and profile todo ledger (`f7aa2568c535.json`).
 - [x] Validate JSON syntax, inspect diff, commit and push to `automation/early-review-desk`.
 
+- [x] Correct Wan2.2 base-model source and non-quantized status labels after independent verification (direct fallback: Antigravity correction run timed out without edits).
+
 ## Current outcome
 Qualified: 0 | Staged: 0 | Tested: 0 | Applied: 0 | Sent: 0 | Delivered: 0 | Queued: 0 | Bounced: 0 | Held: 0 | Excluded: 2 (RunningHubAI/rh-wan-remix-i2v-highnoise-unet, RunningHubAI/rh-wan-remix-i2v-lownoise-unet) | Published: 0 | Cost-blocked: 0 | Deduplicated: 2 (longxiaooo/StreamLTX unreleased weights retained; Forbes Adobe/Topaz secondary coverage deduplicated into primary completion).
 
