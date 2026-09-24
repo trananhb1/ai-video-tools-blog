@@ -76,7 +76,7 @@ Do not spend paid credits, create unauthorized subscriptions, or publish content
 
 ## Sources
 
-[1] https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey/ — YouTube Creator Tools 2026: Gemini AI & Studio Updates — New tools to power your creation journey from start to finish
-[2] https://apps.apple.com/au/app/youtube-create-video-editor/id6476327393 — Apple App Store (AU): YouTube Create: Video editor (v0.144.420)
+[1] https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey — YouTube Creator Tools 2026: Gemini AI & Studio Updates — New tools to power your creation journey from start to finish
+[2] https://apps.apple.com/au/app/youtube-create-video-editor/id6476327393 — Apple App Store (AU): YouTube Create: Video editor
 [3] https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.producer — Google Play Store: YouTube Create: Video Editor
 [4] https://www.youtube.com/t/terms — YouTube Terms of Service
