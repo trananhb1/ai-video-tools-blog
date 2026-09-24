@@ -1,10 +1,10 @@
 # AI Video Picks — Early Review Vendor Outreach Record
 
-**Status:** HELD — DO NOT SEND (no compliant dedicated contact published)  
-**Delivery route:** Resend, verified `aivideopicks.com` domain (HELD)  
+**Status:** HELD — DO NOT SEND (no compliant dedicated contact published)<br>
+**Delivery route:** Resend, verified `aivideopicks.com` domain (HELD)<br>
 **From:** Tom Tran <contact@aivideopicks.com>  
-**Reply-To:** contact@aivideopicks.com  
-**To:** None compliant published (`support@inkitt.com` is generic customer support on imprint; held under desk policy)  
+**Reply-To:** contact@aivideopicks.com<br>
+**To:** None compliant published (`support@inkitt.com` is generic customer support on imprint; held under desk policy)<br>
 **Recipient source:** https://www.inkitt.com/imprint  
 **Subject:** Review request: Inkitt Movie Creator — access, documentation and affiliate programme
 
