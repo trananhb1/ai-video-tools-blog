@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://biz.chosun.com/en/en-entertainment/2026/09/24/5RPCSESZOFAORKYD65NOAOB4UY/?outputType=amp",
+      "title": "ChosunBiz: Jang Young-ran posts AI parody video, viewers call it creepy (September 24, 2026)",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.1-T2V-14B-720P-0.95Sparsity-3Step",
+      "title": "alibabagroup/SparkWan2.1-T2V-14B-720P-0.95Sparsity-3Step on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.1-T2V-14B-720P-0.95Sparsity-3Step/raw/main/README.md",
+      "title": "alibabagroup/SparkWan2.1-T2V-14B-720P-0.95Sparsity-3Step raw README.md",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.1-T2V-14B-720P-0.97Sparsity",
+      "title": "alibabagroup/SparkWan2.1-T2V-14B-720P-0.97Sparsity on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.1-T2V-14B-480P-0.90Sparsity",
+      "title": "alibabagroup/SparkWan2.1-T2V-14B-480P-0.90Sparsity on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.1-T2V-1.3B-480P-0.90Sparsity",
+      "title": "alibabagroup/SparkWan2.1-T2V-1.3B-480P-0.90Sparsity on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 7,
+      "url": "https://sparkdiffusion.github.io/",
+      "title": "SparkDiffusion Project Homepage",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 8,
+      "url": "https://arxiv.org/abs/2609.23153",
+      "title": "SparkDiffusion: Mitigating the High-Sparsity Trap (arXiv:2609.23153)",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/KyleNeverGivesUp/FastH3-4-step-Preview-v1-r16-int8",
+      "title": "KyleNeverGivesUp/FastH3-4-step-Preview-v1-r16-int8 on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/KyleNeverGivesUp/FastH3-4-step-Preview-v1-r16-int8/raw/main/README.md",
+      "title": "KyleNeverGivesUp/FastH3-4-step-Preview-v1-r16-int8 raw README.md",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 11,
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "title": "MiniMax H3 Community License Agreement on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 12,
+      "url": "https://huggingface.co/anonymousopsd-v/OPSD-V",
+      "title": "anonymousopsd-v/OPSD-V on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 13,
+      "url": "https://huggingface.co/anonymousopsd-v/OPSD-V/raw/main/README.md",
+      "title": "anonymousopsd-v/OPSD-V raw README.md",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 14,
+      "url": "https://anonymous.4open.science/r/OPSD-V-Code-2027/",
+      "title": "OPSD-V Anonymous Code Repository",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 15,
+      "url": "https://www.mediapost.com/publications/article/414301/tiktok-expands-symphony-to-offer-ai-video-generati.html",
+      "title": "MediaPost: TikTok Expands Symphony (April 14, 2026)",
+      "accessed": "2026-09-24"
+    }
+  ]
+}
