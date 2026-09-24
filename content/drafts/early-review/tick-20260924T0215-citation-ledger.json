@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b",
+      "title": "memset0/vsqa-preview-14b on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b/raw/main/README.md",
+      "title": "memset0/vsqa-preview-14b raw README.md",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/memset0/vsqa-preview-14b",
+      "title": "Hugging Face API: memset0/vsqa-preview-14b",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B-Diffusers",
+      "title": "Wan-AI/Wan2.1-T2V-14B-Diffusers on Hugging Face",
+      "accessed": "2026-09-24"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/memset0/vsqa-test-1.3b",
+      "title": "memset0/vsqa-test-1.3b on Hugging Face",
+      "accessed": "2026-09-24"
+    }
+  ]
+}
