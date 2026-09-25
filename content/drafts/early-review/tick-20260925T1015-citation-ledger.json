@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/Ziyaad30/minimax-h3-fp8",
+      "title": "Ziyaad30/minimax-h3-fp8 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/Ziyaad30/minimax-h3-fp8/raw/main/README.md",
+      "title": "Ziyaad30/minimax-h3-fp8 raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/abhishekchohan/minimax-h3-fp8",
+      "title": "abhishekchohan/minimax-h3-fp8 upstream repository on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-v2",
+      "title": "memset0/vsqa-preview-14b-v2 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-v2/raw/main/README.md",
+      "title": "memset0/vsqa-preview-14b-v2 raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/memset0/vsqa-preview-1.3b",
+      "title": "memset0/vsqa-preview-1.3b on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/memset0/vsqa-preview-1.3b/raw/main/README.md",
+      "title": "memset0/vsqa-preview-1.3b raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b",
+      "title": "memset0/vsqa-preview-14b on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B-Diffusers",
+      "title": "Wan-AI/Wan2.1-T2V-14B-Diffusers base model on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 10,
+      "url": "https://biz.chosun.com/en/en-entertainment/2026/09/24/5RPCSESZOFAORKYD65NOAOB4UY/?outputType=amp",
+      "title": "ChosunBiz: Jang Young-ran AI parody video social reaction",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 11,
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckpvZ1FudUlNTF9DdnN2NFVMVkJxVEQ4V1ZDZHg4UVplSzNNSHJJX3ZGbFIxSVU5TndrR3dkVDl1dmIwWE1uUzdLVTdvMEFqVUVHdEhSMS16cE81SDY0QWl6RWFJaVVzVEtJUHVnN1FKd21FZ1pJaF9DQU5Pb2pXM3NFcDlYZnBIRWdOeFd3?oc=5",
+      "title": "Google News RSS: Jang Young-ran AI video",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 12,
+      "url": "https://venturebeat.com/technology/should-your-enterprise-build-a-custom-ai-harness-inkitt-did-for-ai-video-5-key-takeaways",
+      "title": "VentureBeat: Should your enterprise build a custom AI harness? Inkitt did for AI video — 5 key takeaways",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 13,
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey",
+      "title": "Made on YouTube: New tools to power your creation journey",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 14,
+      "url": "https://huggingface.co/iknownuting/Sulphur-2-base",
+      "title": "iknownuting/Sulphur-2-base on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 15,
+      "url": "https://www.mediapost.com/publications/article/414301/tiktok-expands-symphony-to-offer-ai-video-generati.html",
+      "title": "MediaPost: TikTok Expands Symphony (April 14, 2026)",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 16,
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxON2RyLUVFRUw4T3lFMnE2YTh5WGNONmdLM0dyNW5xYUZna1FrLWV2OFdVQTd6Y3ZTa1RIa1V2SmJEUkk5dnBGSllXZFpGQ09qRXh3dUNqU1BHd3YyRW9SeWQySGJhS1pSbnhnWWhpVUpOSmVKY2o3M21PaXVHVW96Rm1sd3pXT0ZHZzdoQ0NYUmcxbndMVXl6ODBZZ0RjcUFnZEREWWR4NVVCUTQ3YkhoUDAzdW5TV040cm5ETGZqR0FEUkpfVEFjb3dfUWpZOUk1YlB6UTV1NFdyQjQ0M3g2OTZ0dEhhU0U?oc=5",
+      "title": "Google News RSS: Jake Paul rap video reaction",
+      "accessed": "2026-09-25"
+    }
+  ]
+}
