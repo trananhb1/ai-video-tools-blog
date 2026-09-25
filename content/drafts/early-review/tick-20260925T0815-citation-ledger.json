@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/Ziyaad30/minimax-h3-fp8",
+      "title": "Ziyaad30/minimax-h3-fp8 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/Ziyaad30/minimax-h3-fp8/raw/main/README.md",
+      "title": "Ziyaad30/minimax-h3-fp8 raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/abhishekchohan/minimax-h3-fp8",
+      "title": "abhishekchohan/minimax-h3-fp8 upstream repository on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-v2",
+      "title": "memset0/vsqa-preview-14b-v2 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-v2/raw/main/README.md",
+      "title": "memset0/vsqa-preview-14b-v2 raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/memset0/vsqa-preview-1.3b",
+      "title": "memset0/vsqa-preview-1.3b on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/memset0/vsqa-preview-1.3b/raw/main/README.md",
+      "title": "memset0/vsqa-preview-1.3b raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 8,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b",
+      "title": "memset0/vsqa-preview-14b on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 9,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B-Diffusers",
+      "title": "Wan-AI/Wan2.1-T2V-14B-Diffusers base model on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 10,
+      "url": "https://www.motorola.com/us/en/motorola-signature-2027",
+      "title": "Motorola Signature official product page",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 11,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94cTRjcGUyaDdCN19UdkxEMW1OZkozTWF2NUItMUpteXBVTWJtYTZQT2xIanc0Q3lPWFU5dHpxa3p1SEVKbXNxb0VlbmFKRlVITkI4SncySXJsUzhxSDQyb25Pc1JmVFXSAW5BVV95cUxPb0JvaVU0Q3ZiNXhIaDFyWnpMTTlMMHk4cDVRa2I0UXFRcnBmbWo1aHNVcUp6Y21OSjF5WTFuSFRmMzJaSVJ5elh3WU4xcFhLMVlpOXQ5UkptTHZrbnhiaV9jLTliaHN5ZkhzZDM5Zw?oc=5",
+      "title": "Google News RSS: Motorola Signature 27 announcement",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 12,
+      "url": "https://venturebeat.com/technology/should-your-enterprise-build-a-custom-ai-harness-inkitt-did-for-ai-video-5-key-takeaways",
+      "title": "VentureBeat: Should your enterprise build a custom AI harness? Inkitt did for AI video — 5 key takeaways",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 13,
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey",
+      "title": "Made on YouTube: New tools to power your creation journey",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 14,
+      "url": "https://huggingface.co/iknownuting/Sulphur-2-base",
+      "title": "iknownuting/Sulphur-2-base on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 15,
+      "url": "https://www.mediapost.com/publications/article/414301/tiktok-expands-symphony-to-offer-ai-video-generati.html",
+      "title": "MediaPost: TikTok Expands Symphony (April 14, 2026)",
+      "accessed": "2026-09-25"
+    }
+  ]
+}
