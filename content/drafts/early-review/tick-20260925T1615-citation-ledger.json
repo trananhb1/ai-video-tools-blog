@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM1JOdVplVUpwWjNiUzBmTGlNdGM2Q3RJXzlhYUZpODk3WkNIMGRKUkVDNDVzRkl6YUNUZTdVMU5JcDl5emhiTlVGLXQzaVRwYWxtZWFJUThiZVNhR2Nna2hKNFh3c3F3N1RsdmF1Z3ZwcnAwSlFKVlB0WFRfd3BJVHhTaUxncTlhZVE?oc=5",
+      "title": "Google News RSS: Higgsfield hits $1B ARR Dealroom syndication",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 2,
+      "url": "https://dealroom.co",
+      "title": "Dealroom: Intelligence platform on startups, growth companies and ecosystems",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "url": "https://higgsfield.ai",
+      "title": "Higgsfield AI: AI-native video and image creation suite",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/RunningHubAI/rh-dasiwaminimaxh3-dasiwaref2vahybridv1.0-unet",
+      "title": "RunningHubAI/rh-dasiwaminimaxh3-dasiwaref2vahybridv1.0-unet on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/RunningHubAI/rh-dasiwaminimaxh3-dasiwaref2vahybridv1.0-unet/raw/main/README.md",
+      "title": "RunningHubAI/rh-dasiwaminimaxh3-dasiwaref2vahybridv1.0-unet raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview",
+      "title": "Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview/raw/main/README.md",
+      "title": "Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview raw README.md",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 8,
+      "url": "https://arxiv.org/abs/2605.30325",
+      "title": "arXiv:2605.30325: Veda: Scalable Video Diffusion via Distilled Sparse Attention",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 9,
+      "url": "https://github.com/veda-sparse/Miowtion",
+      "title": "GitHub: veda-sparse/Miowtion",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 10,
+      "url": "https://huggingface.co/RunningHubAI/rh-miaomiao-harem-2.9b-betav1-unet",
+      "title": "RunningHubAI/rh-miaomiao-harem-2.9b-betav1-unet on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 11,
+      "url": "https://huggingface.co/Ziyaad30/minimax-h3-fp8",
+      "title": "Ziyaad30/minimax-h3-fp8 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 12,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-v2",
+      "title": "memset0/vsqa-preview-14b-v2 on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 13,
+      "url": "https://huggingface.co/memset0/vsqa-preview-1.3b",
+      "title": "memset0/vsqa-preview-1.3b on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 14,
+      "url": "https://huggingface.co/memset0/vsqa-preview-14b-200steps",
+      "title": "memset0/vsqa-preview-14b-200steps on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 15,
+      "url": "https://huggingface.co/iknownuting/Sulphur-2-base",
+      "title": "iknownuting/Sulphur-2-base on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 16,
+      "url": "https://huggingface.co/RunningHubAI/rh-ltx2.3-zhenzhen-000013000-lora",
+      "title": "RunningHubAI/rh-ltx2.3-zhenzhen-000013000-lora on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 17,
+      "url": "https://huggingface.co/RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet",
+      "title": "RunningHubAI/rh-ramthrusts-nsfw-pink-alchemy-anima-v2.9-unet on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 18,
+      "url": "https://huggingface.co/RunningHubAI/rh-wan2.2-i2v-a14b-low-noise-scaled-fp8-e4m3-lightx2v-4step-comfyui-unet",
+      "title": "RunningHubAI/rh-wan2.2-i2v-a14b-low-noise-scaled-fp8-e4m3-lightx2v-4step-comfyui-unet on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 19,
+      "url": "https://huggingface.co/RunningHubAI/rh-anima-aesthetic-v1.1-unet",
+      "title": "RunningHubAI/rh-anima-aesthetic-v1.1-unet on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 20,
+      "url": "https://huggingface.co/stimi/ltx-video-api",
+      "title": "stimi/ltx-video-api on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 21,
+      "url": "https://huggingface.co/alibabagroup/SparkWan2.2-T2V-14B-480P-0.95Sparsity",
+      "title": "alibabagroup/SparkWan2.2-T2V-14B-480P-0.95Sparsity on Hugging Face",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 22,
+      "url": "https://venturebeat.com/technology/should-your-enterprise-build-a-custom-ai-harness-inkitt-did-for-ai-video-5-key-takeaways",
+      "title": "VentureBeat: Should your enterprise build a custom AI harness? Inkitt did for AI video \u2014 5 key takeaways",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 23,
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey",
+      "title": "Made on YouTube: New tools to power your creation journey",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 24,
+      "url": "https://workspaceupdates.googleblog.com/2026/09/gemini-omni-11-flash-now-in-vids-with-improved-extension-quality-1080p-and-duration-control.html",
+      "title": "Gemini Omni 1.1 Flash now in Vids with improved extension quality, 1080p, and duration control",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 25,
+      "url": "https://biz.chosun.com/en/en-entertainment/2026/09/24/5RPCSESZOFAORKYD65NOAOB4UY/?outputType=amp",
+      "title": "ChosunBiz: Jang Young-ran AI parody video social reaction",
+      "accessed": "2026-09-25"
+    },
+    {
+      "id": 26,
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQejdpd1FxcHNmTWZaV0N4NWNNV0xrclotZFBtaVNPdk5xc0FBcl9NTGhzaXROWWZLSzJ1cldFaHpTcXR3NTBlM245RFJzaVlmQ0VXQmlZbVJYTG03UzBuMWQyVE5kSjQzN2dub2RjX2FLMWJKdk50YWN0eWxTLWR4b3BYdDlSd1hLeTF1WGJxcw?oc=5",
+      "title": "Google News RSS: Google Vids Free AI Video TechRepublic syndication",
+      "accessed": "2026-09-25"
+    }
+  ]
+}
