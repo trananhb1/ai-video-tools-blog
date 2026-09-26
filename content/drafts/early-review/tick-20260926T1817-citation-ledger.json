@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5NUJJY0NONVFaeVlkRlJnZUVuS0x6OWk5ZWtnZE82YmdGeFVteWRsQVd3NnRuXzhfLXJVUEY2aE9pMWk2RDd0ZmFyQ1JKYmt1UUtVV1ZjLW05QQ?oc=5",
+      "title": "Google News RSS: China fuels rush to turn AI video into an industry - Japan Wire by Kyodo News",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet",
+      "title": "RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet on Hugging Face",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet/raw/main/README.md",
+      "title": "RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet raw README.md",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet",
+      "title": "Hugging Face API: RunningHubAI/rh-wan2-2-animate-14b-fp8-scaled-e5m2-kj-v2-long-unet metadata",
+      "accessed": "2026-09-26"
+    }
+  ]
+}
