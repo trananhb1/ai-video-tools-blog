@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5NUJJY0NONVFaeVlkRlJnZUVuS0x6OWk5ZWtnZE82YmdGeFVteWRsQVd3NnRuXzhfLXJVUEY2aE9pMWk2RDd0ZmFyQ1JKYmt1UUtVV1ZjLW05QQ?oc=5",
+      "title": "Google News RSS: China fuels rush to turn AI video into an industry",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/RunningHubAI/rh-minimax-h3-hybrid-fl2va-ref2va-b25-49-int8-r-unet",
+      "title": "Hugging Face API: RunningHubAI MiniMax H3 hybrid UNET metadata",
+      "accessed": "2026-09-27"
+    }
+  ]
+}
