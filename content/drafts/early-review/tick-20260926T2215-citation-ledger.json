@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/UltraStudio/Wan2.1-T2V-1.3B",
+      "title": "UltraStudio/Wan2.1-T2V-1.3B model card",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/UltraStudio/Wan2.1-T2V-1.3B",
+      "title": "Hugging Face model API metadata",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/Wan-AI/Wan2.1-T2V-1.3B",
+      "title": "Official Wan-AI Wan2.1 T2V 1.3B API metadata",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/UltraStudio/Wan2.1-T2V-1.3B/commits/main",
+      "title": "UltraStudio repository commits",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/Wan-AI/Wan2.1-T2V-1.3B/tree/main?recursive=true&expand=false",
+      "title": "Official Wan-AI repository tree",
+      "accessed": "2026-09-26"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/UltraStudio/Wan2.1-T2V-1.3B/tree/main?recursive=true&expand=false",
+      "title": "UltraStudio repository tree",
+      "accessed": "2026-09-26"
+    }
+  ]
+}
