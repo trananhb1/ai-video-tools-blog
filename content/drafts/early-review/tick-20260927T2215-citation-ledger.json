@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGZEZJSXdIaUpKWFFEN0JUTGVTTHRJRHBUaS1uU3VJUmpZbzhSaEhMaXVGQnRZQUQybXVJaUZ0RXpiS1FUaVNvN2RrTjhOa2RZUklWZDh4V3dsdjBOTU5WT2ZERHJRWEJocVYyeThaQ29Kdw?oc=5",
+      "title": "Google News RSS: TyN Magazine AI-video-production advertorial",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 2,
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeHg3ZGZJZ1pSdll2d25mRnNqeU1IWlI0eEt1S0xKYXRQRGcwZTRyazRMeXUtTzZ1MDdtX2x0cWxwZ1N5R1ZNZ19WZ0RZWnVLR0NmLUVCd3BLNU00V1VOWlFqaUhRWVdIWkJWcUdvbWt1cnhjUmdpWE1ZVGxqZFE5NHVnVFIxaWlQTGl0N0hUdFpkaEFpdUxXNnNFbFlzUENrcUE?oc=5",
+      "title": "Google News RSS: Bioengineer AI-video survey coverage",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 3,
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pSGRKVlJqU2pZcU8zalZ0NTlkd2M2N2xNMlRxN1hLMWtJQTY4dUE0LTlRN3VvWEJfS1RfSUxJOTJVWEhWVjlDNnJpeENEems5eHJ6Y3Z5dlp0ckJuUk85VVZ2eTVKWVFO?oc=5",
+      "title": "Google News RSS: Arch Manning sports coverage",
+      "accessed": "2026-09-27"
+    }
+  ]
+}
