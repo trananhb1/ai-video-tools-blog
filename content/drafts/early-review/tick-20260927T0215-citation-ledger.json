@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/0xSojalSec/LTX-2.3-uncensored-v1.4-FP8",
+      "title": "0xSojalSec LTX-2.3 uncensored v1.4 FP8 model card",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/0xSojalSec/LTX-2.3-uncensored-v1.4-FP8",
+      "title": "Hugging Face target model metadata",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/0xSojalSec/LTX-2.3-uncensored-v1.4-FP8/commits/main",
+      "title": "Hugging Face target commit history",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
+      "title": "ChrisColeTech upstream model card",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
+      "title": "Hugging Face upstream model metadata",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/0xSojalSec/LTX-2.3-uncensored-v1.4-FP8/tree/main?recursive=true&expand=false",
+      "title": "Hugging Face target repository tree",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 7,
+      "url": "https://huggingface.co/api/models/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8/tree/main?recursive=true&expand=false",
+      "title": "Hugging Face upstream repository tree",
+      "accessed": "2026-09-27"
+    }
+  ]
+}
