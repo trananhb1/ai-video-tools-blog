@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/Jamestramer/Wan2.1-T2V-1.3B",
+      "title": "Jamestramer Wan2.1 T2V 1.3B model card",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/Jamestramer/Wan2.1-T2V-1.3B",
+      "title": "",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/Jamestramer/Wan2.1-T2V-1.3B/commits/main",
+      "title": "",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/Jamestramer/Wan2.1-T2V-1.3B/tree/main?recursive=true&expand=false",
+      "title": "",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 5,
+      "url": "https://huggingface.co/api/models/Wan-AI/Wan2.1-T2V-1.3B",
+      "title": "",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": 6,
+      "url": "https://huggingface.co/api/models/Wan-AI/Wan2.1-T2V-1.3B/tree/main?recursive=true&expand=false",
+      "title": "",
+      "accessed": "2026-09-27"
+    }
+  ]
+}
