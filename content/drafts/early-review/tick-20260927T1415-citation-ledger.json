@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.openpr.com/news/4645030/kling-4-0-puts-multimodal-video-creation-and-connected",
+      "title": "Kling 4.0 Puts Multimodal Video Creation and Connected Storytelling in Focus",
+      "accessed": "2026-09-27",
+      "quotes": [
+        {
+          "text": "Information contained on this page is provided by an independent third-party content provider.",
+          "added": "2026-09-27"
+        },
+        {
+          "text": "Company Name: KL 3.0 AI",
+          "added": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://klingai.com/blog/kling-v3-vs-o3-comparison-guide",
+      "title": "Kling VIDEO 3.0 vs Kling VIDEO 3.0 Omni: Which Model Is Right for Your Use Case?",
+      "accessed": "2026-09-27",
+      "quotes": [
+        {
+          "text": "The current Kling VIDEO 3.0 series gives creators two closely related paths.",
+          "added": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}
