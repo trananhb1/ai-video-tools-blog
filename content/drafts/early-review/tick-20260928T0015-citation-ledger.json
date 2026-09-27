@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQb2hTQkNJZUk1U1Z6Tk93SjlXRmNaOV9JQWpZLUl4UFhFbkFEZWpHVEhWOW84TnY5Z0dFTmNUbVNnYU4tSVE2dmllOURueTZwZkoweERfR0V2UmY1Y2prN3lBR094RVNFckoxY3BvSXc2V29YeGM3ZGtuYloyY2JVRUtSV2JUYS02TFJ0b2l3RW5rUERhYUhyeC1GT19OazgtZlItR2NxVHlUNUhyMk44V1hkMVV5bnRneER1Z0UwSzNNVjUyaVJNU1ozY3RBNkVVcWh2VkxlaW42UWt4QmlOa0F0aVRVZmJCYmNXSXpDVHpubVY50gH6AUFVX3lxTE1BazN4TUNFR2FlNWM0UF9TcVdwOEtTUUJLUmU4WXdOTVJSQnBOVDRsUDZXb1VjWlBjZzBEMDFFYVdQUjBxSy1PVDE0UHlybGFCTFhlNjEwZTlrczBZTXA2aExuNHExX21RdXhwWUtqX19vODkyR1ZDeGplM0tqSlRUVjhlOWpHYTIxLS1VQVBfaXlnTkt4dVhWWWxwYzZUZlEwNDE4akw1bHhwQmlTdDc1eDJHeXdya1d5TGVvUW9ncldoOWd1b2lDbkd3MUY1MmZ6MnFNUFk4R0dRX05ERDJBZEd1Ql9FU21NYzFXWVB2VDlUMG5IeVUzWFE?oc=5",
+      "title": "Google News RSS: India Today Bigg Boss AI-video controversy",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "url": "https://tynmagazine.com/ai-video-production-advertising-content",
+      "title": "TyN Magazine: AI video production advertising content",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/UltraStudio/Wan2.1-T2V-1.3B",
+      "title": "Hugging Face API: UltraStudio Wan2.1 T2V 1.3B metadata",
+      "accessed": "2026-09-28"
+    }
+  ]
+}
