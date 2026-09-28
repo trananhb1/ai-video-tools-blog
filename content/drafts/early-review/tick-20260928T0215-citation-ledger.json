@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://huggingface.co/api/models/TechnoBaptist/LTX-2.3-N-v1.4-FP8",
+      "title": "",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "url": "https://huggingface.co/api/models/TechnoBaptist/LTX-2.3-N-v1.4-FP8/commits/main",
+      "title": "",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "url": "https://huggingface.co/api/models/TechnoBaptist/LTX-2.3-N-v1.4-FP8/tree/main?recursive=true&expand=false",
+      "title": "",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 4,
+      "url": "https://huggingface.co/api/models/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8/tree/main?recursive=true&expand=false",
+      "title": "",
+      "accessed": "2026-09-28"
+    }
+  ]
+}
