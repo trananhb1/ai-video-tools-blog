@@ -1,0 +1,88 @@
+{
+  "tool": "Google AI Video Co-Director / Ads Co-Director",
+  "date_assessed": "2026-09-28",
+  "event_date": "2026-09-24",
+  "verified_floor": 23,
+  "potential_ceiling": 100,
+  "evidence_coverage_percent": 23,
+  "confidence": "C",
+  "classification": "Monitor only",
+  "gate_1_score": 7,
+  "contract_score": 9,
+  "criteria": [
+    {
+      "name": "Product specificity",
+      "weight": 20,
+      "verified_points": 6,
+      "unresolved_points": 14,
+      "notes": "Defined ad use and fictional-product benchmark; real exact-product fidelity untested."
+    },
+    {
+      "name": "Output quality",
+      "weight": 15,
+      "verified_points": 0,
+      "unresolved_points": 15,
+      "notes": "No AIVP render."
+    },
+    {
+      "name": "Workflow strength",
+      "weight": 15,
+      "verified_points": 5,
+      "unresolved_points": 10,
+      "notes": "Public CLI and workflow; setup usability untested."
+    },
+    {
+      "name": "Control & consistency",
+      "weight": 10,
+      "verified_points": 4,
+      "unresolved_points": 6,
+      "notes": "Control mechanisms documented; repeatability unmeasured."
+    },
+    {
+      "name": "Speed & reliability",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "No timing or failure data."
+    },
+    {
+      "name": "Cost efficiency",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Actual cost per accepted output unknown."
+    },
+    {
+      "name": "Commercial rights",
+      "weight": 10,
+      "verified_points": 0,
+      "unresolved_points": 10,
+      "notes": "Code licence known; generated-output rights unresolved."
+    },
+    {
+      "name": "Automation & integration",
+      "weight": 5,
+      "verified_points": 5,
+      "unresolved_points": 0,
+      "notes": "Public Python implementation and CLI."
+    },
+    {
+      "name": "AU creator/SMB fit",
+      "weight": 3,
+      "verified_points": 1,
+      "unresolved_points": 2,
+      "notes": "Code available; billing and practical setup unresolved."
+    },
+    {
+      "name": "Monetization fit",
+      "weight": 2,
+      "verified_points": 2,
+      "unresolved_points": 0,
+      "notes": "Implementation targets advertisements."
+    }
+  ],
+  "analysis": "Public code verifies automation and a defined ad workflow. Critical output, consistency, speed, cost and media-rights criteria remain unresolved.",
+  "confidence_notes": "Primary documents and public code only; no AIVP-controlled render.",
+  "case_study_plan": "case-study-plan.md",
+  "testing_status": "COST_AND_RIGHTS_BLOCKED"
+}

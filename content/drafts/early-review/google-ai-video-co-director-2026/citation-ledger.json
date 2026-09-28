@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://research.google/blog/coherent-long-form-video-generation",
+      "title": "Automating coherent long-form video generation",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "url": "https://arxiv.org/abs/2604.24842",
+      "title": "Co-Director: Agentic Generative Video Storytelling",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "url": "https://co-director-agent.github.io",
+      "title": "Co-Director project page",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/GoogleCloudPlatform/genmedia-izumi-agent/tree/main/demos/backend/ads_codirector",
+      "title": "GoogleCloudPlatform Co-Director code",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 5,
+      "url": "https://blog.google/about",
+      "title": "About News from Google",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/GoogleCloudPlatform/genmedia-izumi-agent/main/demos/backend/ads_codirector/README.md",
+      "title": "Ads Co-Director README",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 7,
+      "url": "https://raw.githubusercontent.com/GoogleCloudPlatform/genmedia-izumi-agent/main/LICENSE",
+      "title": "genmedia-izumi-agent license",
+      "accessed": "2026-09-28"
+    }
+  ]
+}
