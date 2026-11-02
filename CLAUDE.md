@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 60 live articles (+ 34 noindex redirect stubs) — reviews, comparisons, tutorials, gear guides
+- **Content:** 66 live articles (+ 9 noindex redirect stubs in posts/) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -90,7 +90,7 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (60 live articles + 34 noindex redirects)
+## Content Inventory (66 live articles + 9 noindex redirect stubs)
 
 ### Reviews (28)
 - movavi-review-2026.html
@@ -185,12 +185,32 @@ When this project is opened, run through these items:
 - ai-video-glossary-2026.html
 - cheapest-ai-video-generator-2026.html
 
+### Additional Live Articles (6) — added to inventory 2026-11-01
+- best-ai-tools-faceless-youtube-channel-2026.html
+- best-ai-video-editing-tools-2026.html
+- best-ai-video-tools-small-business-2026.html
+- ai-generated-ads-disclosure-meta-tiktok-2026.html (Meta/TikTok AI ad disclosure policy guide)
+- ai-video-subscription-checklist-2026.html (checklist before paying for an AI video subscription)
+- pictory-annual-plan-2026.html (Pictory annual vs monthly billing guide)
+
+### Noindex Redirect Stubs (9)
+These files exist in posts/ but are noindex and redirect to canonical articles:
+- happyhorse-1-0-explained.html → noindex
+- heygen-avatar-v-deal-april-2026.html → noindex
+- heygen-avatar-v-guide-2026.html → noindex
+- pika-2-5-review-2026.html → noindex redirect → pika-review-2026.html
+- heygen-vs-arcads-2026.html → noindex redirect → heygen-alternatives-2026.html
+- heygen-vs-elevenlabs-video-content-2026.html → noindex redirect → heygen-alternatives-2026.html
+- heygen-vs-fliki-2026.html → noindex redirect → heygen-alternatives-2026.html
+- heygen-vs-makeugc-2026.html → noindex redirect → heygen-alternatives-2026.html
+- best-ai-video-generators-marketing-teams-2026.html → noindex redirect → best-ai-video-tools-2026.html
+
 ## Site Structure
 ```
 index.html              — Homepage with article cards
 about.html              — About page
 contact.html            — Contact/lead capture
-posts/                  — All articles (45 HTML files)
+posts/                  — All articles (66 HTML files: 60 live indexed + 9 noindex redirect stubs)
 landing/recommend.html  — Quiz-based recommendation page
 legal/                  — FTC disclosure, privacy policy
 email/                  — Welcome sequence + newsletters
