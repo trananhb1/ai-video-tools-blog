@@ -6,7 +6,7 @@ Affiliate blog for AI video tools + creator gear. GitHub Pages static site.
 - **Repo:** /home/tom/ai-video-tools-blog/ (GitHub: trananhb1/ai-video-tools-blog)
 - **Stack:** Static HTML, GitHub Pages, Google Analytics (G-M5NLTFV6FL)
 - **Brand:** AI Video Picks (logo text: "AI Video Picks")
-- **Content:** 66 live articles (+ 9 noindex redirect stubs in posts/) — reviews, comparisons, tutorials, gear guides
+- **Content:** 68 live articles (+ 33 noindex redirect stubs in posts/) — reviews, comparisons, tutorials, gear guides
 
 ## On Every Session: Follow-Up Checklist
 
@@ -90,12 +90,13 @@ When this project is opened, run through these items:
 12. Wacom Intuos Small: https://amzn.to/4bNWdRB
 13. Sony WH-1000XM5: https://amzn.to/3POVAi7
 
-## Content Inventory (66 live articles + 9 noindex redirect stubs)
+## Content Inventory (68 live articles + 33 noindex redirect stubs)
 
-### Reviews (28)
+**Ground truth: sitemap.xml has exactly 68 live indexed post entries. Use sitemap for definitive list.**
+
+### Reviews (23)
 - movavi-review-2026.html
 - elevenlabs-review-2026.html
-- deepbrain-ai-review-2026.html
 - heygen-review-2026.html
 - fliki-review-2026.html
 - synthesia-review-2026.html
@@ -103,15 +104,10 @@ When this project is opened, run through these items:
 - pictory-review-2026.html
 - invideo-review-2026.html
 - runway-review-2026.html
-- colossyan-review-2026.html
 - opus-clip-review-2026.html
-- murf-ai-review-2026.html
 - zebracat-review-2026.html
 - vidnoz-review-2026.html
 - submagic-review-2026.html
-- jasper-review-2026.html
-- copy-ai-review-2026.html
-- writesonic-review-2026.html
 - creatify-review-2026.html
 - pixverse-review-2026.html
 - google-flow-review-2026.html
@@ -121,25 +117,20 @@ When this project is opened, run through these items:
 - quso-ai-review-2026.html
 - arcads-ai-review-2026.html
 - pika-review-2026.html
+- deevid-ai-review-2026.html
 
-### Comparisons (31)
+### Comparisons (25)
 - best-ai-ugc-video-generators-2026.html
 - invideo-vs-canva-video-2026.html
 - invideo-vs-pictory-2026.html
 - invideo-vs-fliki-2026.html
-- ai-video-cost-per-minute-2026.html
 - best-ai-talking-head-tools-2026.html
 - heygen-vs-synthesia-2026.html
 - heygen-vs-synthesia-vs-pictory.html
-- heygen-vs-colossyan-vs-synthesia-training-2026.html
-- heygen-descript-opus-clip-solo-creators-2026.html
-- submagic-vs-capcut-2026.html
 - best-ai-video-tools-2026.html (top 10 ranked)
 - kling-vs-veo-vs-runway.html
-- veed-vs-kapwing-vs-descript.html
 - d-id-vs-elai-vs-hourone.html
 - best-free-ai-video-generators-2026.html
-- sora-alternatives-2026.html
 - arcads-vs-creatify-vs-makeugc.html
 - best-ai-image-to-video-generators-2026.html
 - best-ai-meeting-assistants-2026.html
@@ -155,37 +146,25 @@ When this project is opened, run through these items:
 - synthesia-vs-fliki-2026.html
 - synthesia-vs-submagic-2026.html
 
-### Guides & Tutorials (19)
+### Guides & Tutorials (11)
 - how-to-use-heygen-avatar-v-2026.html
 - how-to-turn-blog-into-video-fliki-2026.html
 - how-to-create-ai-ugc-ads-2026.html
 - how-to-make-youtube-videos-invideo-ai-2026.html
-- google-vids-veo-free-2026.html
 - heygen-pricing-2026.html
 - ai-video-pricing-compared-2026.html
-- best-ai-video-tools-beginners-2026.html
-- ai-tools-youtube-creators-2026.html
 - turn-long-videos-into-shorts-ai.html
-- ai-training-onboarding-videos.html
-- what-is-text-to-video-ai.html
-- how-to-create-ai-videos-heygen.html
-- how-to-add-viral-captions-tiktok-submagic.html
-- how-to-make-faceless-youtube-heygen-submagic.html
 - heygen-streaming-avatar-api-background-guide.html
 - free-ai-video-generators-youtube-2026.html
 - heygen-alternatives-2026.html
 - how-to-export-sora-videos-before-shutdown.html
 
-### Use Cases & Other (7)
-- ai-video-for-ecommerce.html
-- ai-video-social-media-marketing-2026.html
+### Use Cases & Other (3)
 - best-gear-ai-video-creators-2026.html (Amazon affiliate)
 - ai-video-deals-coupons-2026.html
-- save-15-percent-movavi-april-2026.html
 - ai-video-glossary-2026.html
-- cheapest-ai-video-generator-2026.html
 
-### Additional Live Articles (6) — added to inventory 2026-11-01
+### Additional (6)
 - best-ai-tools-faceless-youtube-channel-2026.html
 - best-ai-video-editing-tools-2026.html
 - best-ai-video-tools-small-business-2026.html
@@ -193,24 +172,48 @@ When this project is opened, run through these items:
 - ai-video-subscription-checklist-2026.html (checklist before paying for an AI video subscription)
 - pictory-annual-plan-2026.html (Pictory annual vs monthly billing guide)
 
-### Noindex Redirect Stubs (9)
-These files exist in posts/ but are noindex and redirect to canonical articles:
+### Noindex Redirect Stubs (33)
+These files exist in posts/ but are noindex and redirect — do NOT edit these for content:
 - happyhorse-1-0-explained.html → noindex
 - heygen-avatar-v-deal-april-2026.html → noindex
 - heygen-avatar-v-guide-2026.html → noindex
-- pika-2-5-review-2026.html → noindex redirect → pika-review-2026.html
-- heygen-vs-arcads-2026.html → noindex redirect → heygen-alternatives-2026.html
-- heygen-vs-elevenlabs-video-content-2026.html → noindex redirect → heygen-alternatives-2026.html
-- heygen-vs-fliki-2026.html → noindex redirect → heygen-alternatives-2026.html
-- heygen-vs-makeugc-2026.html → noindex redirect → heygen-alternatives-2026.html
-- best-ai-video-generators-marketing-teams-2026.html → noindex redirect → best-ai-video-tools-2026.html
+- pika-2-5-review-2026.html → pika-review-2026.html
+- heygen-vs-arcads-2026.html → heygen-alternatives-2026.html
+- heygen-vs-elevenlabs-video-content-2026.html → heygen-alternatives-2026.html
+- heygen-vs-fliki-2026.html → heygen-alternatives-2026.html
+- heygen-vs-makeugc-2026.html → heygen-alternatives-2026.html
+- best-ai-video-generators-marketing-teams-2026.html → best-ai-video-tools-2026.html
+- deepbrain-ai-review-2026.html → best-free-ai-video-generators-2026.html
+- colossyan-review-2026.html → heygen-alternatives-2026.html
+- murf-ai-review-2026.html → heygen-alternatives-2026.html
+- jasper-review-2026.html → best-ai-writing-tools-2026.html
+- copy-ai-review-2026.html → best-ai-writing-tools-2026.html
+- writesonic-review-2026.html → best-ai-writing-tools-2026.html
+- ai-video-cost-per-minute-2026.html → ai-video-pricing-compared-2026.html
+- heygen-vs-colossyan-vs-synthesia-training-2026.html → heygen-alternatives-2026.html
+- heygen-descript-opus-clip-solo-creators-2026.html → heygen-alternatives-2026.html
+- submagic-vs-capcut-2026.html → submagic-review-2026.html
+- veed-vs-kapwing-vs-descript.html → best-ai-video-tools-2026.html
+- sora-alternatives-2026.html → best-free-ai-video-generators-2026.html
+- google-vids-veo-free-2026.html → best-free-ai-video-generators-2026.html
+- best-ai-video-tools-beginners-2026.html → best-ai-video-tools-2026.html#best-for-beginners
+- ai-tools-youtube-creators-2026.html → best-ai-video-tools-2026.html#best-for-youtube-creators
+- ai-training-onboarding-videos.html → best-ai-video-tools-2026.html#best-for-training-videos
+- what-is-text-to-video-ai.html → best-free-ai-video-generators-2026.html
+- how-to-create-ai-videos-heygen.html → how-to-use-heygen-avatar-v-2026.html
+- how-to-add-viral-captions-tiktok-submagic.html → submagic-review-2026.html
+- how-to-make-faceless-youtube-heygen-submagic.html → heygen-review-2026.html
+- ai-video-for-ecommerce.html → best-ai-video-tools-2026.html#best-for-e-commerce
+- ai-video-social-media-marketing-2026.html → best-ai-video-tools-2026.html#best-for-marketing-teams
+- save-15-percent-movavi-april-2026.html → movavi-review-2026.html
+- cheapest-ai-video-generator-2026.html → best-free-ai-video-generators-2026.html
 
 ## Site Structure
 ```
 index.html              — Homepage with article cards
 about.html              — About page
 contact.html            — Contact/lead capture
-posts/                  — All articles (66 HTML files: 60 live indexed + 9 noindex redirect stubs)
+posts/                  — All articles (101 HTML files: 68 live indexed + 33 noindex redirect stubs)
 landing/recommend.html  — Quiz-based recommendation page
 legal/                  — FTC disclosure, privacy policy
 email/                  — Welcome sequence + newsletters
